@@ -8,9 +8,6 @@ export function Footer() {
           <p className="font-[family-name:var(--font-display)] text-xl text-[var(--brand-deep)]">
             ヒビログ
           </p>
-          <p className="mt-1 text-sm text-[var(--ink-muted)]">
-            野沢ヒビキのおすすめレストランを、社員・友人と共有する場。
-          </p>
         </div>
         <div className="flex gap-4 text-sm text-[var(--ink-muted)]">
           <Link href="/search" className="hover:text-[var(--brand)]">

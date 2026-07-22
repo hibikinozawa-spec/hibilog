@@ -49,9 +49,6 @@ export default function HomePage() {
             <h2 className="font-[family-name:var(--font-display)] text-3xl text-[var(--brand-deep)]">
               利用シーンからさがす
             </h2>
-            <p className="mt-1 text-sm text-[var(--ink-muted)]">
-              食べログの利用シーン探しをイメージした入口です。
-            </p>
           </div>
           <Link href="/ai" className="text-sm font-medium text-[var(--accent)]">
             AIで気分から探す →

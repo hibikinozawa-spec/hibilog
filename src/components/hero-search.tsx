@@ -90,10 +90,7 @@ export function HeroSearch() {
           />
         </label>
       </div>
-      <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-        <p className="text-xs text-[var(--ink-muted)]">
-          食べログの「利用シーンから探す」感覚で、ヒビキのおすすめ店を絞り込めます。
-        </p>
+      <div className="mt-3 flex justify-end">
         <button
           type="submit"
           className="rounded-full bg-[var(--brand)] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[var(--brand-deep)]"
