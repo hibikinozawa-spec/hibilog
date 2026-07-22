@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import L from "leaflet";
@@ -13,6 +13,23 @@ const pinIcon = L.divIcon({
   iconAnchor: [14, 28],
   popupAnchor: [0, -28],
 });
+
+const TOKYO_CENTER: [number, number] = [35.6812, 139.7671];
+const TOKYO_ZOOM = 12;
+
+function SetFixedView({
+  center,
+  zoom,
+}: {
+  center: [number, number];
+  zoom: number;
+}) {
+  const map = useMap();
+  useEffect(() => {
+    map.setView(center, zoom);
+  }, [map, center, zoom]);
+  return null;
+}
 
 function FitBounds({ restaurants }: { restaurants: Restaurant[] }) {
   const map = useMap();
@@ -31,22 +48,20 @@ function FitBounds({ restaurants }: { restaurants: Restaurant[] }) {
 export function RestaurantMap({
   restaurants,
   className = "",
+  view = "tokyo",
 }: {
   restaurants: Restaurant[];
   className?: string;
+  /** tokyo = 東京中心固定 / fit = ピンに合わせてズーム */
+  view?: "tokyo" | "fit";
 }) {
-  const center = useMemo<[number, number]>(() => {
-    if (restaurants.length === 0) return [35.68, 139.76];
-    const lat = restaurants.reduce((s, r) => s + r.lat, 0) / restaurants.length;
-    const lng = restaurants.reduce((s, r) => s + r.lng, 0) / restaurants.length;
-    return [lat, lng];
-  }, [restaurants]);
+  const center = TOKYO_CENTER;
 
   return (
     <div className={`overflow-hidden rounded-2xl border border-[var(--line)] ${className}`}>
       <MapContainer
         center={center}
-        zoom={12}
+        zoom={TOKYO_ZOOM}
         scrollWheelZoom={false}
         className="h-full min-h-[320px] w-full"
       >
@@ -54,7 +69,11 @@ export function RestaurantMap({
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <FitBounds restaurants={restaurants} />
+        {view === "fit" ? (
+          <FitBounds restaurants={restaurants} />
+        ) : (
+          <SetFixedView center={TOKYO_CENTER} zoom={TOKYO_ZOOM} />
+        )}
         {restaurants.map((r) => (
           <Marker key={r.id} position={[r.lat, r.lng]} icon={pinIcon}>
             <Popup>

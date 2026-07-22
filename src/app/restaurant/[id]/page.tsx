@@ -125,7 +125,7 @@ export default async function RestaurantPage({ params }: Props) {
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
-          <MapPanel restaurants={[r]} className="h-[280px]" />
+          <MapPanel restaurants={[r]} view="fit" className="h-[280px]" />
           <p className="text-xs text-[var(--ink-muted)]">
             上: Googleマップ埋め込み / 下: 一覧用マップ（OSM）
           </p>

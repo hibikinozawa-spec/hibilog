@@ -18,9 +18,13 @@ const RestaurantMap = dynamic(
 export function MapPanel({
   restaurants,
   className,
+  view = "tokyo",
 }: {
   restaurants: Restaurant[];
   className?: string;
+  view?: "tokyo" | "fit";
 }) {
-  return <RestaurantMap restaurants={restaurants} className={className} />;
+  return (
+    <RestaurantMap restaurants={restaurants} className={className} view={view} />
+  );
 }

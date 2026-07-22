@@ -115,7 +115,7 @@ export default function HomePage() {
             すべて見る →
           </Link>
         </div>
-        <MapPanel restaurants={tokyoPins} className="h-[420px]" />
+          <MapPanel restaurants={tokyoPins} view="tokyo" className="h-[420px]" />
       </section>
 
       <section className="mx-auto max-w-7xl px-4 pb-20 sm:px-6">

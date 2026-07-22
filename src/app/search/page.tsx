@@ -28,6 +28,9 @@ export default async function SearchPage({ searchParams }: Props) {
   };
 
   const results = filterRestaurants(current);
+  const regionalAreas = ["京都", "地方", "神奈川"];
+  const mapView =
+    current.area && regionalAreas.includes(current.area) ? "fit" : "tokyo";
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
@@ -46,7 +49,11 @@ export default async function SearchPage({ searchParams }: Props) {
         </aside>
 
         <div className="space-y-6">
-          <MapPanel restaurants={results} className="h-[360px] lg:h-[420px]" />
+          <MapPanel
+            restaurants={results}
+            view={mapView}
+            className="h-[360px] lg:h-[420px]"
+          />
           {results.length === 0 ? (
             <p className="rounded-2xl border border-dashed border-[var(--line)] bg-white p-10 text-center text-[var(--ink-muted)]">
               条件に合うお店がありません。フィルタをゆるめてみてください。
