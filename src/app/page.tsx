@@ -31,11 +31,11 @@ export default function HomePage() {
           }}
         />
         <div className="mx-auto max-w-7xl px-4 pb-16 pt-16 sm:px-6 sm:pb-20 sm:pt-24">
-          <p className="animate-rise font-[family-name:var(--font-display)] text-5xl tracking-tight text-white sm:text-7xl">
+          <p className="animate-rise font-[family-name:var(--font-display)] text-5xl text-white sm:text-6xl">
             ヒビログ
           </p>
           <p className="animate-rise-delay mt-4 max-w-xl text-base leading-relaxed text-white/90 sm:text-lg">
-            野沢ヒビキのGoogleマップ保存リストを、社員・友人と使えるレストランガイドに。
+            とっておきの店だけを。ヒビログから。
           </p>
           <div className="mt-8">
             <HeroSearch />

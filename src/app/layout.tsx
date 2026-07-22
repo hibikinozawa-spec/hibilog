@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
-import { Fraunces, Outfit } from "next/font/google";
+import { Dela_Gothic_One, Zen_Kaku_Gothic_New } from "next/font/google";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import "./globals.css";
 
-const display = Fraunces({
+const display = Dela_Gothic_One({
   variable: "--font-display",
   subsets: ["latin"],
+  weight: "400",
 });
 
-const body = Outfit({
+const body = Zen_Kaku_Gothic_New({
   variable: "--font-body",
   subsets: ["latin"],
+  weight: ["400", "500", "700"],
 });
 
 export const metadata: Metadata = {

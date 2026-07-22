@@ -11,7 +11,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-[var(--line)]/80 bg-white/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="group flex items-baseline gap-2">
-          <span className="font-[family-name:var(--font-display)] text-2xl tracking-tight text-[var(--brand-deep)] transition-colors group-hover:text-[var(--brand)]">
+          <span className="font-[family-name:var(--font-display)] text-xl text-[var(--brand-deep)] transition-colors group-hover:text-[var(--brand)]">
             ヒビログ
           </span>
           <span className="hidden text-xs text-[var(--ink-muted)] sm:inline">
