@@ -1,0 +1,76 @@
+{
+  "list": "東京レストラン_十割そば",
+  "count": 7,
+  "places": [
+    {
+      "name": "銀座浅野屋",
+      "rating": 3.6,
+      "info": [
+        "3.6"
+      ],
+      "href": null,
+      "cardText": "銀座浅野屋 3.6 蕎麦店",
+      "image": null
+    },
+    {
+      "name": "つきじ 文化人",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "つきじ 文化人 4.0 蕎麦店",
+      "image": null
+    },
+    {
+      "name": "十割蕎麦と天麩羅 満天ノ秀そば",
+      "rating": 3.7,
+      "info": [
+        "3.7"
+      ],
+      "href": null,
+      "cardText": "十割蕎麦と天麩羅 満天ノ秀そば 3.7 蕎麦店",
+      "image": null
+    },
+    {
+      "name": "SOBA STAND そばうさ",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "SOBA STAND そばうさ 4.2 蕎麦店",
+      "image": null
+    },
+    {
+      "name": "Soba＆Co. 神谷町店",
+      "rating": 3.9,
+      "info": [
+        "3.9"
+      ],
+      "href": null,
+      "cardText": "Soba＆Co. 神谷町店 3.9 居酒屋",
+      "image": null
+    },
+    {
+      "name": "総本家更科堀井 青",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "総本家更科堀井 青 4.4 蕎麦店",
+      "image": null
+    },
+    {
+      "name": "池袋 十割蕎麦 鴨料理 ならや",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "池袋 十割蕎麦 鴨料理 ならや 4.1 蕎麦店",
+      "image": null
+    }
+  ]
+}

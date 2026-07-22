@@ -1,0 +1,246 @@
+{
+  "list": "東京レストラン_焼き鳥",
+  "count": 24,
+  "places": [
+    {
+      "name": "五反田 鳥茂",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "五反田 鳥茂 4.2 串焼き店",
+      "image": null
+    },
+    {
+      "name": "やきとり 阿部",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "やきとり 阿部 4.5 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "白金鳥とも",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "白金鳥とも 4.4 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "目黒 焼鳥煉火",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "目黒 焼鳥煉火 4.4 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "㈱加賀屋",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "㈱加賀屋 4.6 食肉卸売業者",
+      "image": null
+    },
+    {
+      "name": "炭火串焼き こころ",
+      "rating": 3.2,
+      "info": [
+        "3.2"
+      ],
+      "href": null,
+      "cardText": "炭火串焼き こころ 3.2 閉業",
+      "image": null
+    },
+    {
+      "name": "本家あべや 秋田純米酒処 恵比寿店",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "本家あべや 秋田純米酒処 恵比寿店 4.5 鶏料理店",
+      "image": null
+    },
+    {
+      "name": "日本橋 とり慶 焼き鳥屋",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "日本橋 とり慶 焼き鳥屋 4.6 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "南青山 七鳥目",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "南青山 七鳥目 4.6 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "三政",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "三政 4.2 串焼き店",
+      "image": null
+    },
+    {
+      "name": "かさ原",
+      "rating": 3.9,
+      "info": [
+        "3.9"
+      ],
+      "href": null,
+      "cardText": "かさ原 3.9 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "焼鳥BAR A VINS 76 (76vin)",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "焼鳥BAR A VINS 76 (76vin) 4.1 ワインバー",
+      "image": null
+    },
+    {
+      "name": "焼鳥 朱夏",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "焼鳥 朱夏 4.6 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "根津 照隅",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "根津 照隅 4.5 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "むろまち 鳥や",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "むろまち 鳥や 4.0 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "鳥つね 自然洞",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "鳥つね 自然洞 4.3 鶏料理店",
+      "image": null
+    },
+    {
+      "name": "赤坂 希鳥",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "赤坂 希鳥 4.6 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "とり茶太郎",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "とり茶太郎 4.6 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "焼き鳥 平良",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "焼き鳥 平良 4.4 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "鍈輝",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "鍈輝 4.6 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "いぐち 本店",
+      "rating": 3.9,
+      "info": [
+        "3.9"
+      ],
+      "href": null,
+      "cardText": "いぐち 本店 3.9 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "串焼 大助",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "串焼 大助 4.3 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "やきとり結火",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "やきとり結火 4.2 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "やき鳥 益子",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "やき鳥 益子 4.4 閉業",
+      "image": null
+    }
+  ]
+}

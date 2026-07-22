@@ -1,0 +1,316 @@
+{
+  "list": "東京レストラン_中華",
+  "count": 31,
+  "places": [
+    {
+      "name": "だるまや",
+      "rating": 4,
+      "info": [
+        "4.0(436)"
+      ],
+      "href": null,
+      "cardText": "だるまや 4.0(436) ラーメン屋",
+      "image": null
+    },
+    {
+      "name": "中国飯店 倶楽湾",
+      "rating": 4.1,
+      "info": [
+        "4.1(508)"
+      ],
+      "href": null,
+      "cardText": "中国飯店 倶楽湾 4.1(508) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "銀座 維新號",
+      "rating": 3.9,
+      "info": [
+        "3.9(381)"
+      ],
+      "href": null,
+      "cardText": "銀座 維新號 3.9(381) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "香妃園",
+      "rating": 4.2,
+      "info": [
+        "4.2(1,336)"
+      ],
+      "href": null,
+      "cardText": "香妃園 4.2(1,336) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "華",
+      "rating": 4,
+      "info": [
+        "4.0(26)"
+      ],
+      "href": null,
+      "cardText": "華 4.0(26) 閉業",
+      "image": null
+    },
+    {
+      "name": "新華 乃木坂",
+      "rating": 4.8,
+      "info": [
+        "4.8(44)"
+      ],
+      "href": null,
+      "cardText": "新華 乃木坂 4.8(44) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "縁香園",
+      "rating": 3.9,
+      "info": [
+        "3.9(411)"
+      ],
+      "href": null,
+      "cardText": "縁香園 3.9(411) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "の弥七（ノヤシチ）四谷三丁目",
+      "rating": 4.4,
+      "info": [
+        "4.4(78)"
+      ],
+      "href": null,
+      "cardText": "の弥七（ノヤシチ）四谷三丁目 4.4(78) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "維新號銀座新館",
+      "rating": 3.8,
+      "info": [
+        "3.8(270)"
+      ],
+      "href": null,
+      "cardText": "維新號銀座新館 3.8(270) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "中国料理 礼華 青鸞居",
+      "rating": 4.2,
+      "info": [
+        "4.2(279)"
+      ],
+      "href": null,
+      "cardText": "中国料理 礼華 青鸞居 4.2(279) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "中国料理 礼華 新宿店",
+      "rating": 4.2,
+      "info": [
+        "4.2(413)"
+      ],
+      "href": null,
+      "cardText": "中国料理 礼華 新宿店 4.2(413) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "筑紫樓(ツクシロウ) 銀座店",
+      "rating": 4.2,
+      "info": [
+        "4.2(778)"
+      ],
+      "href": null,
+      "cardText": "筑紫樓(ツクシロウ) 銀座店 4.2(778) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "赤坂 維新號 本店",
+      "rating": 4.3,
+      "info": [
+        "4.3(440)"
+      ],
+      "href": null,
+      "cardText": "赤坂 維新號 本店 4.3(440) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "中国飯店 三田店",
+      "rating": 4,
+      "info": [
+        "4.0(782)"
+      ],
+      "href": null,
+      "cardText": "中国飯店 三田店 4.0(782) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "中国飯店 富麗華",
+      "rating": 4.4,
+      "info": [
+        "4.4(1,355)"
+      ],
+      "href": null,
+      "cardText": "中国飯店 富麗華 4.4(1,355) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "中国飯店 市ヶ谷店",
+      "rating": 4.3,
+      "info": [
+        "4.3(539)"
+      ],
+      "href": null,
+      "cardText": "中国飯店 市ヶ谷店 4.3(539) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "上海庭 九段南店",
+      "rating": 3.8,
+      "info": [
+        "3.8(285)"
+      ],
+      "href": null,
+      "cardText": "上海庭 九段南店 3.8(285) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "わさ",
+      "rating": 4.5,
+      "info": [
+        "4.5(104)"
+      ],
+      "href": null,
+      "cardText": "わさ 4.5(104) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "Furuta",
+      "rating": 4.2,
+      "info": [
+        "4.2(68)"
+      ],
+      "href": null,
+      "cardText": "Furuta 4.2(68) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "TexturA",
+      "rating": 4.2,
+      "info": [
+        "4.2(587)"
+      ],
+      "href": null,
+      "cardText": "TexturA 4.2(587) レストラン",
+      "image": null
+    },
+    {
+      "name": "薬膳火鍋専門店 天香回味 銀座中央通り店",
+      "rating": 4.2,
+      "info": [
+        "4.2(299)"
+      ],
+      "href": null,
+      "cardText": "薬膳火鍋専門店 天香回味 銀座中央通り店 4.2(299) 鍋料理店",
+      "image": null
+    },
+    {
+      "name": "薬膳火鍋専門店 天香回味 銀座店",
+      "rating": 4.2,
+      "info": [
+        "4.2(194)"
+      ],
+      "href": null,
+      "cardText": "薬膳火鍋専門店 天香回味 銀座店 4.2(194) レストラン",
+      "image": null
+    },
+    {
+      "name": "薬膳火鍋専門店 天香回味 赤坂店",
+      "rating": 4.6,
+      "info": [
+        "4.6(11)"
+      ],
+      "href": null,
+      "cardText": "薬膳火鍋専門店 天香回味 赤坂店 4.6(11) レストラン",
+      "image": null
+    },
+    {
+      "name": "胡桃茶家",
+      "rating": 4.5,
+      "info": [
+        "4.5(54)"
+      ],
+      "href": null,
+      "cardText": "胡桃茶家 4.5(54) 閉業",
+      "image": null
+    },
+    {
+      "name": "赤坂 桃の木",
+      "rating": 4.3,
+      "info": [
+        "4.3(170)"
+      ],
+      "href": null,
+      "cardText": "赤坂 桃の木 4.3(170) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "サエキ飯店",
+      "rating": 4.5,
+      "info": [
+        "4.5(70)"
+      ],
+      "href": null,
+      "cardText": "サエキ飯店 4.5(70) 閉業",
+      "image": null
+    },
+    {
+      "name": "登龍 麻布店",
+      "rating": 4.1,
+      "info": [
+        "4.1(640)"
+      ],
+      "href": null,
+      "cardText": "登龍 麻布店 4.1(640) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "銀座 桃花源",
+      "rating": 4.3,
+      "info": [
+        "4.3(348)"
+      ],
+      "href": null,
+      "cardText": "銀座 桃花源 4.3(348) 四川料理店",
+      "image": null
+    },
+    {
+      "name": "新富町 湯浅",
+      "rating": 4.2,
+      "info": [
+        "4.2(50)"
+      ],
+      "href": null,
+      "cardText": "新富町 湯浅 4.2(50) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "私厨房 勇",
+      "rating": 4.3,
+      "info": [
+        "4.3(71)"
+      ],
+      "href": null,
+      "cardText": "私厨房 勇 4.3(71) 中華料理店",
+      "image": null
+    },
+    {
+      "name": "茶禅華",
+      "rating": 4.7,
+      "info": [
+        "4.7(326)"
+      ],
+      "href": null,
+      "cardText": "茶禅華 4.7(326) 中華料理店",
+      "image": null
+    }
+  ]
+}

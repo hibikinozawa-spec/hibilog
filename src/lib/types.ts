@@ -27,6 +27,7 @@ export type Area =
   | "新宿"
   | "京都"
   | "地方"
+  | "神奈川"
   | "ロサンゼルス";
 
 export interface Restaurant {

@@ -1,0 +1,206 @@
+{
+  "list": "東京レストラン_フレンチ",
+  "count": 20,
+  "places": [
+    {
+      "name": "ビストロレストラン ロジエ 恵比寿",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "ビストロレストラン ロジエ 恵比寿 4.4 レストラン",
+      "image": null
+    },
+    {
+      "name": "ユヌパンセ",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "ユヌパンセ 4.8 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "Le Bois （ル ボア）",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "Le Bois （ル ボア） 4.7 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "渡辺料理店",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "渡辺料理店 4.6 ビストロ",
+      "image": null
+    },
+    {
+      "name": "Restaurant Karyon",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "Restaurant Karyon 4.7 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "Boutary",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "Boutary 4.6 ビストロ",
+      "image": null
+    },
+    {
+      "name": "東京ウイスキーライブラリー",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "東京ウイスキーライブラリー 4.4 レストラン",
+      "image": null
+    },
+    {
+      "name": "ビストロ シンバ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "ビストロ シンバ 4.5 ビストロ",
+      "image": null
+    },
+    {
+      "name": "ボルト",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "ボルト 4.2 ビストロ",
+      "image": null
+    },
+    {
+      "name": "ルグドゥノム・ブション・リヨネ",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "ルグドゥノム・ブション・リヨネ 4.3 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "たちのみ STAND BY Mi スタンドバイミー",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "たちのみ STAND BY Mi スタンドバイミー 4.3 立食形式の飲食店",
+      "image": null
+    },
+    {
+      "name": "ライラ",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "ライラ 4.4 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "シェ オリビエ",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "シェ オリビエ 4.7 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "SUGALABO inc",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "SUGALABO inc 4.4 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "エクアトゥール",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "エクアトゥール 4.2 閉業",
+      "image": null
+    },
+    {
+      "name": "ニコラ・シュヴロリエ",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "ニコラ・シュヴロリエ 4.8 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "エディション・コウジ シモムラ",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "エディション・コウジ シモムラ 4.4 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "カンテサンス",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "カンテサンス 4.5 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "シノワ 渋谷店",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "シノワ 渋谷店 4.4 ワインバー",
+      "image": null
+    },
+    {
+      "name": "村上開新堂",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "村上開新堂 4.3 洋食レストラン",
+      "image": null
+    }
+  ]
+}

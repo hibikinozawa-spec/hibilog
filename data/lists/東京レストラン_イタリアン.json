@@ -1,0 +1,256 @@
+{
+  "list": "東京レストラン_イタリアン",
+  "count": 25,
+  "places": [
+    {
+      "name": "リ カーリカ",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "リ カーリカ 4.3 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "トラットリア シチリアーナ ドンチッチョ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "トラットリア シチリアーナ ドンチッチョ 4.5 シチリア料理店（イタリア）",
+      "image": null
+    },
+    {
+      "name": "Trattoria Ciaoro",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "Trattoria Ciaoro 4.5 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "ヴォーロ・コズィ",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "ヴォーロ・コズィ 4.7 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "Le Bois （ル ボア）",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "Le Bois （ル ボア） 4.7 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "クラッティーニ/Crattini",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "クラッティーニ/Crattini 4.1 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "U PADRINO",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "U PADRINO 4.5 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "イタリアン イルチェーロ 恵比寿",
+      "rating": 3.8,
+      "info": [
+        "3.8"
+      ],
+      "href": null,
+      "cardText": "イタリアン イルチェーロ 恵比寿 3.8 閉業",
+      "image": null
+    },
+    {
+      "name": "トリム NATURAL WINE IZAKAYA",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "トリム NATURAL WINE IZAKAYA 4.3 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "Canade",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "Canade 4.7 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "トラットリア タンタボッカ",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "トラットリア タンタボッカ 4.4 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "オステリア ラディーチ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "オステリア ラディーチ 4.5 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "KNOCK CUCINA BUONA ITALIANA 東京ミッドタウン店",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "KNOCK CUCINA BUONA ITALIANA 東京ミッドタウン店 4.0 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "KNOCK CUCINA BUONA ITALIANA 六本木ヒルズ店",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "KNOCK CUCINA BUONA ITALIANA 六本木ヒルズ店 4.0 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "カイマンテーブル",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "カイマンテーブル 4.3 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "エリオ・ロカンダ・イタリアーナ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "エリオ・ロカンダ・イタリアーナ 4.5 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "坂の上レストラン",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "坂の上レストラン 4.3 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "モナトリエ イタリアン 渋谷",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "モナトリエ イタリアン 渋谷 4.5 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "DELIZIOSO FIRENZE",
+      "rating": 3.8,
+      "info": [
+        "3.8"
+      ],
+      "href": null,
+      "cardText": "DELIZIOSO FIRENZE 3.8 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "Italian Restaurant Les dés(レデ) Nishiazabu",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "Italian Restaurant Les dés(レデ) Nishiazabu 4.6 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "テストキッチン エイチ",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "テストキッチン エイチ 4.4 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "incanto",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "incanto 4.6 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "ピッコログランデ",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "ピッコログランデ 4.2 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "THE CELLAR No.4",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "THE CELLAR No.4 4.6 ワインバー",
+      "image": null
+    },
+    {
+      "name": "beer ＆ wine厨房 tamaya 八丁堀店",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "beer ＆ wine厨房 tamaya 八丁堀店 4.0 ワインバー",
+      "image": null
+    }
+  ]
+}

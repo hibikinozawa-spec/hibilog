@@ -42,6 +42,7 @@ export const areas = [
   "新宿",
   "京都",
   "地方",
+  "神奈川",
   "ロサンゼルス",
 ] as const;
 

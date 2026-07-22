@@ -1,0 +1,256 @@
+{
+  "list": "東京レストラン_日本酒名店",
+  "count": 25,
+  "places": [
+    {
+      "name": "まるしげ夢葉家",
+      "rating": 3.8,
+      "info": [
+        "3.8(368)"
+      ],
+      "href": null,
+      "cardText": "まるしげ夢葉家 3.8(368) 居酒屋",
+      "image": null
+    },
+    {
+      "name": "博多鰻屋 藤う那 天神本店",
+      "rating": 4.4,
+      "info": [
+        "4.4(212)"
+      ],
+      "href": null,
+      "cardText": "博多鰻屋 藤う那 天神本店 4.4(212) うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "広尾九尺",
+      "rating": 3.9,
+      "info": [
+        "3.9(14)"
+      ],
+      "href": null,
+      "cardText": "広尾九尺 3.9(14) ラーメン屋",
+      "image": null
+    },
+    {
+      "name": "博多酒場 ソルリバ",
+      "rating": 4.4,
+      "info": [
+        "4.4(231)"
+      ],
+      "href": null,
+      "cardText": "博多酒場 ソルリバ 4.4(231) 居酒屋",
+      "image": null
+    },
+    {
+      "name": "KUNIZAKE-YA クニザケ屋",
+      "rating": 4.7,
+      "info": [
+        "4.7(50)"
+      ],
+      "href": null,
+      "cardText": "KUNIZAKE-YA クニザケ屋 4.7(50) バー",
+      "image": null
+    },
+    {
+      "name": "手打ち蕎麦 汐見",
+      "rating": 4.5,
+      "info": [
+        "4.5(215)"
+      ],
+      "href": null,
+      "cardText": "手打ち蕎麦 汐見 4.5(215) 蕎麦店",
+      "image": null
+    },
+    {
+      "name": "おいしい地酒とワインの店 ワダヤ",
+      "rating": 4.4,
+      "info": [
+        "4.4(316)"
+      ],
+      "href": null,
+      "cardText": "おいしい地酒とワインの店 ワダヤ 4.4(316) 酒店",
+      "image": null
+    },
+    {
+      "name": "瑠灯",
+      "rating": 3.7,
+      "info": [
+        "3.7(40)"
+      ],
+      "href": null,
+      "cardText": "瑠灯 3.7(40) 和食店",
+      "image": null
+    },
+    {
+      "name": "リカーショップ 升本",
+      "rating": 4.5,
+      "info": [
+        "4.5(46)"
+      ],
+      "href": null,
+      "cardText": "リカーショップ 升本 4.5(46) 酒店",
+      "image": null
+    },
+    {
+      "name": "十八代 光蔵 名駅",
+      "rating": 4,
+      "info": [
+        "4.0(207)"
+      ],
+      "href": null,
+      "cardText": "十八代 光蔵 名駅 4.0(207) 居酒屋",
+      "image": null
+    },
+    {
+      "name": "キリマン酒店",
+      "rating": 4.2,
+      "info": [
+        "4.2(44)"
+      ],
+      "href": null,
+      "cardText": "キリマン酒店 4.2(44) 酒店",
+      "image": null
+    },
+    {
+      "name": "Isego Honten 伊勢五本店 千駄木店",
+      "rating": 4.5,
+      "info": [
+        "4.5(456)"
+      ],
+      "href": null,
+      "cardText": "Isego Honten 伊勢五本店 千駄木店 4.5(456) 酒店",
+      "image": null
+    },
+    {
+      "name": "伊勢五本店 中目黒店",
+      "rating": 4.5,
+      "info": [
+        "4.5(381)"
+      ],
+      "href": null,
+      "cardText": "伊勢五本店 中目黒店 4.5(381) 酒店",
+      "image": null
+    },
+    {
+      "name": "こだわりの料理と酒 利き酒家",
+      "rating": 4.3,
+      "info": [
+        "4.3(144)"
+      ],
+      "href": null,
+      "cardText": "こだわりの料理と酒 利き酒家 4.3(144) 居酒屋",
+      "image": null
+    },
+    {
+      "name": "和風居酒屋 あかね",
+      "rating": 4.4,
+      "info": [
+        "4.4(68)"
+      ],
+      "href": null,
+      "cardText": "和風居酒屋 あかね 4.4(68) 居酒屋",
+      "image": null
+    },
+    {
+      "name": "Premium Sake Pub Gashue",
+      "rating": 4.9,
+      "info": [
+        "4.9(928)"
+      ],
+      "href": null,
+      "cardText": "Premium Sake Pub Gashue 4.9(928) パブ",
+      "image": null
+    },
+    {
+      "name": "つくしのこ",
+      "rating": 4.6,
+      "info": [
+        "4.6(110)"
+      ],
+      "href": null,
+      "cardText": "つくしのこ 4.6(110) 居酒屋",
+      "image": null
+    },
+    {
+      "name": "根津 日本酒 多田",
+      "rating": 4.3,
+      "info": [
+        "4.3(63)"
+      ],
+      "href": null,
+      "cardText": "根津 日本酒 多田 4.3(63) 和食店",
+      "image": null
+    },
+    {
+      "name": "和食 酒肴 まさむら",
+      "rating": 4.3,
+      "info": [
+        "4.3(184)"
+      ],
+      "href": null,
+      "cardText": "和食 酒肴 まさむら 4.3(184) 居酒屋",
+      "image": null
+    },
+    {
+      "name": "旬菜と酒 余花",
+      "rating": 4.6,
+      "info": [
+        "4.6(33)"
+      ],
+      "href": null,
+      "cardText": "旬菜と酒 余花 4.6(33) 和食店",
+      "image": null
+    },
+    {
+      "name": "和食割烹 鈴なり",
+      "rating": 4.6,
+      "info": [
+        "4.6(114)"
+      ],
+      "href": null,
+      "cardText": "和食割烹 鈴なり 4.6(114) 会席・懐石料理店",
+      "image": null
+    },
+    {
+      "name": "酛TOKYO",
+      "rating": 4.5,
+      "info": [
+        "4.5(62)"
+      ],
+      "href": null,
+      "cardText": "酛TOKYO 4.5(62) 和食店",
+      "image": null
+    },
+    {
+      "name": "ふぐ俱楽部 miyawaki 別邸",
+      "rating": 4.6,
+      "info": [
+        "4.6(99)"
+      ],
+      "href": null,
+      "cardText": "ふぐ俱楽部 miyawaki 別邸 4.6(99) ふぐ料理店",
+      "image": null
+    },
+    {
+      "name": "総合酒類探求所K",
+      "rating": 5,
+      "info": [
+        "5.0(7)"
+      ],
+      "href": null,
+      "cardText": "総合酒類探求所K 5.0(7) 和食店",
+      "image": null
+    },
+    {
+      "name": "和食と和酒 おがた",
+      "rating": 4.5,
+      "info": [
+        "4.5(59)"
+      ],
+      "href": null,
+      "cardText": "和食と和酒 おがた 4.5(59) 和食店",
+      "image": null
+    }
+  ]
+}

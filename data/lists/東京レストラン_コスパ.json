@@ -1,0 +1,66 @@
+{
+  "list": "東京レストラン_コスパ",
+  "count": 6,
+  "places": [
+    {
+      "name": "nomuno赤坂店",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "nomuno赤坂店 4.7 ワインバー",
+      "image": null
+    },
+    {
+      "name": "たちのみ STAND BY Mi スタンドバイミー",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "たちのみ STAND BY Mi スタンドバイミー 4.3 立食形式の飲食店",
+      "image": null
+    },
+    {
+      "name": "馬喰ろう 新橋店",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "馬喰ろう 新橋店 4.2 居酒屋",
+      "image": null
+    },
+    {
+      "name": "肉塊UNO 溜池山王店",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "肉塊UNO 溜池山王店 4.3 肉料理店",
+      "image": null
+    },
+    {
+      "name": "KNOCK CUCINA BUONA ITALIANA 六本木ヒルズ店",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "KNOCK CUCINA BUONA ITALIANA 六本木ヒルズ店 4.0 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "烏森百薬",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "烏森百薬 4.3 居酒屋",
+      "image": null
+    }
+  ]
+}

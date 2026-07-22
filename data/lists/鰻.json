@@ -1,0 +1,256 @@
+{
+  "list": "鰻",
+  "count": 25,
+  "places": [
+    {
+      "name": "うなぎ かぶと",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "うなぎ かぶと 4.5 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "はせ川",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "はせ川 4.2 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "お食事処 福吉",
+      "rating": 3.8,
+      "info": [
+        "3.8"
+      ],
+      "href": null,
+      "cardText": "お食事処 福吉 3.8 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "鰻 炭焼 ひつまぶし 美濃金 神田本店",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "鰻 炭焼 ひつまぶし 美濃金 神田本店 4.6 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "うなぎ成田新川 東京駅店",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "うなぎ成田新川 東京駅店 4.1 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "魚徳",
+      "rating": 3.9,
+      "info": [
+        "3.9"
+      ],
+      "href": null,
+      "cardText": "魚徳 3.9 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "うなぎのじょん",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "うなぎのじょん 4.7 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "駿河屋",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "駿河屋 4.4 臨時休業",
+      "image": null
+    },
+    {
+      "name": "うなぎ新川 本店",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "うなぎ新川 本店 4.3 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "参宮橋 あさや",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "参宮橋 あさや 4.7 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "川魚 根本",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "川魚 根本 4.3 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "瞬",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "瞬 4.4 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "那古野 しば福や 名駅店",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "那古野 しば福や 名駅店 4.6 和食店",
+      "image": null
+    },
+    {
+      "name": "江戸川 石ばし",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "江戸川 石ばし 4.2 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "うなぎ 藤田",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "うなぎ 藤田 4.3 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "鰻家",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "鰻家 4.5 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "うなぎ はし本",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "うなぎ はし本 4.3 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "神泉いちのや",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "神泉いちのや 4.1 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "花園・吉野",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "花園・吉野 4.4 レストラン",
+      "image": null
+    },
+    {
+      "name": "日本橋いづもや本店 別館",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "日本橋いづもや本店 別館 4.4 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "日本橋いづもや本店 本館",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "日本橋いづもや本店 本館 4.4 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "明神下 神田川 本店",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "明神下 神田川 本店 4.4 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "うなぎ魚政",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "うなぎ魚政 4.2 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "伊豆榮 不忍亭",
+      "rating": 3.9,
+      "info": [
+        "3.9"
+      ],
+      "href": null,
+      "cardText": "伊豆榮 不忍亭 3.9 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "伊豆榮 梅川亭",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "伊豆榮 梅川亭 4.2 うなぎ料理店",
+      "image": null
+    }
+  ]
+}

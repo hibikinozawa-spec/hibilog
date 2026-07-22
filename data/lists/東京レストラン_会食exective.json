@@ -1,0 +1,106 @@
+{
+  "list": "東京レストラン_会食exective",
+  "count": 10,
+  "places": [
+    {
+      "name": "Restaurant Karyon",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "Restaurant Karyon 4.7 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "赤坂 桃の木",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "赤坂 桃の木 4.3 中華料理店",
+      "image": null
+    },
+    {
+      "name": "中国飯店 富麗華",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "中国飯店 富麗華 4.4 中華料理店",
+      "image": null
+    },
+    {
+      "name": "村上開新堂",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "村上開新堂 4.3 洋食レストラン",
+      "image": null
+    },
+    {
+      "name": "小笠原伯爵邸",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "小笠原伯爵邸 4.5 スペイン料理店",
+      "image": null
+    },
+    {
+      "name": "モナトリエ イタリアン 渋谷",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "モナトリエ イタリアン 渋谷 4.5 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "割烹料理 丸の内 舞's",
+      "rating": 3.7,
+      "info": [
+        "3.7"
+      ],
+      "href": null,
+      "cardText": "割烹料理 丸の内 舞's 3.7 純和食店",
+      "image": null
+    },
+    {
+      "name": "中国飯店 市ヶ谷店",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "中国飯店 市ヶ谷店 4.3 中華料理店",
+      "image": null
+    },
+    {
+      "name": "白虹",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "白虹 4.6 会席・懐石料理店",
+      "image": null
+    },
+    {
+      "name": "カンテサンス",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "カンテサンス 4.5 フランス料理店",
+      "image": null
+    }
+  ]
+}

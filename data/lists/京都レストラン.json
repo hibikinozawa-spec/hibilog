@@ -1,0 +1,996 @@
+{
+  "list": "京都レストラン",
+  "count": 99,
+  "places": [
+    {
+      "name": "京の発酵イタリアンCAMOS",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "京の発酵イタリアンCAMOS 4.0 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "フレンチダイニング トップ オブ キョウト",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "フレンチダイニング トップ オブ キョウト 4.4 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "たま木亭",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "たま木亭 4.3 ベーカリー",
+      "image": null
+    },
+    {
+      "name": "亀山 学",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "亀山 学 4.0 和食店",
+      "image": null
+    },
+    {
+      "name": "鮨こんどう",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "鮨こんどう 4.7 寿司店",
+      "image": null
+    },
+    {
+      "name": "〒605-0822 京都府京都市東山区上弁天町４２７−２",
+      "rating": null,
+      "info": [
+        "〒605-0822 京都府京都市東山区上弁天町４２７−２"
+      ],
+      "href": null,
+      "cardText": "〒605-0822 京都府京都市東山区上弁天町４２７−２",
+      "image": null
+    },
+    {
+      "name": "京料理うえの",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "京料理うえの 4.4 会席・懐石料理店",
+      "image": null
+    },
+    {
+      "name": "三味洪庵 京都本店 十割蕎麦と鴨鍋",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "三味洪庵 京都本店 十割蕎麦と鴨鍋 4.4 蕎麦店",
+      "image": null
+    },
+    {
+      "name": "京都屋台せせり",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "京都屋台せせり 4.1 居酒屋",
+      "image": null
+    },
+    {
+      "name": "祇園 権兵衛",
+      "rating": 3.9,
+      "info": [
+        "3.9"
+      ],
+      "href": null,
+      "cardText": "祇園 権兵衛 3.9 蕎麦店",
+      "image": null
+    },
+    {
+      "name": "いづう",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "いづう 4.2 寿司店",
+      "image": null
+    },
+    {
+      "name": "酒吞にし川 柳小路店",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "酒吞にし川 柳小路店 4.7 居酒屋",
+      "image": null
+    },
+    {
+      "name": "酒呑にし川 河原町五条店",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "酒呑にし川 河原町五条店 4.6 居酒屋",
+      "image": null
+    },
+    {
+      "name": "グー",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "グー 4.7 中華料理店",
+      "image": null
+    },
+    {
+      "name": "ASTY京都",
+      "rating": 3.8,
+      "info": [
+        "3.8"
+      ],
+      "href": null,
+      "cardText": "ASTY京都 3.8 ショッピング モール",
+      "image": null
+    },
+    {
+      "name": "京の中華 ハマムラ 近鉄名店街みやこみち店",
+      "rating": 3.7,
+      "info": [
+        "3.7"
+      ],
+      "href": null,
+      "cardText": "京の中華 ハマムラ 近鉄名店街みやこみち店 3.7 中華料理店",
+      "image": null
+    },
+    {
+      "name": "三高餅食堂",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "三高餅食堂 4.0 定食屋",
+      "image": null
+    },
+    {
+      "name": "味彩 のと与",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "味彩 のと与 4.5 うなぎ料理店",
+      "image": null
+    },
+    {
+      "name": "京都祇園 おかる",
+      "rating": 3.8,
+      "info": [
+        "3.8"
+      ],
+      "href": null,
+      "cardText": "京都祇園 おかる 3.8 うどん屋",
+      "image": null
+    },
+    {
+      "name": "祇園やまかわ",
+      "rating": null,
+      "info": [
+        "祇園やまかわバー"
+      ],
+      "href": null,
+      "cardText": "祇園やまかわ バー",
+      "image": null
+    },
+    {
+      "name": "いづ重",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "いづ重 4.2 寿司店",
+      "image": null
+    },
+    {
+      "name": "N祇園35°｜ジャンルレス料理×鮨",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "N祇園35°｜ジャンルレス料理×鮨 4.8 レストラン",
+      "image": null
+    },
+    {
+      "name": "ぎおん 元勢",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "ぎおん 元勢 4.7 京都風日本料理店",
+      "image": null
+    },
+    {
+      "name": "そば 権兵衛",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "そば 権兵衛 4.2 蕎麦店",
+      "image": null
+    },
+    {
+      "name": "ザ サカイ",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "ザ サカイ 4.7 スペイン料理店",
+      "image": null
+    },
+    {
+      "name": "京料理 熊魚菴 京都南禅寺本店 (Japanese Cuisine YUGYOAN Kyoto Main Restaurant)",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "京料理 熊魚菴 京都南禅寺本店 (Japanese Cuisine YUGYOAN Kyoto Main Restaurant) 4.4 会席・懐石料理店",
+      "image": null
+    },
+    {
+      "name": "たん熊 北店 本店",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "たん熊 北店 本店 4.3 会席・懐石料理店",
+      "image": null
+    },
+    {
+      "name": "えいたろう屋",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "えいたろう屋 4.2 居酒屋",
+      "image": null
+    },
+    {
+      "name": "斎華",
+      "rating": 3.8,
+      "info": [
+        "3.8"
+      ],
+      "href": null,
+      "cardText": "斎華 3.8 中華料理店",
+      "image": null
+    },
+    {
+      "name": "飯田",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "飯田 4.6 会席・懐石料理店",
+      "image": null
+    },
+    {
+      "name": "stars' sakesalon",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "stars' sakesalon 4.5 居酒屋",
+      "image": null
+    },
+    {
+      "name": "ラ・ブリランテ",
+      "rating": 5,
+      "info": [
+        "5.0"
+      ],
+      "href": null,
+      "cardText": "ラ・ブリランテ 5.0 バー",
+      "image": null
+    },
+    {
+      "name": "BAR雪月花 + Salon",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "BAR雪月花 + Salon 4.3 バー",
+      "image": null
+    },
+    {
+      "name": "ひいらぎ亭",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "ひいらぎ亭 4.3 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "日の出うどん",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "日の出うどん 4.4 うどん屋",
+      "image": null
+    },
+    {
+      "name": "Osteria CONACINETTA",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "Osteria CONACINETTA 4.3 南イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "廣澤",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "廣澤 4.7 中華料理店",
+      "image": null
+    },
+    {
+      "name": "麺屋 猪一",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "麺屋 猪一 4.4 ラーメン屋",
+      "image": null
+    },
+    {
+      "name": "麺屋 猪一 離れ",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "麺屋 猪一 離れ 4.4 ラーメン屋",
+      "image": null
+    },
+    {
+      "name": "Cafe/Bar OIL",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "Cafe/Bar OIL 4.1 バー",
+      "image": null
+    },
+    {
+      "name": "in the Moon",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "in the Moon 4.4 バー",
+      "image": null
+    },
+    {
+      "name": "〒605-0074 京都府京都市東山区祇園町南側５７０−６",
+      "rating": null,
+      "info": [
+        "〒605-0074 京都府京都市東山区祇園町南側５７０−６"
+      ],
+      "href": null,
+      "cardText": "〒605-0074 京都府京都市東山区祇園町南側５７０−６",
+      "image": null
+    },
+    {
+      "name": "大豊ラーメン 木屋町店",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "大豊ラーメン 木屋町店 4.2 ラーメン屋",
+      "image": null
+    },
+    {
+      "name": "祇園 匠庵",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "祇園 匠庵 4.6 和食店",
+      "image": null
+    },
+    {
+      "name": "割烹 露瑚",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "割烹 露瑚 4.0 京都風日本料理店",
+      "image": null
+    },
+    {
+      "name": "牛・キムラ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "牛・キムラ 4.5 焼肉店",
+      "image": null
+    },
+    {
+      "name": "ペパーミント",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "ペパーミント 4.1 カフェ・喫茶",
+      "image": null
+    },
+    {
+      "name": "人見",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "人見 4.6 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "膳處漢 ぽっちり",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "膳處漢 ぽっちり 4.2 中華料理店",
+      "image": null
+    },
+    {
+      "name": "祇園うえもり｜湯豆腐 懐石料理 tofu kaiseki",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "祇園うえもり｜湯豆腐 懐石料理 tofu kaiseki 4.5 会席・懐石料理店",
+      "image": null
+    },
+    {
+      "name": "余志屋",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "余志屋 4.5 料亭",
+      "image": null
+    },
+    {
+      "name": "萬’燕楽",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "萬’燕楽 4.3 和食店",
+      "image": null
+    },
+    {
+      "name": "八坂通り 燕楽",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "八坂通り 燕楽 4.3 和食店",
+      "image": null
+    },
+    {
+      "name": "未在",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "未在 4.3 高級料理レストラン",
+      "image": null
+    },
+    {
+      "name": "実伶",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "実伶 4.4 和食店",
+      "image": null
+    },
+    {
+      "name": "トラモント",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "トラモント 4.3 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "ニュー万長",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "ニュー万長 4.5 閉業",
+      "image": null
+    },
+    {
+      "name": "祇園 ろはん",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "祇園 ろはん 4.4 和食店",
+      "image": null
+    },
+    {
+      "name": "祇園新橋 中谷",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "祇園新橋 中谷 4.5 和食店",
+      "image": null
+    },
+    {
+      "name": "花ぐも",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "花ぐも 4.8 バー",
+      "image": null
+    },
+    {
+      "name": "蛸長",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "蛸長 4.0 おでん店",
+      "image": null
+    },
+    {
+      "name": "ぼんじゅーる",
+      "rating": 3.8,
+      "info": [
+        "3.8"
+      ],
+      "href": null,
+      "cardText": "ぼんじゅーる 3.8 日本式洋食レストラン",
+      "image": null
+    },
+    {
+      "name": "ぎをん縄手とり安",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "ぎをん縄手とり安 4.4 鶏料理店",
+      "image": null
+    },
+    {
+      "name": "Bar Rocking chair",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "Bar Rocking chair 4.4 バー",
+      "image": null
+    },
+    {
+      "name": "平和的ごはんパドマ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "平和的ごはんパドマ 4.5 ベジタリアン料理店",
+      "image": null
+    },
+    {
+      "name": "中華そば 六",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "中華そば 六 4.2 ラーメン屋",
+      "image": null
+    },
+    {
+      "name": "和醸良麺 すがり",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "和醸良麺 すがり 4.1 ラーメン屋",
+      "image": null
+    },
+    {
+      "name": "麺や 高倉二条",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "麺や 高倉二条 4.1 ラーメン屋",
+      "image": null
+    },
+    {
+      "name": "(名前のないラーメン屋)",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "(名前のないラーメン屋) 4.1 ラーメン屋",
+      "image": null
+    },
+    {
+      "name": "Vegan Ramen UZU Kyoto",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "Vegan Ramen UZU Kyoto 4.3 ビーガン料理店",
+      "image": null
+    },
+    {
+      "name": "オリオン食堂",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "オリオン食堂 4.6 郷土料理店",
+      "image": null
+    },
+    {
+      "name": "らーめん門扇祇園",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "らーめん門扇祇園 4.7 ラーメン屋",
+      "image": null
+    },
+    {
+      "name": "門扇 木屋町店",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "門扇 木屋町店 4.1 閉業",
+      "image": null
+    },
+    {
+      "name": "〒604-8093 京都府京都市中京区富小路通御池下る松下町１３５ 料理旅館天ぷら吉川",
+      "rating": null,
+      "info": [
+        "〒604-8093 京都府京都市中京区富小路通御池下る松下町１３５ 料理旅館天ぷら吉川"
+      ],
+      "href": null,
+      "cardText": "〒604-8093 京都府京都市中京区富小路通御池下る松下町１３５ 料理旅館天ぷら吉川",
+      "image": null
+    },
+    {
+      "name": "グリルフレンチ",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "グリルフレンチ 4.4 洋食レストラン",
+      "image": null
+    },
+    {
+      "name": "肉割烹 安参",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "肉割烹 安参 4.4 肉料理店",
+      "image": null
+    },
+    {
+      "name": "魚料理あぎやお",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "魚料理あぎやお 4.3 魚料理店",
+      "image": null
+    },
+    {
+      "name": "焼肉の名門 天壇 祇園本店",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "焼肉の名門 天壇 祇園本店 4.1 焼肉店",
+      "image": null
+    },
+    {
+      "name": "杦-SEN-",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "杦-SEN- 4.6 会席・懐石料理店",
+      "image": null
+    },
+    {
+      "name": "Dontsuki",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "Dontsuki 4.3 シーフード・海鮮料理店",
+      "image": null
+    },
+    {
+      "name": "食堂 おがわ",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "食堂 おがわ 4.3 和食店",
+      "image": null
+    },
+    {
+      "name": "フォーチュンガーデン京都",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "フォーチュンガーデン京都 4.3 レストラン",
+      "image": null
+    },
+    {
+      "name": "むろまち 加地",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "むろまち 加地 4.2 和食店",
+      "image": null
+    },
+    {
+      "name": "リストランテ 野呂",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "リストランテ 野呂 4.2 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "洋食 おがた",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "洋食 おがた 4.3 日本式洋食レストラン",
+      "image": null
+    },
+    {
+      "name": "そば処 桝富（ますとみ）",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "そば処 桝富（ますとみ） 4.2 閉業",
+      "image": null
+    },
+    {
+      "name": "わしょく 宝来",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "わしょく 宝来 4.6 和食店",
+      "image": null
+    },
+    {
+      "name": "丸福樓",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "丸福樓 4.8 5 つ星ホテル",
+      "image": null
+    },
+    {
+      "name": "カフェビブリオティック ハロー!",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "カフェビブリオティック ハロー! 4.2 カフェ・喫茶",
+      "image": null
+    },
+    {
+      "name": "ワインショップ エーテルヴァイン",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "ワインショップ エーテルヴァイン 4.8 ワイン専門店",
+      "image": null
+    },
+    {
+      "name": "汽",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "汽 4.5 レバノン料理店",
+      "image": null
+    },
+    {
+      "name": "炭火焼鳥 吉田山せせり",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "炭火焼鳥 吉田山せせり 4.3 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "Droit | ドロワ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "Droit | ドロワ 4.5 フランス料理店",
+      "image": null
+    },
+    {
+      "name": "木山",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "木山 4.6 会席・懐石料理店",
+      "image": null
+    },
+    {
+      "name": "Cave de K",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "Cave de K 4.5 バー",
+      "image": null
+    },
+    {
+      "name": "ヴァルズビル 一階",
+      "rating": null,
+      "info": [
+        "ヴァルズビル 一階場所は存在しません"
+      ],
+      "href": null,
+      "cardText": "ヴァルズビル 一階 場所は存在しません",
+      "image": null
+    },
+    {
+      "name": "白碗竹筷樓 祇園店",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "白碗竹筷樓 祇園店 4.3 中華料理店",
+      "image": null
+    },
+    {
+      "name": "鳥さき",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "鳥さき 4.5 焼き鳥店",
+      "image": null
+    },
+    {
+      "name": "IL GARAGE イルガラージュ",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "IL GARAGE イルガラージュ 4.8 イタリア料理店",
+      "image": null
+    }
+  ]
+}

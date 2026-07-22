@@ -1,0 +1,116 @@
+{
+  "list": "茅ヶ崎/鎌倉レストラン",
+  "count": 11,
+  "places": [
+    {
+      "name": "二代目魚清わさび",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "二代目魚清わさび 4.5 和食店",
+      "image": null
+    },
+    {
+      "name": "鎌倉 松原庵 青",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "鎌倉 松原庵 青 4.3 レストラン",
+      "image": null
+    },
+    {
+      "name": "湘南韓国料理GOKAN",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "湘南韓国料理GOKAN 4.4 韓国料理店",
+      "image": null
+    },
+    {
+      "name": "えぼし本店",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "えぼし本店 4.2 居酒屋",
+      "image": null
+    },
+    {
+      "name": "ピザヤ ショーチャン",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "ピザヤ ショーチャン 4.7 ピザ店",
+      "image": null
+    },
+    {
+      "name": "アマルフィー デラセーラ",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "アマルフィー デラセーラ 4.2 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "ピッツェリアGG 鎌倉",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "ピッツェリアGG 鎌倉 4.3 レストラン",
+      "image": null
+    },
+    {
+      "name": "かまくら和久",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "かまくら和久 4.7 純和食店",
+      "image": null
+    },
+    {
+      "name": "イチリン ハナレ",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "イチリン ハナレ 4.4 中華料理店",
+      "image": null
+    },
+    {
+      "name": "ハウス オブ フレーバーズ",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "ハウス オブ フレーバーズ 4.1 ケーキ屋",
+      "image": null
+    },
+    {
+      "name": "Latteria BeBè Kamakura",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "Latteria BeBè Kamakura 4.3 イタリア料理店",
+      "image": null
+    }
+  ]
+}

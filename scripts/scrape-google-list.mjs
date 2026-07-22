@@ -128,7 +128,20 @@ const places = await page.evaluate(() => {
     if (a) href = a.getAttribute("href");
     // full text of card for parsing category/price
     const cardText = card ? card.innerText.replace(/\s+/g, " ").trim() : "";
-    out.push({ name, rating, info: infoLines.slice(0, 6), href, cardText });
+    // Google Maps place photo (skip tiny icons)
+    let image = null;
+    if (card) {
+      for (const img of card.querySelectorAll("img")) {
+        const src = img.src || img.getAttribute("src");
+        if (!src || src.startsWith("data:")) continue;
+        if (img.width > 0 && img.width < 40) continue;
+        if (/googleusercontent|ggpht|gstatic.*maps/i.test(src)) {
+          image = src;
+          break;
+        }
+      }
+    }
+    out.push({ name, rating, info: infoLines.slice(0, 6), href, cardText, image });
   }
   return out;
 });

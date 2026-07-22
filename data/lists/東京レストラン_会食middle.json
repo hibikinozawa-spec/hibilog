@@ -1,0 +1,226 @@
+{
+  "list": "東京レストラン_会食middle",
+  "count": 22,
+  "places": [
+    {
+      "name": "L'ENOCANTO レノカント 大手町",
+      "rating": 5,
+      "info": [
+        "5.0"
+      ],
+      "href": null,
+      "cardText": "L'ENOCANTO レノカント 大手町 5.0 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "Boutary",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "Boutary 4.6 ビストロ",
+      "image": null
+    },
+    {
+      "name": "THE KINTAN STEAK",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "THE KINTAN STEAK 4.1 肉料理店",
+      "image": null
+    },
+    {
+      "name": "瓢嘻 (ひょうき) 京橋店",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "瓢嘻 (ひょうき) 京橋店 4.7 しゃぶしゃぶレストラン",
+      "image": null
+    },
+    {
+      "name": "こはぜ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "こはぜ 4.5 和食店",
+      "image": null
+    },
+    {
+      "name": "割烹料理 霞町三◯一ノ一 西麻布",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "割烹料理 霞町三◯一ノ一 西麻布 4.5 和食店",
+      "image": null
+    },
+    {
+      "name": "鮨 若尊",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "鮨 若尊 4.3 寿司店",
+      "image": null
+    },
+    {
+      "name": "TexturA",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "TexturA 4.2 レストラン",
+      "image": null
+    },
+    {
+      "name": "新富町 湯浅",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "新富町 湯浅 4.2 中華料理店",
+      "image": null
+    },
+    {
+      "name": "beer ＆ wine厨房 tamaya 八丁堀店",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "beer ＆ wine厨房 tamaya 八丁堀店 4.0 ワインバー",
+      "image": null
+    },
+    {
+      "name": "豚しゃぶ しくら",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "豚しゃぶ しくら 4.8 しゃぶしゃぶレストラン",
+      "image": null
+    },
+    {
+      "name": "中国料理 礼華 新宿店",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "中国料理 礼華 新宿店 4.2 中華料理店",
+      "image": null
+    },
+    {
+      "name": "シノワ 渋谷店",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "シノワ 渋谷店 4.4 ワインバー",
+      "image": null
+    },
+    {
+      "name": "赤坂あんど",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "赤坂あんど 4.2 和食店",
+      "image": null
+    },
+    {
+      "name": "李南河 代官山",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "李南河 代官山 4.4 韓国料理店",
+      "image": null
+    },
+    {
+      "name": "馬刺料理と季節の割烹 そま莉",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "馬刺料理と季節の割烹 そま莉 4.7 和食店",
+      "image": null
+    },
+    {
+      "name": "日本料理 京懐石 みのきち 新宿住友店",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "日本料理 京懐石 みのきち 新宿住友店 4.5 会席・懐石料理店",
+      "image": null
+    },
+    {
+      "name": "Italian Restaurant Les dés(レデ) Nishiazabu",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "Italian Restaurant Les dés(レデ) Nishiazabu 4.6 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "エリオ・ロカンダ・イタリアーナ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "エリオ・ロカンダ・イタリアーナ 4.5 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "テストキッチン エイチ",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "テストキッチン エイチ 4.4 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "ピッコログランデ",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "ピッコログランデ 4.2 イタリア料理店",
+      "image": null
+    },
+    {
+      "name": "個室会席 北大路 京橋茶寮",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "個室会席 北大路 京橋茶寮 4.3 会席・懐石料理店",
+      "image": null
+    }
+  ]
+}
