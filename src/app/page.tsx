@@ -3,11 +3,21 @@ import { HeroSearch } from "@/components/hero-search";
 import { RestaurantCard } from "@/components/restaurant-card";
 import { MapPanel } from "@/components/map-panel";
 import {
+  cuisines,
   listSources,
   priceTiers,
   restaurants,
   scenes,
 } from "@/lib/restaurants";
+
+const cuisineMeta: Record<string, { emoji: string; hint: string }> = {
+  和食: { emoji: "🍶", hint: "懐石・天ぷら・炉端" },
+  鮨: { emoji: "🍣", hint: "カウンター・オマカセ" },
+  肉: { emoji: "🥩", hint: "焼肉・ステーキ・和牛" },
+  イタリアン: { emoji: "🍝", hint: "パスタ・ワイン" },
+  フレンチ: { emoji: "🍷", hint: "コース・記念日" },
+  その他: { emoji: "🥢", hint: "中華・多国籍" },
+};
 
 const featured = restaurants.filter((r) =>
   ["会食", "とっておき", "記念日"].some((s) =>
@@ -27,7 +37,7 @@ export default function HomePage() {
           className="absolute inset-0 -z-10 bg-cover bg-center"
           style={{
             backgroundImage:
-              "linear-gradient(120deg, rgba(10,82,72,0.88), rgba(20,32,29,0.55)), url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&q=80)",
+              "linear-gradient(120deg, rgba(13,92,176,0.9), rgba(22,32,46,0.58)), url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&q=80)",
           }}
         />
         <div className="mx-auto max-w-7xl px-4 pb-16 pt-16 sm:px-6 sm:pb-20 sm:pt-24">
@@ -40,6 +50,31 @@ export default function HomePage() {
           <div className="mt-8">
             <HeroSearch />
           </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 pt-14 sm:px-6">
+        <div className="mb-6">
+          <h2 className="font-[family-name:var(--font-display)] text-3xl text-[var(--brand-deep)]">
+            ジャンルで探す
+          </h2>
+        </div>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+          {cuisines.map((c) => (
+            <Link
+              key={c}
+              href={`/search?cuisine=${encodeURIComponent(c)}`}
+              className="group flex flex-col items-center gap-2 rounded-2xl border border-[var(--line)] bg-white px-3 py-6 text-center transition hover:-translate-y-0.5 hover:border-[var(--brand)] hover:shadow-[var(--shadow)]"
+            >
+              <span className="text-3xl transition group-hover:scale-110">
+                {cuisineMeta[c]?.emoji ?? "🍽"}
+              </span>
+              <span className="font-semibold text-[var(--ink)]">{c}</span>
+              <span className="text-xs text-[var(--ink-muted)]">
+                {cuisineMeta[c]?.hint}
+              </span>
+            </Link>
+          ))}
         </div>
       </section>
 

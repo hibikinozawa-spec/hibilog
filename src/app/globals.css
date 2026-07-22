@@ -2,18 +2,19 @@
 @import "leaflet/dist/leaflet.css";
 
 :root {
-  --bg: #f3f6f5;
+  /* harutaka Blue (#177EE5) を基調としたパレット */
+  --bg: #f4f7fb;
   --bg-elevated: #ffffff;
-  --ink: #14201d;
-  --ink-muted: #5a6b66;
-  --line: #d7e0dc;
-  --brand: #0f7a6c;
-  --brand-deep: #0a5248;
-  --brand-soft: #d8f0eb;
-  --accent: #e8572a;
-  --accent-soft: #ffe6de;
-  --map-teal: #1a9b8a;
-  --shadow: 0 12px 40px rgba(20, 32, 29, 0.08);
+  --ink: #16202e;
+  --ink-muted: #566579;
+  --line: #d5e1ef;
+  --brand: #177ee5;
+  --brand-deep: #0d5cb0;
+  --brand-soft: #dcebfb;
+  --accent: #ff6a3d;
+  --accent-soft: #ffe4da;
+  --map-teal: #177ee5;
+  --shadow: 0 12px 40px rgba(15, 47, 92, 0.1);
 }
 
 @theme inline {
@@ -40,8 +41,8 @@ html {
 body {
   margin: 0;
   background:
-    radial-gradient(1200px 600px at 10% -10%, #dff3ee 0%, transparent 55%),
-    radial-gradient(900px 500px at 90% 0%, #ffe8e0 0%, transparent 45%),
+    radial-gradient(1200px 600px at 10% -10%, #dcebfb 0%, transparent 55%),
+    radial-gradient(900px 500px at 90% 0%, #e9f1fc 0%, transparent 45%),
     var(--bg);
   color: var(--ink);
   font-family: var(--font-body), "Hiragino Sans", "Noto Sans JP", sans-serif;
@@ -58,7 +59,7 @@ a {
 
 .leaflet-container {
   font: inherit;
-  background: #e8efec;
+  background: #e6eef8;
 }
 
 .hibi-pin {
