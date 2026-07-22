@@ -2,7 +2,6 @@ import Link from "next/link";
 
 const links = [
   { href: "/search", label: "お店を探す" },
-  { href: "/search?scene=会食", label: "会食" },
   { href: "/ai", label: "AIマッチ" },
 ];
 
@@ -28,14 +27,6 @@ export function Header() {
               {link.label}
             </Link>
           ))}
-          <a
-            href="https://www.google.com/maps"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ml-1 hidden rounded-full bg-[var(--brand)] px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-[var(--brand-deep)] sm:inline-flex"
-          >
-            Googleマップ
-          </a>
         </nav>
       </div>
     </header>
