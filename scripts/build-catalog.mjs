@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const listsDir = path.join(root, "data", "lists");
+const photoCachePath = path.join(root, "data", "photo-cache.json");
 const outFile = path.join(root, "src", "lib", "generated-restaurants.ts");
 
 // ---- Mapping helpers -------------------------------------------------
@@ -174,6 +175,10 @@ const files = fs
   .readdirSync(listsDir)
   .filter((f) => f.endsWith(".json"));
 
+const photoCache = fs.existsSync(photoCachePath)
+  ? JSON.parse(fs.readFileSync(photoCachePath, "utf8"))
+  : {};
+
 const byName = new Map(); // dedupe by restaurant name, merge lists/scenes
 let counter = 0;
 
@@ -196,6 +201,10 @@ for (const file of files) {
       ex.listSources = [...new Set([...ex.listSources, listName])];
       if (p.image && !ex.imageFromMaps) {
         ex.image = p.image;
+        ex.imageFromMaps = true;
+      }
+      if (photoCache[name] && !ex.imageFromMaps) {
+        ex.image = photoCache[name];
         ex.imageFromMaps = true;
       }
       continue;
@@ -227,8 +236,11 @@ for (const file of files) {
       lng,
       googleMapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`,
       googlePlaceQuery: query,
-      image: p.image || `https://images.unsplash.com/${pickImage(cuisine, name)}?w=800&q=80`,
-      imageFromMaps: Boolean(p.image),
+      image:
+        photoCache[name] ||
+        p.image ||
+        `https://images.unsplash.com/${pickImage(cuisine, name)}?w=800&q=80`,
+      imageFromMaps: Boolean(photoCache[name] || p.image),
       rating,
       reviewCount: 0,
       tags: [category].filter(Boolean),
