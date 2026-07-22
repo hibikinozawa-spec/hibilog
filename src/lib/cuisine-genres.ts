@@ -3,7 +3,7 @@ import { cuisines, restaurants } from "./restaurants";
 /** Tabelog-style food hero shots per genre (verified Unsplash URLs). */
 const cuisineFoodImages: Record<(typeof cuisines)[number], string> = {
   和食:
-    "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=640&q=85",
+    "https://images.unsplash.com/photo-1766582931800-fd79665257fa?w=640&q=85",
   鮨: "https://images.unsplash.com/photo-1763627719076-3e71ddff7cb4?w=640&q=85",
   肉: "https://images.unsplash.com/photo-1558030006-450675393462?w=640&q=85",
   イタリアン:
