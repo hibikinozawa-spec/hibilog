@@ -4,7 +4,896 @@ import type { Restaurant } from "./types";
 
 export const generatedRestaurants: Restaurant[] = [
   {
-    "id": "京の発酵イタリアンcamos-1",
+    "id": "lee-ga-이가-1",
+    "name": "LEE GA 이가",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.0515,
+    "lng": -118.25216666666667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=LEE%20GA%20%EC%9D%B4%EA%B0%80",
+    "googlePlaceQuery": "LEE GA 이가",
+    "image": "https://images.unsplash.com/photo-1607301405390-d831c242f59b?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "韓国料理店"
+    ],
+    "description": "韓国料理店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "izakaya-ringo-2",
+    "name": "Izakaya Ringo",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05808333333333,
+    "lng": -118.24208333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Izakaya%20Ringo",
+    "googlePlaceQuery": "Izakaya Ringo",
+    "image": "https://images.unsplash.com/photo-1569058242567-93de6f36f8eb?w=800&q=80",
+    "rating": 5,
+    "reviewCount": 0,
+    "tags": [
+      "レストラン"
+    ],
+    "description": "レストラン。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "jun-won-dak-ig-junwonla-3",
+    "name": "Jun Won Dak IG @junwon_la",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.0425,
+    "lng": -118.24916666666667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jun%20Won%20Dak%20IG%20%40junwon_la",
+    "googlePlaceQuery": "Jun Won Dak IG @junwon_la",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 0,
+    "tags": [
+      "韓国料理店"
+    ],
+    "description": "韓国料理店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "kobawoo-house-4",
+    "name": "Kobawoo House",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.047999999999995,
+    "lng": -118.24466666666666,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kobawoo%20House",
+    "googlePlaceQuery": "Kobawoo House",
+    "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "韓国料理店"
+    ],
+    "description": "韓国料理店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "yard-house-5",
+    "name": "Yard House",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05383333333333,
+    "lng": -118.25183333333334,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Yard%20House",
+    "googlePlaceQuery": "Yard House",
+    "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "tags": [
+      "ニュー"
+    ],
+    "description": "ニュー。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "république-6",
+    "name": "République",
+    "cuisine": "フレンチ",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05683333333333,
+    "lng": -118.25216666666667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=R%C3%A9publique",
+    "googlePlaceQuery": "République",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "フランス料理店"
+    ],
+    "description": "フランス料理店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "dunsmoor-7",
+    "name": "Dunsmoor",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.04925,
+    "lng": -118.25791666666667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dunsmoor",
+    "googlePlaceQuery": "Dunsmoor",
+    "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "tags": [
+      "レストラン"
+    ],
+    "description": "レストラン。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "bavel-8",
+    "name": "Bavel",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05416666666667,
+    "lng": -118.24483333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bavel",
+    "googlePlaceQuery": "Bavel",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "レストラン"
+    ],
+    "description": "レストラン。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "found-oyster-9",
+    "name": "Found Oyster",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.0455,
+    "lng": -118.2575,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Found%20Oyster",
+    "googlePlaceQuery": "Found Oyster",
+    "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "レストラン"
+    ],
+    "description": "レストラン。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "sushi-kaneyoshi-10",
+    "name": "Sushi Kaneyoshi",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05458333333333,
+    "lng": -118.24858333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushi%20Kaneyoshi",
+    "googlePlaceQuery": "Sushi Kaneyoshi",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "フェリックス-トラットリア-11",
+    "name": "フェリックス トラットリア",
+    "cuisine": "イタリアン",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.04241666666666,
+    "lng": -118.24775,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A7%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9%20%E3%83%88%E3%83%A9%E3%83%83%E3%83%88%E3%83%AA%E3%82%A2",
+    "googlePlaceQuery": "フェリックス トラットリア",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "イタリア料理店"
+    ],
+    "description": "イタリア料理店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "giorgio-baldi-12",
+    "name": "Giorgio Baldi",
+    "cuisine": "イタリアン",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05783333333333,
+    "lng": -118.2425,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Giorgio%20Baldi",
+    "googlePlaceQuery": "Giorgio Baldi",
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80",
+    "rating": 4.3,
+    "reviewCount": 0,
+    "tags": [
+      "イタリア料理店"
+    ],
+    "description": "イタリア料理店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "156-w-verdugo-ave-13",
+    "name": "156 W Verdugo Ave",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05475,
+    "lng": -118.25208333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=156%20W%20Verdugo%20Ave",
+    "googlePlaceQuery": "156 W Verdugo Ave",
+    "image": "https://images.unsplash.com/photo-1569058242567-93de6f36f8eb?w=800&q=80",
+    "rating": 4.3,
+    "reviewCount": 0,
+    "tags": [
+      "156 W Verdugo AveBurbank, CA 91502 アメリカ合衆国"
+    ],
+    "description": "156 W Verdugo AveBurbank, CA 91502 アメリカ合衆国。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "ruiji-sichuan-cuisine-14",
+    "name": "Ruiji Sichuan Cuisine",
+    "cuisine": "その他",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.04633333333333,
+    "lng": -118.24833333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ruiji%20Sichuan%20Cuisine",
+    "googlePlaceQuery": "Ruiji Sichuan Cuisine",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "中華料理店"
+    ],
+    "description": "中華料理店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "eatalian-15",
+    "name": "Eatalian",
+    "cuisine": "イタリアン",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.055249999999994,
+    "lng": -118.25125,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Eatalian",
+    "googlePlaceQuery": "Eatalian",
+    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "イタリア料理店"
+    ],
+    "description": "イタリア料理店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "sushi-ken-16",
+    "name": "Sushi Ken",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05016666666666,
+    "lng": -118.2435,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushi%20Ken",
+    "googlePlaceQuery": "Sushi Ken",
+    "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "umemura-17",
+    "name": "Umemura",
+    "cuisine": "和食",
+    "priceTier": "casual",
+    "priceDinner": "¥5,000〜",
+    "scenes": [
+      "カジュアル",
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.056,
+    "lng": -118.25733333333334,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Umemura",
+    "googlePlaceQuery": "Umemura",
+    "image": "https://images.unsplash.com/photo-1569058242567-93de6f36f8eb?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "ラーメン屋"
+    ],
+    "description": "ラーメン屋。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "primo-italia-18",
+    "name": "Primo Italia",
+    "cuisine": "イタリアン",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.04475,
+    "lng": -118.24808333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Primo%20Italia",
+    "googlePlaceQuery": "Primo Italia",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "イタリア料理店"
+    ],
+    "description": "イタリア料理店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "sei-ko-en-restaurant-19",
+    "name": "Sei-Ko-En Restaurant",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05508333333333,
+    "lng": -118.24241666666667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sei-Ko-En%20Restaurant",
+    "googlePlaceQuery": "Sei-Ko-En Restaurant",
+    "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "tags": [
+      "和食店"
+    ],
+    "description": "和食店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "光-20",
+    "name": "光",
+    "cuisine": "肉",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.04241666666666,
+    "lng": -118.24375,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%89",
+    "googlePlaceQuery": "光",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "tags": [
+      "焼肉店"
+    ],
+    "description": "焼肉店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "torachan-japanese-bbq-21",
+    "name": "Torachan Japanese BBQ",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.055499999999995,
+    "lng": -118.2435,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Torachan%20Japanese%20BBQ",
+    "googlePlaceQuery": "Torachan Japanese BBQ",
+    "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 0,
+    "tags": [
+      "和食店"
+    ],
+    "description": "和食店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "yakitori-nishi-22",
+    "name": "YAKITORI NISHI",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05775,
+    "lng": -118.25308333333334,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=YAKITORI%20NISHI",
+    "googlePlaceQuery": "YAKITORI NISHI",
+    "image": "https://images.unsplash.com/photo-1607301405390-d831c242f59b?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 0,
+    "tags": [
+      "焼き鳥店"
+    ],
+    "description": "焼き鳥店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "sushi-koto-23",
+    "name": "Sushi Koto",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.055416666666666,
+    "lng": -118.25675,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushi%20Koto",
+    "googlePlaceQuery": "Sushi Koto",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "malbec-arts-district-24",
+    "name": "Malbec Arts District",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.04283333333333,
+    "lng": -118.2475,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Malbec%20Arts%20District",
+    "googlePlaceQuery": "Malbec Arts District",
+    "image": "https://images.unsplash.com/photo-1519690889869-e705e59f72e1?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 0,
+    "tags": [
+      "レストラン"
+    ],
+    "description": "レストラン。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "perch-25",
+    "name": "Perch",
+    "cuisine": "フレンチ",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.0445,
+    "lng": -118.2505,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Perch",
+    "googlePlaceQuery": "Perch",
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "tags": [
+      "フランス料理店"
+    ],
+    "description": "フランス料理店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "torimatsu-26",
+    "name": "Torimatsu",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05233333333333,
+    "lng": -118.25766666666667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Torimatsu",
+    "googlePlaceQuery": "Torimatsu",
+    "image": "https://images.unsplash.com/photo-1607301405390-d831c242f59b?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "tags": [
+      "和食店"
+    ],
+    "description": "和食店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "ht-grill-27",
+    "name": "H.T. Grill",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05083333333333,
+    "lng": -118.24283333333334,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=H.T.%20Grill",
+    "googlePlaceQuery": "H.T. Grill",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "ニュー"
+    ],
+    "description": "ニュー。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "royal-lobster-la-28",
+    "name": "Royal Lobster LA",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.053749999999994,
+    "lng": -118.24775,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Royal%20Lobster%20LA",
+    "googlePlaceQuery": "Royal Lobster LA",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "レストラン"
+    ],
+    "description": "レストラン。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "joey-dtla-29",
+    "name": "JOEY DTLA",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.056,
+    "lng": -118.25066666666666,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=JOEY%20DTLA",
+    "googlePlaceQuery": "JOEY DTLA",
+    "image": "https://images.unsplash.com/photo-1569058242567-93de6f36f8eb?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "tags": [
+      "レストラン"
+    ],
+    "description": "レストラン。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "ニューガーデナホテル-30",
+    "name": "ニュー・ガーデナ・ホテル",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.055749999999996,
+    "lng": -118.25641666666667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%BB%E3%82%AC%E3%83%BC%E3%83%87%E3%83%8A%E3%83%BB%E3%83%9B%E3%83%86%E3%83%AB",
+    "googlePlaceQuery": "ニュー・ガーデナ・ホテル",
+    "image": "https://images.unsplash.com/photo-1519690889869-e705e59f72e1?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "tags": [
+      "つ星ホテル"
+    ],
+    "description": "つ星ホテル。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "スプーンハウス-31",
+    "name": "スプーン・ハウス",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.058,
+    "lng": -118.254,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%83%97%E3%83%BC%E3%83%B3%E3%83%BB%E3%83%8F%E3%82%A6%E3%82%B9",
+    "googlePlaceQuery": "スプーン・ハウス",
+    "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "製麺・販売店"
+    ],
+    "description": "製麺・販売店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "sakae-sushi-32",
+    "name": "Sakae Sushi",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.041916666666665,
+    "lng": -118.24191666666667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakae%20Sushi",
+    "googlePlaceQuery": "Sakae Sushi",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "gaburi-chicken-33",
+    "name": "GABURI CHICKEN",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.055749999999996,
+    "lng": -118.25041666666667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=GABURI%20CHICKEN",
+    "googlePlaceQuery": "GABURI CHICKEN",
+    "image": "https://images.unsplash.com/photo-1519690889869-e705e59f72e1?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "和食店"
+    ],
+    "description": "和食店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "稲葉-34",
+    "name": "稲葉",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "ロサンゼルス",
+    "address": "Los Angeles, CA",
+    "nearestStation": "",
+    "lat": 34.05558333333333,
+    "lng": -118.25225,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A8%B2%E8%91%89",
+    "googlePlaceQuery": "稲葉",
+    "image": "https://images.unsplash.com/photo-1569058242567-93de6f36f8eb?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "和食店"
+    ],
+    "description": "和食店。Googleマップの「ロサンゼルス」より。",
+    "privateRoom": false,
+    "listSource": "ロサンゼルス"
+  },
+  {
+    "id": "京の発酵イタリアンcamos-35",
     "name": "京の発酵イタリアンCAMOS",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -30,7 +919,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "フレンチダイニング-トップ-オブ-キョウト-2",
+    "id": "フレンチダイニング-トップ-オブ-キョウト-36",
     "name": "フレンチダイニング トップ オブ キョウト",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -56,7 +945,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "たま木亭-3",
+    "id": "たま木亭-37",
     "name": "たま木亭",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -82,7 +971,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "亀山-学-4",
+    "id": "亀山-学-38",
     "name": "亀山 学",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -108,7 +997,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "鮨こんどう-5",
+    "id": "鮨こんどう-39",
     "name": "鮨こんどう",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -136,7 +1025,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "605-0822-京都府京都市東山区上弁天町４２７２-6",
+    "id": "605-0822-京都府京都市東山区上弁天町４２７２-40",
     "name": "〒605-0822 京都府京都市東山区上弁天町４２７−２",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -162,7 +1051,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "京料理うえの-7",
+    "id": "京料理うえの-41",
     "name": "京料理うえの",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -188,7 +1077,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "三味洪庵-京都本店-十割蕎麦と鴨鍋-8",
+    "id": "三味洪庵-京都本店-十割蕎麦と鴨鍋-42",
     "name": "三味洪庵 京都本店 十割蕎麦と鴨鍋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -214,7 +1103,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "京都屋台せせり-9",
+    "id": "京都屋台せせり-43",
     "name": "京都屋台せせり",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -240,7 +1129,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "祇園-権兵衛-10",
+    "id": "祇園-権兵衛-44",
     "name": "祇園 権兵衛",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -266,7 +1155,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "いづう-11",
+    "id": "いづう-45",
     "name": "いづう",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -292,7 +1181,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "酒吞にし川-柳小路店-12",
+    "id": "酒吞にし川-柳小路店-46",
     "name": "酒吞にし川 柳小路店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -319,7 +1208,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "酒呑にし川-河原町五条店-13",
+    "id": "酒呑にし川-河原町五条店-47",
     "name": "酒呑にし川 河原町五条店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -346,7 +1235,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "グー-14",
+    "id": "グー-48",
     "name": "グー",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -372,7 +1261,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "asty京都-15",
+    "id": "asty京都-49",
     "name": "ASTY京都",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -398,7 +1287,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "京の中華-ハマムラ-近鉄名店街みやこみち店-16",
+    "id": "京の中華-ハマムラ-近鉄名店街みやこみち店-50",
     "name": "京の中華 ハマムラ 近鉄名店街みやこみち店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -424,7 +1313,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "三高餅食堂-17",
+    "id": "三高餅食堂-51",
     "name": "三高餅食堂",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -450,7 +1339,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "味彩-のと与-18",
+    "id": "味彩-のと与-52",
     "name": "味彩 のと与",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -476,7 +1365,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "京都祇園-おかる-19",
+    "id": "京都祇園-おかる-53",
     "name": "京都祇園 おかる",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -502,7 +1391,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "祇園やまかわ-20",
+    "id": "祇園やまかわ-54",
     "name": "祇園やまかわ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -528,7 +1417,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "いづ重-21",
+    "id": "いづ重-55",
     "name": "いづ重",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -554,7 +1443,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン / 地方レストラン_名店"
   },
   {
-    "id": "n祇園35ジャンルレス料理鮨-22",
+    "id": "n祇園35ジャンルレス料理鮨-56",
     "name": "N祇園35°｜ジャンルレス料理×鮨",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -580,7 +1469,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "ぎおん-元勢-23",
+    "id": "ぎおん-元勢-57",
     "name": "ぎおん 元勢",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -609,7 +1498,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "そば-権兵衛-24",
+    "id": "そば-権兵衛-58",
     "name": "そば 権兵衛",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -635,7 +1524,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "ザ-サカイ-25",
+    "id": "ザ-サカイ-59",
     "name": "ザ サカイ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -661,7 +1550,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "京料理-熊魚菴-京都南禅寺本店-japanese-cuisine-yugyoan-26",
+    "id": "京料理-熊魚菴-京都南禅寺本店-japanese-cuisine-yugyoan-60",
     "name": "京料理 熊魚菴 京都南禅寺本店 (Japanese Cuisine YUGYOAN Kyoto Main Restaurant)",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -687,7 +1576,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "たん熊-北店-本店-27",
+    "id": "たん熊-北店-本店-61",
     "name": "たん熊 北店 本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -713,7 +1602,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "えいたろう屋-28",
+    "id": "えいたろう屋-62",
     "name": "えいたろう屋",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -739,7 +1628,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "斎華-29",
+    "id": "斎華-63",
     "name": "斎華",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -765,7 +1654,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "飯田-30",
+    "id": "飯田-64",
     "name": "飯田",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -793,7 +1682,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "stars-sakesalon-31",
+    "id": "stars-sakesalon-65",
     "name": "stars' sakesalon",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -819,7 +1708,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "ラブリランテ-32",
+    "id": "ラブリランテ-66",
     "name": "ラ・ブリランテ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -845,7 +1734,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "bar雪月花--salon-33",
+    "id": "bar雪月花--salon-67",
     "name": "BAR雪月花 + Salon",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -871,7 +1760,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "ひいらぎ亭-34",
+    "id": "ひいらぎ亭-68",
     "name": "ひいらぎ亭",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -897,7 +1786,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "日の出うどん-35",
+    "id": "日の出うどん-69",
     "name": "日の出うどん",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -923,7 +1812,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "osteria-conacinetta-36",
+    "id": "osteria-conacinetta-70",
     "name": "Osteria CONACINETTA",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -949,7 +1838,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "廣澤-37",
+    "id": "廣澤-71",
     "name": "廣澤",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -975,7 +1864,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "麺屋-猪一-38",
+    "id": "麺屋-猪一-72",
     "name": "麺屋 猪一",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1001,7 +1890,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "麺屋-猪一-離れ-39",
+    "id": "麺屋-猪一-離れ-73",
     "name": "麺屋 猪一 離れ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1027,7 +1916,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "cafebar-oil-40",
+    "id": "cafebar-oil-74",
     "name": "Cafe/Bar OIL",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1053,7 +1942,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "in-the-moon-41",
+    "id": "in-the-moon-75",
     "name": "in the Moon",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1079,7 +1968,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "605-0074-京都府京都市東山区祇園町南側５７０６-42",
+    "id": "605-0074-京都府京都市東山区祇園町南側５７０６-76",
     "name": "〒605-0074 京都府京都市東山区祇園町南側５７０−６",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1105,7 +1994,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "大豊ラーメン-木屋町店-43",
+    "id": "大豊ラーメン-木屋町店-77",
     "name": "大豊ラーメン 木屋町店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1131,7 +2020,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "祇園-匠庵-44",
+    "id": "祇園-匠庵-78",
     "name": "祇園 匠庵",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1157,7 +2046,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "割烹-露瑚-45",
+    "id": "割烹-露瑚-79",
     "name": "割烹 露瑚",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1183,7 +2072,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "牛キムラ-46",
+    "id": "牛キムラ-80",
     "name": "牛・キムラ",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -1209,7 +2098,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "ペパーミント-47",
+    "id": "ペパーミント-81",
     "name": "ペパーミント",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1235,7 +2124,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "人見-48",
+    "id": "人見-82",
     "name": "人見",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1261,7 +2150,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "膳處漢-ぽっちり-49",
+    "id": "膳處漢-ぽっちり-83",
     "name": "膳處漢 ぽっちり",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -1287,7 +2176,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "祇園うえもり湯豆腐-懐石料理-tofu-kaiseki-50",
+    "id": "祇園うえもり湯豆腐-懐石料理-tofu-kaiseki-84",
     "name": "祇園うえもり｜湯豆腐 懐石料理 tofu kaiseki",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1313,7 +2202,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "余志屋-51",
+    "id": "余志屋-85",
     "name": "余志屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1339,7 +2228,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "萬燕楽-52",
+    "id": "萬燕楽-86",
     "name": "萬’燕楽",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1365,7 +2254,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "八坂通り-燕楽-53",
+    "id": "八坂通り-燕楽-87",
     "name": "八坂通り 燕楽",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1391,7 +2280,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "未在-54",
+    "id": "未在-88",
     "name": "未在",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1417,7 +2306,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "実伶-55",
+    "id": "実伶-89",
     "name": "実伶",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1443,7 +2332,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "トラモント-56",
+    "id": "トラモント-90",
     "name": "トラモント",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -1469,7 +2358,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "ニュー万長-57",
+    "id": "ニュー万長-91",
     "name": "ニュー万長",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1495,7 +2384,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "祇園-ろはん-58",
+    "id": "祇園-ろはん-92",
     "name": "祇園 ろはん",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1521,7 +2410,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "祇園新橋-中谷-59",
+    "id": "祇園新橋-中谷-93",
     "name": "祇園新橋 中谷",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1547,7 +2436,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "花ぐも-60",
+    "id": "花ぐも-94",
     "name": "花ぐも",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1573,7 +2462,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "蛸長-61",
+    "id": "蛸長-95",
     "name": "蛸長",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1599,7 +2488,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "ぼんじゅーる-62",
+    "id": "ぼんじゅーる-96",
     "name": "ぼんじゅーる",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1625,7 +2514,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "ぎをん縄手とり安-63",
+    "id": "ぎをん縄手とり安-97",
     "name": "ぎをん縄手とり安",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1651,7 +2540,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "bar-rocking-chair-64",
+    "id": "bar-rocking-chair-98",
     "name": "Bar Rocking chair",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1677,7 +2566,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "平和的ごはんパドマ-65",
+    "id": "平和的ごはんパドマ-99",
     "name": "平和的ごはんパドマ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1703,7 +2592,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "中華そば-六-66",
+    "id": "中華そば-六-100",
     "name": "中華そば 六",
     "cuisine": "その他",
     "priceTier": "casual",
@@ -1729,7 +2618,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "和醸良麺-すがり-67",
+    "id": "和醸良麺-すがり-101",
     "name": "和醸良麺 すがり",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1755,7 +2644,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "麺や-高倉二条-68",
+    "id": "麺や-高倉二条-102",
     "name": "麺や 高倉二条",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1781,7 +2670,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "名前のないラーメン屋-69",
+    "id": "名前のないラーメン屋-103",
     "name": "(名前のないラーメン屋)",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1807,7 +2696,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "vegan-ramen-uzu-kyoto-70",
+    "id": "vegan-ramen-uzu-kyoto-104",
     "name": "Vegan Ramen UZU Kyoto",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1833,7 +2722,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "オリオン食堂-71",
+    "id": "オリオン食堂-105",
     "name": "オリオン食堂",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1859,7 +2748,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "らーめん門扇祇園-72",
+    "id": "らーめん門扇祇園-106",
     "name": "らーめん門扇祇園",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1886,7 +2775,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "門扇-木屋町店-73",
+    "id": "門扇-木屋町店-107",
     "name": "門扇 木屋町店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1912,7 +2801,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "604-8093-京都府京都市中京区富小路通御池下る松下町１３５-料理旅館天ぷら-74",
+    "id": "604-8093-京都府京都市中京区富小路通御池下る松下町１３５-料理旅館天ぷら-108",
     "name": "〒604-8093 京都府京都市中京区富小路通御池下る松下町１３５ 料理旅館天ぷら吉川",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1938,7 +2827,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "グリルフレンチ-75",
+    "id": "グリルフレンチ-109",
     "name": "グリルフレンチ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -1964,7 +2853,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "肉割烹-安参-76",
+    "id": "肉割烹-安参-110",
     "name": "肉割烹 安参",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -1990,7 +2879,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "魚料理あぎやお-77",
+    "id": "魚料理あぎやお-111",
     "name": "魚料理あぎやお",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2016,7 +2905,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "焼肉の名門-天壇-祇園本店-78",
+    "id": "焼肉の名門-天壇-祇園本店-112",
     "name": "焼肉の名門 天壇 祇園本店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -2042,7 +2931,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "杦-sen--79",
+    "id": "杦-sen--113",
     "name": "杦-SEN-",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -2070,7 +2959,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "dontsuki-80",
+    "id": "dontsuki-114",
     "name": "Dontsuki",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2096,7 +2985,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "食堂-おがわ-81",
+    "id": "食堂-おがわ-115",
     "name": "食堂 おがわ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2122,7 +3011,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "フォーチュンガーデン京都-82",
+    "id": "フォーチュンガーデン京都-116",
     "name": "フォーチュンガーデン京都",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2148,7 +3037,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "むろまち-加地-83",
+    "id": "むろまち-加地-117",
     "name": "むろまち 加地",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2174,7 +3063,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "リストランテ-野呂-84",
+    "id": "リストランテ-野呂-118",
     "name": "リストランテ 野呂",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -2200,7 +3089,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "洋食-おがた-85",
+    "id": "洋食-おがた-119",
     "name": "洋食 おがた",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2226,7 +3115,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "そば処-桝富ますとみ-86",
+    "id": "そば処-桝富ますとみ-120",
     "name": "そば処 桝富（ますとみ）",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2252,7 +3141,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "わしょく-宝来-87",
+    "id": "わしょく-宝来-121",
     "name": "わしょく 宝来",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2278,7 +3167,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "丸福樓-88",
+    "id": "丸福樓-122",
     "name": "丸福樓",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2304,7 +3193,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "カフェビブリオティック-ハロー-89",
+    "id": "カフェビブリオティック-ハロー-123",
     "name": "カフェビブリオティック ハロー!",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2330,7 +3219,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "ワインショップ-エーテルヴァイン-90",
+    "id": "ワインショップ-エーテルヴァイン-124",
     "name": "ワインショップ エーテルヴァイン",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2356,7 +3245,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "汽-91",
+    "id": "汽-125",
     "name": "汽",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2382,7 +3271,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "炭火焼鳥-吉田山せせり-92",
+    "id": "炭火焼鳥-吉田山せせり-126",
     "name": "炭火焼鳥 吉田山せせり",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2408,7 +3297,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "droit--ドロワ-93",
+    "id": "droit--ドロワ-127",
     "name": "Droit | ドロワ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -2434,7 +3323,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "木山-94",
+    "id": "木山-128",
     "name": "木山",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -2462,7 +3351,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "cave-de-k-95",
+    "id": "cave-de-k-129",
     "name": "Cave de K",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2488,7 +3377,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "ヴァルズビル-一階-96",
+    "id": "ヴァルズビル-一階-130",
     "name": "ヴァルズビル 一階",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2514,7 +3403,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "白碗竹筷樓-祇園店-97",
+    "id": "白碗竹筷樓-祇園店-131",
     "name": "白碗竹筷樓 祇園店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -2540,7 +3429,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "鳥さき-98",
+    "id": "鳥さき-132",
     "name": "鳥さき",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2566,7 +3455,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "il-garage-イルガラージュ-99",
+    "id": "il-garage-イルガラージュ-133",
     "name": "IL GARAGE イルガラージュ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -2592,7 +3481,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "京都レストラン"
   },
   {
-    "id": "ルポンデュガール-ユキノブツキダテ-100",
+    "id": "ルポンデュガール-ユキノブツキダテ-134",
     "name": "ルポンデュガール ユキノブツキダテ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -2618,7 +3507,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "アドゥエパッシ-101",
+    "id": "アドゥエパッシ-135",
     "name": "ア・ドゥエ・パッシ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -2644,7 +3533,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "丹霞堂-富山駅前店-102",
+    "id": "丹霞堂-富山駅前店-136",
     "name": "丹霞堂 富山駅前店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2670,7 +3559,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "いせえび料理-中平-103",
+    "id": "いせえび料理-中平-137",
     "name": "いせえび料理 中平",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2696,7 +3585,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "あんず-お肉の工場直売所-勝どき店-104",
+    "id": "あんず-お肉の工場直売所-勝どき店-138",
     "name": "あんず お肉の工場直売所 勝どき店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -2722,7 +3611,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "酒肴めし-まる城まるじょう-105",
+    "id": "酒肴めし-まる城まるじょう-139",
     "name": "酒肴めし まる城（まるじょう）",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -2749,7 +3638,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "祐徳稲荷神社-106",
+    "id": "祐徳稲荷神社-140",
     "name": "祐徳稲荷神社",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2775,7 +3664,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "うなぎの原田-107",
+    "id": "うなぎの原田-141",
     "name": "うなぎの原田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2801,7 +3690,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "太良嶽温泉-蟹御殿-108",
+    "id": "太良嶽温泉-蟹御殿-142",
     "name": "太良嶽温泉 蟹御殿",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2827,7 +3716,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "酒楽遊膳-えびす-警固本通り店-109",
+    "id": "酒楽遊膳-えびす-警固本通り店-143",
     "name": "酒楽遊膳 えびす 警固本通り店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -2853,7 +3742,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "小森田-110",
+    "id": "小森田-144",
     "name": "小森田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2879,7 +3768,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "一組限定-癒しの-宿-繁よし-111",
+    "id": "一組限定-癒しの-宿-繁よし-145",
     "name": "一組限定 癒しの 宿 繁よし",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2905,7 +3794,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "大和寿司-東京-豊洲市場-112",
+    "id": "大和寿司-東京-豊洲市場-146",
     "name": "大和寿司 東京 豊洲市場",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -2931,7 +3820,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "壱にのまえ-113",
+    "id": "壱にのまえ-147",
     "name": "壱（にのまえ）",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2957,7 +3846,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "てんぷら-天白-114",
+    "id": "てんぷら-天白-148",
     "name": "てんぷら 天白",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2983,7 +3872,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨たな華-115",
+    "id": "鮨たな華-149",
     "name": "鮨たな華",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -3009,7 +3898,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "中国料理-四神-116",
+    "id": "中国料理-四神-150",
     "name": "中国料理 四神",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -3035,7 +3924,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "なら泉勇斎-117",
+    "id": "なら泉勇斎-151",
     "name": "なら泉勇斎",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3061,7 +3950,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "㐂つねきつね-118",
+    "id": "㐂つねきつね-152",
     "name": "㐂つね（きつね）",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -3087,7 +3976,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "まんぎょく-119",
+    "id": "まんぎょく-153",
     "name": "まんぎょく",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3113,7 +4002,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "la-patisserie-takahiro-maruyama-120",
+    "id": "la-patisserie-takahiro-maruyama-154",
     "name": "La patisserie TAKAHIRO MARUYAMA",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3139,7 +4028,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "信州そば-地粉や-121",
+    "id": "信州そば-地粉や-155",
     "name": "信州そば 地粉や",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3165,7 +4054,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "そば処元屋-122",
+    "id": "そば処元屋-156",
     "name": "そば処元屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3191,7 +4080,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "石臼挽き蕎麦-東間-123",
+    "id": "石臼挽き蕎麦-東間-157",
     "name": "石臼挽き蕎麦 東間",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3217,7 +4106,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "蒼空-124",
+    "id": "蒼空-158",
     "name": "蒼空",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -3243,7 +4132,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "コンチネンタルルーム-125",
+    "id": "コンチネンタルルーム-159",
     "name": "コンチネンタルルーム",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3269,7 +4158,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "trattoria-abbiocco-126",
+    "id": "trattoria-abbiocco-160",
     "name": "trattoria ABBIOCCO",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -3295,7 +4184,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "八ちゃんラーメン-127",
+    "id": "八ちゃんラーメン-161",
     "name": "八ちゃんラーメン",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -3321,7 +4210,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "バー-シガー倶楽部住吉-128",
+    "id": "バー-シガー倶楽部住吉-162",
     "name": "バー シガー倶楽部住吉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3347,7 +4236,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "ワイン倶楽部住吉-129",
+    "id": "ワイン倶楽部住吉-163",
     "name": "ワイン倶楽部住吉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3373,7 +4262,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "夜灯見荘-130",
+    "id": "夜灯見荘-164",
     "name": "夜灯見荘",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3399,7 +4288,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "博多料亭-稚加榮-131",
+    "id": "博多料亭-稚加榮-165",
     "name": "博多料亭 稚加榮",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3425,7 +4314,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "もつ鍋-の元祖-楽天地-福岡-天神-総本店今泉-132",
+    "id": "もつ鍋-の元祖-楽天地-福岡-天神-総本店今泉-166",
     "name": "もつ鍋 の元祖 楽天地 福岡 天神 総本店（今泉）",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3451,7 +4340,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "うなぎ処-柳川屋-中洲本店-133",
+    "id": "うなぎ処-柳川屋-中洲本店-167",
     "name": "うなぎ処 柳川屋 中洲本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3477,7 +4366,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "会員制-寿司割烹-鷹勝-博多総本店-134",
+    "id": "会員制-寿司割烹-鷹勝-博多総本店-168",
     "name": "会員制 寿司割烹 鷹勝 博多総本店",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -3503,7 +4392,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "焼肉慶州-今泉店-135",
+    "id": "焼肉慶州-今泉店-169",
     "name": "焼肉慶州 今泉店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -3529,7 +4418,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "油屋-136",
+    "id": "油屋-170",
     "name": "油屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3555,7 +4444,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "スパアルプス-137",
+    "id": "スパアルプス-171",
     "name": "スパ・アルプス",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3581,7 +4470,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨大門-138",
+    "id": "鮨大門-172",
     "name": "鮨大門",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -3608,7 +4497,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "ぎんぎょ伍式-139",
+    "id": "ぎんぎょ伍式-173",
     "name": "ぎんぎょ伍式",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -3634,7 +4523,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "酒喰およべ-140",
+    "id": "酒喰およべ-174",
     "name": "酒喰およべ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -3660,7 +4549,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "自家製粉石臼手打ち蕎麦処-草庵-141",
+    "id": "自家製粉石臼手打ち蕎麦処-草庵-175",
     "name": "自家製粉石臼手打ち蕎麦処 草庵",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3686,7 +4575,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "富きよ-142",
+    "id": "富きよ-176",
     "name": "富きよ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3712,7 +4601,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "肉料理-nick-143",
+    "id": "肉料理-nick-177",
     "name": "肉料理 Nick",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -3738,7 +4627,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "発酵食堂かもすで-144",
+    "id": "発酵食堂かもすで-178",
     "name": "発酵食堂かもすで",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3764,7 +4653,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "本家活宝-安心院亭-145",
+    "id": "本家活宝-安心院亭-179",
     "name": "本家活宝 安心院亭",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3790,7 +4679,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "梅酒おたのしみ処-うめ子-146",
+    "id": "梅酒おたのしみ処-うめ子-180",
     "name": "梅酒おたのしみ処 うめ子",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3816,7 +4705,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "大将寿し-147",
+    "id": "大将寿し-181",
     "name": "大将寿し",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -3842,7 +4731,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "そば蔵-谷川-148",
+    "id": "そば蔵-谷川-182",
     "name": "そば蔵 谷川",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3868,7 +4757,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "成希-149",
+    "id": "成希-183",
     "name": "成希",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -3896,7 +4785,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "焼肉井とう-150",
+    "id": "焼肉井とう-184",
     "name": "焼肉井とう",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -3922,7 +4811,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "ぎょうざ-大学-151",
+    "id": "ぎょうざ-大学-185",
     "name": "ぎょうざ 大学",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3948,7 +4837,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "あみ-152",
+    "id": "あみ-186",
     "name": "あみ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -3974,7 +4863,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "opium-153",
+    "id": "opium-187",
     "name": "Opium",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4000,7 +4889,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "大餃子専門店-神餃子-154",
+    "id": "大餃子専門店-神餃子-188",
     "name": "大餃子専門店 【神餃子】",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -4026,7 +4915,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "う嵐-155",
+    "id": "う嵐-189",
     "name": "う嵐",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4052,7 +4941,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "お食事処-若林-156",
+    "id": "お食事処-若林-190",
     "name": "お食事処 若林",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4078,7 +4967,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "shókudō-yarn-157",
+    "id": "shókudō-yarn-191",
     "name": "SHÓKUDŌ YArn",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4104,7 +4993,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨-田がみ-158",
+    "id": "鮨-田がみ-192",
     "name": "鮨 田がみ",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -4130,7 +5019,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "日本料理fuji-159",
+    "id": "日本料理fuji-193",
     "name": "日本料理FUJI",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4156,7 +5045,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "たこ梅-北店-160",
+    "id": "たこ梅-北店-194",
     "name": "たこ梅 北店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4182,7 +5071,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "備屋-錦橋店-161",
+    "id": "備屋-錦橋店-195",
     "name": "備屋 錦橋店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4208,7 +5097,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "焼肉ぜん-162",
+    "id": "焼肉ぜん-196",
     "name": "焼肉ぜん",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -4234,7 +5123,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "オステリアドゥエ-163",
+    "id": "オステリアドゥエ-197",
     "name": "オステリアドゥエ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -4260,7 +5149,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "うなぎのじょん-164",
+    "id": "うなぎのじょん-198",
     "name": "うなぎのじょん",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4286,7 +5175,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店 / 鰻"
   },
   {
-    "id": "藤乃-165",
+    "id": "藤乃-199",
     "name": "藤乃",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4312,7 +5201,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "et-nou-エ-ヌゥ-166",
+    "id": "et-nou-エ-ヌゥ-200",
     "name": "et NOU エ ヌゥ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -4338,7 +5227,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "豚そば-月や-本店-167",
+    "id": "豚そば-月や-本店-201",
     "name": "豚そば 月や 本店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -4364,7 +5253,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "janight-168",
+    "id": "janight-202",
     "name": "Ja☆Night",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4390,7 +5279,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨さかい-169",
+    "id": "鮨さかい-203",
     "name": "鮨さかい",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -4418,7 +5307,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "classico-クラシコ-170",
+    "id": "classico-クラシコ-204",
     "name": "Classico クラシコ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -4444,7 +5333,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "麺道はなもこし-171",
+    "id": "麺道はなもこし-205",
     "name": "麺道はなもこし",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -4470,7 +5359,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "とどろき酒店-薬院stand-172",
+    "id": "とどろき酒店-薬院stand-206",
     "name": "とどろき酒店 薬院stand!",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4496,7 +5385,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "博多天ぷら-ながおか-173",
+    "id": "博多天ぷら-ながおか-207",
     "name": "博多天ぷら ながおか",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4522,7 +5411,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "五島サバと九州の幸-きはる-174",
+    "id": "五島サバと九州の幸-きはる-208",
     "name": "五島サバと九州の幸 きはる",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -4548,7 +5437,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "時菜-今日萬-175",
+    "id": "時菜-今日萬-209",
     "name": "時菜 今日萬",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4574,7 +5463,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "北新地-喜多郎寿し-はなれ-176",
+    "id": "北新地-喜多郎寿し-はなれ-210",
     "name": "北新地 喜多郎寿し はなれ",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -4600,7 +5489,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "北新地-喜多郎寿し-本店-177",
+    "id": "北新地-喜多郎寿し-本店-211",
     "name": "北新地 喜多郎寿し 本店",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -4626,7 +5515,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "田吾作-178",
+    "id": "田吾作-212",
     "name": "田吾作",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -4652,7 +5541,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鳥焼もろ川-179",
+    "id": "鳥焼もろ川-213",
     "name": "鳥焼もろ川",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4678,7 +5567,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "山本屋本店-栄店-180",
+    "id": "山本屋本店-栄店-214",
     "name": "山本屋本店 栄店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4704,7 +5593,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "respiración-181",
+    "id": "respiración-215",
     "name": "Respiración",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4730,7 +5619,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "士別バーベキュー-182",
+    "id": "士別バーベキュー-216",
     "name": "士別バーベキュー",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -4756,7 +5645,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "呑み喰い処-もっきり-183",
+    "id": "呑み喰い処-もっきり-217",
     "name": "呑み喰い処 もっきり",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -4783,7 +5672,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鍛冶屋と料理-184",
+    "id": "鍛冶屋と料理-218",
     "name": "鍛冶屋と料理",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4809,7 +5698,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "綾の里-185",
+    "id": "綾の里-219",
     "name": "綾の里",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4835,7 +5724,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "開化亭-186",
+    "id": "開化亭-220",
     "name": "開化亭",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -4861,7 +5750,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "日本料理-たか田-八祥-187",
+    "id": "日本料理-たか田-八祥-221",
     "name": "日本料理 たか田 八祥",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4887,7 +5776,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "いわしの大輪-188",
+    "id": "いわしの大輪-222",
     "name": "いわしの大輪",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4913,7 +5802,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "うなぎ家-しば福や-189",
+    "id": "うなぎ家-しば福や-223",
     "name": "うなぎ家 しば福や",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4939,7 +5828,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "とやま鮨-海富山-190",
+    "id": "とやま鮨-海富山-224",
     "name": "とやま鮨 海富山",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -4965,7 +5854,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "敦賀ヨーロッパ軒-金山店-191",
+    "id": "敦賀ヨーロッパ軒-金山店-225",
     "name": "敦賀ヨーロッパ軒 金山店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4991,7 +5880,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨-十兵衛-192",
+    "id": "鮨-十兵衛-226",
     "name": "鮨 十兵衛",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5017,7 +5906,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "駿河屋-193",
+    "id": "駿河屋-227",
     "name": "駿河屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5043,7 +5932,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店 / 鰻"
   },
   {
-    "id": "和洋遊膳中村-194",
+    "id": "和洋遊膳中村-228",
     "name": "和洋遊膳中村",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5069,7 +5958,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "中國菜-月泉-195",
+    "id": "中國菜-月泉-229",
     "name": "中國菜 月泉",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -5095,7 +5984,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨-実紀-196",
+    "id": "鮨-実紀-230",
     "name": "鮨 実紀",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -5123,7 +6012,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "春光園-197",
+    "id": "春光園-231",
     "name": "春光園",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5149,7 +6038,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "福ずし-198",
+    "id": "福ずし-232",
     "name": "福ずし",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5175,7 +6064,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "ふく亭本店-199",
+    "id": "ふく亭本店-233",
     "name": "ふく亭本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5201,7 +6090,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "三郎丸蒸留所-200",
+    "id": "三郎丸蒸留所-234",
     "name": "三郎丸蒸留所",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5227,7 +6116,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "says-farm-201",
+    "id": "says-farm-235",
     "name": "SAYS FARM",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5253,7 +6142,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "simples-202",
+    "id": "simples-236",
     "name": "simples",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5279,7 +6168,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "百姓屋敷じろえむ-203",
+    "id": "百姓屋敷じろえむ-237",
     "name": "百姓屋敷じろえむ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5305,7 +6194,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "生石-大松家-204",
+    "id": "生石-大松家-238",
     "name": "生石 大松家",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5331,7 +6220,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "御料理-柳家-205",
+    "id": "御料理-柳家-239",
     "name": "御料理 柳家",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5357,7 +6246,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "レヴォ-206",
+    "id": "レヴォ-240",
     "name": "レヴォ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5383,7 +6272,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "だしと炭火-八日や-207",
+    "id": "だしと炭火-八日や-241",
     "name": "だしと炭火 八日や",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -5410,7 +6299,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "めしや朔軒-208",
+    "id": "めしや朔軒-242",
     "name": "めしや朔軒",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -5436,7 +6325,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "焼き鳥幸羽こはね-209",
+    "id": "焼き鳥幸羽こはね-243",
     "name": "焼き鳥幸羽（こはね）",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5462,7 +6351,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "勢麟-210",
+    "id": "勢麟-244",
     "name": "勢麟",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -5491,7 +6380,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "てんぷら-成生-211",
+    "id": "てんぷら-成生-245",
     "name": "てんぷら 成生",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5517,7 +6406,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "蝦夷の里-212",
+    "id": "蝦夷の里-246",
     "name": "蝦夷の里",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -5543,7 +6432,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "the-kintan-steak-213",
+    "id": "the-kintan-steak-247",
     "name": "THE KINTAN STEAK",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -5569,7 +6458,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店 / 東京レストラン_会食middle / 東京レストラン_肉"
   },
   {
-    "id": "徳山鮓-214",
+    "id": "徳山鮓-248",
     "name": "徳山鮓",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5595,7 +6484,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "火ノ鳥-215",
+    "id": "火ノ鳥-249",
     "name": "火ノ鳥",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -5621,7 +6510,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "gejo-216",
+    "id": "gejo-250",
     "name": "GEJO",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5647,7 +6536,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "mitoho-217",
+    "id": "mitoho-251",
     "name": "mitoho",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5673,7 +6562,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "白金-にし田-218",
+    "id": "白金-にし田-252",
     "name": "白金 にし田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5699,7 +6588,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "穴場天満店-219",
+    "id": "穴場天満店-253",
     "name": "穴場天満店",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5725,7 +6614,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "福寿司-220",
+    "id": "福寿司-254",
     "name": "福寿司",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5751,7 +6640,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "narumi-221",
+    "id": "narumi-255",
     "name": "NARUMI",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5777,7 +6666,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "瞬-222",
+    "id": "瞬-256",
     "name": "瞬",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5803,7 +6692,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店 / 鰻"
   },
   {
-    "id": "活海酒-223",
+    "id": "活海酒-257",
     "name": "活海酒",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5829,7 +6718,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "ピアット-スズキ-チンクエ-224",
+    "id": "ピアット-スズキ-チンクエ-258",
     "name": "ピアット スズキ チンクエ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5855,7 +6744,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "翠-大屋-225",
+    "id": "翠-大屋-259",
     "name": "翠 大屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5881,7 +6770,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "手打蕎麦せんり-226",
+    "id": "手打蕎麦せんり-260",
     "name": "手打蕎麦せんり",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5907,7 +6796,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "3442110n-13529156e-227",
+    "id": "3442110n-13529156e-261",
     "name": "34°42'11.0\"N 135°29'15.6\"E",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5933,7 +6822,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "大安丸-228",
+    "id": "大安丸-262",
     "name": "大安丸",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5959,7 +6848,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "立ち喰い鮨-人人-229",
+    "id": "立ち喰い鮨-人人-263",
     "name": "立ち喰い鮨 人人",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5985,7 +6874,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "一誠-230",
+    "id": "一誠-264",
     "name": "一誠",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6011,7 +6900,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "渡部旅館-231",
+    "id": "渡部旅館-265",
     "name": "渡部旅館",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6037,7 +6926,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "カスク-232",
+    "id": "カスク-266",
     "name": "カスク",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6063,7 +6952,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "バーフォーシーズン-233",
+    "id": "バーフォーシーズン-267",
     "name": "バー・フォーシーズン",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6089,7 +6978,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "炭火焼-八仙-234",
+    "id": "炭火焼-八仙-268",
     "name": "炭火焼 八仙",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6115,7 +7004,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "しの田-235",
+    "id": "しの田-269",
     "name": "しの田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6141,7 +7030,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "あか吉-236",
+    "id": "あか吉-270",
     "name": "あか吉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6167,7 +7056,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "吉田酒店-237",
+    "id": "吉田酒店-271",
     "name": "吉田酒店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6193,7 +7082,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "金泉銀泉銅泉-238",
+    "id": "金泉銀泉銅泉-272",
     "name": "金泉、銀泉、銅泉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6219,7 +7108,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "大衆酒場-親爺-239",
+    "id": "大衆酒場-親爺-273",
     "name": "大衆酒場 親爺",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -6245,7 +7134,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "艶次郎-240",
+    "id": "艶次郎-274",
     "name": "艶次郎",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6271,7 +7160,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "糸庄-本店-241",
+    "id": "糸庄-本店-275",
     "name": "糸庄 本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6297,7 +7186,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "こいで-242",
+    "id": "こいで-276",
     "name": "こいで",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6323,7 +7212,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "さばたろう-243",
+    "id": "さばたろう-277",
     "name": "さばたろう",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6349,7 +7238,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "makinoncî-マキノンチ-244",
+    "id": "makinoncî-マキノンチ-278",
     "name": "MAKINONCÎ マキノンチ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6375,7 +7264,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "bar-main-malt-245",
+    "id": "bar-main-malt-279",
     "name": "Bar Main Malt",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6401,7 +7290,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "料亭-山田屋-246",
+    "id": "料亭-山田屋-280",
     "name": "料亭 山田屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6427,7 +7316,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "総合酒類探求所k-247",
+    "id": "総合酒類探求所k-281",
     "name": "総合酒類探求所K",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6454,7 +7343,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店 / 東京レストラン_日本酒名店"
   },
   {
-    "id": "くるますし-248",
+    "id": "くるますし-282",
     "name": "くるますし",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -6480,7 +7369,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "ゑんどう寿司-中央市場店-249",
+    "id": "ゑんどう寿司-中央市場店-283",
     "name": "ゑんどう寿司 中央市場店",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -6506,7 +7395,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨-慎之介-堺筋本町-250",
+    "id": "鮨-慎之介-堺筋本町-284",
     "name": "鮨 慎之介 堺筋本町",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -6532,7 +7421,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "御料理-ふじ居-251",
+    "id": "御料理-ふじ居-285",
     "name": "御料理 ふじ居",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6558,7 +7447,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "懐石つる幸-252",
+    "id": "懐石つる幸-286",
     "name": "懐石つる幸",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6584,7 +7473,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "蓑むらかた-253",
+    "id": "蓑むらかた-287",
     "name": "蓑むらかた",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6610,7 +7499,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨きしん-254",
+    "id": "鮨きしん-288",
     "name": "鮨きしん",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -6636,7 +7525,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "レヴェルドゥーレ-255",
+    "id": "レヴェルドゥーレ-289",
     "name": "レ・ヴェルドゥーレ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6662,7 +7551,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨-島本-256",
+    "id": "鮨-島本-290",
     "name": "鮨 島本",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -6688,7 +7577,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "湘南韓バルｇｏｋａｎ-257",
+    "id": "湘南韓バルｇｏｋａｎ-291",
     "name": "湘南韓バルＧＯＫＡＮ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6714,7 +7603,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "おひょっくり-258",
+    "id": "おひょっくり-292",
     "name": "おひょっくり",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6740,7 +7629,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "bar-mercato-バールメルカート-259",
+    "id": "bar-mercato-バールメルカート-293",
     "name": "Bar mercato バールメルカート",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6766,7 +7655,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "neo和食堂-一成-260",
+    "id": "neo和食堂-一成-294",
     "name": "NEO＂和＂食堂 一成",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -6792,7 +7681,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "とんかつ太郎-261",
+    "id": "とんかつ太郎-295",
     "name": "とんかつ太郎",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6818,7 +7707,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "樋山-262",
+    "id": "樋山-296",
     "name": "樋山",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6844,7 +7733,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "高雄-263",
+    "id": "高雄-297",
     "name": "高雄",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6870,7 +7759,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "こなから-264",
+    "id": "こなから-298",
     "name": "こなから",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6896,7 +7785,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "焼肉ginga旧店舗名-ホルモン銀牙-265",
+    "id": "焼肉ginga旧店舗名-ホルモン銀牙-299",
     "name": "焼肉GINGA（旧店舗名 ホルモン銀牙）",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -6922,7 +7811,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "夜空のジンギスカン-45店-266",
+    "id": "夜空のジンギスカン-45店-300",
     "name": "夜空のジンギスカン 45店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6948,7 +7837,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "だるま-55店-267",
+    "id": "だるま-55店-301",
     "name": "だるま 5・5店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6974,7 +7863,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "いただきます-268",
+    "id": "いただきます-302",
     "name": "いただきます。",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -7000,7 +7889,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨一-269",
+    "id": "鮨一-303",
     "name": "鮨一",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7026,7 +7915,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "すゝき野-鮨金-270",
+    "id": "すゝき野-鮨金-304",
     "name": "すゝき野 鮨金",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7052,7 +7941,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨処-有馬-271",
+    "id": "鮨処-有馬-305",
     "name": "鮨処 有馬",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7078,7 +7967,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "田久鮓たくずし-272",
+    "id": "田久鮓たくずし-306",
     "name": "田久鮓（たくずし）",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7104,7 +7993,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "弐ノ蔵ニノクラ-273",
+    "id": "弐ノ蔵ニノクラ-307",
     "name": "弐ノ蔵(ニノクラ)",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7130,7 +8019,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "民宿かどや-274",
+    "id": "民宿かどや-308",
     "name": "民宿かどや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -7156,7 +8045,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨割烹-やま中-275",
+    "id": "鮨割烹-やま中-309",
     "name": "鮨割烹 やま中",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7182,7 +8071,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "おのころ五合-276",
+    "id": "おのころ五合-310",
     "name": "おのころ五合",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -7208,7 +8097,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "katsuya-charcoal-grill-steakhouse-277",
+    "id": "katsuya-charcoal-grill-steakhouse-311",
     "name": "Katsuya charcoal grill steakhouse",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -7234,7 +8123,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "すし-うえだ-278",
+    "id": "すし-うえだ-312",
     "name": "すし うえだ",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7260,7 +8149,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "季節料理-喬司-279",
+    "id": "季節料理-喬司-313",
     "name": "季節料理 喬司",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -7286,7 +8175,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "焼肉藤山-280",
+    "id": "焼肉藤山-314",
     "name": "焼肉藤山",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -7312,7 +8201,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "リストランテ-ダ-ルーポ322-281",
+    "id": "リストランテ-ダ-ルーポ322-315",
     "name": "リストランテ ダ ルーポ322",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7338,7 +8227,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "如雲ジョウン-282",
+    "id": "如雲ジョウン-316",
     "name": "如雲（ジョウン）",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -7364,7 +8253,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "天寿し京町店-283",
+    "id": "天寿し京町店-317",
     "name": "天寿し京町店",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7390,7 +8279,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "片折-284",
+    "id": "片折-318",
     "name": "片折",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -7418,7 +8307,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "リ-カーリカ-285",
+    "id": "リ-カーリカ-319",
     "name": "リ カーリカ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7444,7 +8333,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "トラットリア-シチリアーナ-ドンチッチョ-286",
+    "id": "トラットリア-シチリアーナ-ドンチッチョ-320",
     "name": "トラットリア シチリアーナ ドンチッチョ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7470,7 +8359,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "trattoria-ciaoro-287",
+    "id": "trattoria-ciaoro-321",
     "name": "Trattoria Ciaoro",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7496,7 +8385,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "ヴォーロコズィ-288",
+    "id": "ヴォーロコズィ-322",
     "name": "ヴォーロ・コズィ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7522,7 +8411,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "le-bois-ル-ボア-289",
+    "id": "le-bois-ル-ボア-323",
     "name": "Le Bois （ル ボア）",
     "cuisine": "フレンチ",
     "priceTier": "executive",
@@ -7551,7 +8440,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン / 東京レストラン_フレンチ"
   },
   {
-    "id": "クラッティーニcrattini-290",
+    "id": "クラッティーニcrattini-324",
     "name": "クラッティーニ/Crattini",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7577,7 +8466,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "u-padrino-291",
+    "id": "u-padrino-325",
     "name": "U PADRINO",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7603,7 +8492,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "イタリアン-イルチェーロ-恵比寿-292",
+    "id": "イタリアン-イルチェーロ-恵比寿-326",
     "name": "イタリアン イルチェーロ 恵比寿",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7629,7 +8518,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "トリム-natural-wine-izakaya-293",
+    "id": "トリム-natural-wine-izakaya-327",
     "name": "トリム NATURAL WINE IZAKAYA",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7657,7 +8546,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食low"
   },
   {
-    "id": "canade-294",
+    "id": "canade-328",
     "name": "Canade",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7683,7 +8572,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "トラットリア-タンタボッカ-295",
+    "id": "トラットリア-タンタボッカ-329",
     "name": "トラットリア タンタボッカ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7709,7 +8598,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "オステリア-ラディーチ-296",
+    "id": "オステリア-ラディーチ-330",
     "name": "オステリア ラディーチ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7735,7 +8624,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "knock-cucina-buona-italiana-東京ミッドタウン店-297",
+    "id": "knock-cucina-buona-italiana-東京ミッドタウン店-331",
     "name": "KNOCK CUCINA BUONA ITALIANA 東京ミッドタウン店",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7763,7 +8652,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食low"
   },
   {
-    "id": "knock-cucina-buona-italiana-六本木ヒルズ店-298",
+    "id": "knock-cucina-buona-italiana-六本木ヒルズ店-332",
     "name": "KNOCK CUCINA BUONA ITALIANA 六本木ヒルズ店",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7791,7 +8680,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン / 東京レストラン_コスパ / 東京レストラン_会食low"
   },
   {
-    "id": "カイマンテーブル-299",
+    "id": "カイマンテーブル-333",
     "name": "カイマンテーブル",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7817,7 +8706,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "エリオロカンダイタリアーナ-300",
+    "id": "エリオロカンダイタリアーナ-334",
     "name": "エリオ・ロカンダ・イタリアーナ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7843,7 +8732,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食middle"
   },
   {
-    "id": "坂の上レストラン-301",
+    "id": "坂の上レストラン-335",
     "name": "坂の上レストラン",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7869,7 +8758,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "モナトリエ-イタリアン-渋谷-302",
+    "id": "モナトリエ-イタリアン-渋谷-336",
     "name": "モナトリエ イタリアン 渋谷",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7896,7 +8785,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食exective"
   },
   {
-    "id": "delizioso-firenze-303",
+    "id": "delizioso-firenze-337",
     "name": "DELIZIOSO FIRENZE",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7922,7 +8811,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "italian-restaurant-les-désレデ-nishiazabu-304",
+    "id": "italian-restaurant-les-désレデ-nishiazabu-338",
     "name": "Italian Restaurant Les dés(レデ) Nishiazabu",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7949,7 +8838,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食middle"
   },
   {
-    "id": "テストキッチン-エイチ-305",
+    "id": "テストキッチン-エイチ-339",
     "name": "テストキッチン エイチ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7975,7 +8864,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食middle"
   },
   {
-    "id": "incanto-306",
+    "id": "incanto-340",
     "name": "incanto",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -8001,7 +8890,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "ピッコログランデ-307",
+    "id": "ピッコログランデ-341",
     "name": "ピッコログランデ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -8027,7 +8916,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食middle"
   },
   {
-    "id": "the-cellar-no4-308",
+    "id": "the-cellar-no4-342",
     "name": "THE CELLAR No.4",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -8053,7 +8942,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "beer--wine厨房-tamaya-八丁堀店-309",
+    "id": "beer--wine厨房-tamaya-八丁堀店-343",
     "name": "beer ＆ wine厨房 tamaya 八丁堀店",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -8079,7 +8968,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食middle"
   },
   {
-    "id": "nomuno赤坂店-310",
+    "id": "nomuno赤坂店-344",
     "name": "nomuno赤坂店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8107,7 +8996,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_コスパ"
   },
   {
-    "id": "たちのみ-stand-by-mi-スタンドバイミー-311",
+    "id": "たちのみ-stand-by-mi-スタンドバイミー-345",
     "name": "たちのみ STAND BY Mi スタンドバイミー",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8135,7 +9024,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_コスパ / 東京レストラン_フレンチ / 東京レストラン_会食low"
   },
   {
-    "id": "馬喰ろう-新橋店-312",
+    "id": "馬喰ろう-新橋店-346",
     "name": "馬喰ろう 新橋店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8163,7 +9052,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_コスパ / 東京レストラン_会食low / 東京レストラン_肉"
   },
   {
-    "id": "肉塊uno-溜池山王店-313",
+    "id": "肉塊uno-溜池山王店-347",
     "name": "肉塊UNO 溜池山王店",
     "cuisine": "肉",
     "priceTier": "casual",
@@ -8191,7 +9080,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_コスパ / 東京レストラン_会食low / 東京レストラン_肉"
   },
   {
-    "id": "烏森百薬-314",
+    "id": "烏森百薬-348",
     "name": "烏森百薬",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8219,7 +9108,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_コスパ / 東京レストラン_会食low"
   },
   {
-    "id": "青山ototo青山おとと-315",
+    "id": "青山ototo青山おとと-349",
     "name": "青山Ototo（青山おとと）",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8245,7 +9134,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ラミティエ-316",
+    "id": "ラミティエ-350",
     "name": "ラミティエ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -8271,7 +9160,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ビストロ-レシス-317",
+    "id": "ビストロ-レシス-351",
     "name": "ビストロ レ・シス",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -8297,7 +9186,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "串焼き-鳥茂-318",
+    "id": "串焼き-鳥茂-352",
     "name": "串焼き 鳥茂",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8323,7 +9212,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "江戸蕎麦-ほそ川-319",
+    "id": "江戸蕎麦-ほそ川-353",
     "name": "江戸蕎麦 ほそ川",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8349,7 +9238,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "浅草-ひら山-320",
+    "id": "浅草-ひら山-354",
     "name": "浅草 ひら山",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8375,7 +9264,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "鮨-三か田-321",
+    "id": "鮨-三か田-355",
     "name": "鮨 三か田",
     "cuisine": "鮨",
     "priceTier": "casual",
@@ -8401,7 +9290,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "タストゥー-322",
+    "id": "タストゥー-356",
     "name": "タストゥー",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -8427,7 +9316,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ローブリュー-323",
+    "id": "ローブリュー-357",
     "name": "ローブリュー",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -8453,7 +9342,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "蕎麦-たじま-西麻布店-324",
+    "id": "蕎麦-たじま-西麻布店-358",
     "name": "蕎麦 たじま 西麻布店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8479,7 +9368,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "をことて-325",
+    "id": "をことて-359",
     "name": "をことて",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -8505,7 +9394,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "おそばの甲賀-326",
+    "id": "おそばの甲賀-360",
     "name": "おそばの甲賀",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8531,7 +9420,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "立喰-鮨となり-麻布十番-327",
+    "id": "立喰-鮨となり-麻布十番-361",
     "name": "立喰 鮨となり 麻布十番",
     "cuisine": "鮨",
     "priceTier": "casual",
@@ -8557,7 +9446,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ラス-328",
+    "id": "ラス-362",
     "name": "ラス",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8583,7 +9472,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ブラマソーレ-329",
+    "id": "ブラマソーレ-363",
     "name": "ブラマソーレ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -8609,7 +9498,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ma-cuisine-マ-キュイジーヌ-330",
+    "id": "ma-cuisine-マ-キュイジーヌ-364",
     "name": "Ma Cuisine （マ キュイジーヌ）",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -8635,7 +9524,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "浜町かねこ-331",
+    "id": "浜町かねこ-365",
     "name": "浜町かねこ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8661,7 +9550,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "レストラン-マ-プール-332",
+    "id": "レストラン-マ-プール-366",
     "name": "レストラン マ プール",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -8688,7 +9577,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "食堂-わた-333",
+    "id": "食堂-わた-367",
     "name": "食堂 わた",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8714,7 +9603,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ヤマト-334",
+    "id": "ヤマト-368",
     "name": "ヤマト",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8740,7 +9629,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ramen-matsui-335",
+    "id": "ramen-matsui-369",
     "name": "RAMEN MATSUI",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8766,7 +9655,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ぽん多本家-336",
+    "id": "ぽん多本家-370",
     "name": "ぽん多本家",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8792,7 +9681,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "入鹿tokyo-六本木-337",
+    "id": "入鹿tokyo-六本木-371",
     "name": "入鹿TOKYO 六本木",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8818,7 +9707,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "かつ好-338",
+    "id": "かつ好-372",
     "name": "かつ好",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8844,7 +9733,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "天ぷら-かき揚げ-之村-339",
+    "id": "天ぷら-かき揚げ-之村-373",
     "name": "天ぷら かき揚げ 之村",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8870,7 +9759,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "わたべ-340",
+    "id": "わたべ-374",
     "name": "わたべ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -8896,7 +9785,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "hoppers-341",
+    "id": "hoppers-375",
     "name": "HOPPERS",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8922,7 +9811,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "銀座-八五-342",
+    "id": "銀座-八五-376",
     "name": "銀座 八五",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8948,7 +9837,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ビストロヴィヴィエンヌ-343",
+    "id": "ビストロヴィヴィエンヌ-377",
     "name": "ビストロ・ヴィヴィエンヌ",
     "cuisine": "フレンチ",
     "priceTier": "casual",
@@ -8974,7 +9863,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ラベットラダオチアイ-344",
+    "id": "ラベットラダオチアイ-378",
     "name": "ラ·ベットラ·ダ·オチアイ",
     "cuisine": "イタリアン",
     "priceTier": "casual",
@@ -9000,7 +9889,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ビストロヌガ-345",
+    "id": "ビストロヌガ-379",
     "name": "ビストロ・ヌガ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9026,7 +9915,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "アロセリア-ラ-パンサ-346",
+    "id": "アロセリア-ラ-パンサ-380",
     "name": "アロセリア ラ パンサ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -9052,7 +9941,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "焼鳥山香-347",
+    "id": "焼鳥山香-381",
     "name": "焼鳥山香",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -9078,7 +9967,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "レ-コパン-ドゥ-ドミニク-ブシェ-348",
+    "id": "レ-コパン-ドゥ-ドミニク-ブシェ-382",
     "name": "レ コパン ドゥ ドミニク ブシェ",
     "cuisine": "フレンチ",
     "priceTier": "casual",
@@ -9104,7 +9993,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "梅香-349",
+    "id": "梅香-383",
     "name": "梅香",
     "cuisine": "その他",
     "priceTier": "casual",
@@ -9130,7 +10019,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "蕎楽亭-350",
+    "id": "蕎楽亭-384",
     "name": "蕎楽亭",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -9156,7 +10045,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ビリヤニ大澤-351",
+    "id": "ビリヤニ大澤-385",
     "name": "ビリヤニ大澤",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -9182,7 +10071,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "loiseau-de-france-352",
+    "id": "loiseau-de-france-386",
     "name": "Loiseau de France",
     "cuisine": "フレンチ",
     "priceTier": "casual",
@@ -9209,7 +10098,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "三燈舎-353",
+    "id": "三燈舎-387",
     "name": "三燈舎",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -9235,7 +10124,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "osteria-da-kkappa-354",
+    "id": "osteria-da-kkappa-388",
     "name": "Osteria da K.[kappa]",
     "cuisine": "イタリアン",
     "priceTier": "casual",
@@ -9261,7 +10150,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ビストロレストラン-ロジエ-恵比寿-355",
+    "id": "ビストロレストラン-ロジエ-恵比寿-389",
     "name": "ビストロレストラン ロジエ 恵比寿",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9287,7 +10176,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "ユヌパンセ-356",
+    "id": "ユヌパンセ-390",
     "name": "ユヌパンセ",
     "cuisine": "フレンチ",
     "priceTier": "executive",
@@ -9316,7 +10205,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "渡辺料理店-357",
+    "id": "渡辺料理店-391",
     "name": "渡辺料理店",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9342,7 +10231,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "restaurant-karyon-358",
+    "id": "restaurant-karyon-392",
     "name": "Restaurant Karyon",
     "cuisine": "フレンチ",
     "priceTier": "executive",
@@ -9371,7 +10260,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ / 東京レストラン_会食exective"
   },
   {
-    "id": "boutary-359",
+    "id": "boutary-393",
     "name": "Boutary",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9398,7 +10287,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ / 東京レストラン_会食middle"
   },
   {
-    "id": "東京ウイスキーライブラリー-360",
+    "id": "東京ウイスキーライブラリー-394",
     "name": "東京ウイスキーライブラリー",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9424,7 +10313,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "ビストロ-シンバ-361",
+    "id": "ビストロ-シンバ-395",
     "name": "ビストロ シンバ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9450,7 +10339,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "ボルト-362",
+    "id": "ボルト-396",
     "name": "ボルト",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9476,7 +10365,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "ルグドゥノムブションリヨネ-363",
+    "id": "ルグドゥノムブションリヨネ-397",
     "name": "ルグドゥノム・ブション・リヨネ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9502,7 +10391,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "ライラ-364",
+    "id": "ライラ-398",
     "name": "ライラ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9528,7 +10417,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "シェ-オリビエ-365",
+    "id": "シェ-オリビエ-399",
     "name": "シェ オリビエ",
     "cuisine": "フレンチ",
     "priceTier": "executive",
@@ -9557,7 +10446,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "sugalabo-inc-366",
+    "id": "sugalabo-inc-400",
     "name": "SUGALABO inc",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9583,7 +10472,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "エクアトゥール-367",
+    "id": "エクアトゥール-401",
     "name": "エクアトゥール",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9609,7 +10498,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "ニコラシュヴロリエ-368",
+    "id": "ニコラシュヴロリエ-402",
     "name": "ニコラ・シュヴロリエ",
     "cuisine": "フレンチ",
     "priceTier": "executive",
@@ -9638,7 +10527,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "エディションコウジ-シモムラ-369",
+    "id": "エディションコウジ-シモムラ-403",
     "name": "エディション・コウジ シモムラ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9664,7 +10553,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "カンテサンス-370",
+    "id": "カンテサンス-404",
     "name": "カンテサンス",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9691,7 +10580,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ / 東京レストラン_会食exective"
   },
   {
-    "id": "シノワ-渋谷店-371",
+    "id": "シノワ-渋谷店-405",
     "name": "シノワ 渋谷店",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9717,7 +10606,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ / 東京レストラン_会食middle"
   },
   {
-    "id": "村上開新堂-372",
+    "id": "村上開新堂-406",
     "name": "村上開新堂",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9744,7 +10633,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_フレンチ / 東京レストラン_会食exective"
   },
   {
-    "id": "だるまや-373",
+    "id": "だるまや-407",
     "name": "だるまや",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9770,7 +10659,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "中国飯店-倶楽湾-374",
+    "id": "中国飯店-倶楽湾-408",
     "name": "中国飯店 倶楽湾",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9796,7 +10685,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "銀座-維新號-375",
+    "id": "銀座-維新號-409",
     "name": "銀座 維新號",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9822,7 +10711,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "香妃園-376",
+    "id": "香妃園-410",
     "name": "香妃園",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9848,7 +10737,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "華-377",
+    "id": "華-411",
     "name": "華",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9874,7 +10763,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "新華-乃木坂-378",
+    "id": "新華-乃木坂-412",
     "name": "新華 乃木坂",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9900,7 +10789,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "縁香園-379",
+    "id": "縁香園-413",
     "name": "縁香園",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9928,7 +10817,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華 / 東京レストラン_会食low"
   },
   {
-    "id": "の弥七ノヤシチ四谷三丁目-380",
+    "id": "の弥七ノヤシチ四谷三丁目-414",
     "name": "の弥七（ノヤシチ）四谷三丁目",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9954,7 +10843,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "維新號銀座新館-381",
+    "id": "維新號銀座新館-415",
     "name": "維新號銀座新館",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9980,7 +10869,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "中国料理-礼華-青鸞居-382",
+    "id": "中国料理-礼華-青鸞居-416",
     "name": "中国料理 礼華 青鸞居",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10006,7 +10895,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "中国料理-礼華-新宿店-383",
+    "id": "中国料理-礼華-新宿店-417",
     "name": "中国料理 礼華 新宿店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10032,7 +10921,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華 / 東京レストラン_会食middle"
   },
   {
-    "id": "筑紫樓ツクシロウ-銀座店-384",
+    "id": "筑紫樓ツクシロウ-銀座店-418",
     "name": "筑紫樓(ツクシロウ) 銀座店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10058,7 +10947,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "赤坂-維新號-本店-385",
+    "id": "赤坂-維新號-本店-419",
     "name": "赤坂 維新號 本店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10084,7 +10973,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "中国飯店-三田店-386",
+    "id": "中国飯店-三田店-420",
     "name": "中国飯店 三田店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10110,7 +10999,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "中国飯店-富麗華-387",
+    "id": "中国飯店-富麗華-421",
     "name": "中国飯店 富麗華",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10137,7 +11026,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華 / 東京レストラン_会食exective"
   },
   {
-    "id": "中国飯店-市ヶ谷店-388",
+    "id": "中国飯店-市ヶ谷店-422",
     "name": "中国飯店 市ヶ谷店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10164,7 +11053,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華 / 東京レストラン_会食exective"
   },
   {
-    "id": "上海庭-九段南店-389",
+    "id": "上海庭-九段南店-423",
     "name": "上海庭 九段南店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10190,7 +11079,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "わさ-390",
+    "id": "わさ-424",
     "name": "わさ",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10216,7 +11105,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "furuta-391",
+    "id": "furuta-425",
     "name": "Furuta",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10242,7 +11131,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "textura-392",
+    "id": "textura-426",
     "name": "TexturA",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10268,7 +11157,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華 / 東京レストラン_会食middle"
   },
   {
-    "id": "薬膳火鍋専門店-天香回味-銀座中央通り店-393",
+    "id": "薬膳火鍋専門店-天香回味-銀座中央通り店-427",
     "name": "薬膳火鍋専門店 天香回味 銀座中央通り店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10294,7 +11183,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "薬膳火鍋専門店-天香回味-銀座店-394",
+    "id": "薬膳火鍋専門店-天香回味-銀座店-428",
     "name": "薬膳火鍋専門店 天香回味 銀座店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10320,7 +11209,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "薬膳火鍋専門店-天香回味-赤坂店-395",
+    "id": "薬膳火鍋専門店-天香回味-赤坂店-429",
     "name": "薬膳火鍋専門店 天香回味 赤坂店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10346,7 +11235,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "胡桃茶家-396",
+    "id": "胡桃茶家-430",
     "name": "胡桃茶家",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10374,7 +11263,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華 / 東京レストラン_会食low"
   },
   {
-    "id": "赤坂-桃の木-397",
+    "id": "赤坂-桃の木-431",
     "name": "赤坂 桃の木",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10401,7 +11290,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華 / 東京レストラン_会食exective"
   },
   {
-    "id": "サエキ飯店-398",
+    "id": "サエキ飯店-432",
     "name": "サエキ飯店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10427,7 +11316,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "登龍-麻布店-399",
+    "id": "登龍-麻布店-433",
     "name": "登龍 麻布店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10453,7 +11342,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "銀座-桃花源-400",
+    "id": "銀座-桃花源-434",
     "name": "銀座 桃花源",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10479,7 +11368,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "新富町-湯浅-401",
+    "id": "新富町-湯浅-435",
     "name": "新富町 湯浅",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10505,7 +11394,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華 / 東京レストラン_会食middle"
   },
   {
-    "id": "私厨房-勇-402",
+    "id": "私厨房-勇-436",
     "name": "私厨房 勇",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10531,7 +11420,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "茶禅華-403",
+    "id": "茶禅華-437",
     "name": "茶禅華",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10557,7 +11446,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "小笠原伯爵邸-404",
+    "id": "小笠原伯爵邸-438",
     "name": "小笠原伯爵邸",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -10584,7 +11473,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食exective"
   },
   {
-    "id": "割烹料理-丸の内-舞s-405",
+    "id": "割烹料理-丸の内-舞s-439",
     "name": "割烹料理 丸の内 舞's",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -10611,7 +11500,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食exective"
   },
   {
-    "id": "白虹-406",
+    "id": "白虹-440",
     "name": "白虹",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -10639,7 +11528,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食exective"
   },
   {
-    "id": "虎ノ門-肉と日本酒-407",
+    "id": "虎ノ門-肉と日本酒-441",
     "name": "虎ノ門 肉と日本酒",
     "cuisine": "肉",
     "priceTier": "casual",
@@ -10667,7 +11556,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食low / 東京レストラン_肉"
   },
   {
-    "id": "nakameguro-燻製-apartment-408",
+    "id": "nakameguro-燻製-apartment-442",
     "name": "nakameguro 燻製 apartment",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -10695,7 +11584,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食low"
   },
   {
-    "id": "knock-409",
+    "id": "knock-443",
     "name": "KNOCK",
     "cuisine": "イタリアン",
     "priceTier": "casual",
@@ -10723,7 +11612,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食low"
   },
   {
-    "id": "なきざかな--鳴魚--410",
+    "id": "なきざかな--鳴魚--444",
     "name": "なきざかな -鳴魚-",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -10751,7 +11640,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食low"
   },
   {
-    "id": "肉塊-uno-虎ノ門店-411",
+    "id": "肉塊-uno-虎ノ門店-445",
     "name": "肉塊 UNO 虎ノ門店",
     "cuisine": "肉",
     "priceTier": "casual",
@@ -10779,7 +11668,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食low / 東京レストラン_肉"
   },
   {
-    "id": "lenocanto-レノカント-大手町-412",
+    "id": "lenocanto-レノカント-大手町-446",
     "name": "L'ENOCANTO レノカント 大手町",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -10806,7 +11695,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "瓢嘻-ひょうき-京橋店-413",
+    "id": "瓢嘻-ひょうき-京橋店-447",
     "name": "瓢嘻 (ひょうき) 京橋店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -10833,7 +11722,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "こはぜ-414",
+    "id": "こはぜ-448",
     "name": "こはぜ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -10859,7 +11748,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食middle / 東京レストラン_和食"
   },
   {
-    "id": "割烹料理-霞町三一ノ一-西麻布-415",
+    "id": "割烹料理-霞町三一ノ一-西麻布-449",
     "name": "割烹料理 霞町三◯一ノ一 西麻布",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -10885,7 +11774,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食middle / 東京レストラン_和食"
   },
   {
-    "id": "鮨-若尊-416",
+    "id": "鮨-若尊-450",
     "name": "鮨 若尊",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -10911,7 +11800,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "豚しゃぶ-しくら-417",
+    "id": "豚しゃぶ-しくら-451",
     "name": "豚しゃぶ しくら",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -10938,7 +11827,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食middle / 東京レストラン_肉"
   },
   {
-    "id": "赤坂あんど-418",
+    "id": "赤坂あんど-452",
     "name": "赤坂あんど",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -10964,7 +11853,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "李南河-代官山-419",
+    "id": "李南河-代官山-453",
     "name": "李南河 代官山",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -10990,7 +11879,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "馬刺料理と季節の割烹-そま莉-420",
+    "id": "馬刺料理と季節の割烹-そま莉-454",
     "name": "馬刺料理と季節の割烹 そま莉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11017,7 +11906,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食middle / 東京レストラン_肉"
   },
   {
-    "id": "日本料理-京懐石-みのきち-新宿住友店-421",
+    "id": "日本料理-京懐石-みのきち-新宿住友店-455",
     "name": "日本料理 京懐石 みのきち 新宿住友店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11043,7 +11932,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "個室会席-北大路-京橋茶寮-422",
+    "id": "個室会席-北大路-京橋茶寮-456",
     "name": "個室会席 北大路 京橋茶寮",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11069,7 +11958,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "銀座浅野屋-423",
+    "id": "銀座浅野屋-457",
     "name": "銀座浅野屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11095,7 +11984,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "つきじ-文化人-424",
+    "id": "つきじ-文化人-458",
     "name": "つきじ 文化人",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11121,7 +12010,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "十割蕎麦と天麩羅-満天ノ秀そば-425",
+    "id": "十割蕎麦と天麩羅-満天ノ秀そば-459",
     "name": "十割蕎麦と天麩羅 満天ノ秀そば",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11147,7 +12036,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "soba-stand-そばうさ-426",
+    "id": "soba-stand-そばうさ-460",
     "name": "SOBA STAND そばうさ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11173,7 +12062,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "sobaco-神谷町店-427",
+    "id": "sobaco-神谷町店-461",
     "name": "Soba＆Co. 神谷町店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11199,7 +12088,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "総本家更科堀井-青-428",
+    "id": "総本家更科堀井-青-462",
     "name": "総本家更科堀井 青",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11225,7 +12114,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "池袋-十割蕎麦-鴨料理-ならや-429",
+    "id": "池袋-十割蕎麦-鴨料理-ならや-463",
     "name": "池袋 十割蕎麦 鴨料理 ならや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11251,7 +12140,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "なるきよ-430",
+    "id": "なるきよ-464",
     "name": "なるきよ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11277,7 +12166,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "銀座あんどう-431",
+    "id": "銀座あんどう-465",
     "name": "銀座あんどう",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11303,7 +12192,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "楽食ふじた-432",
+    "id": "楽食ふじた-466",
     "name": "楽食ふじた",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11329,7 +12218,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "うなぎ-かぶと-433",
+    "id": "うなぎ-かぶと-467",
     "name": "うなぎ かぶと",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11355,7 +12244,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食 / 鰻"
   },
   {
-    "id": "旨いもん割烹-輝咲-434",
+    "id": "旨いもん割烹-輝咲-468",
     "name": "旨いもん割烹 輝咲",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11381,7 +12270,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "西麻布-清水-435",
+    "id": "西麻布-清水-469",
     "name": "西麻布 清水",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11407,7 +12296,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "和食-青-代々木上原店-436",
+    "id": "和食-青-代々木上原店-470",
     "name": "和食 青 代々木上原店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11433,7 +12322,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "味満ん-437",
+    "id": "味満ん-471",
     "name": "味満ん",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11459,7 +12348,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "季節料理-小伝馬-438",
+    "id": "季節料理-小伝馬-472",
     "name": "季節料理 小伝馬",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11485,7 +12374,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "あかぎ-439",
+    "id": "あかぎ-473",
     "name": "あかぎ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11511,7 +12400,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "荒木町たつや-440",
+    "id": "荒木町たつや-474",
     "name": "荒木町たつや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11537,7 +12426,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "大衆酒場-豊田屋-441",
+    "id": "大衆酒場-豊田屋-475",
     "name": "大衆酒場 豊田屋",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11563,7 +12452,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "高太郎-442",
+    "id": "高太郎-476",
     "name": "高太郎",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11589,7 +12478,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "鮨かみなり-443",
+    "id": "鮨かみなり-477",
     "name": "鮨かみなり",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -11615,7 +12504,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "日本料理-晴山-444",
+    "id": "日本料理-晴山-478",
     "name": "日本料理 晴山",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -11644,7 +12533,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "紀尾井町-とんかつ洋食-ひとみ-445",
+    "id": "紀尾井町-とんかつ洋食-ひとみ-479",
     "name": "紀尾井町 とんかつ・洋食 ひとみ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11670,7 +12559,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "和食割烹-鈴なり-446",
+    "id": "和食割烹-鈴なり-480",
     "name": "和食割烹 鈴なり",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -11698,7 +12587,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食 / 東京レストラン_日本酒名店"
   },
   {
-    "id": "寿々屋-447",
+    "id": "寿々屋-481",
     "name": "寿々屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11724,7 +12613,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "あらいかわ-448",
+    "id": "あらいかわ-482",
     "name": "あらいかわ",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -11752,7 +12641,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "わたなべ-449",
+    "id": "わたなべ-483",
     "name": "わたなべ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11778,7 +12667,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "ふぐ俱楽部-miyawaki-別邸-450",
+    "id": "ふぐ俱楽部-miyawaki-別邸-484",
     "name": "ふぐ俱楽部 miyawaki 別邸",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11804,7 +12693,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食 / 東京レストラン_日本酒名店"
   },
   {
-    "id": "和田-451",
+    "id": "和田-485",
     "name": "和田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11830,7 +12719,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "懐石-辻留-452",
+    "id": "懐石-辻留-486",
     "name": "懐石 辻留",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11856,7 +12745,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "eat-鮨と和食-453",
+    "id": "eat-鮨と和食-487",
     "name": "eat 鮨と和食",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -11882,7 +12771,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "月-454",
+    "id": "月-488",
     "name": "月",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11908,7 +12797,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "居酒屋-赤鬼-455",
+    "id": "居酒屋-赤鬼-489",
     "name": "居酒屋 赤鬼",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11934,7 +12823,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "日本料理-青山浅田-456",
+    "id": "日本料理-青山浅田-490",
     "name": "日本料理 青山浅田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11960,7 +12849,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "日本料理-赤坂浅田-457",
+    "id": "日本料理-赤坂浅田-491",
     "name": "日本料理 赤坂浅田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11986,7 +12875,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "壱縁-458",
+    "id": "壱縁-492",
     "name": "壱縁",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -12012,7 +12901,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "稲垣-459",
+    "id": "稲垣-493",
     "name": "稲垣",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -12038,7 +12927,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "たきや-460",
+    "id": "たきや-494",
     "name": "たきや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12064,7 +12953,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "新ばし-星野-461",
+    "id": "新ばし-星野-495",
     "name": "新ばし 星野",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -12093,7 +12982,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "日本料理-久丹-462",
+    "id": "日本料理-久丹-496",
     "name": "日本料理 久丹",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12119,7 +13008,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "膳司-水光庵-463",
+    "id": "膳司-水光庵-497",
     "name": "膳司 水光庵",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12145,7 +13034,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "麻布-かどわき-464",
+    "id": "麻布-かどわき-498",
     "name": "麻布 かどわき",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12171,7 +13060,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "松川-465",
+    "id": "松川-499",
     "name": "松川",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -12200,7 +13089,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "みつ芳-466",
+    "id": "みつ芳-500",
     "name": "みつ芳",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12226,7 +13115,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "喰切り江ぐち-467",
+    "id": "喰切り江ぐち-501",
     "name": "喰切り江ぐち",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12252,7 +13141,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "恵比寿くろいわ-468",
+    "id": "恵比寿くろいわ-502",
     "name": "恵比寿くろいわ",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -12280,7 +13169,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "山﨑-469",
+    "id": "山﨑-503",
     "name": "山﨑",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -12308,7 +13197,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "きんはる-代々木上原店-470",
+    "id": "きんはる-代々木上原店-504",
     "name": "きんはる 代々木上原店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12334,7 +13223,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "くすのき-471",
+    "id": "くすのき-505",
     "name": "くすのき",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12360,7 +13249,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "美の-472",
+    "id": "美の-506",
     "name": "美の",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12386,7 +13275,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "炭火割烹-白坂-473",
+    "id": "炭火割烹-白坂-507",
     "name": "炭火割烹 白坂",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -12414,7 +13303,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "御料理-辻-おりょうり-つじ-474",
+    "id": "御料理-辻-おりょうり-つじ-508",
     "name": "御料理 辻 (おりょうり つじ)",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12440,7 +13329,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "傳-475",
+    "id": "傳-509",
     "name": "傳",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12466,7 +13355,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "八重洲-鰻-はし本-476",
+    "id": "八重洲-鰻-はし本-510",
     "name": "八重洲 鰻 はし本",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12492,7 +13381,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "明神下-神田川-本店-477",
+    "id": "明神下-神田川-本店-511",
     "name": "明神下 神田川 本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12518,7 +13407,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食 / 鰻"
   },
   {
-    "id": "日本料理-太月-478",
+    "id": "日本料理-太月-512",
     "name": "日本料理 太月",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12544,7 +13433,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "しのはら-479",
+    "id": "しのはら-513",
     "name": "しのはら",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -12572,7 +13461,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "天ぷら元吉-480",
+    "id": "天ぷら元吉-514",
     "name": "天ぷら元吉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12598,7 +13487,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "あんちゅう-代々木上原-481",
+    "id": "あんちゅう-代々木上原-515",
     "name": "あんちゅう 代々木上原",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12624,7 +13513,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "銘酒処-串駒-本店-482",
+    "id": "銘酒処-串駒-本店-516",
     "name": "銘酒処 串駒 本店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -12651,7 +13540,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "うなぎ魚政-483",
+    "id": "うなぎ魚政-517",
     "name": "うなぎ魚政",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12677,7 +13566,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食 / 鰻"
   },
   {
-    "id": "マルタ-484",
+    "id": "マルタ-518",
     "name": "マルタ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12703,7 +13592,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "ぼたん-485",
+    "id": "ぼたん-519",
     "name": "ぼたん",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12729,7 +13618,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "酒場たかや-日本酒と蕎麦と天麩羅-486",
+    "id": "酒場たかや-日本酒と蕎麦と天麩羅-520",
     "name": "酒場たかや 日本酒と蕎麦と天麩羅",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12755,7 +13644,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "まるしげ夢葉家-487",
+    "id": "まるしげ夢葉家-521",
     "name": "まるしげ夢葉家",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12781,7 +13670,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "博多鰻屋-藤う那-天神本店-488",
+    "id": "博多鰻屋-藤う那-天神本店-522",
     "name": "博多鰻屋 藤う那 天神本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12807,7 +13696,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "広尾九尺-489",
+    "id": "広尾九尺-523",
     "name": "広尾九尺",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12833,7 +13722,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "博多酒場-ソルリバ-490",
+    "id": "博多酒場-ソルリバ-524",
     "name": "博多酒場 ソルリバ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12859,7 +13748,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "kunizake-ya-クニザケ屋-491",
+    "id": "kunizake-ya-クニザケ屋-525",
     "name": "KUNIZAKE-YA クニザケ屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12885,7 +13774,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "手打ち蕎麦-汐見-492",
+    "id": "手打ち蕎麦-汐見-526",
     "name": "手打ち蕎麦 汐見",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12911,7 +13800,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "おいしい地酒とワインの店-ワダヤ-493",
+    "id": "おいしい地酒とワインの店-ワダヤ-527",
     "name": "おいしい地酒とワインの店 ワダヤ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12937,7 +13826,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "瑠灯-494",
+    "id": "瑠灯-528",
     "name": "瑠灯",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12963,7 +13852,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "リカーショップ-升本-495",
+    "id": "リカーショップ-升本-529",
     "name": "リカーショップ 升本",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12989,7 +13878,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "十八代-光蔵-名駅-496",
+    "id": "十八代-光蔵-名駅-530",
     "name": "十八代 光蔵 名駅",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13015,7 +13904,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "キリマン酒店-497",
+    "id": "キリマン酒店-531",
     "name": "キリマン酒店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13041,7 +13930,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "isego-honten-伊勢五本店-千駄木店-498",
+    "id": "isego-honten-伊勢五本店-千駄木店-532",
     "name": "Isego Honten 伊勢五本店 千駄木店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13067,7 +13956,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "伊勢五本店-中目黒店-499",
+    "id": "伊勢五本店-中目黒店-533",
     "name": "伊勢五本店 中目黒店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13093,7 +13982,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "こだわりの料理と酒-利き酒家-500",
+    "id": "こだわりの料理と酒-利き酒家-534",
     "name": "こだわりの料理と酒 利き酒家",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13119,7 +14008,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "和風居酒屋-あかね-501",
+    "id": "和風居酒屋-あかね-535",
     "name": "和風居酒屋 あかね",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13145,7 +14034,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "premium-sake-pub-gashue-502",
+    "id": "premium-sake-pub-gashue-536",
     "name": "Premium Sake Pub Gashue",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13171,7 +14060,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "つくしのこ-503",
+    "id": "つくしのこ-537",
     "name": "つくしのこ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13197,7 +14086,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "根津-日本酒-多田-504",
+    "id": "根津-日本酒-多田-538",
     "name": "根津 日本酒 多田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13223,7 +14112,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "和食-酒肴-まさむら-505",
+    "id": "和食-酒肴-まさむら-539",
     "name": "和食 酒肴 まさむら",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13249,7 +14138,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "旬菜と酒-余花-506",
+    "id": "旬菜と酒-余花-540",
     "name": "旬菜と酒 余花",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13275,7 +14164,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "酛tokyo-507",
+    "id": "酛tokyo-541",
     "name": "酛TOKYO",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13301,7 +14190,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "和食と和酒-おがた-508",
+    "id": "和食と和酒-おがた-542",
     "name": "和食と和酒 おがた",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13327,7 +14216,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "五反田-鳥茂-509",
+    "id": "五反田-鳥茂-543",
     "name": "五反田 鳥茂",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13353,7 +14242,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "やきとり-阿部-510",
+    "id": "やきとり-阿部-544",
     "name": "やきとり 阿部",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13379,7 +14268,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "白金鳥とも-511",
+    "id": "白金鳥とも-545",
     "name": "白金鳥とも",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13405,7 +14294,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "目黒-焼鳥煉火-512",
+    "id": "目黒-焼鳥煉火-546",
     "name": "目黒 焼鳥煉火",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13431,7 +14320,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "加賀屋-513",
+    "id": "加賀屋-547",
     "name": "㈱加賀屋",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -13457,7 +14346,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "炭火串焼き-こころ-514",
+    "id": "炭火串焼き-こころ-548",
     "name": "炭火串焼き こころ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13483,7 +14372,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "本家あべや-秋田純米酒処-恵比寿店-515",
+    "id": "本家あべや-秋田純米酒処-恵比寿店-549",
     "name": "本家あべや 秋田純米酒処 恵比寿店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13509,7 +14398,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "日本橋-とり慶-焼き鳥屋-516",
+    "id": "日本橋-とり慶-焼き鳥屋-550",
     "name": "日本橋 とり慶 焼き鳥屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13535,7 +14424,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "南青山-七鳥目-517",
+    "id": "南青山-七鳥目-551",
     "name": "南青山 七鳥目",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13561,7 +14450,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "三政-518",
+    "id": "三政-552",
     "name": "三政",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13587,7 +14476,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "かさ原-519",
+    "id": "かさ原-553",
     "name": "かさ原",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13613,7 +14502,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "焼鳥bar-a-vins-76-76vin-520",
+    "id": "焼鳥bar-a-vins-76-76vin-554",
     "name": "焼鳥BAR A VINS 76 (76vin)",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13639,7 +14528,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "焼鳥-朱夏-521",
+    "id": "焼鳥-朱夏-555",
     "name": "焼鳥 朱夏",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13665,7 +14554,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "根津-照隅-522",
+    "id": "根津-照隅-556",
     "name": "根津 照隅",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13691,7 +14580,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "むろまち-鳥や-523",
+    "id": "むろまち-鳥や-557",
     "name": "むろまち 鳥や",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13717,7 +14606,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "鳥つね-自然洞-524",
+    "id": "鳥つね-自然洞-558",
     "name": "鳥つね 自然洞",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13743,7 +14632,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "赤坂-希鳥-525",
+    "id": "赤坂-希鳥-559",
     "name": "赤坂 希鳥",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13769,7 +14658,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "とり茶太郎-526",
+    "id": "とり茶太郎-560",
     "name": "とり茶太郎",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13795,7 +14684,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "焼き鳥-平良-527",
+    "id": "焼き鳥-平良-561",
     "name": "焼き鳥 平良",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13821,7 +14710,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "鍈輝-528",
+    "id": "鍈輝-562",
     "name": "鍈輝",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13847,7 +14736,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "いぐち-本店-529",
+    "id": "いぐち-本店-563",
     "name": "いぐち 本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13873,7 +14762,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "串焼-大助-530",
+    "id": "串焼-大助-564",
     "name": "串焼 大助",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13899,7 +14788,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "やきとり結火-531",
+    "id": "やきとり結火-565",
     "name": "やきとり結火",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13925,7 +14814,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "やき鳥-益子-532",
+    "id": "やき鳥-益子-566",
     "name": "やき鳥 益子",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13951,7 +14840,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "羊香味坊-533",
+    "id": "羊香味坊-567",
     "name": "羊香味坊",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -13977,7 +14866,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "炭火焼ホルモンぐう-八重洲本店-534",
+    "id": "炭火焼ホルモンぐう-八重洲本店-568",
     "name": "炭火焼ホルモンぐう 八重洲本店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14003,7 +14892,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "日本焼肉はせ川-表参道店-535",
+    "id": "日本焼肉はせ川-表参道店-569",
     "name": "日本焼肉はせ川 表参道店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14029,7 +14918,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "135-0004-東京都江東区森下２丁目１９９-536",
+    "id": "135-0004-東京都江東区森下２丁目１９９-570",
     "name": "〒135-0004 東京都江東区森下２丁目１９−９",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14055,7 +14944,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "桜鍋みの家本店-537",
+    "id": "桜鍋みの家本店-571",
     "name": "桜鍋みの家本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14081,7 +14970,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "しゃぶしゃぶすし-紀尾井町-八山-538",
+    "id": "しゃぶしゃぶすし-紀尾井町-八山-572",
     "name": "しゃぶしゃぶ・すし 紀尾井町 八山",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -14107,7 +14996,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉-うし松-539",
+    "id": "焼肉-うし松-573",
     "name": "焼肉 うし松",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14133,7 +15022,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "四谷三丁目-大衆焼肉-暴飲暴食-540",
+    "id": "四谷三丁目-大衆焼肉-暴飲暴食-574",
     "name": "四谷三丁目 大衆焼肉 暴飲暴食",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14159,7 +15048,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "大幸園-小宮本店-541",
+    "id": "大幸園-小宮本店-575",
     "name": "大幸園 小宮本店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14185,7 +15074,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "ただハンバーグが食べたい-542",
+    "id": "ただハンバーグが食べたい-576",
     "name": "ただハンバーグが食べたい",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14211,7 +15100,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "炭火焼肉-たん清-543",
+    "id": "炭火焼肉-たん清-577",
     "name": "炭火焼肉 たん清",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14237,7 +15126,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "肉屋田中-銀座-544",
+    "id": "肉屋田中-銀座-578",
     "name": "肉屋田中 銀座",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14263,7 +15152,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "嬉嬉豚とんかつ-君に揚げる-極-545",
+    "id": "嬉嬉豚とんかつ-君に揚げる-極-579",
     "name": "嬉嬉豚とんかつ 『君に、揚げる。』 （極）",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14289,7 +15178,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "神田-タンだけ-546",
+    "id": "神田-タンだけ-580",
     "name": "神田 タンだけ",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14315,7 +15204,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉-ジャンボ-はなれ-547",
+    "id": "焼肉-ジャンボ-はなれ-581",
     "name": "焼肉 ジャンボ はなれ",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14341,7 +15230,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "広尾-肉幸-548",
+    "id": "広尾-肉幸-582",
     "name": "広尾 肉幸",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14367,7 +15256,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "赤坂-na-camo-guroなかもぐろ-549",
+    "id": "赤坂-na-camo-guroなかもぐろ-583",
     "name": "赤坂 Na Camo guro（なかもぐろ）",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -14393,7 +15282,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉くにもと-新館-550",
+    "id": "焼肉くにもと-新館-584",
     "name": "焼肉くにもと 新館",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14419,7 +15308,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉-くにもと-本店-551",
+    "id": "焼肉-くにもと-本店-585",
     "name": "焼肉 くにもと 本店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14445,7 +15334,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉かねこ-552",
+    "id": "焼肉かねこ-586",
     "name": "焼肉かねこ",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14471,7 +15360,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉やっちゃん分店-茅場町店-553",
+    "id": "焼肉やっちゃん分店-茅場町店-587",
     "name": "焼肉やっちゃん分店 茅場町店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14497,7 +15386,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "munchs-burger-shack-芝公園本店-554",
+    "id": "munchs-burger-shack-芝公園本店-588",
     "name": "MUNCH'S BURGER SHACK 芝公園本店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14523,7 +15412,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "よろにく-555",
+    "id": "よろにく-589",
     "name": "よろにく",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14549,7 +15438,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉-しみず-556",
+    "id": "焼肉-しみず-590",
     "name": "焼肉 しみず",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14575,7 +15464,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "二代目魚清わさび-557",
+    "id": "二代目魚清わさび-591",
     "name": "二代目魚清わさび",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14601,7 +15490,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "鎌倉-松原庵-青-558",
+    "id": "鎌倉-松原庵-青-592",
     "name": "鎌倉 松原庵 青",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14627,7 +15516,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "湘南韓国料理gokan-559",
+    "id": "湘南韓国料理gokan-593",
     "name": "湘南韓国料理GOKAN",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14653,7 +15542,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "えぼし本店-560",
+    "id": "えぼし本店-594",
     "name": "えぼし本店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -14679,7 +15568,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "ピザヤ-ショーチャン-561",
+    "id": "ピザヤ-ショーチャン-595",
     "name": "ピザヤ ショーチャン",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -14705,7 +15594,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "アマルフィー-デラセーラ-562",
+    "id": "アマルフィー-デラセーラ-596",
     "name": "アマルフィー デラセーラ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -14731,7 +15620,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "ピッツェリアgg-鎌倉-563",
+    "id": "ピッツェリアgg-鎌倉-597",
     "name": "ピッツェリアGG 鎌倉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14757,7 +15646,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "かまくら和久-564",
+    "id": "かまくら和久-598",
     "name": "かまくら和久",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14783,7 +15672,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "イチリン-ハナレ-565",
+    "id": "イチリン-ハナレ-599",
     "name": "イチリン ハナレ",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -14809,7 +15698,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "ハウス-オブ-フレーバーズ-566",
+    "id": "ハウス-オブ-フレーバーズ-600",
     "name": "ハウス オブ フレーバーズ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14835,7 +15724,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "latteria-bebè-kamakura-567",
+    "id": "latteria-bebè-kamakura-601",
     "name": "Latteria BeBè Kamakura",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -14861,7 +15750,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "はせ川-568",
+    "id": "はせ川-602",
     "name": "はせ川",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14887,7 +15776,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "お食事処-福吉-569",
+    "id": "お食事処-福吉-603",
     "name": "お食事処 福吉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14913,7 +15802,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "鰻-炭焼-ひつまぶし-美濃金-神田本店-570",
+    "id": "鰻-炭焼-ひつまぶし-美濃金-神田本店-604",
     "name": "鰻 炭焼 ひつまぶし 美濃金 神田本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14939,7 +15828,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "うなぎ成田新川-東京駅店-571",
+    "id": "うなぎ成田新川-東京駅店-605",
     "name": "うなぎ成田新川 東京駅店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14965,7 +15854,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "魚徳-572",
+    "id": "魚徳-606",
     "name": "魚徳",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14991,7 +15880,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "うなぎ新川-本店-573",
+    "id": "うなぎ新川-本店-607",
     "name": "うなぎ新川 本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15017,7 +15906,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "参宮橋-あさや-574",
+    "id": "参宮橋-あさや-608",
     "name": "参宮橋 あさや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15043,7 +15932,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "川魚-根本-575",
+    "id": "川魚-根本-609",
     "name": "川魚 根本",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15069,7 +15958,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "那古野-しば福や-名駅店-576",
+    "id": "那古野-しば福や-名駅店-610",
     "name": "那古野 しば福や 名駅店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15095,7 +15984,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "江戸川-石ばし-577",
+    "id": "江戸川-石ばし-611",
     "name": "江戸川 石ばし",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15121,7 +16010,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "うなぎ-藤田-578",
+    "id": "うなぎ-藤田-612",
     "name": "うなぎ 藤田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15147,7 +16036,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "鰻家-579",
+    "id": "鰻家-613",
     "name": "鰻家",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15173,7 +16062,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "うなぎ-はし本-580",
+    "id": "うなぎ-はし本-614",
     "name": "うなぎ はし本",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15199,7 +16088,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "神泉いちのや-581",
+    "id": "神泉いちのや-615",
     "name": "神泉いちのや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15225,7 +16114,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "花園吉野-582",
+    "id": "花園吉野-616",
     "name": "花園・吉野",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15251,7 +16140,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "日本橋いづもや本店-別館-583",
+    "id": "日本橋いづもや本店-別館-617",
     "name": "日本橋いづもや本店 別館",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15277,7 +16166,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "日本橋いづもや本店-本館-584",
+    "id": "日本橋いづもや本店-本館-618",
     "name": "日本橋いづもや本店 本館",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15303,7 +16192,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "伊豆榮-不忍亭-585",
+    "id": "伊豆榮-不忍亭-619",
     "name": "伊豆榮 不忍亭",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15329,7 +16218,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "伊豆榮-梅川亭-586",
+    "id": "伊豆榮-梅川亭-620",
     "name": "伊豆榮 梅川亭",
     "cuisine": "和食",
     "priceTier": "middle",
