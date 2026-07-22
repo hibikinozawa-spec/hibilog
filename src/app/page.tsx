@@ -20,7 +20,7 @@ const featured = restaurants.filter((r) =>
 ).slice(0, 6);
 
 const tokyoPins = restaurants.filter((r) =>
-  ["東京", "築地", "六本木", "銀座", "渋谷", "新宿"].includes(r.area),
+  ["東京", "六本木", "銀座", "渋谷", "新宿"].includes(r.area),
 );
 
 export default function HomePage() {

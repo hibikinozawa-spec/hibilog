@@ -26,7 +26,6 @@ const KEYWORD_WEIGHTS: { keys: string[]; weight: number; sceneBoost?: string; fi
   { keys: ["カジュアル価格", "安い店"], weight: 16 },
   { keys: ["銀座"], weight: 12 },
   { keys: ["六本木", "麻布"], weight: 12 },
-  { keys: ["築地"], weight: 12 },
   { keys: ["渋谷", "恵比寿"], weight: 10 },
   { keys: ["新宿"], weight: 10 },
   { keys: ["京都", "祇園"], weight: 14 },

@@ -35,7 +35,6 @@ export const scenes = [
 
 export const areas = [
   "東京",
-  "築地",
   "六本木",
   "銀座",
   "渋谷",

@@ -85,7 +85,6 @@ const AREA_COORDS = {
   日本橋: { area: "東京", lat: 35.6812, lng: 139.7745 },
   八重洲: { area: "東京", lat: 35.6796, lng: 139.7695 },
   神田: { area: "東京", lat: 35.6918, lng: 139.7709 },
-  築地: { area: "築地", lat: 35.6654, lng: 139.7707 },
   京都: { area: "京都", lat: 35.0116, lng: 135.7681 },
   祇園: { area: "京都", lat: 35.0037, lng: 135.7788 },
   茅ヶ崎: { area: "神奈川", lat: 35.3192, lng: 139.4043 },
@@ -98,7 +97,6 @@ function detectArea(name, listName) {
   }
   if (/京都/.test(listName)) return AREA_COORDS["京都"];
   if (/茅ヶ崎|鎌倉/.test(listName)) return { area: "神奈川", lat: 35.3192, lng: 139.45 };
-  if (/築地/.test(listName)) return AREA_COORDS["築地"];
   if (/地方|名店/.test(listName)) return { area: "地方", lat: 36.2048, lng: 138.2529 };
   return { area: "東京", lat: 35.6812, lng: 139.7671 };
 }

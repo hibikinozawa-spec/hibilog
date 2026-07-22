@@ -20,7 +20,6 @@ export type Scene =
 
 export type Area =
   | "東京"
-  | "築地"
   | "六本木"
   | "銀座"
   | "渋谷"
