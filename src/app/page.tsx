@@ -2,13 +2,7 @@ import Link from "next/link";
 import { HeroSearch } from "@/components/hero-search";
 import { RestaurantCard } from "@/components/restaurant-card";
 import { MapPanel } from "@/components/map-panel";
-import {
-  cuisines,
-  listSources,
-  priceTiers,
-  restaurants,
-  scenes,
-} from "@/lib/restaurants";
+import { cuisines, restaurants, scenes } from "@/lib/restaurants";
 
 const cuisineMeta: Record<string, { emoji: string; hint: string }> = {
   和食: { emoji: "🍶", hint: "懐石・天ぷら・炉端" },
@@ -101,40 +95,6 @@ export default function HomePage() {
               <p className="mt-1 text-sm text-[var(--ink-muted)]">{s.description}</p>
             </Link>
           ))}
-        </div>
-      </section>
-
-      <section className="border-y border-[var(--line)] bg-white/70 py-14">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <h2 className="font-[family-name:var(--font-display)] text-3xl text-[var(--brand-deep)]">
-            値段帯・こだわり
-          </h2>
-          <p className="mt-1 text-sm text-[var(--ink-muted)]">
-            カジュアル / ミドル / エグゼクティブで分類。
-          </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-3">
-            {priceTiers.map((p) => (
-              <Link
-                key={p.id}
-                href={`/search?price=${p.id}`}
-                className="rounded-2xl bg-[var(--brand-deep)] px-5 py-6 text-white transition hover:brightness-110"
-              >
-                <p className="text-xl font-semibold">{p.label}</p>
-                <p className="mt-1 text-sm text-white/75">{p.hint}</p>
-              </Link>
-            ))}
-          </div>
-          <div className="mt-6 flex flex-wrap gap-2">
-            {listSources.map((l) => (
-              <Link
-                key={l.id}
-                href={`/search?list=${encodeURIComponent(l.match)}`}
-                className="rounded-full border border-[var(--line)] bg-[var(--bg)] px-3 py-1.5 text-xs text-[var(--ink-muted)] transition hover:border-[var(--brand)] hover:text-[var(--brand)]"
-              >
-                {l.label}
-              </Link>
-            ))}
-          </div>
         </div>
       </section>
 
