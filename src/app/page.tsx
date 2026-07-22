@@ -1,17 +1,9 @@
 import Link from "next/link";
+import { CuisineGenreGrid } from "@/components/cuisine-genre-grid";
 import { HeroSearch } from "@/components/hero-search";
 import { RestaurantCard } from "@/components/restaurant-card";
 import { MapPanel } from "@/components/map-panel";
-import { cuisines, restaurants, scenes } from "@/lib/restaurants";
-
-const cuisineMeta: Record<string, { emoji: string; hint: string }> = {
-  和食: { emoji: "🍶", hint: "懐石・天ぷら・炉端" },
-  鮨: { emoji: "🍣", hint: "カウンター・オマカセ" },
-  肉: { emoji: "🥩", hint: "焼肉・ステーキ・和牛" },
-  イタリアン: { emoji: "🍝", hint: "パスタ・ワイン" },
-  フレンチ: { emoji: "🍷", hint: "コース・記念日" },
-  その他: { emoji: "🥢", hint: "中華・多国籍" },
-};
+import { restaurants, scenes } from "@/lib/restaurants";
 
 const featured = restaurants.filter((r) =>
   ["会食", "とっておき", "記念日"].some((s) =>
@@ -53,23 +45,7 @@ export default function HomePage() {
             ジャンルで探す
           </h2>
         </div>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
-          {cuisines.map((c) => (
-            <Link
-              key={c}
-              href={`/search?cuisine=${encodeURIComponent(c)}`}
-              className="group flex flex-col items-center gap-2 rounded-2xl border border-[var(--line)] bg-white px-3 py-6 text-center transition hover:-translate-y-0.5 hover:border-[var(--brand)] hover:shadow-[var(--shadow)]"
-            >
-              <span className="text-3xl transition group-hover:scale-110">
-                {cuisineMeta[c]?.emoji ?? "🍽"}
-              </span>
-              <span className="font-semibold text-[var(--ink)]">{c}</span>
-              <span className="text-xs text-[var(--ink-muted)]">
-                {cuisineMeta[c]?.hint}
-              </span>
-            </Link>
-          ))}
-        </div>
+        <CuisineGenreGrid />
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
