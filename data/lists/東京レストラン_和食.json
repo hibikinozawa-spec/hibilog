@@ -1,0 +1,537 @@
+{
+  "list": "東京レストラン_和食",
+  "count": 59,
+  "places": [
+    {
+      "name": "なるきよ",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "なるきよ 4.2 居酒屋"
+    },
+    {
+      "name": "銀座あんどう",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "銀座あんどう 4.1 居酒屋"
+    },
+    {
+      "name": "楽食ふじた",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "楽食ふじた 4.5 純和食店"
+    },
+    {
+      "name": "うなぎ かぶと",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "うなぎ かぶと 4.5 うなぎ料理店"
+    },
+    {
+      "name": "旨いもん割烹 輝咲",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "旨いもん割烹 輝咲 4.5 和食店"
+    },
+    {
+      "name": "西麻布 清水",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "西麻布 清水 4.8 和食店"
+    },
+    {
+      "name": "和食 青 代々木上原店",
+      "rating": 3.7,
+      "info": [
+        "3.7"
+      ],
+      "href": null,
+      "cardText": "和食 青 代々木上原店 3.7 居酒屋"
+    },
+    {
+      "name": "味満ん",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "味満ん 4.6 ふぐ料理店"
+    },
+    {
+      "name": "季節料理 小伝馬",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "季節料理 小伝馬 4.1 シーフード・海鮮料理店"
+    },
+    {
+      "name": "あかぎ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "あかぎ 4.5 居酒屋"
+    },
+    {
+      "name": "荒木町たつや",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "荒木町たつや 4.7 和食店"
+    },
+    {
+      "name": "大衆酒場 豊田屋",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "大衆酒場 豊田屋 4.0 居酒屋"
+    },
+    {
+      "name": "高太郎",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "高太郎 4.3 居酒屋"
+    },
+    {
+      "name": "鮨かみなり",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "鮨かみなり 4.7 和食店"
+    },
+    {
+      "name": "日本料理 晴山",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "日本料理 晴山 4.7 会席・懐石料理店"
+    },
+    {
+      "name": "紀尾井町 とんかつ・洋食 ひとみ",
+      "rating": 3.7,
+      "info": [
+        "3.7"
+      ],
+      "href": null,
+      "cardText": "紀尾井町 とんかつ・洋食 ひとみ 3.7 とんかつ店"
+    },
+    {
+      "name": "和食割烹 鈴なり",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "和食割烹 鈴なり 4.6 会席・懐石料理店"
+    },
+    {
+      "name": "寿々屋",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "寿々屋 4.3 閉業"
+    },
+    {
+      "name": "あらいかわ",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "あらいかわ 4.6 会席・懐石料理店"
+    },
+    {
+      "name": "わたなべ",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "わたなべ 4.8 和食店"
+    },
+    {
+      "name": "ふぐ俱楽部 miyawaki 別邸",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "ふぐ俱楽部 miyawaki 別邸 4.6 ふぐ料理店"
+    },
+    {
+      "name": "和田",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "和田 4.3 会席・懐石料理店"
+    },
+    {
+      "name": "懐石 辻留",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "懐石 辻留 4.3 会席・懐石料理店"
+    },
+    {
+      "name": "こはぜ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "こはぜ 4.5 和食店"
+    },
+    {
+      "name": "eat 鮨と和食",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "eat 鮨と和食 4.1 寿司店"
+    },
+    {
+      "name": "月",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "月 4.4 和食店"
+    },
+    {
+      "name": "割烹料理 霞町三◯一ノ一 西麻布",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "割烹料理 霞町三◯一ノ一 西麻布 4.5 和食店"
+    },
+    {
+      "name": "居酒屋 赤鬼",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "居酒屋 赤鬼 4.1 居酒屋"
+    },
+    {
+      "name": "日本料理 青山浅田",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "日本料理 青山浅田 4.5 高級料理レストラン"
+    },
+    {
+      "name": "日本料理 赤坂浅田",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "日本料理 赤坂浅田 4.4 高級料理レストラン"
+    },
+    {
+      "name": "壱縁",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "壱縁 4.5 居酒屋"
+    },
+    {
+      "name": "稲垣",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "稲垣 4.2 居酒屋"
+    },
+    {
+      "name": "たきや",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "たきや 4.6 天ぷら店"
+    },
+    {
+      "name": "新ばし 星野",
+      "rating": 4.9,
+      "info": [
+        "4.9"
+      ],
+      "href": null,
+      "cardText": "新ばし 星野 4.9 会席・懐石料理店"
+    },
+    {
+      "name": "日本料理 久丹",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "日本料理 久丹 4.2 会席・懐石料理店"
+    },
+    {
+      "name": "膳司 水光庵",
+      "rating": 4.9,
+      "info": [
+        "4.9"
+      ],
+      "href": null,
+      "cardText": "膳司 水光庵 4.9 和食店"
+    },
+    {
+      "name": "麻布 かどわき",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "麻布 かどわき 4.2 会席・懐石料理店"
+    },
+    {
+      "name": "松川",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "松川 4.7 会席・懐石料理店"
+    },
+    {
+      "name": "みつ芳",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "みつ芳 4.8 レストラン"
+    },
+    {
+      "name": "喰切り江ぐち",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "喰切り江ぐち 4.2 和食店"
+    },
+    {
+      "name": "恵比寿くろいわ",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "恵比寿くろいわ 4.6 会席・懐石料理店"
+    },
+    {
+      "name": "山﨑",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "山﨑 4.6 会席・懐石料理店"
+    },
+    {
+      "name": "きんはる 代々木上原店",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "きんはる 代々木上原店 4.3 臨時休業"
+    },
+    {
+      "name": "くすのき",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "くすのき 4.5 天ぷら店"
+    },
+    {
+      "name": "美の",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "美の 4.4 和食店"
+    },
+    {
+      "name": "炭火割烹 白坂",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "炭火割烹 白坂 4.6 会席・懐石料理店"
+    },
+    {
+      "name": "御料理 辻 (おりょうり つじ)",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "御料理 辻 (おりょうり つじ) 4.4 会席・懐石料理店"
+    },
+    {
+      "name": "傳",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "傳 4.4 和食店"
+    },
+    {
+      "name": "八重洲 鰻 はし本",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "八重洲 鰻 はし本 4.4 うなぎ料理店"
+    },
+    {
+      "name": "明神下 神田川 本店",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "明神下 神田川 本店 4.4 うなぎ料理店"
+    },
+    {
+      "name": "日本料理 太月",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "日本料理 太月 4.5 会席・懐石料理店"
+    },
+    {
+      "name": "しのはら",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "しのはら 4.6 会席・懐石料理店"
+    },
+    {
+      "name": "天ぷら元吉",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "天ぷら元吉 4.8 天ぷら店"
+    },
+    {
+      "name": "あんちゅう 代々木上原",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "あんちゅう 代々木上原 4.5 和食店"
+    },
+    {
+      "name": "銘酒処 串駒 本店",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "銘酒処 串駒 本店 4.6 居酒屋"
+    },
+    {
+      "name": "うなぎ魚政",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "うなぎ魚政 4.2 うなぎ料理店"
+    },
+    {
+      "name": "マルタ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "マルタ 4.5 レストラン"
+    },
+    {
+      "name": "ぼたん",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "ぼたん 4.4 鶏料理店"
+    },
+    {
+      "name": "酒場たかや 日本酒と蕎麦と天麩羅",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "酒場たかや 日本酒と蕎麦と天麩羅 4.4 蕎麦店"
+    }
+  ]
+}
