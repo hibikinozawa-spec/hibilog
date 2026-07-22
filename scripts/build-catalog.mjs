@@ -100,7 +100,6 @@ function detectArea(name, listName) {
   if (/茅ヶ崎|鎌倉/.test(listName)) return { area: "神奈川", lat: 35.3192, lng: 139.45 };
   if (/築地/.test(listName)) return AREA_COORDS["築地"];
   if (/地方|名店/.test(listName)) return { area: "地方", lat: 36.2048, lng: 138.2529 };
-  if (/ロサンゼルス|la\b/i.test(listName)) return { area: "ロサンゼルス", lat: 34.05, lng: -118.25 };
   return { area: "東京", lat: 35.6812, lng: 139.7671 };
 }
 
@@ -207,7 +206,7 @@ for (const file of files) {
     counter += 1;
     const lat = areaInfo.lat + jitter(name);
     const lng = areaInfo.lng + jitter(name + "x");
-    const query = `${name} ${areaInfo.area === "地方" || areaInfo.area === "ロサンゼルス" ? "" : areaInfo.area}`.trim();
+    const query = `${name} ${areaInfo.area === "地方" ? "" : areaInfo.area}`.trim();
     byName.set(name, {
       id: slugify(name, counter),
       name,
@@ -220,9 +219,7 @@ for (const file of files) {
       address:
         areaInfo.area === "地方"
           ? "地方"
-          : areaInfo.area === "ロサンゼルス"
-            ? "Los Angeles, CA"
-            : areaInfo.area === "京都"
+          : areaInfo.area === "京都"
               ? "京都府（周辺）"
               : areaInfo.area === "神奈川"
                 ? "神奈川県（周辺）"

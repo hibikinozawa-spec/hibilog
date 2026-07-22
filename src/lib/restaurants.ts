@@ -43,7 +43,6 @@ export const areas = [
   "京都",
   "地方",
   "神奈川",
-  "ロサンゼルス",
 ] as const;
 
 /** Build the list-source filter chips from the data that is actually present. */

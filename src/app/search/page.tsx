@@ -36,7 +36,7 @@ export default async function SearchPage({ searchParams }: Props) {
           お店を探す
         </h1>
         <p className="mt-1 text-sm text-[var(--ink-muted)]">
-          {results.length}件ヒット · スペースマーケット風の一覧＋マップ
+          {results.length}件ヒット
         </p>
       </div>
 

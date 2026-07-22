@@ -30,7 +30,6 @@ const KEYWORD_WEIGHTS: { keys: string[]; weight: number; sceneBoost?: string; fi
   { keys: ["渋谷", "恵比寿"], weight: 10 },
   { keys: ["新宿"], weight: 10 },
   { keys: ["京都", "祇園"], weight: 14 },
-  { keys: ["ロサンゼルス", "LA", "エルエー"], weight: 14 },
 ];
 
 function clamp(n: number, min = 0, max = 100) {
