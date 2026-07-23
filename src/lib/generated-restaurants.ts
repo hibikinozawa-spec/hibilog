@@ -14618,7 +14618,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.77476666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E4%B8%80%E5%B9%B8%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "鮨一幸 東京",
-    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkOar3Tr5JURm7VDJ8eWY5RlZfxDwhARMSe6rN9yC5ABmc-Yt-x7xwFnvzM3RFHhHi1M_jz7tO9qNisCtzYkZbXrLMd5eOqJufID8h2dUeyJE7Url1DwNyMa2NnLR3QPuAov_X2=w800-h600-k-no",
     "rating": 4.9,
     "reviewCount": 0,
     "tags": [
@@ -14672,7 +14672,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.76843333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E6%9C%AC%E5%BA%97%E4%B8%8A%E3%83%AB%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "鮨 本店上ル 東京",
-    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlVJ2tSV_-T60xJ7bhmd2rUSE6fPRkI8z_t89BIkex9m8nn2fVgJf0QPqT8TIzI51vWt4CbPS8UshJTsWUhs8Ejiu3vh-rLrEEdMDkcN59_lOeP7icufT7fZFGOOwewkpUPGELP7ZMSoR-E=w800-h600-k-no",
     "rating": 4.9,
     "reviewCount": 0,
     "tags": [
@@ -15234,7 +15234,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.77185,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%8C%E3%81%BF%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "鮨 がみ 東京",
-    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8bDaqJuRKPUikZbcLVcfkhFY5Hs72efnV5w1rGJheMMPH_PbEryLaNM4AnsIDYm8xFz5yJeT5Djve5cOzQOxlcHn9NkkQwF5tB77_x2FlQTPCDPBcOl0bguQR-WT09UP_ckwvOwD0-sYY=w800-h600-k-no",
     "rating": 4.9,
     "reviewCount": 0,
     "tags": [

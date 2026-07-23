@@ -13,6 +13,7 @@ const featured = restaurants
       tokyoAreas.includes(r.area as (typeof tokyoAreas)[number]) &&
       !/^〒/.test(r.name) &&
       r.name !== "豚しゃぶ しくら" &&
+      r.image.includes("googleusercontent.com") &&
       ["会食", "とっておき", "記念日"].some((s) =>
         r.scenes.includes(s as (typeof r.scenes)[number]),
       ),
