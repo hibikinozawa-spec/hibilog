@@ -19,7 +19,7 @@ export const cuisines = [
 export const priceTiers = [
   { id: "casual" as const, label: "カジュアル", hint: "〜¥8,000" },
   { id: "middle" as const, label: "ミドル", hint: "¥8,000〜¥20,000" },
-  { id: "executive" as const, label: "エグゼクティブ", hint: "¥20,000〜" },
+  { id: "executive" as const, label: "High", hint: "¥20,000〜" },
 ];
 
 export const scenes = [
@@ -50,12 +50,15 @@ export const listSources = [...new Set(restaurants.map((r) => r.listSource))]
   .filter((s, i, arr) => arr.indexOf(s) === i)
   .map((name) => ({
     id: name,
-    label: name.replace(/^東京レストラン_/, "東京_"),
+    label: name
+      .replace(/^東京レストラン_/, "東京_")
+      .replace(/会食exective/i, "会食high"),
     match: name,
   }));
 
 export function getRestaurantById(id: string) {
-  return restaurants.find((r) => r.id === id);
+  const decoded = decodeURIComponent(id);
+  return restaurants.find((r) => r.id === id || r.id === decoded);
 }
 
 export function priceLabel(tier: Restaurant["priceTier"]) {

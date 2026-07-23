@@ -5,15 +5,21 @@ import { RestaurantCard } from "@/components/restaurant-card";
 import { MapPanel } from "@/components/map-panel";
 import { restaurants, scenes } from "@/lib/restaurants";
 
-const featured = restaurants.filter((r) =>
-  ["会食", "とっておき", "記念日"].some((s) =>
-    r.scenes.includes(s as (typeof r.scenes)[number]),
-  ),
-).slice(0, 6);
+const tokyoAreas = ["東京", "六本木", "銀座", "渋谷", "新宿"] as const;
 
-const tokyoPins = restaurants.filter((r) =>
-  ["東京", "六本木", "銀座", "渋谷", "新宿"].includes(r.area),
-);
+const featured = restaurants
+  .filter(
+    (r) =>
+      tokyoAreas.includes(r.area as (typeof tokyoAreas)[number]) &&
+      !/^〒/.test(r.name) &&
+      ["会食", "とっておき", "記念日"].some((s) =>
+        r.scenes.includes(s as (typeof r.scenes)[number]),
+      ),
+  )
+  .sort((a, b) => b.rating - a.rating)
+  .slice(0, 6);
+
+const tokyoPins = restaurants.filter((r) => tokyoAreas.includes(r.area as (typeof tokyoAreas)[number]));
 
 export default function HomePage() {
   return (
@@ -100,7 +106,12 @@ export default function HomePage() {
         </h2>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {featured.map((r) => (
-            <RestaurantCard key={r.id} restaurant={r} />
+            <RestaurantCard
+              key={r.id}
+              restaurant={r}
+              showGoogleLink={false}
+              showDescription={false}
+            />
           ))}
         </div>
       </section>

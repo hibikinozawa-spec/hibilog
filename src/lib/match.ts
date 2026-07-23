@@ -22,7 +22,7 @@ const KEYWORD_WEIGHTS: { keys: string[]; weight: number; sceneBoost?: string; fi
   { keys: ["イタリアン", "パスタ", "ピザ"], weight: 18 },
   { keys: ["フレンチ", "フランス"], weight: 18 },
   { keys: ["ミドル", "中価格", "中くらい"], weight: 18 },
-  { keys: ["エグゼクティブ", "高級", "ハイクラス", "贅沢"], weight: 22 },
+  { keys: ["High", "high", "高級", "ハイクラス", "贅沢"], weight: 22 },
   { keys: ["カジュアル価格", "安い店"], weight: 16 },
   { keys: ["銀座"], weight: 12 },
   { keys: ["六本木", "麻布"], weight: 12 },
@@ -80,11 +80,11 @@ export function matchRestaurants(query: string, limit = 10): MatchResult[] {
         reasons.push("ミドル価格帯");
       }
       if (
-        rule.keys.some((k) => ["エグゼクティブ", "高級", "ハイクラス"].includes(k)) &&
+        rule.keys.some((k) => ["High", "high", "高級", "ハイクラス"].includes(k)) &&
         restaurant.priceTier === "executive"
       ) {
         score += 16;
-        reasons.push("エグゼクティブ価格帯");
+        reasons.push("High価格帯");
       }
       if (rule.keys.some((k) => ["コスパ", "安い", "お得"].includes(k)) && restaurant.priceTier === "casual") {
         score += 14;

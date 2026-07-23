@@ -6,14 +6,20 @@ export function RestaurantCard({
   restaurant,
   matchScore,
   reasons,
+  showGoogleLink = true,
+  showDescription = true,
 }: {
   restaurant: Restaurant;
   matchScore?: number;
   reasons?: string[];
+  showGoogleLink?: boolean;
+  showDescription?: boolean;
 }) {
+  const detailHref = `/restaurant/${encodeURIComponent(restaurant.id)}`;
+
   return (
     <article className="group overflow-hidden rounded-2xl border border-[var(--line)] bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow)]">
-      <Link href={`/restaurant/${restaurant.id}`} className="block">
+      <Link href={detailHref} className="block">
         <div className="relative aspect-[4/3] overflow-hidden bg-[var(--brand-soft)]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -42,9 +48,11 @@ export function RestaurantCard({
           <p className="text-sm text-[var(--ink-muted)]">
             {restaurant.cuisine} ／ {restaurant.area} ／ {restaurant.priceDinner}
           </p>
-          <p className="line-clamp-2 text-sm leading-relaxed text-[var(--ink-muted)]">
-            {restaurant.description}
-          </p>
+          {showDescription && (
+            <p className="line-clamp-2 text-sm leading-relaxed text-[var(--ink-muted)]">
+              {restaurant.description}
+            </p>
+          )}
           <div className="flex flex-wrap gap-1.5 pt-1">
             {restaurant.scenes.slice(0, 3).map((s) => (
               <span
@@ -66,17 +74,19 @@ export function RestaurantCard({
         </div>
       </Link>
       <div className="flex border-t border-[var(--line)]">
-        <a
-          href={restaurant.googleMapsUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex-1 px-4 py-2.5 text-center text-xs font-medium text-[var(--brand)] transition hover:bg-[var(--brand-soft)]"
-        >
-          Googleマップで開く
-        </a>
+        {showGoogleLink && (
+          <a
+            href={restaurant.googleMapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 px-4 py-2.5 text-center text-xs font-medium text-[var(--brand)] transition hover:bg-[var(--brand-soft)]"
+          >
+            Googleマップで開く
+          </a>
+        )}
         <Link
-          href={`/restaurant/${restaurant.id}`}
-          className="flex-1 border-l border-[var(--line)] px-4 py-2.5 text-center text-xs font-medium text-[var(--ink-muted)] transition hover:bg-[var(--bg)]"
+          href={detailHref}
+          className={`${showGoogleLink ? "flex-1 border-l border-[var(--line)]" : "w-full"} px-4 py-2.5 text-center text-xs font-medium text-[var(--ink-muted)] transition hover:bg-[var(--bg)]`}
         >
           詳細を見る
         </Link>
