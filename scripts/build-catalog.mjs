@@ -143,19 +143,43 @@ function inferAreaFromAddress(address) {
   return "地方";
 }
 
+function listLocationHint(listName) {
+  if (/京都/.test(listName)) return "京都";
+  if (/茅ヶ崎|鎌倉/.test(listName)) return "神奈川";
+  if (/東京/.test(listName)) return "東京";
+  if (/地方/.test(listName)) return "日本";
+  return "";
+}
+
 function buildPlaceQuery(name, listName, area) {
   const hint = inferLocationHint(name);
   if (hint) return `${name} ${hint}`.trim();
+  const listHint = listLocationHint(listName);
+  if (listHint) return `${name} ${listHint}`.trim();
   if (area && area !== "地方") return `${name} ${area}`.trim();
-  if (/地方/.test(listName)) return `${name} 日本`.trim();
   return name;
 }
 
+function isRealAddress(address) {
+  if (!address) return false;
+  const a = cleanAddress(address);
+  if (/^〒/.test(a)) return true;
+  if (/\d{3}-\d{4}/.test(a) && /(北海道|東京都|京都府|大阪府|.{2,3}県)/.test(a))
+    return true;
+  if (/(北海道|東京都|京都府|大阪府)/.test(a) && /(市|区|町|村|郡)/.test(a))
+    return true;
+  return /.{2,3}県/.test(a) && /(市|区|町|村|郡)/.test(a);
+}
+
+function cleanAddress(address) {
+  return (address || "")
+    .replace(/\s*の操作オプション.*$/, "")
+    .replace(/^住所[：:\s]*/, "")
+    .trim();
+}
+
 function formatFallbackAddress(area) {
-  if (area === "京都") return "京都府（周辺）";
-  if (area === "神奈川") return "神奈川県（周辺）";
-  if (area === "地方") return "";
-  return `東京都（${area}周辺）`;
+  return "";
 }
 
 function isValidName(name) {
@@ -295,7 +319,9 @@ for (const file of files) {
     counter += 1;
     const area = cachedPlace?.address
       ? inferAreaFromAddress(cachedPlace.address)
-      : areaInfo.area;
+      : cachedPlace?.lat
+        ? areaInfo.area
+        : areaInfo.area;
     const lat = cachedPlace?.lat ?? areaInfo.lat + jitter(name);
     const lng = cachedPlace?.lng ?? areaInfo.lng + jitter(name + "x");
     const query = cachedPlace?.query || buildPlaceQuery(name, listName, area);
@@ -309,9 +335,8 @@ for (const file of files) {
       scenes,
       area,
       address:
-        cachedPlace?.address ||
-        (cachedPlace?.lat
-          ? "Googleマップ参照（地図で所在地を確認）"
+        (cachedPlace?.address && isRealAddress(cachedPlace.address)
+          ? cleanAddress(cachedPlace.address)
           : formatFallbackAddress(area)),
       nearestStation: "",
       lat,
@@ -334,11 +359,9 @@ for (const file of files) {
 }
 
 function applyPlaceCache(entry, cachedPlace) {
-  if (cachedPlace.address) {
-    entry.address = cachedPlace.address;
-    entry.area = inferAreaFromAddress(cachedPlace.address);
-  } else if (typeof cachedPlace.lat === "number") {
-    entry.address = "Googleマップ参照（地図で所在地を確認）";
+  if (cachedPlace.address && isRealAddress(cachedPlace.address)) {
+    entry.address = cleanAddress(cachedPlace.address);
+    entry.area = inferAreaFromAddress(entry.address);
   }
   if (typeof cachedPlace.lat === "number") entry.lat = cachedPlace.lat;
   if (typeof cachedPlace.lng === "number") entry.lng = cachedPlace.lng;
