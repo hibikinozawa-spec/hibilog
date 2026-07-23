@@ -16,6 +16,8 @@ const pinIcon = L.divIcon({
 
 const TOKYO_CENTER: [number, number] = [35.6812, 139.7671];
 const TOKYO_ZOOM = 12;
+const JAPAN_CENTER: [number, number] = [36.2, 138.25];
+const JAPAN_ZOOM = 5;
 
 function SetFixedView({
   center,
@@ -52,16 +54,17 @@ export function RestaurantMap({
 }: {
   restaurants: Restaurant[];
   className?: string;
-  /** tokyo = 東京中心固定 / fit = ピンに合わせてズーム */
-  view?: "tokyo" | "fit";
+  /** tokyo = 東京中心固定 / fit = ピンに合わせてズーム / japan = 日本全体 */
+  view?: "tokyo" | "fit" | "japan";
 }) {
-  const center = TOKYO_CENTER;
+  const center = view === "japan" ? JAPAN_CENTER : TOKYO_CENTER;
+  const zoom = view === "japan" ? JAPAN_ZOOM : TOKYO_ZOOM;
 
   return (
     <div className={`overflow-hidden rounded-2xl border border-[var(--line)] ${className}`}>
       <MapContainer
         center={center}
-        zoom={TOKYO_ZOOM}
+        zoom={zoom}
         scrollWheelZoom={false}
         className="h-full min-h-[320px] w-full"
       >
@@ -72,7 +75,7 @@ export function RestaurantMap({
         {view === "fit" ? (
           <FitBounds restaurants={restaurants} />
         ) : (
-          <SetFixedView center={TOKYO_CENTER} zoom={TOKYO_ZOOM} />
+          <SetFixedView center={center} zoom={zoom} />
         )}
         {restaurants.map((r) => (
           <Marker key={r.id} position={[r.lat, r.lng]} icon={pinIcon}>

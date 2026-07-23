@@ -2,6 +2,10 @@ import Link from "next/link";
 import { priceLabel } from "@/lib/restaurants";
 import type { Restaurant } from "@/lib/types";
 
+function displayDescription(description: string) {
+  return description.replace(/Googleマップの「[^」]+」より。?/g, "").trim();
+}
+
 export function RestaurantCard({
   restaurant,
   matchScore,
@@ -48,9 +52,9 @@ export function RestaurantCard({
           <p className="text-sm text-[var(--ink-muted)]">
             {restaurant.cuisine} ／ {restaurant.area} ／ {restaurant.priceDinner}
           </p>
-          {showDescription && (
+          {showDescription && displayDescription(restaurant.description) && (
             <p className="line-clamp-2 text-sm leading-relaxed text-[var(--ink-muted)]">
-              {restaurant.description}
+              {displayDescription(restaurant.description)}
             </p>
           )}
           <div className="flex flex-wrap gap-1.5 pt-1">

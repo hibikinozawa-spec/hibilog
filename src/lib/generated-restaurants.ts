@@ -19,13 +19,13 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.7691,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E3%81%AE%E7%99%BA%E9%85%B5%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E3%83%B3CAMOS%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "京の発酵イタリアンCAMOS 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnPbq6yl30Ybo8FoFEX1AOSCJFbxkAAcqpyoWNGZr-vj6lyZIn8lc6L30lpCiVxkzHaMVAJbsuJgJKa960OJu07U0fYmMR0-KBlMeaL-jRCNp9KoqdkKkIvEica3ICbNXCCk5HvIp0ieG4=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmbk5FUQkPOinzwzJi7CPZ-pNfUdY_Met4KGHjGkbFuADDTseiHsJeVtLyA0AQrLW_r9O7U1XzoEQADavDyg_qkN0mxS7qolFj1VifHB8rkP0g5I6L0kJ9ZSrJifKwHdBIfq2pwISnw6zw=w800-h600-k-no",
     "rating": 4,
     "reviewCount": 0,
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「京都レストラン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
@@ -45,13 +45,13 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.76551666666668,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%83%AC%E3%83%B3%E3%83%81%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%20%E3%83%88%E3%83%83%E3%83%97%20%E3%82%AA%E3%83%96%20%E3%82%AD%E3%83%A7%E3%82%A6%E3%83%88%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "フレンチダイニング トップ オブ キョウト 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWngLkAR7WuJ0STFM_EF3bmuXXpU72cSeNR1AeRA0covvH0YKoRXnstJ47im804znvCQt8hR3eoYpnck3zXFlGX3r5-F4c8Z6PuXeTMa7D991mMqXjVULCKBnA-0xbvK9fhi_VojJAvknJM=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWncCJ19r-HlaTO6VTFlZdPtqIC_McQFGwKPc88s0tA5PAcc3CA82wxzQhdO2E6UK2yrs_MB1Dt08foCgquOASujObGb11TD96eAN2fuFkklbb_W_7Zutf2Mv9CzHq8Du2Kf9zG2iEPafas=w800-h600-k-no",
     "rating": 4.4,
     "reviewCount": 0,
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「京都レストラン」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
@@ -77,7 +77,7 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ベーカリー"
     ],
-    "description": "ベーカリー。Googleマップの「京都レストラン」より。",
+    "description": "ベーカリー。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
@@ -97,13 +97,13 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.77251666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%80%E5%B1%B1%20%E5%AD%A6%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "亀山 学 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmwrODZlyOwUop2ezAtAMNAcnUbiOb0B_7EWMlUAnnnI8p8RVbjdUXw9dRC8sks_pmK1k0LKcuuUY8ZAT-LvBRumxcOfaV8nQMKEM0ZiKcv9uVjw1yfgk1didULnZqQtAZcNs9AQg=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnudnmnMMZvdp2nS8QkjRXvkShbICjbkVpzI3X7t3KpYS2wNPMlbGCEttieDJ-0v5yBUDUBPsMsA1Yex4hrN5JVbbPu3XnLvZ5LwWErlVE4tEaf0pq-O3c8knNK_xBocs-T1nBIRQ=w800-h600-k-no",
     "rating": 4,
     "reviewCount": 0,
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「京都レストラン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
@@ -131,38 +131,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「京都レストラン」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "605-0822-京都府京都市東山区上弁天町４２７２-6",
-    "name": "〒605-0822 京都府京都市東山区上弁天町４２７−２",
-    "cuisine": "和食",
-    "priceTier": "middle",
-    "priceDinner": "¥10,000〜",
-    "scenes": [
-      "会食"
-    ],
-    "area": "京都",
-    "address": "京都府（周辺）",
-    "nearestStation": "",
-    "lat": 35.010016666666665,
-    "lng": 135.76635000000002,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%80%92605-0822%20%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E9%83%BD%E5%B8%82%E6%9D%B1%E5%B1%B1%E5%8C%BA%E4%B8%8A%E5%BC%81%E5%A4%A9%E7%94%BA%EF%BC%94%EF%BC%92%EF%BC%97%E2%88%92%EF%BC%92%20%E4%BA%AC%E9%83%BD",
-    "googlePlaceQuery": "〒605-0822 京都府京都市東山区上弁天町４２７−２ 京都",
-    "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80",
-    "rating": 4.3,
-    "reviewCount": 0,
-    "tags": [
-      "〒605-0822 京都府京都市東山区上弁天町４２７−２"
-    ],
-    "description": "〒605-0822 京都府京都市東山区上弁天町４２７−２。Googleマップの「京都レストラン」より。",
-    "privateRoom": false,
-    "listSource": "京都レストラン"
-  },
-  {
-    "id": "京料理うえの-7",
+    "id": "京料理うえの-6",
     "name": "京料理うえの",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -177,18 +151,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.77218333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E6%96%99%E7%90%86%E3%81%86%E3%81%88%E3%81%AE%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "京料理うえの 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkkq2TVQC9gVssBYxDRBLVM2XSX5Djp1CIU-bvVKG7ih0UBgqJRiCmEcmXInHPueIhBK5CKWPsdnOR0zLt0Vn1txGJRLXEPA2cd_d_mBRohFzCQvFeqBO7UaEs8KpS75c1hTyWn-Vivm60=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk5UEiW6Ur9wa2_butv8NIOHzNrCuenBfSA40rv5dGRrEKVAf3n89-Z6UKC-IaF5E6HlbVi0xGEOq1O33QmWM81a9EEAcvGpzhL2VTjksVDF3uEE7ZC3kMxWNipeapOKliVfAbm26q8PmI=w800-h600-k-no",
     "rating": 4.4,
     "reviewCount": 0,
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「京都レストラン」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "京都レストラン"
   },
   {
-    "id": "三味洪庵-京都本店-十割蕎麦と鴨鍋-8",
+    "id": "三味洪庵-京都本店-十割蕎麦と鴨鍋-7",
     "name": "三味洪庵 京都本店 十割蕎麦と鴨鍋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -209,12 +183,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「京都レストラン」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "京都屋台せせり-9",
+    "id": "京都屋台せせり-8",
     "name": "京都屋台せせり",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -229,18 +203,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.77076666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E5%B1%8B%E5%8F%B0%E3%81%9B%E3%81%9B%E3%82%8A%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "京都屋台せせり 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlHukkxhvmNbFcm9T-rMzvdRuV2jO4hzvvjYeP1cnSiNDJqL7J8v4GoL8QD9xp80p_artKR6vfh1J0mUK1ABEWozkikIx8ibZBSnysbJZLRlR_wRVcZ3iIHEmVNWACWuVR58ivvuXB6wL0=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmG3S_MsxsRkuPb1tURWQa6YjpEDzmOwA_wJ4xj9Bd3BQ3SiuSLD3uEHdHvmsIRK7vvt-95SdEoU66RUiih5GaZP8dDZizyWr7aa_XoYIQ1c93IO745P9E5Z7cho5hbB642i1QwhooF20A=w800-h600-k-no",
     "rating": 4.1,
     "reviewCount": 0,
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「京都レストラン」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "祇園-権兵衛-10",
+    "id": "祇園-権兵衛-9",
     "name": "祇園 権兵衛",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -261,12 +235,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「京都レストラン」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "いづう-11",
+    "id": "いづう-10",
     "name": "いづう",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -281,18 +255,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.76801666666668,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%81%A5%E3%81%86%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "いづう 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnT-7BzDy0WcK7GZq7lp8xnupyPMg-ZRxdqBPJhymHzRq041P9MAUaP37yYHfdLEqvayydecE06JIv4kSRlpfDGcfowDDZWl7IJES7jD0P3Z6py4fgsvKu-CUUH1TYzGEc4HKDW=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWldp7SbVFB2CmCMAcBXf2hn2sKs-sMpmIS1UnLampHpCIjBBAeixmgfaSM3Yci-8l1S6tGkqcB3kCfm00sYFkEFfUMPqwONtN-CAfbsdgsj_OZqlFgq_b5JHQPynQihkXoWXcEy=w800-h600-k-no",
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「京都レストラン」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "酒吞にし川-柳小路店-12",
+    "id": "酒吞にし川-柳小路店-11",
     "name": "酒吞にし川 柳小路店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -308,18 +282,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.77385,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E5%90%9E%E3%81%AB%E3%81%97%E5%B7%9D%20%E6%9F%B3%E5%B0%8F%E8%B7%AF%E5%BA%97%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "酒吞にし川 柳小路店 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnoKu4KMEj2AJEKDxvsuAaH_s1JgjVOZDP37kBtT-NnyNm6o7Fp0SUB2DY0c-6buSoWmx2bpnyM0SdI8l31fHZQkaDoUFFHUBU2tseUj5Pg70skLbkTMmI3B69R-s8YoXPqsTke=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm_uRzLN-RrSXj2EoM-Ic3lqXCUJ2LS2FsHCrceCAzvtyHIWKgsqeOEIEyZrWZJ3iwUehi4ro22oBH4dCx9Fp6w7KVX3TYo9e-6TjQUydCcILbEPZiyDiOyTtNIkiyEL8jq-LTT=w800-h600-k-no",
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「京都レストラン」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "酒呑にし川-河原町五条店-13",
+    "id": "酒呑にし川-河原町五条店-12",
     "name": "酒呑にし川 河原町五条店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -335,18 +309,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.76693333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E5%91%91%E3%81%AB%E3%81%97%E5%B7%9D%20%E6%B2%B3%E5%8E%9F%E7%94%BA%E4%BA%94%E6%9D%A1%E5%BA%97%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "酒呑にし川 河原町五条店 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8PaV8ndsrnMW2n4RlsIkzv_kGMnFLBcJ0-_PCWIIqC79erYAvhk9sG_PhT_6GE0AQzI3az2SAwc25BiSTULbKFPxIlXDSHklW2A0tbdWgf7CszIqkoPAh31FD3OP9jGZ0UdFS6w=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkIK-203NMTmUsyzJWXVsiRWGCX799U_Y0YBaFNVl25Ietnk5k9BwQWnxzY2suFeycnlVZLBOOLL7i_u7Zn70dSKUcBiKnUAdSCUfjJnDkt6ZNbLGTFdC2edYkNO1c20U-KHFH3yg=w800-h600-k-no",
     "rating": 4.6,
     "reviewCount": 0,
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「京都レストラン」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "グー-14",
+    "id": "グー-13",
     "name": "グー",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -361,18 +335,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.7761,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B0%E3%83%BC%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "グー 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmB1Rv-6D1JhG7jS1EXKXAyKRB9eia5r-yiro1gw6baT9KwKKLwmzE0tVc9u-EpZfEqVccDR3aY4bCRRDQXGI_uBDfX-4gk3ek3Apmi0MS52D-k7usbKYitUq4O7yqLdOSBEsAs=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl_GYIDZfI9butgrMfVB2CJdJkbhytsyekzBs8IUglZKCWPKvKB1Z4I_ew1__4WMhp_d0z_IC3brn-e_emjsbKwminaiXG7srrdUAZvmTHwlijOLQGK5-84q8hq77jI4ak8h7vI=w800-h600-k-no",
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「京都レストラン」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "asty京都-15",
+    "id": "asty京都-14",
     "name": "ASTY京都",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -393,12 +367,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ショッピング"
     ],
-    "description": "ショッピング。Googleマップの「京都レストラン」より。",
+    "description": "ショッピング。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "京の中華-ハマムラ-近鉄名店街みやこみち店-16",
+    "id": "京の中華-ハマムラ-近鉄名店街みやこみち店-15",
     "name": "京の中華 ハマムラ 近鉄名店街みやこみち店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -413,18 +387,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.76535,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E3%81%AE%E4%B8%AD%E8%8F%AF%20%E3%83%8F%E3%83%9E%E3%83%A0%E3%83%A9%20%E8%BF%91%E9%89%84%E5%90%8D%E5%BA%97%E8%A1%97%E3%81%BF%E3%82%84%E3%81%93%E3%81%BF%E3%81%A1%E5%BA%97%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "京の中華 ハマムラ 近鉄名店街みやこみち店 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk7xQi-8NRSZvQtasAR6ENRXtvf7BOdJ83bXz5D43LRF-hUSZXVRfjyuzZeVORl7H2qpK7lML0XaGereEf99rMoeZ56u4xAnpz_r2ai4DyU2qmXV2ALbC51xmav36EsySExJDcgM2Eb9-Q=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkGfCBJfIzdHom9oBp56WhpgJE6KnedmBKW-etTuWmy1ImRE7jBLxKYJgrZlnSw1feQtGoDma5ixppyAJMKAGF4JSXBU9oe9WcHTd-o0P6hbM3il73WaJRe61JMuso7TLeiNvNJrsd9-f0=w800-h600-k-no",
     "rating": 3.7,
     "reviewCount": 0,
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「京都レストラン」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "三高餅食堂-17",
+    "id": "三高餅食堂-16",
     "name": "三高餅食堂",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -439,18 +413,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.77501666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E9%AB%98%E9%A4%85%E9%A3%9F%E5%A0%82%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "三高餅食堂 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmA6IIITJy6ZiK8g0Db0cOWIM6ln7nCZpW_gw0rm9a-Na7DJJbE3dkVIz1EKYrruua1VR7lzcTDqfVNHPU32EYTfMsUSogLaUty1Cju4RvTicSICSiixY-c-vrVfSLwQlMVuKFC=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnIJDndQluUK1Qa0Oy47w9i881BoC6eSe-8ngH38eKYn5_jaB0QbS8MqhQ7qnSZgJfrDU93AV6HrR_9At8J5dOSyOjMKdLTDIJ2tNmDAv8pDH2GAQUoOl7cG1qCoBTDCOVP5J1F=w800-h600-k-no",
     "rating": 4,
     "reviewCount": 0,
     "tags": [
       "定食屋"
     ],
-    "description": "定食屋。Googleマップの「京都レストラン」より。",
+    "description": "定食屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "味彩-のと与-18",
+    "id": "味彩-のと与-17",
     "name": "味彩 のと与",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -471,12 +445,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「京都レストラン」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "京都祇園-おかる-19",
+    "id": "京都祇園-おかる-18",
     "name": "京都祇園 おかる",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -491,18 +465,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.76126666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E9%83%BD%E7%A5%87%E5%9C%92%20%E3%81%8A%E3%81%8B%E3%82%8B%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "京都祇園 おかる 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkLlxCR4H74WiXUvJRLViotEtK_zJNxWBAUGBGAnAVp2qSkf92VXJJztea0_MYCEC3y-IQtCtsWY_E_m2TowdC96pPhARGh2eHrwJ5ZMjYP01l2KBYE5rcsHLIJ-qYflNhw2Aliv3HX3fk=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmNukQwSSGfkTVNWpo-TIBLWki_faBFFPQljwBY2TO5KQ28ZQZKrvsbqpr5w7snXydjmmt7zgKWD-_lVIfumF0jt8f_vpEStyxVGlsQPsjWmASfxO1ZfwJQxvDzoUj957xO9gZ3t7O3CRA=w800-h600-k-no",
     "rating": 3.8,
     "reviewCount": 0,
     "tags": [
       "うどん屋"
     ],
-    "description": "うどん屋。Googleマップの「京都レストラン」より。",
+    "description": "うどん屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "祇園やまかわ-20",
+    "id": "祇園やまかわ-19",
     "name": "祇園やまかわ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -523,12 +497,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "祇園やまかわバー"
     ],
-    "description": "祇園やまかわバー。Googleマップの「京都レストラン」より。",
+    "description": "祇園やまかわバー。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "いづ重-21",
+    "id": "いづ重-20",
     "name": "いづ重",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -543,18 +517,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.76343333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%81%A5%E9%87%8D%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "いづ重 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk9SbTQQ3ub762nAkfTF9AAVHTDWu7tn3o2yV6IanwjkWnSwU-Pr4V7KJDh3fy3X5q_YYu7z47p0Z4SQwAZpHW5F7hmZnb5HrtFAn6cV378tDGInvLHYciKkaNdw5rEUCQS2BAHCSDj5Hc=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWntsZSB6qotZxQz1hEbTG0u0qojwcH965cssEar5Np6rd_dwpCj2DjFbtew8QHSk4wSSA7-ZKm9cdVx5iYz9kpu9MeJYAgRtpk0EAcwhj0fPiE8qHOGjn7_sO_D5P8nCk9NHIUr=w800-h600-k-no",
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「京都レストラン」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "京都レストラン / 地方レストラン_名店"
   },
   {
-    "id": "n祇園35ジャンルレス料理鮨-22",
+    "id": "n祇園35ジャンルレス料理鮨-21",
     "name": "N祇園35°｜ジャンルレス料理×鮨",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -569,18 +543,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.77738333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=N%E7%A5%87%E5%9C%9235%C2%B0%EF%BD%9C%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB%E3%83%AC%E3%82%B9%E6%96%99%E7%90%86%C3%97%E9%AE%A8%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "N祇園35°｜ジャンルレス料理×鮨 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkPhBQmBD0yCNdbVkfeY3u6jKFCj75_LRpxOxnAo63hDmOOCq1x3amnyzKosWMH2VcKPEavwTKzhohEjjKP6RBvtiwBeEqZgPbCw4DPywU0m5o2hPwQvQVFUmV744mZovknBWrZ8Ei-fh37=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWktNPvYFTVk_9rmvreHtnfwbwjG-q517-rNhaEPuJkRRG6cP-C1B7gS83XaG5jmhp5yrSH874A_4Ad_rlTuif2BkguN3-hBZ545opdR44si4C30-TwlrvW3T5KEeZu7c7vYSamGc8v9wBjN=w800-h600-k-no",
     "rating": 4.8,
     "reviewCount": 0,
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「京都レストラン」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "ぎおん-元勢-23",
+    "id": "ぎおん-元勢-22",
     "name": "ぎおん 元勢",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -598,18 +572,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.7751,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8E%E3%81%8A%E3%82%93%20%E5%85%83%E5%8B%A2%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "ぎおん 元勢 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWktSOvXRM5R3AVjNbY9YYT1ETq8_UWn9RTIPrER1fo0nFdLmihH-X-9WFDctNsOxDWnJDSr8LeQfTYkVKiu9zr3jGLbbf3iLNnIOKLi_1R-E_JQ9GaWcV_wNAe08GFuV9vwpyEO=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkEqV4NfHVS-plI4TCPCd-pmnvVmmOwu7pn4YCBTN_STpS2z_U9Cu0zUApKN-eFrMH4GOjZgs7CeJtt_uwbiMzKrKqgysJa2LerIKZX2AZwvT-eNtTUhx1oblCFO0k0HLOcdgwX=w800-h600-k-no",
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [
       "京都風日本料理店"
     ],
-    "description": "京都風日本料理店。Googleマップの「京都レストラン」より。",
+    "description": "京都風日本料理店。",
     "privateRoom": true,
     "listSource": "京都レストラン"
   },
   {
-    "id": "そば-権兵衛-24",
+    "id": "そば-権兵衛-23",
     "name": "そば 権兵衛",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -624,18 +598,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.76626666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%20%E6%A8%A9%E5%85%B5%E8%A1%9B%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "そば 権兵衛 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlyZm51vHra5qUNogjepYtQQoDL0-RioW4sdGT2WRe3oncbzeI_Zur4RHOurHzuFNo29BsM_34LjoI69RJ7qN7IZpyLLivSQ9VHZI3CtaJYhCp67tizfWvoxpPrgsHnJxAVa2lm=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkryXZpghoIuM24rWRawnOW3F6EY4gEOqFJkqNlmxLB1CGgc79qPyXRr3eomqsHAF-dqlRzaXeExYbS6OL04fWbqMYtCno8jtE42smQPYYwz-b8To2qlGgmkc6Nun9HJkaINbrJ=w800-h600-k-no",
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「京都レストラン」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "ザ-サカイ-25",
+    "id": "ザ-サカイ-24",
     "name": "ザ サカイ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -656,12 +630,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "スペイン料理店"
     ],
-    "description": "スペイン料理店。Googleマップの「京都レストラン」より。",
+    "description": "スペイン料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "京料理-熊魚菴-京都南禅寺本店-japanese-cuisine-yugyoan-26",
+    "id": "京料理-熊魚菴-京都南禅寺本店-japanese-cuisine-yugyoan-25",
     "name": "京料理 熊魚菴 京都南禅寺本店 (Japanese Cuisine YUGYOAN Kyoto Main Restaurant)",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -682,12 +656,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「京都レストラン」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "京都レストラン"
   },
   {
-    "id": "たん熊-北店-本店-27",
+    "id": "たん熊-北店-本店-26",
     "name": "たん熊 北店 本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -702,18 +676,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.76768333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%82%93%E7%86%8A%20%E5%8C%97%E5%BA%97%20%E6%9C%AC%E5%BA%97%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "たん熊 北店 本店 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmOhQM8KwDnkp1i88cWSDbVvimSXrm7I7g2JKJDWeiwSkZQKzcLTp868bMqPXv2jiLWSmdrjw4kOD0TN_V-lQG7_a18kqd0ExckpZnQeQFJDK5uuRO0iZVgq0h1l2P8g80TrNAt=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnpOSFYhr8UF3BPNtGgkyoubKdk-GtngAH1Q8GfU3opIUnYr6qQFkmvvI0SK2m6CJ6Z2PfCXHnJhYpswnlVW8GMSRCGXUo44E5W3B87EiGPJH7Oqc6lWmoMZNtxGtvdrko9nLU4=w800-h600-k-no",
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「京都レストラン」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "京都レストラン"
   },
   {
-    "id": "えいたろう屋-28",
+    "id": "えいたろう屋-27",
     "name": "えいたろう屋",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -728,18 +702,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.77185,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%88%E3%81%84%E3%81%9F%E3%82%8D%E3%81%86%E5%B1%8B%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "えいたろう屋 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmX9amKqfKAcWeLwjwIcOnzcLGZrttkiAwDCbmFDUFeLsGe0P23UuXuB1tpPUWhkDEriCADDJBt_5OHaYpeEauFAtePahovG7dA1tm4qPh3sAEKwAgTPdmR5iX1WkaDSpTqLMD1blKa5oZQ=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmKdIG4q7MqJZeiWvzuEvirzOXpE1GZFpEmLv9DwdmJcJECsAUAZ3BvyaA87p9glEsVxJ_cRaB67YDJBwlb_leA3DBABRaRyNRogsJ1yORrCl9zA2hFb5LLTKHvDmpgi34ywB8Pc98LNXcu=w800-h600-k-no",
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「京都レストラン」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "斎華-29",
+    "id": "斎華-28",
     "name": "斎華",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -760,12 +734,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「京都レストラン」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "飯田-30",
+    "id": "飯田-29",
     "name": "飯田",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -782,18 +756,18 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 135.76501666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A3%AF%E7%94%B0%20%E4%BA%AC%E9%83%BD",
     "googlePlaceQuery": "飯田 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkQhLiapxQpq5gsOWOVxT1pB9GawaQwCUijwYhQbB5hnGO9aEmOjvVUU4wU__acGoiwIs95gKhf3ynt06zLrT4Qi4K1ZMBnnStc_7JVDlmkN_ERPw2FGMzRbUBGkON52AMUyL1MyQ=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWntMeZhAwKsw34DZOK1JQEEL5BRL6X8BQUGtUjjdTBzmfUDQSvBhv8weCor_CyyAoPPcyPGQFePoA4xJFDZqBtXL77kf13eAXHd3GkfbKnG1Ka-Av48e3IHMfthEXQLMMW-bdMFlg=w800-h600-k-no",
     "rating": 4.6,
     "reviewCount": 0,
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「京都レストラン」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "京都レストラン"
   },
   {
-    "id": "stars-sakesalon-31",
+    "id": "stars-sakesalon-30",
     "name": "stars' sakesalon",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -814,12 +788,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「京都レストラン」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "ラブリランテ-32",
+    "id": "ラブリランテ-31",
     "name": "ラ・ブリランテ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -840,12 +814,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "バー"
     ],
-    "description": "バー。Googleマップの「京都レストラン」より。",
+    "description": "バー。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "bar雪月花--salon-33",
+    "id": "bar雪月花--salon-32",
     "name": "BAR雪月花 + Salon",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -866,12 +840,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "バー"
     ],
-    "description": "バー。Googleマップの「京都レストラン」より。",
+    "description": "バー。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "ひいらぎ亭-34",
+    "id": "ひいらぎ亭-33",
     "name": "ひいらぎ亭",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -892,12 +866,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「京都レストラン」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "日の出うどん-35",
+    "id": "日の出うどん-34",
     "name": "日の出うどん",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -918,12 +892,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うどん屋"
     ],
-    "description": "うどん屋。Googleマップの「京都レストラン」より。",
+    "description": "うどん屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "osteria-conacinetta-36",
+    "id": "osteria-conacinetta-35",
     "name": "Osteria CONACINETTA",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -944,12 +918,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "南イタリア料理店"
     ],
-    "description": "南イタリア料理店。Googleマップの「京都レストラン」より。",
+    "description": "南イタリア料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "廣澤-37",
+    "id": "廣澤-36",
     "name": "廣澤",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -970,12 +944,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「京都レストラン」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "麺屋-猪一-38",
+    "id": "麺屋-猪一-37",
     "name": "麺屋 猪一",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -996,12 +970,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「京都レストラン」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "麺屋-猪一-離れ-39",
+    "id": "麺屋-猪一-離れ-38",
     "name": "麺屋 猪一 離れ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1022,12 +996,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「京都レストラン」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "cafebar-oil-40",
+    "id": "cafebar-oil-39",
     "name": "Cafe/Bar OIL",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1048,12 +1022,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "バー"
     ],
-    "description": "バー。Googleマップの「京都レストラン」より。",
+    "description": "バー。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "in-the-moon-41",
+    "id": "in-the-moon-40",
     "name": "in the Moon",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1074,38 +1048,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "バー"
     ],
-    "description": "バー。Googleマップの「京都レストラン」より。",
+    "description": "バー。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "605-0074-京都府京都市東山区祇園町南側５７０６-42",
-    "name": "〒605-0074 京都府京都市東山区祇園町南側５７０−６",
-    "cuisine": "和食",
-    "priceTier": "middle",
-    "priceDinner": "¥10,000〜",
-    "scenes": [
-      "会食"
-    ],
-    "area": "京都",
-    "address": "京都府（周辺）",
-    "nearestStation": "",
-    "lat": 35.004850000000005,
-    "lng": 135.76218333333333,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%80%92605-0074%20%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E9%83%BD%E5%B8%82%E6%9D%B1%E5%B1%B1%E5%8C%BA%E7%A5%87%E5%9C%92%E7%94%BA%E5%8D%97%E5%81%B4%EF%BC%95%EF%BC%97%EF%BC%90%E2%88%92%EF%BC%96%20%E4%BA%AC%E9%83%BD",
-    "googlePlaceQuery": "〒605-0074 京都府京都市東山区祇園町南側５７０−６ 京都",
-    "image": "https://images.unsplash.com/photo-1519690889869-e705e59f72e1?w=800&q=80",
-    "rating": 4.3,
-    "reviewCount": 0,
-    "tags": [
-      "〒605-0074 京都府京都市東山区祇園町南側５７０−６"
-    ],
-    "description": "〒605-0074 京都府京都市東山区祇園町南側５７０−６。Googleマップの「京都レストラン」より。",
-    "privateRoom": false,
-    "listSource": "京都レストラン"
-  },
-  {
-    "id": "大豊ラーメン-木屋町店-43",
+    "id": "大豊ラーメン-木屋町店-41",
     "name": "大豊ラーメン 木屋町店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1126,12 +1074,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「京都レストラン」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "祇園-匠庵-44",
+    "id": "祇園-匠庵-42",
     "name": "祇園 匠庵",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1152,12 +1100,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「京都レストラン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "割烹-露瑚-45",
+    "id": "割烹-露瑚-43",
     "name": "割烹 露瑚",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1178,12 +1126,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "京都風日本料理店"
     ],
-    "description": "京都風日本料理店。Googleマップの「京都レストラン」より。",
+    "description": "京都風日本料理店。",
     "privateRoom": true,
     "listSource": "京都レストラン"
   },
   {
-    "id": "牛キムラ-46",
+    "id": "牛キムラ-44",
     "name": "牛・キムラ",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -1204,12 +1152,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「京都レストラン」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "ペパーミント-47",
+    "id": "ペパーミント-45",
     "name": "ペパーミント",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1230,12 +1178,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "カフェ・喫茶"
     ],
-    "description": "カフェ・喫茶。Googleマップの「京都レストラン」より。",
+    "description": "カフェ・喫茶。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "人見-48",
+    "id": "人見-46",
     "name": "人見",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1256,12 +1204,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「京都レストラン」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "膳處漢-ぽっちり-49",
+    "id": "膳處漢-ぽっちり-47",
     "name": "膳處漢 ぽっちり",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -1282,12 +1230,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「京都レストラン」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "祇園うえもり湯豆腐-懐石料理-tofu-kaiseki-50",
+    "id": "祇園うえもり湯豆腐-懐石料理-tofu-kaiseki-48",
     "name": "祇園うえもり｜湯豆腐 懐石料理 tofu kaiseki",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1308,12 +1256,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「京都レストラン」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "京都レストラン"
   },
   {
-    "id": "余志屋-51",
+    "id": "余志屋-49",
     "name": "余志屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1334,12 +1282,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "料亭"
     ],
-    "description": "料亭。Googleマップの「京都レストラン」より。",
+    "description": "料亭。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "萬燕楽-52",
+    "id": "萬燕楽-50",
     "name": "萬’燕楽",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1360,12 +1308,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「京都レストラン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "八坂通り-燕楽-53",
+    "id": "八坂通り-燕楽-51",
     "name": "八坂通り 燕楽",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1386,12 +1334,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「京都レストラン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "未在-54",
+    "id": "未在-52",
     "name": "未在",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1412,12 +1360,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "高級料理レストラン"
     ],
-    "description": "高級料理レストラン。Googleマップの「京都レストラン」より。",
+    "description": "高級料理レストラン。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "実伶-55",
+    "id": "実伶-53",
     "name": "実伶",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1438,12 +1386,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「京都レストラン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "トラモント-56",
+    "id": "トラモント-54",
     "name": "トラモント",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -1464,12 +1412,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「京都レストラン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "ニュー万長-57",
+    "id": "ニュー万長-55",
     "name": "ニュー万長",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1490,12 +1438,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "閉業"
     ],
-    "description": "閉業。Googleマップの「京都レストラン」より。",
+    "description": "閉業。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "祇園-ろはん-58",
+    "id": "祇園-ろはん-56",
     "name": "祇園 ろはん",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1516,12 +1464,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「京都レストラン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "祇園新橋-中谷-59",
+    "id": "祇園新橋-中谷-57",
     "name": "祇園新橋 中谷",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1542,12 +1490,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「京都レストラン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "花ぐも-60",
+    "id": "花ぐも-58",
     "name": "花ぐも",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1568,12 +1516,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "バー"
     ],
-    "description": "バー。Googleマップの「京都レストラン」より。",
+    "description": "バー。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "蛸長-61",
+    "id": "蛸長-59",
     "name": "蛸長",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1594,12 +1542,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "おでん店"
     ],
-    "description": "おでん店。Googleマップの「京都レストラン」より。",
+    "description": "おでん店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "ぼんじゅーる-62",
+    "id": "ぼんじゅーる-60",
     "name": "ぼんじゅーる",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1620,12 +1568,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "日本式洋食レストラン"
     ],
-    "description": "日本式洋食レストラン。Googleマップの「京都レストラン」より。",
+    "description": "日本式洋食レストラン。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "ぎをん縄手とり安-63",
+    "id": "ぎをん縄手とり安-61",
     "name": "ぎをん縄手とり安",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1646,12 +1594,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "鶏料理店"
     ],
-    "description": "鶏料理店。Googleマップの「京都レストラン」より。",
+    "description": "鶏料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "bar-rocking-chair-64",
+    "id": "bar-rocking-chair-62",
     "name": "Bar Rocking chair",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1672,12 +1620,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "バー"
     ],
-    "description": "バー。Googleマップの「京都レストラン」より。",
+    "description": "バー。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "平和的ごはんパドマ-65",
+    "id": "平和的ごはんパドマ-63",
     "name": "平和的ごはんパドマ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1698,12 +1646,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ベジタリアン料理店"
     ],
-    "description": "ベジタリアン料理店。Googleマップの「京都レストラン」より。",
+    "description": "ベジタリアン料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "中華そば-六-66",
+    "id": "中華そば-六-64",
     "name": "中華そば 六",
     "cuisine": "その他",
     "priceTier": "casual",
@@ -1724,12 +1672,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「京都レストラン」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "和醸良麺-すがり-67",
+    "id": "和醸良麺-すがり-65",
     "name": "和醸良麺 すがり",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1750,12 +1698,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「京都レストラン」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "麺や-高倉二条-68",
+    "id": "麺や-高倉二条-66",
     "name": "麺や 高倉二条",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1776,12 +1724,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「京都レストラン」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "名前のないラーメン屋-69",
+    "id": "名前のないラーメン屋-67",
     "name": "(名前のないラーメン屋)",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1802,12 +1750,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「京都レストラン」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "vegan-ramen-uzu-kyoto-70",
+    "id": "vegan-ramen-uzu-kyoto-68",
     "name": "Vegan Ramen UZU Kyoto",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1828,12 +1776,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ビーガン料理店"
     ],
-    "description": "ビーガン料理店。Googleマップの「京都レストラン」より。",
+    "description": "ビーガン料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "オリオン食堂-71",
+    "id": "オリオン食堂-69",
     "name": "オリオン食堂",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1854,12 +1802,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "郷土料理店"
     ],
-    "description": "郷土料理店。Googleマップの「京都レストラン」より。",
+    "description": "郷土料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "らーめん門扇祇園-72",
+    "id": "らーめん門扇祇園-70",
     "name": "らーめん門扇祇園",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -1881,12 +1829,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「京都レストラン」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "門扇-木屋町店-73",
+    "id": "門扇-木屋町店-71",
     "name": "門扇 木屋町店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -1907,38 +1855,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "閉業"
     ],
-    "description": "閉業。Googleマップの「京都レストラン」より。",
+    "description": "閉業。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "604-8093-京都府京都市中京区富小路通御池下る松下町１３５-料理旅館天ぷら-74",
-    "name": "〒604-8093 京都府京都市中京区富小路通御池下る松下町１３５ 料理旅館天ぷら吉川",
-    "cuisine": "和食",
-    "priceTier": "middle",
-    "priceDinner": "¥10,000〜",
-    "scenes": [
-      "会食"
-    ],
-    "area": "京都",
-    "address": "京都府（周辺）",
-    "nearestStation": "",
-    "lat": 35.00443333333333,
-    "lng": 135.77593333333334,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%80%92604-8093%20%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E9%83%BD%E5%B8%82%E4%B8%AD%E4%BA%AC%E5%8C%BA%E5%AF%8C%E5%B0%8F%E8%B7%AF%E9%80%9A%E5%BE%A1%E6%B1%A0%E4%B8%8B%E3%82%8B%E6%9D%BE%E4%B8%8B%E7%94%BA%EF%BC%91%EF%BC%93%EF%BC%95%20%E6%96%99%E7%90%86%E6%97%85%E9%A4%A8%E5%A4%A9%E3%81%B7%E3%82%89%E5%90%89%E5%B7%9D%20%E4%BA%AC%E9%83%BD",
-    "googlePlaceQuery": "〒604-8093 京都府京都市中京区富小路通御池下る松下町１３５ 料理旅館天ぷら吉川 京都",
-    "image": "https://images.unsplash.com/photo-1519690889869-e705e59f72e1?w=800&q=80",
-    "rating": 4.3,
-    "reviewCount": 0,
-    "tags": [
-      "〒604-8093 京都府京都市中京区富小路通御池下る松下町１３５ 料理旅館天ぷら吉川"
-    ],
-    "description": "〒604-8093 京都府京都市中京区富小路通御池下る松下町１３５ 料理旅館天ぷら吉川。Googleマップの「京都レストラン」より。",
-    "privateRoom": false,
-    "listSource": "京都レストラン"
-  },
-  {
-    "id": "グリルフレンチ-75",
+    "id": "グリルフレンチ-72",
     "name": "グリルフレンチ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -1959,12 +1881,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "洋食レストラン"
     ],
-    "description": "洋食レストラン。Googleマップの「京都レストラン」より。",
+    "description": "洋食レストラン。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "肉割烹-安参-76",
+    "id": "肉割烹-安参-73",
     "name": "肉割烹 安参",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -1985,12 +1907,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "肉料理店"
     ],
-    "description": "肉料理店。Googleマップの「京都レストラン」より。",
+    "description": "肉料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "魚料理あぎやお-77",
+    "id": "魚料理あぎやお-74",
     "name": "魚料理あぎやお",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2011,12 +1933,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "魚料理店"
     ],
-    "description": "魚料理店。Googleマップの「京都レストラン」より。",
+    "description": "魚料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "焼肉の名門-天壇-祇園本店-78",
+    "id": "焼肉の名門-天壇-祇園本店-75",
     "name": "焼肉の名門 天壇 祇園本店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -2037,12 +1959,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「京都レストラン」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "杦-sen--79",
+    "id": "杦-sen--76",
     "name": "杦-SEN-",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -2065,12 +1987,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「京都レストラン」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "京都レストラン"
   },
   {
-    "id": "dontsuki-80",
+    "id": "dontsuki-77",
     "name": "Dontsuki",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2091,12 +2013,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "シーフード・海鮮料理店"
     ],
-    "description": "シーフード・海鮮料理店。Googleマップの「京都レストラン」より。",
+    "description": "シーフード・海鮮料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "食堂-おがわ-81",
+    "id": "食堂-おがわ-78",
     "name": "食堂 おがわ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2117,12 +2039,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「京都レストラン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "フォーチュンガーデン京都-82",
+    "id": "フォーチュンガーデン京都-79",
     "name": "フォーチュンガーデン京都",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2143,12 +2065,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「京都レストラン」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "むろまち-加地-83",
+    "id": "むろまち-加地-80",
     "name": "むろまち 加地",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2169,12 +2091,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「京都レストラン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "リストランテ-野呂-84",
+    "id": "リストランテ-野呂-81",
     "name": "リストランテ 野呂",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -2195,12 +2117,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「京都レストラン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "洋食-おがた-85",
+    "id": "洋食-おがた-82",
     "name": "洋食 おがた",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2221,12 +2143,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "日本式洋食レストラン"
     ],
-    "description": "日本式洋食レストラン。Googleマップの「京都レストラン」より。",
+    "description": "日本式洋食レストラン。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "そば処-桝富ますとみ-86",
+    "id": "そば処-桝富ますとみ-83",
     "name": "そば処 桝富（ますとみ）",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2247,12 +2169,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "閉業"
     ],
-    "description": "閉業。Googleマップの「京都レストラン」より。",
+    "description": "閉業。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "わしょく-宝来-87",
+    "id": "わしょく-宝来-84",
     "name": "わしょく 宝来",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2273,12 +2195,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「京都レストラン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "丸福樓-88",
+    "id": "丸福樓-85",
     "name": "丸福樓",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2299,12 +2221,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "つ星ホテル"
     ],
-    "description": "つ星ホテル。Googleマップの「京都レストラン」より。",
+    "description": "つ星ホテル。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "カフェビブリオティック-ハロー-89",
+    "id": "カフェビブリオティック-ハロー-86",
     "name": "カフェビブリオティック ハロー!",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2325,12 +2247,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "カフェ・喫茶"
     ],
-    "description": "カフェ・喫茶。Googleマップの「京都レストラン」より。",
+    "description": "カフェ・喫茶。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "ワインショップ-エーテルヴァイン-90",
+    "id": "ワインショップ-エーテルヴァイン-87",
     "name": "ワインショップ エーテルヴァイン",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2351,38 +2273,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ワイン専門店"
     ],
-    "description": "ワイン専門店。Googleマップの「京都レストラン」より。",
+    "description": "ワイン専門店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "汽-91",
-    "name": "汽",
-    "cuisine": "和食",
-    "priceTier": "middle",
-    "priceDinner": "¥10,000〜",
-    "scenes": [
-      "会食"
-    ],
-    "area": "京都",
-    "address": "京都府（周辺）",
-    "nearestStation": "",
-    "lat": 35.01768333333334,
-    "lng": 135.76935,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B1%BD%20%E4%BA%AC%E9%83%BD",
-    "googlePlaceQuery": "汽 京都",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmA2RIu5pb6vB6494_dN6_8tjSg-h0y8hIREJ8WsLNvM8F6CUvXxBGBNhmdLVDMvuVPIyRDmJDk41i3LvJ33nBvKHWbgRzWFM94EoVVypUSGFziCVpotmYlopZXbviLIyLcLg6b=w800-h600-k-no",
-    "rating": 4.5,
-    "reviewCount": 0,
-    "tags": [
-      "レバノン料理店"
-    ],
-    "description": "レバノン料理店。Googleマップの「京都レストラン」より。",
-    "privateRoom": false,
-    "listSource": "京都レストラン"
-  },
-  {
-    "id": "炭火焼鳥-吉田山せせり-92",
+    "id": "炭火焼鳥-吉田山せせり-88",
     "name": "炭火焼鳥 吉田山せせり",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2403,12 +2299,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「京都レストラン」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "droit--ドロワ-93",
+    "id": "droit--ドロワ-89",
     "name": "Droit | ドロワ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -2429,12 +2325,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「京都レストラン」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "木山-94",
+    "id": "木山-90",
     "name": "木山",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -2457,12 +2353,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「京都レストラン」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "京都レストラン"
   },
   {
-    "id": "cave-de-k-95",
+    "id": "cave-de-k-91",
     "name": "Cave de K",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2483,12 +2379,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "バー"
     ],
-    "description": "バー。Googleマップの「京都レストラン」より。",
+    "description": "バー。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "ヴァルズビル-一階-96",
+    "id": "ヴァルズビル-一階-92",
     "name": "ヴァルズビル 一階",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2509,12 +2405,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ヴァルズビル 一階場所は存在しません"
     ],
-    "description": "ヴァルズビル 一階場所は存在しません。Googleマップの「京都レストラン」より。",
+    "description": "ヴァルズビル 一階場所は存在しません。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "白碗竹筷樓-祇園店-97",
+    "id": "白碗竹筷樓-祇園店-93",
     "name": "白碗竹筷樓 祇園店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -2535,12 +2431,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「京都レストラン」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "鳥さき-98",
+    "id": "鳥さき-94",
     "name": "鳥さき",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2561,12 +2457,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「京都レストラン」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "il-garage-イルガラージュ-99",
+    "id": "il-garage-イルガラージュ-95",
     "name": "IL GARAGE イルガラージュ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -2587,12 +2483,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「京都レストラン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "京都レストラン"
   },
   {
-    "id": "ルポンデュガール-ユキノブツキダテ-100",
+    "id": "ルポンデュガール-ユキノブツキダテ-96",
     "name": "ルポンデュガール ユキノブツキダテ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -2603,8 +2499,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.201299999999996,
-    "lng": 138.24506666666667,
+    "lat": 34.156499999999994,
+    "lng": 137.63216666666665,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AB%E3%83%9D%E3%83%B3%E3%83%87%E3%83%A5%E3%82%AC%E3%83%BC%E3%83%AB%20%E3%83%A6%E3%82%AD%E3%83%8E%E3%83%96%E3%83%84%E3%82%AD%E3%83%80%E3%83%86",
     "googlePlaceQuery": "ルポンデュガール ユキノブツキダテ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlgLXwzd_lR23IAbetuy3DxFCw4SrwQeFHyYuSR_uUxR3ZMpUNhHA973WUHtWBun2vw-RBVXK6n3vBA8OvNa_wlmjvBFxNxuYUh8K9hXxzAwW8eAlSX7Und_e6ZkHQgktfwEyB3Vw=w800-h600-k-no",
@@ -2613,12 +2509,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "アドゥエパッシ-101",
+    "id": "アドゥエパッシ-97",
     "name": "ア・ドゥエ・パッシ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -2629,8 +2525,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.205549999999995,
-    "lng": 138.25681666666668,
+    "lat": 36.23075,
+    "lng": 134.26391666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%BB%E3%83%89%E3%82%A5%E3%82%A8%E3%83%BB%E3%83%91%E3%83%83%E3%82%B7",
     "googlePlaceQuery": "ア・ドゥエ・パッシ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkiunAuRn01V7G0FXZatNTeYhbrA4-waiGH05ETW9Id7gYL8DQ2htbP5wtmb0LrqVhRMGZAo2FluRJOg-y3HBbYb24WxFQD_n9DaURHYyurXIsm6G8D4pmegJ4_c2VXi4l6hInXOQ=w800-h600-k-no",
@@ -2639,12 +2535,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "丹霞堂-富山駅前店-102",
+    "id": "丹霞堂-富山駅前店-98",
     "name": "丹霞堂 富山駅前店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2655,8 +2551,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21171666666667,
-    "lng": 138.25265000000002,
+    "lat": 40.056916666666666,
+    "lng": 119.72975000000001,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B9%E9%9C%9E%E5%A0%82%20%E5%AF%8C%E5%B1%B1%E9%A7%85%E5%89%8D%E5%BA%97",
     "googlePlaceQuery": "丹霞堂 富山駅前店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkelJlo0eWkIqpF3Oq8qfT0P0LZsjoSkHU8PAXx-Em3tmjtKSslNf3Un0K8tTIfS4L-05PN24w_9MtPA4y1ojmtkhv_x13gj4HhTOA1ScKXsME8rjX4ijE1xjL89LuMOWKTcOXU=w800-h600-k-no",
@@ -2665,12 +2561,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "カフェ・喫茶"
     ],
-    "description": "カフェ・喫茶。Googleマップの「地方レストラン_名店」より。",
+    "description": "カフェ・喫茶。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "いせえび料理-中平-103",
+    "id": "いせえび料理-中平-99",
     "name": "いせえび料理 中平",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2681,8 +2577,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20571666666667,
-    "lng": 138.26065,
+    "lat": 35.65091666666667,
+    "lng": 121.59775,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%81%9B%E3%81%88%E3%81%B3%E6%96%99%E7%90%86%20%E4%B8%AD%E5%B9%B3",
     "googlePlaceQuery": "いせえび料理 中平",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlOnyrKVaBPK0Ag-2BcYJCNyyx4hVM4eEpp5xzL6u9J07Mehvh-hhFJCp0C0zxlup5Lkm8hpLwia8t4GBsGRU0ba7fDmOywjKFjumMV2nvn_6Pb_8TQZuTbCIuCNbJau4BrkOGshQ=w800-h600-k-no",
@@ -2691,12 +2587,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "シーフード・海鮮料理店"
     ],
-    "description": "シーフード・海鮮料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "シーフード・海鮮料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "あんず-お肉の工場直売所-勝どき店-104",
+    "id": "あんず-お肉の工場直売所-勝どき店-100",
     "name": "あんず お肉の工場直売所 勝どき店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -2707,8 +2603,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.210049999999995,
-    "lng": 138.25565,
+    "lat": 34.09525,
+    "lng": 138.17274999999998,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%82%93%E3%81%9A%20%E3%81%8A%E8%82%89%E3%81%AE%E5%B7%A5%E5%A0%B4%E7%9B%B4%E5%A3%B2%E6%89%80%20%E5%8B%9D%E3%81%A9%E3%81%8D%E5%BA%97",
     "googlePlaceQuery": "あんず お肉の工場直売所 勝どき店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkoo5ENHPmZGeLXk-o508TKCmGRDWLnB7sRGqP-zDFzrrNbBsDvxsefTdy5UkOvlolUjNgvOhES9EVqHbCj_nRopvU_Qk31kNS-I-mhrnjmxd5rB65wFv_5ZCpUItHNyXcrYAes6g=w800-h600-k-no",
@@ -2717,12 +2613,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "精肉店"
     ],
-    "description": "精肉店。Googleマップの「地方レストラン_名店」より。",
+    "description": "精肉店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "酒肴めし-まる城まるじょう-105",
+    "id": "酒肴めし-まる城まるじょう-101",
     "name": "酒肴めし まる城（まるじょう）",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -2734,8 +2630,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.198966666666664,
-    "lng": 138.25606666666667,
+    "lat": 44.19416666666667,
+    "lng": 139.48316666666665,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E8%82%B4%E3%82%81%E3%81%97%20%E3%81%BE%E3%82%8B%E5%9F%8E%EF%BC%88%E3%81%BE%E3%82%8B%E3%81%98%E3%82%87%E3%81%86%EF%BC%89",
     "googlePlaceQuery": "酒肴めし まる城（まるじょう）",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnCpDiQ0-8Sjtfo7YRNtoUqkeCIOSUmy7G65S7qdRd5KZJYAAAA_Wp8oWcN34RN_02m9JUTswE7FezAg7XY2je-YpWGKr-138oKLM1wBHDZinMDzJXQ25Ttes04THaX_Sy1zMJgyqm0jKas=w800-h600-k-no",
@@ -2744,12 +2640,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "祐徳稲荷神社-106",
+    "id": "祐徳稲荷神社-102",
     "name": "祐徳稲荷神社",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2760,8 +2656,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.202466666666666,
-    "lng": 138.25723333333335,
+    "lat": 41.577666666666666,
+    "lng": 129.56433333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A5%90%E5%BE%B3%E7%A8%B2%E8%8D%B7%E7%A5%9E%E7%A4%BE",
     "googlePlaceQuery": "祐徳稲荷神社",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmtUirzth0k28d7RVuP7ALN3jQ10UFrFy56sxW_RQ1Eyb7CBLuP4KYfxlWGd_0VuWkKs8rmOqTRywC1p6XAS-ul4ZbO-6ytcQL8qXPq7ExNN-l-VSkkDQDOGW-XCCJTMZXYt8GH=w800-h600-k-no",
@@ -2770,12 +2666,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.5(10,329)"
     ],
-    "description": "4.5(10,329)。Googleマップの「地方レストラン_名店」より。",
+    "description": "4.5(10,329)。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "うなぎの原田-107",
+    "id": "うなぎの原田-103",
     "name": "うなぎの原田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2786,8 +2682,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.204883333333335,
-    "lng": 138.25015000000002,
+    "lat": 44.23008333333334,
+    "lng": 133.32725000000002,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%AA%E3%81%8E%E3%81%AE%E5%8E%9F%E7%94%B0",
     "googlePlaceQuery": "うなぎの原田",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmwgHLNkMiC90n3ZPNo0UvOz7ia4hf1FyWdOwwUxbwSNgBzGnf-PA7Zc1z_qd8jC2r_-FhnCrsb37_PIawy5-moX15ZhprD_bWxetwqezKsf3dqoSXhy_6vw7HQnkamep65uiknUwGmYUHm=w800-h600-k-no",
@@ -2796,12 +2692,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "太良嶽温泉-蟹御殿-108",
+    "id": "太良嶽温泉-蟹御殿-104",
     "name": "太良嶽温泉 蟹御殿",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2812,8 +2708,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.213049999999996,
-    "lng": 138.25998333333334,
+    "lat": 34.738249999999994,
+    "lng": 137.53708333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E8%89%AF%E5%B6%BD%E6%B8%A9%E6%B3%89%20%E8%9F%B9%E5%BE%A1%E6%AE%BF",
     "googlePlaceQuery": "太良嶽温泉 蟹御殿",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn_nXTkdl521f3cJR2qlIWwl_SVzEVlEZi3jo8q3vGZKA4AohaGGxS_wv5ghGkTCVujkEVcBbhzDKar7l1J58PIPrCcqdX3h8SimaE23EZdiuZthw1V3Q9ilbiUorj2v05DfcwK5-Q6G8g=w800-h600-k-no",
@@ -2822,12 +2718,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "つ星ホテル"
     ],
-    "description": "つ星ホテル。Googleマップの「地方レストラン_名店」より。",
+    "description": "つ星ホテル。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "酒楽遊膳-えびす-警固本通り店-109",
+    "id": "酒楽遊膳-えびす-警固本通り店-105",
     "name": "酒楽遊膳 えびす 警固本通り店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -2838,8 +2734,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19755,
-    "lng": 138.24481666666668,
+    "lat": 36.26275,
+    "lng": 136.37191666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E6%A5%BD%E9%81%8A%E8%86%B3%20%E3%81%88%E3%81%B3%E3%81%99%20%E8%AD%A6%E5%9B%BA%E6%9C%AC%E9%80%9A%E3%82%8A%E5%BA%97",
     "googlePlaceQuery": "酒楽遊膳 えびす 警固本通り店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmjOgPP4vfmR-zW20iwvfKGBMYkzYB6TJIOnE4DU6HNU7GwDMZst1iWw6QxMaf8yEfjq1O5BYZAA1BrjCUx6yhklsEeO7qv1Z-m30kKJNYGP9MtXe34Xb8ZxpkICCIOlX8Ky8tK=w800-h600-k-no",
@@ -2848,12 +2744,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "小森田-110",
+    "id": "小森田-106",
     "name": "小森田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2864,8 +2760,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20655,
-    "lng": 138.25648333333334,
+    "lat": 32.591750000000005,
+    "lng": 133.29358333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%A3%AE%E7%94%B0",
     "googlePlaceQuery": "小森田",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmV3MxzY_y2TMHc_2PPpOCtJyNVn-WNhEpqKIM6YPUaOQkKtcOAPH3auHhAbQIcE35X6KceRHS00QuRRwADZFEIWTyhbL2fTi8kTdwlk7ZDUsKw_ZE0TdRbK10PtrQ7YkBt_E2z1EcrxVI-=w800-h600-k-no",
@@ -2874,12 +2770,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「地方レストラン_名店」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "一組限定-癒しの-宿-繁よし-111",
+    "id": "一組限定-癒しの-宿-繁よし-107",
     "name": "一組限定 癒しの 宿 繁よし",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2890,8 +2786,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19763333333333,
-    "lng": 138.2594,
+    "lat": 33.23283333333333,
+    "lng": 122.3565,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E7%B5%84%E9%99%90%E5%AE%9A%20%E7%99%92%E3%81%97%E3%81%AE%20%E5%AE%BF%20%E7%B9%81%E3%82%88%E3%81%97",
     "googlePlaceQuery": "一組限定 癒しの 宿 繁よし",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWneAG_94yPSEdMhmoNhamXNQkCRmtLengIfGVwxOmNxmE-ABSB6Jr1IVAsnzpVy6Q5w-RAOi-e_7tXs2LQyaY8bsG1O9LXPIVlQCSMKAgH3arzBLq0UqibN3wYmSSK6pQet0vld=w800-h600-k-no",
@@ -2900,12 +2796,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "旅館"
     ],
-    "description": "旅館。Googleマップの「地方レストラン_名店」より。",
+    "description": "旅館。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "大和寿司-東京-豊洲市場-112",
+    "id": "大和寿司-東京-豊洲市場-108",
     "name": "大和寿司 東京 豊洲市場",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -2916,8 +2812,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.211549999999995,
-    "lng": 138.25481666666667,
+    "lat": 34.796749999999996,
+    "lng": 132.55191666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%92%8C%E5%AF%BF%E5%8F%B8%20%E6%9D%B1%E4%BA%AC%20%E8%B1%8A%E6%B4%B2%E5%B8%82%E5%A0%B4",
     "googlePlaceQuery": "大和寿司 東京 豊洲市場",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmPHkINoVbbVR8LjZysdemR0hlPZm3oYSHpvROYQKAI_2HR4ROMbLY_JV4AWJq3Az0w72onPPFG_EimANgpIAeLC8afmQ8pnEDAJcC_-qA9X9XY_IQ-eLE8WabCCtN8nCN8iMIgvg=w800-h600-k-no",
@@ -2926,12 +2822,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "壱にのまえ-113",
+    "id": "壱にのまえ-109",
     "name": "壱（にのまえ）",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2942,8 +2838,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21021666666667,
-    "lng": 138.25748333333334,
+    "lat": 42.11541666666667,
+    "lng": 126.81458333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A3%B1%EF%BC%88%E3%81%AB%E3%81%AE%E3%81%BE%E3%81%88%EF%BC%89",
     "googlePlaceQuery": "壱（にのまえ）",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkQ-57nZf8WMVD6xCPI-jINEU9QDj-zwy2PC6ytlxDwfukdfh7JelfAmNEG3xSoZ71_Sk1qsEceVnmh7pRJqnitH5oLY0K3Q0LxdxGUTM3d9RsKTepu10P2aTYOYTiUZQP0jnY5=w800-h600-k-no",
@@ -2952,12 +2848,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「地方レストラン_名店」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "てんぷら-天白-114",
+    "id": "てんぷら-天白-110",
     "name": "てんぷら 天白",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -2968,8 +2864,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19821666666667,
-    "lng": 138.25815,
+    "lat": 38.863416666666666,
+    "lng": 123.19525,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A6%E3%82%93%E3%81%B7%E3%82%89%20%E5%A4%A9%E7%99%BD",
     "googlePlaceQuery": "てんぷら 天白",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnRTr3VnTne15JIbQ4685v7rUPEODTI8visqcyF6Gfxp2NC32zhsrNznr44ZMcLHcPeHFPdM_o7u1Ulc07lX9sXCzmss4lPBO1arV_auB_t86U8PvgwoeN5uOSw6Id1ujUWMmLkEhVOqNFf=w800-h600-k-no",
@@ -2978,12 +2874,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "天ぷら店"
     ],
-    "description": "天ぷら店。Googleマップの「地方レストラン_名店」より。",
+    "description": "天ぷら店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨たな華-115",
+    "id": "鮨たな華-111",
     "name": "鮨たな華",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -2994,8 +2890,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.203466666666664,
-    "lng": 138.26023333333333,
+    "lat": 35.69866666666667,
+    "lng": 135.09733333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%9F%E3%81%AA%E8%8F%AF",
     "googlePlaceQuery": "鮨たな華",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk2xosyKhFPACYs3Qs88-5HTuj3bXTJ0rtZBtK915RYQ0HuVp87o2ZimpOPAuBhTIizpX1-ogiDi7PvzYRw64ewFoRjckfBFjD0hUKbLfHMnExYTE9VB2rLqGyuRiF-it37Sz7aAA=w800-h600-k-no",
@@ -3004,12 +2900,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "中国料理-四神-116",
+    "id": "中国料理-四神-112",
     "name": "中国料理 四神",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -3020,8 +2916,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21296666666667,
-    "lng": 138.2600666666667,
+    "lat": 34.56816666666667,
+    "lng": 130.22716666666668,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%9B%BD%E6%96%99%E7%90%86%20%E5%9B%9B%E7%A5%9E",
     "googlePlaceQuery": "中国料理 四神",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkxzzXb1kItzinjNqM8DkfrGSNaSbmqKyZwFWHZsvOveHGToFCvqt9bWtyPGW2mzBRyetEhV-e30GExb5vSpqAlTYr3psMVYdykemMwIsGXFBzmf41LyNlMlLcz4GpMzKXBNDp3ukViwpg=w800-h600-k-no",
@@ -3030,12 +2926,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "なら泉勇斎-117",
+    "id": "なら泉勇斎-113",
     "name": "なら泉勇斎",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3046,8 +2942,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.207883333333335,
-    "lng": 138.25315,
+    "lat": 38.153083333333335,
+    "lng": 128.59025,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AA%E3%82%89%E6%B3%89%E5%8B%87%E6%96%8E",
     "googlePlaceQuery": "なら泉勇斎",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkHVCwpxfSt23td8LG-xzexD_rns4Z2aeCXIObQ1BIqXKwO-3FBRLPIqHCOITqZuwmRdlSaVNIHAWYgl8UQl3fJCnPLqISLcsxPrfIOiYegv7ZQwtM-3ptbgyrZT_DpEA3KNoSN5lo2fAXp=w800-h600-k-no",
@@ -3056,12 +2952,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "酒店"
     ],
-    "description": "酒店。Googleマップの「地方レストラン_名店」より。",
+    "description": "酒店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "㐂つねきつね-118",
+    "id": "㐂つねきつね-114",
     "name": "㐂つね（きつね）",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -3072,8 +2968,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.1978,
-    "lng": 138.25856666666667,
+    "lat": 33.773,
+    "lng": 144.12566666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%90%82%E3%81%A4%E3%81%AD%EF%BC%88%E3%81%8D%E3%81%A4%E3%81%AD%EF%BC%89",
     "googlePlaceQuery": "㐂つね（きつね）",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnCYE2zG4USWaukAdeWBPPqjMQ1EmH65QS9GZThjp7dYb_jqsxoUaHMGZKKES06sPO0vUXhBJLUgbjHebS1syq3BYMH_FlrnMYWHXReBAqHc0o9lE0YW-DrXt1FAbNdz0ieTjx5=w800-h600-k-no",
@@ -3082,12 +2978,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "すき焼きレストラン"
     ],
-    "description": "すき焼きレストラン。Googleマップの「地方レストラン_名店」より。",
+    "description": "すき焼きレストラン。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "まんぎょく-119",
+    "id": "まんぎょく-115",
     "name": "まんぎょく",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3098,8 +2994,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21188333333333,
-    "lng": 138.26048333333335,
+    "lat": 39.437083333333334,
+    "lng": 118.19758333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%BE%E3%82%93%E3%81%8E%E3%82%87%E3%81%8F",
     "googlePlaceQuery": "まんぎょく",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkrbtSMFHd7qEeEmt0ntaocqdjHhEV2psBv-g-mdVq2Int-4Qow7ZW7U9tMut7SdllCbejzP-BhTxfkCsN5Ub0LGBFPWuHg00UiWAE4kc_NtTybyKWo3jN4zGda3Uuiim_zwPGT=w800-h600-k-no",
@@ -3108,12 +3004,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「地方レストラン_名店」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "la-patisserie-takahiro-maruyama-120",
+    "id": "la-patisserie-takahiro-maruyama-116",
     "name": "La patisserie TAKAHIRO MARUYAMA",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3124,8 +3020,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.205466666666666,
-    "lng": 138.24823333333333,
+    "lat": 36.10066666666667,
+    "lng": 140.82533333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20patisserie%20TAKAHIRO%20MARUYAMA",
     "googlePlaceQuery": "La patisserie TAKAHIRO MARUYAMA",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk-FWYkVdw9_DtEgXzrKDy2Lq3P_U0s-FndnEUeg-TbHihkv0M8gGXLlDR58SJ4R5QEfosnJNO8FXAJU9IeNWJg5MbVFPc2wr9Da__YD003M28B9pLvTNzZTh_e1SLOUQlOllJGwrKGMyG-=w800-h600-k-no",
@@ -3134,12 +3030,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "スイーツ店"
     ],
-    "description": "スイーツ店。Googleマップの「地方レストラン_名店」より。",
+    "description": "スイーツ店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "信州そば-地粉や-121",
+    "id": "信州そば-地粉や-117",
     "name": "信州そば 地粉や",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3150,8 +3046,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19671666666667,
-    "lng": 138.24898333333334,
+    "lat": 34.80191666666667,
+    "lng": 120.43608333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BF%A1%E5%B7%9E%E3%81%9D%E3%81%B0%20%E5%9C%B0%E7%B2%89%E3%82%84",
     "googlePlaceQuery": "信州そば 地粉や",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmLnBt5P8mooP6vSWSAjx4MrF_yvtFKOC6L0I6eQfWFZMuX0dqP6q364BDK-XDyIc7igSeT5nFXoIt6qkK8FU3fJ67hupG9UKrVVQj_hmq2MmDv9TJKqIlio90N2Xt27dtrg2wECMA2bBV6=w800-h600-k-no",
@@ -3160,12 +3056,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「地方レストラン_名店」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "そば処元屋-122",
+    "id": "そば処元屋-118",
     "name": "そば処元屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3176,8 +3072,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20871666666667,
-    "lng": 138.24498333333335,
+    "lat": 34.053916666666666,
+    "lng": 117.95208333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E5%87%A6%E5%85%83%E5%B1%8B",
     "googlePlaceQuery": "そば処元屋",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm3zvwLJNKhVDWPimFv6jb924oSmJq5s9TonWKPsA6ugrma1JSkt4WFNWcgl_yut-ppnDdDmS2PlI-_Rs9T9K6NhqDC1dQNTqHkS5rtFurA7hi787NZczpy0UHkb18ft2SQi0U8=w800-h600-k-no",
@@ -3186,12 +3082,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「地方レストラン_名店」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "石臼挽き蕎麦-東間-123",
+    "id": "石臼挽き蕎麦-東間-119",
     "name": "石臼挽き蕎麦 東間",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3202,8 +3098,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20121666666667,
-    "lng": 138.25448333333335,
+    "lat": 33.38641666666667,
+    "lng": 122.96158333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E8%87%BC%E6%8C%BD%E3%81%8D%E8%95%8E%E9%BA%A6%20%E6%9D%B1%E9%96%93",
     "googlePlaceQuery": "石臼挽き蕎麦 東間",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmhOFq2DoAQCDU0V9u1TWJZGMutw3WmSbyn0STsdbLWkgZun4bhvOcE6iCAkZBgdh5vcjTDOD_LbRCNTa25EODiCvNUGEQ8VeOe3aRTj9qWSqTPo9d9rTGmaOmEch8zO6I5Ti3HFKbVXrtO=w800-h600-k-no",
@@ -3212,12 +3108,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「地方レストラン_名店」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "蒼空-124",
+    "id": "蒼空-120",
     "name": "蒼空",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -3228,8 +3124,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20963333333333,
-    "lng": 138.2534,
+    "lat": 36.844833333333334,
+    "lng": 135.79049999999998,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%92%BC%E7%A9%BA",
     "googlePlaceQuery": "蒼空",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkJvjWST46qodh1sc5r4vinzf4a49XpEalyncrj2NFu1h53CbQjCynpqyUVb9E9qHoLX2yTJVcOtKpASYH-d8p01T_clJVzj95Qx6ozpm9mvTj0YRFDWPVKS2rxw8V-sHjD3cKrBw=w800-h600-k-no",
@@ -3238,12 +3134,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ピザ店"
     ],
-    "description": "ピザ店。Googleマップの「地方レストラン_名店」より。",
+    "description": "ピザ店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "コンチネンタルルーム-125",
+    "id": "コンチネンタルルーム-121",
     "name": "コンチネンタルルーム",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3254,8 +3150,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20746666666667,
-    "lng": 138.26023333333333,
+    "lat": 35.70266666666667,
+    "lng": 121.63733333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B3%E3%83%B3%E3%83%81%E3%83%8D%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%AB%E3%83%BC%E3%83%A0",
     "googlePlaceQuery": "コンチネンタルルーム",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlBmu7Ld3_AqjaGA2vWJZOf6ZtvVB8Nxipibau66SNSzYTZ1GAbQgb_8kuMQs8JlNPVaAJ8MRXJWgiKlMimM0u9oR8UfE_QGs6yIBZJx-V6KwElGts7SZa-cf3v-3xTYrfm-TFtfzbkmeOU=w800-h600-k-no",
@@ -3264,12 +3160,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「地方レストラン_名店」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "trattoria-abbiocco-126",
+    "id": "trattoria-abbiocco-122",
     "name": "trattoria ABBIOCCO",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -3280,8 +3176,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20063333333333,
-    "lng": 138.25773333333333,
+    "lat": 40.75583333333333,
+    "lng": 131.79483333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=trattoria%20ABBIOCCO",
     "googlePlaceQuery": "trattoria ABBIOCCO",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYkObMS1b4BuFXA6O-mjYF9VpmzlPuco9m2syqWZbhxg4BrtmLTmaNmSSUO7-esPhxjuCg5rfR5dHfZks3niu41ET6qiuU6twQP4vjX7RzOrCbDlGhfUIXlb3vRywJbnQki8lCdADJ89Fv=w800-h600-k-no",
@@ -3290,12 +3186,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "八ちゃんラーメン-127",
+    "id": "八ちゃんラーメン-123",
     "name": "八ちゃんラーメン",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -3306,8 +3202,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20138333333333,
-    "lng": 138.25698333333335,
+    "lat": 36.36658333333333,
+    "lng": 139.86408333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E3%81%A1%E3%82%83%E3%82%93%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3",
     "googlePlaceQuery": "八ちゃんラーメン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkUJdt80Q_NN-vZsiCdVwX_vc8p4Cpf1_mg4-D_arUaWecHc68iJ0HUHKimtE1wQvuK3U1Fs_lF4QsLx0XKQCDKkjxG_V9K28nP0it3dCFHzhckjmD5goXI0LUkOckDwei45DETWKXhLsYf=w800-h600-k-no",
@@ -3316,12 +3212,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "バー-シガー倶楽部住吉-128",
+    "id": "バー-シガー倶楽部住吉-124",
     "name": "バー シガー倶楽部住吉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3332,8 +3228,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2078,
-    "lng": 138.24790000000002,
+    "lat": 36.183,
+    "lng": 132.445,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%90%E3%83%BC%20%E3%82%B7%E3%82%AC%E3%83%BC%E5%80%B6%E6%A5%BD%E9%83%A8%E4%BD%8F%E5%90%89",
     "googlePlaceQuery": "バー シガー倶楽部住吉",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkl5sIIh5XXsweDnIRqGyRQ4wuKCkkioFqPEuBJQrY3LI5BSqFgc7rokLTEbLQGUHhN_YMuQ2CiaOoGLzM_d2hdECXBp6Oa45RiZtvzAqhtb1alMYwW57958Grn214IDAJqIS_tVQ=w800-h600-k-no",
@@ -3342,12 +3238,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "バー"
     ],
-    "description": "バー。Googleマップの「地方レストラン_名店」より。",
+    "description": "バー。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "ワイン倶楽部住吉-129",
+    "id": "ワイン倶楽部住吉-125",
     "name": "ワイン倶楽部住吉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3358,8 +3254,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.211549999999995,
-    "lng": 138.25948333333335,
+    "lat": 41.95675,
+    "lng": 138.25658333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AF%E3%82%A4%E3%83%B3%E5%80%B6%E6%A5%BD%E9%83%A8%E4%BD%8F%E5%90%89",
     "googlePlaceQuery": "ワイン倶楽部住吉",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkGbkOghtL31VueHZMs4c9tKT6NL0EaDkd2iZb9DMaWoC7O2qSnjHSHMH9V24J7lmvM4LmwnVZ_EhfSQbcXWQn_dJGe9tbqMvv6owDOGgE5bx3ajmN71BDoYCMNT_XFjKrPyfqK=w800-h600-k-no",
@@ -3368,12 +3264,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ワインバー"
     ],
-    "description": "ワインバー。Googleマップの「地方レストラン_名店」より。",
+    "description": "ワインバー。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "夜灯見荘-130",
+    "id": "夜灯見荘-126",
     "name": "夜灯見荘",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3384,8 +3280,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19913333333333,
-    "lng": 138.24723333333336,
+    "lat": 32.69433333333333,
+    "lng": 131.36433333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9C%E7%81%AF%E8%A6%8B%E8%8D%98",
     "googlePlaceQuery": "夜灯見荘",
     "image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGL5lErYxR1ngae41Lp8qGwGOvKKGTflWnpW7LD9R--N-X7mHZtHHWw6UTACjo6CVD_hFtBCh-h2dciPSeKhymSyFtD01kKh-ObWbAbj005IkbcO8Db4cW8a3pFOEJTY1GR4NhMqiX5FhvHjtPjivTQDmKXINswbsjttranVHJ4iy-t-9zLo8gYYg=w800-h600-k-no",
@@ -3394,12 +3290,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "旅館"
     ],
-    "description": "旅館。Googleマップの「地方レストラン_名店」より。",
+    "description": "旅館。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "博多料亭-稚加榮-131",
+    "id": "博多料亭-稚加榮-127",
     "name": "博多料亭 稚加榮",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3410,8 +3306,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20013333333333,
-    "lng": 138.24890000000002,
+    "lat": 40.215333333333334,
+    "lng": 120.456,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E6%96%99%E4%BA%AD%20%E7%A8%9A%E5%8A%A0%E6%A6%AE",
     "googlePlaceQuery": "博多料亭 稚加榮",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmOL4ENn_ggYYQXTfj0XkFzB0oY7HaXTRkpE-7vQiYFG15iY5xud3LQzGvE5FjZfOAU-WDm3NSCzqtK2LEsgrMphLqoO6t1DQV6dL_0FAaIKBGuBOGsqNvvY5OKYcHhm_yFEQepS2V6XOzh=w800-h600-k-no",
@@ -3420,12 +3316,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "シーフード・海鮮料理店"
     ],
-    "description": "シーフード・海鮮料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "シーフード・海鮮料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "もつ鍋-の元祖-楽天地-福岡-天神-総本店今泉-132",
+    "id": "もつ鍋-の元祖-楽天地-福岡-天神-総本店今泉-128",
     "name": "もつ鍋 の元祖 楽天地 福岡 天神 総本店（今泉）",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3436,8 +3332,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.202216666666665,
-    "lng": 138.24948333333333,
+    "lat": 36.98741666666667,
+    "lng": 136.35658333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%82%E3%81%A4%E9%8D%8B%20%E3%81%AE%E5%85%83%E7%A5%96%20%E6%A5%BD%E5%A4%A9%E5%9C%B0%20%E7%A6%8F%E5%B2%A1%20%E5%A4%A9%E7%A5%9E%20%E7%B7%8F%E6%9C%AC%E5%BA%97%EF%BC%88%E4%BB%8A%E6%B3%89%EF%BC%89",
     "googlePlaceQuery": "もつ鍋 の元祖 楽天地 福岡 天神 総本店（今泉）",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmX0mitKNHt4y8ClJ5OSqJICJkYEXUxyPEvYqTjW_ABs82vOzsuYGC9mC0UT83fAqTwg8jgbZFf_eJFB9MV-B5HDzwY3SxKWjun3lKBseKdz83M6QE_jTM44dGQ-6QlHm8hF4L2Kw=w800-h600-k-no",
@@ -3446,12 +3342,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "もつ鍋料理店"
     ],
-    "description": "もつ鍋料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "もつ鍋料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "うなぎ処-柳川屋-中洲本店-133",
+    "id": "うなぎ処-柳川屋-中洲本店-129",
     "name": "うなぎ処 柳川屋 中洲本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3462,8 +3358,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20271666666667,
-    "lng": 138.24831666666668,
+    "lat": 38.44791666666667,
+    "lng": 127.37541666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%AA%E3%81%8E%E5%87%A6%20%E6%9F%B3%E5%B7%9D%E5%B1%8B%20%E4%B8%AD%E6%B4%B2%E6%9C%AC%E5%BA%97",
     "googlePlaceQuery": "うなぎ処 柳川屋 中洲本店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmVo1WMzFMeMjO3nhzWUE95QWq0afzd5Xo7RUEu3jG3TLm9R1O-Ffz5X0yZHM06djBQl9tiZYlpGFfg75DtWmKQnY5rIi_55OcjEYffjPgf8YXs_2zq5htMR8mkBWLD3jkgPOtM=w800-h600-k-no",
@@ -3472,12 +3368,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "会員制-寿司割烹-鷹勝-博多総本店-134",
+    "id": "会員制-寿司割烹-鷹勝-博多総本店-130",
     "name": "会員制 寿司割烹 鷹勝 博多総本店",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -3488,8 +3384,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19755,
-    "lng": 138.25348333333335,
+    "lat": 38.10275,
+    "lng": 118.81058333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%9A%E5%93%A1%E5%88%B6%20%E5%AF%BF%E5%8F%B8%E5%89%B2%E7%83%B9%20%E9%B7%B9%E5%8B%9D%20%E5%8D%9A%E5%A4%9A%E7%B7%8F%E6%9C%AC%E5%BA%97",
     "googlePlaceQuery": "会員制 寿司割烹 鷹勝 博多総本店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk2uttn8PZLTa5JNfmYzu0C2bBeIpjivAxOwjMhYN1U9KsJKD5F7Y9uWPtxK9eowcGxeETdZwUYWloMcI8LvSjwhz06DdSvKAiAoZtfUF5_TC3S5BbbnZlainEN0_Y9wXtwxg0=w800-h600-k-no",
@@ -3498,12 +3394,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "焼肉慶州-今泉店-135",
+    "id": "焼肉慶州-今泉店-131",
     "name": "焼肉慶州 今泉店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -3514,8 +3410,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.210883333333335,
-    "lng": 138.26015,
+    "lat": 39.63608333333334,
+    "lng": 125.89725,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E6%85%B6%E5%B7%9E%20%E4%BB%8A%E6%B3%89%E5%BA%97",
     "googlePlaceQuery": "焼肉慶州 今泉店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk5Sn0IuedorF11rHJpK_QwtN0LvbeARgwwoL-c8hmp-uyOdtSNYYEJoDhnY41wLSO8WkSMbZa94mS5b-MAuJSo15mi6wmkYia2nfz4wm_CIISiWE9_yase0Ar0r1igD7knkgc6=w800-h600-k-no",
@@ -3524,12 +3420,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「地方レストラン_名店」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "油屋-136",
+    "id": "油屋-132",
     "name": "油屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3540,8 +3436,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2033,
-    "lng": 138.25173333333333,
+    "lat": 42.9985,
+    "lng": 134.81883333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%B9%E5%B1%8B",
     "googlePlaceQuery": "油屋",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm6bT6GcGsP9oLW9YPKjomnmwWy7xh-PPjuPOafInWmbi05axgJF1lCbjnQoHUr_MMnjDHLmENZ_uD72EVmx1wvcPW0EXwuOl8BziN2LQtjEGf8z3uqQMgfy3UcRfca3NAMDd5hat9-JZE=w800-h600-k-no",
@@ -3550,12 +3446,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「地方レストラン_名店」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "スパアルプス-137",
+    "id": "スパアルプス-133",
     "name": "スパ・アルプス",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3566,8 +3462,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.198299999999996,
-    "lng": 138.2554,
+    "lat": 32.9935,
+    "lng": 137.89249999999998,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%83%91%E3%83%BB%E3%82%A2%E3%83%AB%E3%83%97%E3%82%B9",
     "googlePlaceQuery": "スパ・アルプス",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkvHcMw148h8kN93fqcj7LNYQe6_1KBoduPFUq3zicLDBGwS8UfexycbR_Z4-tooI7AHKbM_8IAU5hgJEKFHjtHCRvjAxV0BPn-AULmdVR8xcvGdBY8XVFfOyfaSNZBsMmq6BVaoQ=w800-h600-k-no",
@@ -3576,12 +3472,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "スーパー銭湯"
     ],
-    "description": "スーパー銭湯。Googleマップの「地方レストラン_名店」より。",
+    "description": "スーパー銭湯。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨大門-138",
+    "id": "鮨大門-134",
     "name": "鮨大門",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -3593,8 +3489,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21255,
-    "lng": 138.24848333333335,
+    "lat": 38.637750000000004,
+    "lng": 139.11558333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E5%A4%A7%E9%96%80",
     "googlePlaceQuery": "鮨大門",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk27vEeg6BHVa-AZe_P6uVgSpOxzo2tEjDRx08xgI7db1ar2RWQkaioMO4mfXfxNdymJp-5Emv4ORX4hAA8uyJRWskId4oeoNRXGZGupdopr5eLQzcryU0TZFTqdhFzB-9FCaI=w800-h600-k-no",
@@ -3603,12 +3499,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "ぎんぎょ伍式-139",
+    "id": "ぎんぎょ伍式-135",
     "name": "ぎんぎょ伍式",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -3619,8 +3515,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21046666666667,
-    "lng": 138.24923333333334,
+    "lat": 31.825666666666667,
+    "lng": 134.45633333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8E%E3%82%93%E3%81%8E%E3%82%87%E4%BC%8D%E5%BC%8F",
     "googlePlaceQuery": "ぎんぎょ伍式",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlRsPsXeIApjyFzju3YJCAG8p8NsZPze33VvkcUc3e4NnquVzoRqrJ4Ba1DZPQo26_ceqYUFCzGWWUpuX2UO6YRuaN0VQ26FneWbphsNDUs8AQDO7YoHrjjeDSrvNXHQO9cQ2mR0Oz0YhuM=w800-h600-k-no",
@@ -3629,12 +3525,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "酒喰およべ-140",
+    "id": "酒喰およべ-136",
     "name": "酒喰およべ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -3645,8 +3541,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.211549999999995,
-    "lng": 138.2468166666667,
+    "lat": 36.35675,
+    "lng": 133.12391666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%85%92%E5%96%B0%E3%81%8A%E3%82%88%E3%81%B9",
     "googlePlaceQuery": "酒喰およべ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnaFvY_09UWsDzKNUxgl13tMxTu86v66pdmvUmfeupk3HKVzMygQCjj6CHlTIIH4qYqAU75kmNXMrBF79zZGj-JCbR71AkdqPUhoZIjxnvGXRFlzThsH3FSp-5ns634kvTNQ2Ls=w800-h600-k-no",
@@ -3655,12 +3551,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "自家製粉石臼手打ち蕎麦処-草庵-141",
+    "id": "自家製粉石臼手打ち蕎麦処-草庵-137",
     "name": "自家製粉石臼手打ち蕎麦処 草庵",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3671,8 +3567,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20563333333333,
-    "lng": 138.26073333333335,
+    "lat": 33.76083333333333,
+    "lng": 125.17783333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%AA%E5%AE%B6%E8%A3%BD%E7%B2%89%E7%9F%B3%E8%87%BC%E6%89%8B%E6%89%93%E3%81%A1%E8%95%8E%E9%BA%A6%E5%87%A6%20%E8%8D%89%E5%BA%B5",
     "googlePlaceQuery": "自家製粉石臼手打ち蕎麦処 草庵",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkp1sl-VxwNFh_9v7izc7j6m-Ayk6K8C5T-4-slEjibIluZ3erNqmNdQfOcDJqloxe_p7oDHxw5XsMFAGmwnHOwxGGeLFpb2ls0RtoAM7cCxYNJJdtQKbj0YLfqDZpmK3cWC_lM48wwi-VT=w800-h600-k-no",
@@ -3681,12 +3577,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「地方レストラン_名店」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "富きよ-142",
+    "id": "富きよ-138",
     "name": "富きよ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3697,8 +3593,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19971666666667,
-    "lng": 138.25665,
+    "lat": 35.88491666666667,
+    "lng": 130.70374999999999,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E3%81%8D%E3%82%88",
     "googlePlaceQuery": "富きよ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkHcCovZmyuF9JBiCCy0VEM_xOwhZL-nkQm5BWKaBe-blpZBQ5TKYpo3ox0O4WwtNyCChHSLSMo7yKdLw0OYKxPrLyMSvJRXZDPOgWFTOChDPNGMkqhXpCveVk1JsVOmWc2SgC4gA=w800-h600-k-no",
@@ -3707,12 +3603,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "もつ鍋料理店"
     ],
-    "description": "もつ鍋料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "もつ鍋料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "肉料理-nick-143",
+    "id": "肉料理-nick-139",
     "name": "肉料理 Nick",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -3723,8 +3619,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.198883333333335,
-    "lng": 138.25815,
+    "lat": 37.02408333333334,
+    "lng": 126.07525,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E6%96%99%E7%90%86%20Nick",
     "googlePlaceQuery": "肉料理 Nick",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnkP7d46LwJTXLxGz8fT6KeyHLO4FK6fTDx8AaFYwZWplx4evy-gxy3fia3gca7vslHEWORqGbiXXtvFqL6gyA5p_iZJPQWfIYw1aub4K9njgr29J97XfjGEY5gzg_2J58f8It_Zg_CamU=w800-h600-k-no",
@@ -3733,12 +3629,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "肉料理店"
     ],
-    "description": "肉料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "肉料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "発酵食堂かもすで-144",
+    "id": "発酵食堂かもすで-140",
     "name": "発酵食堂かもすで",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3749,8 +3645,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21071666666666,
-    "lng": 138.25231666666667,
+    "lat": 33.895916666666665,
+    "lng": 119.36941666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BA%E9%85%B5%E9%A3%9F%E5%A0%82%E3%81%8B%E3%82%82%E3%81%99%E3%81%A7",
     "googlePlaceQuery": "発酵食堂かもすで",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYtuIw3jvgaYblmwThqQeZTYWLoaZ5713gxzX7Oobtc6853v62WuQsTNasuAL6GqLRO40THILnxOpajAlBu3wqu_eL1Xud_L6Kbt48YgQ2GZ2EwHtnUqJYXlWLGktCMo_PeCFg_RUjQhk=w800-h600-k-no",
@@ -3759,12 +3655,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「地方レストラン_名店」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "本家活宝-安心院亭-145",
+    "id": "本家活宝-安心院亭-141",
     "name": "本家活宝 安心院亭",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3775,8 +3671,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.208549999999995,
-    "lng": 138.24915000000001,
+    "lat": 34.833749999999995,
+    "lng": 127.63625,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AC%E5%AE%B6%E6%B4%BB%E5%AE%9D%20%E5%AE%89%E5%BF%83%E9%99%A2%E4%BA%AD",
     "googlePlaceQuery": "本家活宝 安心院亭",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlBxCqMgPcqTqf-MzcXGeZ9cM2e4b1Xyv8HWBly0xW9OHbTyPRku0_H6GVkxIpic5kXGVrPdK3XIJAb1_XPG6xWEs7aJ8Jg0jepSSzB6XNC1Kl_1hoyyqSRR4aLWVSfOLx8IN8=w800-h600-k-no",
@@ -3785,12 +3681,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「地方レストラン_名店」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "梅酒おたのしみ処-うめ子-146",
+    "id": "梅酒おたのしみ処-うめ子-142",
     "name": "梅酒おたのしみ処 うめ子",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3801,8 +3697,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20105,
-    "lng": 138.25931666666668,
+    "lat": 43.32625,
+    "lng": 116.52641666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E9%85%92%E3%81%8A%E3%81%9F%E3%81%AE%E3%81%97%E3%81%BF%E5%87%A6%20%E3%81%86%E3%82%81%E5%AD%90",
     "googlePlaceQuery": "梅酒おたのしみ処 うめ子",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkfGDpe0hd75-r56HAe7Uf0V1F9d1PkcRHpl98ks_fwhk4KfBhq6BJGw6GSBbMWSa_vExyBn3L2HLjEtI9rBO5UK5SA7iyAlNQws1eorik-94EhhfVJINHVdQc2A3U6Yb73jR3Lpmz2JZW0=w800-h600-k-no",
@@ -3811,12 +3707,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "立食形式の飲食店"
     ],
-    "description": "立食形式の飲食店。Googleマップの「地方レストラン_名店」より。",
+    "description": "立食形式の飲食店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "大将寿し-147",
+    "id": "大将寿し-143",
     "name": "大将寿し",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -3827,8 +3723,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20238333333333,
-    "lng": 138.25665,
+    "lat": 35.36758333333333,
+    "lng": 134.59375,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B0%86%E5%AF%BF%E3%81%97",
     "googlePlaceQuery": "大将寿し",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlwbR0Fq9E40Wf3N1jqaB0xHm9CqH-RHIGmnHC2oBhmRDj4ogJqofJtj1mJSaiBuTuPhmhs18kaPXRw2BHYt8SHhAVg4e516i8LwGr845EN8W5PmDT_wL7lyLua5SMhEVC40pP33g=w800-h600-k-no",
@@ -3837,12 +3733,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "そば蔵-谷川-148",
+    "id": "そば蔵-谷川-144",
     "name": "そば蔵 谷川",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3853,8 +3749,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2088,
-    "lng": 138.2575666666667,
+    "lat": 35.384,
+    "lng": 139.37466666666668,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9D%E3%81%B0%E8%94%B5%20%E8%B0%B7%E5%B7%9D",
     "googlePlaceQuery": "そば蔵 谷川",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWktLcKJZBRiITfMwkRlQzcIX3oA8ewspCPGmx54-Sq1qlqcmxVCuEAGiMI8YzAKdxm0J5y366QjqFrDmzzfhqq0on3WiE_suSzppItZa_NOiJiULy1EJrkmEA1tV71Cpl9NubYFoOmp75E=w800-h600-k-no",
@@ -3863,12 +3759,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「地方レストラン_名店」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "成希-149",
+    "id": "成希-145",
     "name": "成希",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -3881,8 +3777,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20213333333333,
-    "lng": 138.2509,
+    "lat": 33.49733333333333,
+    "lng": 134.408,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%88%90%E5%B8%8C",
     "googlePlaceQuery": "成希",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlBabb0ierBOueeYwvkSqnV9oL8ApNskDyGVOjzuU2yNeXj4vKnY-nPGZ3vi0mLHvO-syyeHw3cEX9hrDRz7peRqhKg9oeyGse0HJfng-PCWsFZtWPdvLQ5Bgl9MSfGmkDYFenP=w800-h600-k-no",
@@ -3891,12 +3787,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "焼肉井とう-150",
+    "id": "焼肉井とう-146",
     "name": "焼肉井とう",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -3907,8 +3803,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20296666666667,
-    "lng": 138.24873333333335,
+    "lat": 40.23816666666667,
+    "lng": 144.09583333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E4%BA%95%E3%81%A8%E3%81%86",
     "googlePlaceQuery": "焼肉井とう",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlmHpI7U9OaY5my55YLdurxL-8KpSuOBwjrZd_KbDMDCykuVR-AMwAyllo_KUcwUK6WDqzXs_m_YnCvPmRd2LuDi0eB9RROPPv9LufWPpbUj6W8IGxWb0fR4Qf-CBS4WkvFfOlNfg=w800-h600-k-no",
@@ -3917,12 +3813,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「地方レストラン_名店」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "ぎょうざ-大学-151",
+    "id": "ぎょうざ-大学-147",
     "name": "ぎょうざ 大学",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3933,8 +3829,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21163333333333,
-    "lng": 138.26073333333335,
+    "lat": 36.44683333333333,
+    "lng": 120.55783333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8E%E3%82%87%E3%81%86%E3%81%96%20%E5%A4%A7%E5%AD%A6",
     "googlePlaceQuery": "ぎょうざ 大学",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlqpSruY1Jhhr8ciwwn2q2MXY5XwIsMk8ME4-Kb1r9QFTlI456GTU3Kxjyk5z-4HRwKBRa5dOzaOtaZUta1B8U6fJTUINoB13A5Vg4tbAMk2jDFxuEJJsLmLUaHkPGO9uqrCCi__6OW6k0=w800-h600-k-no",
@@ -3943,12 +3839,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "点心店"
     ],
-    "description": "点心店。Googleマップの「地方レストラン_名店」より。",
+    "description": "点心店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "あみ-152",
+    "id": "あみ-148",
     "name": "あみ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -3959,8 +3855,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.210883333333335,
-    "lng": 138.25681666666668,
+    "lat": 33.39608333333334,
+    "lng": 132.43391666666668,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%BF",
     "googlePlaceQuery": "あみ",
     "image": "https://images.unsplash.com/photo-1607301405390-d831c242f59b?w=800&q=80",
@@ -3969,12 +3865,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "opium-153",
+    "id": "opium-149",
     "name": "Opium",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -3985,8 +3881,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.209133333333334,
-    "lng": 138.25323333333336,
+    "lat": 41.42433333333334,
+    "lng": 139.54033333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Opium",
     "googlePlaceQuery": "Opium",
     "image": "https://images.unsplash.com/photo-1569058242567-93de6f36f8eb?w=800&q=80",
@@ -3995,12 +3891,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ワインクラブ"
     ],
-    "description": "ワインクラブ。Googleマップの「地方レストラン_名店」より。",
+    "description": "ワインクラブ。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "大餃子専門店-神餃子-154",
+    "id": "大餃子専門店-神餃子-150",
     "name": "大餃子専門店 【神餃子】",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -4011,8 +3907,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.200716666666665,
-    "lng": 138.25098333333335,
+    "lat": 37.365916666666664,
+    "lng": 132.90808333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%A4%83%E5%AD%90%E5%B0%82%E9%96%80%E5%BA%97%20%E3%80%90%E7%A5%9E%E9%A4%83%E5%AD%90%E3%80%91",
     "googlePlaceQuery": "大餃子専門店 【神餃子】",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmAZqV1SIKgHzXM72SJlx_dqLj4kHdlLJUz1GbQmDLIWiO4WuyVmheMoCVdd_oci7cfaXvgQWcA_kSJ_Gq-Y5bhEkS07Sxw8Oz4RbI3nLm3qrD4hgD9qaJzz69VcFIOT-2GBUEe6g=w800-h600-k-no",
@@ -4021,12 +3917,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "軽食店"
     ],
-    "description": "軽食店。Googleマップの「地方レストラン_名店」より。",
+    "description": "軽食店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "う嵐-155",
+    "id": "う嵐-151",
     "name": "う嵐",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4037,8 +3933,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.210633333333334,
-    "lng": 138.25906666666668,
+    "lat": 32.365833333333335,
+    "lng": 132.48616666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E5%B5%90",
     "googlePlaceQuery": "う嵐",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlx7yCG24Jh4EC8sh1hKHm8LrKkGdfXQXqV9wn_8LIjguTsbP767HjjOzTYm4s6q52J8ZRINsS1TsjKiSxn4K5PcT5tyqiEmonwk0xOxif7AeQvI-UvnJRn83mX9kjVx3f7HzGwK7pzDY5W=w800-h600-k-no",
@@ -4047,12 +3943,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "お食事処-若林-156",
+    "id": "お食事処-若林-152",
     "name": "お食事処 若林",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4063,8 +3959,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21263333333333,
-    "lng": 138.25573333333335,
+    "lat": 38.36783333333333,
+    "lng": 122.28283333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E9%A3%9F%E4%BA%8B%E5%87%A6%20%E8%8B%A5%E6%9E%97",
     "googlePlaceQuery": "お食事処 若林",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmhClpgZn3csuYNSZiZcahSY8PhIo4bYrds7IATPRI5fAj7YHiQ3J9dgr5ZHfF0RW2YN5OU80M9ttPqYxIO5Mt8ITItFiqncEupOBnE8j2wRGqT1paKhreGVHNZz2e_5JafGnTC6o5_r-E=w800-h600-k-no",
@@ -4073,12 +3969,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "シーフード・海鮮料理店"
     ],
-    "description": "シーフード・海鮮料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "シーフード・海鮮料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "shókudō-yarn-157",
+    "id": "shókudō-yarn-153",
     "name": "SHÓKUDŌ YArn",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4089,8 +3985,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20146666666667,
-    "lng": 138.26090000000002,
+    "lat": 38.17666666666667,
+    "lng": 122.13799999999999,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=SH%C3%93KUD%C5%8C%20YArn",
     "googlePlaceQuery": "SHÓKUDŌ YArn",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkH6YA-xZ9y2IvKDkhZX8s8XkIIttCnrJ0mu_efIlbjxxwar-tw5_kftMs49_x5z5GvTPA0y-sUgcLUgfaz6ePObY1k2o9EW2cOpd1hrWTef4HUrkgTUUwqMqfvYRf-W3lKDn0=w800-h600-k-no",
@@ -4099,12 +3995,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「地方レストラン_名店」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨-田がみ-158",
+    "id": "鮨-田がみ-154",
     "name": "鮨 田がみ",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -4115,8 +4011,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20005,
-    "lng": 138.24898333333334,
+    "lat": 38.00525,
+    "lng": 127.93608333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E7%94%B0%E3%81%8C%E3%81%BF",
     "googlePlaceQuery": "鮨 田がみ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkYTVPZW109cd37UaX_y7eXRmM15z2_vojHc6RL8rIn2xbWdHTc-eRMJfB0IClRiwuP1-LT-6OEUEhPCSvFYXV1czgvrfXREgwZ1nSTHv5PkKcCc8DoJt3Odsgg0U5AaSU044FMmQ=w800-h600-k-no",
@@ -4125,12 +4021,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "日本料理fuji-159",
+    "id": "日本料理fuji-155",
     "name": "日本料理FUJI",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4141,8 +4037,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.201966666666664,
-    "lng": 138.24773333333334,
+    "lat": 44.07716666666666,
+    "lng": 143.77483333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86FUJI",
     "googlePlaceQuery": "日本料理FUJI",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWli1h9xkcEhn0URyrk3F9fUB-zG2RwexNyZqFJPva50I6yz9GZ77t1pHwhik4BRxurDBpSu7MyvCE6VvrURpsvFg1PvG4ENNPzFHjf8NrybR12Yvzkx_JXM7xkAk5MTs8qFXdCD4A=w800-h600-k-no",
@@ -4151,12 +4047,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「地方レストラン_名店」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "たこ梅-北店-160",
+    "id": "たこ梅-北店-156",
     "name": "たこ梅 北店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4167,8 +4063,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20438333333333,
-    "lng": 138.25465,
+    "lat": 40.68958333333333,
+    "lng": 141.68175,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%93%E6%A2%85%20%E5%8C%97%E5%BA%97",
     "googlePlaceQuery": "たこ梅 北店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmU2Vz0LQkzHq3csNQitf75HpBo-_Y3cRLsneSWlcEHNMuLCjfc6EgN8yiFO_sd9bgQ3CSzXEd-CiHJZfniTBhOfzF3Sp3XZ4AYzvlrq9j8B9IXxWjSBOF5qj7Xp-E_uDLizmKSCw=w800-h600-k-no",
@@ -4177,12 +4073,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "おでん店"
     ],
-    "description": "おでん店。Googleマップの「地方レストラン_名店」より。",
+    "description": "おでん店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "備屋-錦橋店-161",
+    "id": "備屋-錦橋店-157",
     "name": "備屋 錦橋店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4193,8 +4089,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2068,
-    "lng": 138.24890000000002,
+    "lat": 35.062000000000005,
+    "lng": 116.996,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%82%99%E5%B1%8B%20%E9%8C%A6%E6%A9%8B%E5%BA%97",
     "googlePlaceQuery": "備屋 錦橋店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWklRNuzzk97GmrMHagOIn0W-kEwFXaDM4JMOzxSWIn-uOrjQ7SNLFpyESaXzzKkjvl4qBHOkPwciCahDljUWOca3sYeuSXPUvfAUt7AJk_8oBCKU6A-ePygd0OV4Ae9SpGFklyS=w800-h600-k-no",
@@ -4203,12 +4099,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「地方レストラン_名店」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "焼肉ぜん-162",
+    "id": "焼肉ぜん-158",
     "name": "焼肉ぜん",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -4219,8 +4115,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.212133333333334,
-    "lng": 138.24623333333335,
+    "lat": 39.787333333333336,
+    "lng": 135.53333333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%81%9C%E3%82%93",
     "googlePlaceQuery": "焼肉ぜん",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWknAZY1sPG9EKFlUeKdm367Ggy33MOdgusnh0pUwNWhSV7M11Gat-39DI4n1qbTKDfc9mVXP-93VGE5DX45wznXcwrfyiZzRUg2pUkBbeO2SnfVMq40-G9qRcIQzm4UWFMGPjQt=w800-h600-k-no",
@@ -4229,12 +4125,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「地方レストラン_名店」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "オステリアドゥエ-163",
+    "id": "オステリアドゥエ-159",
     "name": "オステリアドゥエ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -4245,8 +4141,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.208216666666665,
-    "lng": 138.25015000000002,
+    "lat": 37.91341666666666,
+    "lng": 119.07724999999999,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AA%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A2%E3%83%89%E3%82%A5%E3%82%A8",
     "googlePlaceQuery": "オステリアドゥエ",
     "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
@@ -4255,12 +4151,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "うなぎのじょん-164",
+    "id": "うなぎのじょん-160",
     "name": "うなぎのじょん",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4271,8 +4167,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.203133333333334,
-    "lng": 138.25723333333335,
+    "lat": 41.818333333333335,
+    "lng": 119.41433333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%AA%E3%81%8E%E3%81%AE%E3%81%98%E3%82%87%E3%82%93",
     "googlePlaceQuery": "うなぎのじょん",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlxvHbFct6fnpoyd-7D6mF_DS1PWFxOd2WdZGK4TzhZiNaoSQX3DcZl_P1a37rpyRYJF1_NMSlk3dZBbxkZnW_Pyir_VHUqzPKfpotMd_fC-pBQT5dfoQhZfBbve0mWZGNnuUdjahf3zeE=w800-h600-k-no",
@@ -4281,12 +4177,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店 / 鰻"
   },
   {
-    "id": "藤乃-165",
+    "id": "藤乃-161",
     "name": "藤乃",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4297,8 +4193,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.197716666666665,
-    "lng": 138.24531666666667,
+    "lat": 41.40291666666666,
+    "lng": 135.77241666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%97%A4%E4%B9%83",
     "googlePlaceQuery": "藤乃",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmuzw9XXKx5nQQeTsdF_N2mdjO0RP-6ZdikGTA_TCXxY0jl9UMbiuvEd-2-IWYBLayfX4ueoVdx1CdAiwbgPzCecsfLiiQ9dHewXR1gCwztq7SzYi435BiNuzsJaUEREh2Xj1wf3VSrKJc=w800-h600-k-no",
@@ -4307,12 +4203,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「地方レストラン_名店」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "et-nou-エ-ヌゥ-166",
+    "id": "et-nou-エ-ヌゥ-162",
     "name": "et NOU エ ヌゥ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -4323,8 +4219,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.201633333333334,
-    "lng": 138.25206666666668,
+    "lat": 41.316833333333335,
+    "lng": 117.44916666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=et%20NOU%20%E3%82%A8%20%E3%83%8C%E3%82%A5",
     "googlePlaceQuery": "et NOU エ ヌゥ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlzj2CukDm5d60UFbx9EKsMVt7aI3UHboItZZfzPiekBTdk2zyas3teJ7UNejLllx1GZbLcXXzOqA0-oGEqBNch5hYslQ9T4M5eOqMvKsgYnElNFoBs5fZD6DHeW_mV2ZO9gLc=w800-h600-k-no",
@@ -4333,12 +4229,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "豚そば-月や-本店-167",
+    "id": "豚そば-月や-本店-163",
     "name": "豚そば 月や 本店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -4349,8 +4245,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2128,
-    "lng": 138.2509,
+    "lat": 31.668,
+    "lng": 123.58800000000001,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B1%9A%E3%81%9D%E3%81%B0%20%E6%9C%88%E3%82%84%20%E6%9C%AC%E5%BA%97",
     "googlePlaceQuery": "豚そば 月や 本店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlPjjoLhTrR5l3EqqfTpDMt6lGrwVMmXB9YvLhgFXvr3QD11xzJhgyMwQtqspxziz0HtPLEqDktjMLkHdg68ct9vBpfLrP_dVfmT_SKTuXNs_jK__cdi2RFBukIWKQGK_6yYtSJS1L-4ve8=w800-h600-k-no",
@@ -4359,12 +4255,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "janight-168",
+    "id": "janight-164",
     "name": "Ja☆Night",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4375,8 +4271,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20455,
-    "lng": 138.24581666666668,
+    "lat": 38.02975,
+    "lng": 119.86291666666668,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ja%E2%98%86Night",
     "googlePlaceQuery": "Ja☆Night",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkw79egIh3nntXzf4-izAYMvnGsb1fgE0cMyWXORdXn_P50Y8yNCXhA_Q3qgZ7vEcuoiY9Xw1tr8bdh9pgP5kxpCH-AmANWZaJNHM_ub_Iyms9pTEbUEsn5hdnU4WyJi_hRY52Vj6ALUsbG=w800-h600-k-no",
@@ -4385,12 +4281,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "バー"
     ],
-    "description": "バー。Googleマップの「地方レストラン_名店」より。",
+    "description": "バー。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨さかい-169",
+    "id": "鮨さかい-165",
     "name": "鮨さかい",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -4403,8 +4299,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.204299999999996,
-    "lng": 138.25606666666667,
+    "lat": 40.799499999999995,
+    "lng": 134.93316666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%95%E3%81%8B%E3%81%84",
     "googlePlaceQuery": "鮨さかい",
     "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
@@ -4413,12 +4309,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "classico-クラシコ-170",
+    "id": "classico-クラシコ-166",
     "name": "Classico クラシコ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -4429,8 +4325,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19655,
-    "lng": 138.25648333333334,
+    "lat": 42.701750000000004,
+    "lng": 142.93358333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Classico%20%E3%82%AF%E3%83%A9%E3%82%B7%E3%82%B3",
     "googlePlaceQuery": "Classico クラシコ",
     "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
@@ -4439,12 +4335,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "麺道はなもこし-171",
+    "id": "麺道はなもこし-167",
     "name": "麺道はなもこし",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -4455,8 +4351,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.204633333333334,
-    "lng": 138.26106666666666,
+    "lat": 33.87983333333334,
+    "lng": 117.89816666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BA%E9%81%93%E3%81%AF%E3%81%AA%E3%82%82%E3%81%93%E3%81%97",
     "googlePlaceQuery": "麺道はなもこし",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnwuL_VxX4WAZsgC_hcRvxxgK0ro76x3_NrjIVEQC8J1zldV8QJ9mX6vwTo3vK0hPWyrVZ9sH_2z1J-1tPYAFNar5J8DV84Y7szXMjd_cios-ovzr68cdsxh81CsJbTrsnYfQel_CihmX0Z=w800-h600-k-no",
@@ -4465,12 +4361,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "とどろき酒店-薬院stand-172",
+    "id": "とどろき酒店-薬院stand-168",
     "name": "とどろき酒店 薬院stand!",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4481,8 +4377,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20538333333333,
-    "lng": 138.25165,
+    "lat": 37.57058333333333,
+    "lng": 117.04875,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%81%A9%E3%82%8D%E3%81%8D%E9%85%92%E5%BA%97%20%E8%96%AC%E9%99%A2stand!",
     "googlePlaceQuery": "とどろき酒店 薬院stand!",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnJLVLmypChJcEz3jy3uYv5lMxqwwsu7v1JxgNgj4k_RAtsaCh3xxM1cMaLZBtfO8Ihnc9UYnBEDg_8_ZrC3X2Jsx9DNIGeULYkVyBJgO_sJkLkipyACBiTre1aumIYuir4rvi46_cNAf_5=w800-h600-k-no",
@@ -4491,12 +4387,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "立食形式の飲食店"
     ],
-    "description": "立食形式の飲食店。Googleマップの「地方レストラン_名店」より。",
+    "description": "立食形式の飲食店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "博多天ぷら-ながおか-173",
+    "id": "博多天ぷら-ながおか-169",
     "name": "博多天ぷら ながおか",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4507,8 +4403,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2038,
-    "lng": 138.25923333333336,
+    "lat": 34.939,
+    "lng": 131.50633333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E5%A4%A9%E3%81%B7%E3%82%89%20%E3%81%AA%E3%81%8C%E3%81%8A%E3%81%8B",
     "googlePlaceQuery": "博多天ぷら ながおか",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWknalzm2DQZAiw7UGcOeACGYYTDAlgBEQRnulJV_nVmFwiBnws01dqOkcfM-Z87Z3Ic6Q270g9gXxXG0rShX0MonkBQzHp8NVCyzhGDJfYsxXGKopY5TcJFOEbOb2rqLG90UICeTXUrqbP5=w800-h600-k-no",
@@ -4517,12 +4413,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "天ぷら店"
     ],
-    "description": "天ぷら店。Googleマップの「地方レストラン_名店」より。",
+    "description": "天ぷら店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "五島サバと九州の幸-きはる-174",
+    "id": "五島サバと九州の幸-きはる-170",
     "name": "五島サバと九州の幸 きはる",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -4533,8 +4429,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20505,
-    "lng": 138.25865000000002,
+    "lat": 38.77025,
+    "lng": 131.42575,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E5%B3%B6%E3%82%B5%E3%83%90%E3%81%A8%E4%B9%9D%E5%B7%9E%E3%81%AE%E5%B9%B8%20%E3%81%8D%E3%81%AF%E3%82%8B",
     "googlePlaceQuery": "五島サバと九州の幸 きはる",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlFqEWjOjm99RaPBqoZCBwWu0HAcxBba2KxO28cEGAGdPXdMm_Fg-pIdL7R3VqOyStcLIAoK_nuGpHMPfpwUb5MP7JjrofZhSB-a1TAtjQHSgYpf6_zDPKG9_ygiOIcfxDBDD7q=w800-h600-k-no",
@@ -4543,12 +4439,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "時菜-今日萬-175",
+    "id": "時菜-今日萬-171",
     "name": "時菜 今日萬",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4559,8 +4455,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20205,
-    "lng": 138.25165,
+    "lat": 31.80725,
+    "lng": 118.83875,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%82%E8%8F%9C%20%E4%BB%8A%E6%97%A5%E8%90%AC",
     "googlePlaceQuery": "時菜 今日萬",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnTKvnuF860ovAdoHl9EFhADx4CEkzcPC5pP4Wxet6nDvkXK9MQ9LWs50rwrGDkBv8wOi-gdl8w8Xfk-Ey8L5BedLdMSPqJ01fHQ3m_Hl-Of1QHp5y4pR7NxwzoiMPHBBd2yvmvXA=w800-h600-k-no",
@@ -4569,12 +4465,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「地方レストラン_名店」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "北新地-喜多郎寿し-はなれ-176",
+    "id": "北新地-喜多郎寿し-はなれ-172",
     "name": "北新地 喜多郎寿し はなれ",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -4585,8 +4481,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.208466666666666,
-    "lng": 138.25990000000002,
+    "lat": 31.703666666666667,
+    "lng": 137.627,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%96%B0%E5%9C%B0%20%E5%96%9C%E5%A4%9A%E9%83%8E%E5%AF%BF%E3%81%97%20%E3%81%AF%E3%81%AA%E3%82%8C",
     "googlePlaceQuery": "北新地 喜多郎寿し はなれ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmKvLH7CiC2yg-trlk3DViMgMnbZHdNbAPRJfmo5BNOH5tqEfzNpLNdX-UXmt1qfQ3XYrgt_s3fEU4RemKNqIJJDV9SB6J-eDgCQpNjZ1WIctVdG6ZTmteRPxkLyuYmk6Rp9V31=w800-h600-k-no",
@@ -4595,12 +4491,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "北新地-喜多郎寿し-本店-177",
+    "id": "北新地-喜多郎寿し-本店-173",
     "name": "北新地 喜多郎寿し 本店",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -4611,8 +4507,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2048,
-    "lng": 138.24623333333335,
+    "lat": 31.54,
+    "lng": 123.45333333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%96%B0%E5%9C%B0%20%E5%96%9C%E5%A4%9A%E9%83%8E%E5%AF%BF%E3%81%97%20%E6%9C%AC%E5%BA%97",
     "googlePlaceQuery": "北新地 喜多郎寿し 本店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnj57qH_p3OhuFk9MLYIl6TRIMELDDjvuph1DfoyTbG4_2vKthXZufiqvaZu5zmeGSITeYSMhoRA-LJWNFvuvG-nqWn1-VmhJ-3Vxh95d8q9QttX6BpAeFJoBTV3RUAv7oeGByf=w800-h600-k-no",
@@ -4621,12 +4517,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "田吾作-178",
+    "id": "田吾作-174",
     "name": "田吾作",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -4637,8 +4533,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.201633333333334,
-    "lng": 138.25073333333336,
+    "lat": 42.11683333333333,
+    "lng": 134.62783333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E5%90%BE%E4%BD%9C",
     "googlePlaceQuery": "田吾作",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlOvkcgNq_aYoaHAnG5nzDAeQqWv5WZu4BtJPLu7_5yEkV4RNhIjzNPBGpFA-Tv2lfVsbfPgiafAknOJNntwA156ychAERXe4Fk59i3PCpiDW6J06faIF68uEyKhKaJSp2MNTcdgQ=w800-h600-k-no",
@@ -4647,12 +4543,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鳥焼もろ川-179",
+    "id": "鳥焼もろ川-175",
     "name": "鳥焼もろ川",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4663,8 +4559,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20738333333333,
-    "lng": 138.25298333333333,
+    "lat": 31.812583333333333,
+    "lng": 129.03008333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B3%A5%E7%84%BC%E3%82%82%E3%82%8D%E5%B7%9D",
     "googlePlaceQuery": "鳥焼もろ川",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlsgbXz9V4iGQ3g3kOYgPHGrlvA0jJfX6WJl9CKHG9pbugw_fF1OSJTIN_ZZGl4j7ccd6Z4p6swZfY9oi-tFIE6H7n-QPUyj49MFMEl7nVFskmbKgeD7Ne5ulcnfwAEveiNbTXljw=w800-h600-k-no",
@@ -4673,12 +4569,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「地方レストラン_名店」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "山本屋本店-栄店-180",
+    "id": "山本屋本店-栄店-176",
     "name": "山本屋本店 栄店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4689,8 +4585,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19713333333333,
-    "lng": 138.25323333333336,
+    "lat": 33.172333333333334,
+    "lng": 120.43033333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%9C%AC%E5%BA%97%20%E6%A0%84%E5%BA%97",
     "googlePlaceQuery": "山本屋本店 栄店",
     "image": "https://images.unsplash.com/photo-1607301405390-d831c242f59b?w=800&q=80",
@@ -4699,12 +4595,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うどん屋"
     ],
-    "description": "うどん屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "うどん屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "respiración-181",
+    "id": "respiración-177",
     "name": "Respiración",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4715,8 +4611,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20388333333333,
-    "lng": 138.25181666666668,
+    "lat": 39.14908333333333,
+    "lng": 130.31891666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Respiraci%C3%B3n",
     "googlePlaceQuery": "Respiración",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnXt_uXhSdkYI-LmPUyY6jTIjjcif3lVkhvoqDiMAwC9hFkjUZc3fFV6FeQIZkWJFVc_Ag2VjxT-YJhxwXhu9GBznW5xTjP1ezLJpIB3-bE4n8pAFDxvFUca-9zxTrWoP5Cia43lw=w800-h600-k-no",
@@ -4725,12 +4621,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "スペイン料理店"
     ],
-    "description": "スペイン料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "スペイン料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "士別バーベキュー-182",
+    "id": "士別バーベキュー-178",
     "name": "士別バーベキュー",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -4741,8 +4637,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.205216666666665,
-    "lng": 138.24915000000001,
+    "lat": 31.550416666666667,
+    "lng": 130.70625,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A3%AB%E5%88%A5%E3%83%90%E3%83%BC%E3%83%99%E3%82%AD%E3%83%A5%E3%83%BC",
     "googlePlaceQuery": "士別バーベキュー",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnxFwjurwPvEIOVwBUXYPlyClg0PiqzWtMC5eu3VTWRGfUMehZ2Amjd5SzN5GexNYhXLiXzSBowr9ZJ0uN_EFsDt-37yszgv3EQmekz_KcVVHhdB2bj3ZkU19J1N4a21LuKq0ad2FnU4UcX=w800-h600-k-no",
@@ -4751,12 +4647,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「地方レストラン_名店」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "呑み喰い処-もっきり-183",
+    "id": "呑み喰い処-もっきり-179",
     "name": "呑み喰い処 もっきり",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -4768,8 +4664,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2093,
-    "lng": 138.24906666666666,
+    "lat": 37.2845,
+    "lng": 141.52616666666665,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%91%E3%81%BF%E5%96%B0%E3%81%84%E5%87%A6%20%E3%82%82%E3%81%A3%E3%81%8D%E3%82%8A",
     "googlePlaceQuery": "呑み喰い処 もっきり",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn5q_YzLv-qK0uc9NRQannSyU7xBLshpIbW7B6DTo0Amlj8bD0jYXyXa_bezgdv_d7rZHjciL9SCscSMd9iEV5AjnpkZcgK_pUTxaoTQJt_99gWWpmV-JjmghLQL2RJ6PeCu363CA=w800-h600-k-no",
@@ -4778,12 +4674,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鍛冶屋と料理-184",
+    "id": "鍛冶屋と料理-180",
     "name": "鍛冶屋と料理",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4794,8 +4690,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19821666666667,
-    "lng": 138.26081666666667,
+    "lat": 36.74341666666667,
+    "lng": 139.15791666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%8D%9B%E5%86%B6%E5%B1%8B%E3%81%A8%E6%96%99%E7%90%86",
     "googlePlaceQuery": "鍛冶屋と料理",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnDKIdEldK86XRsrAFIEWVrZp6AWuLc4j4vkaFo4dDCOd74tudnp5yxHrKLqxn7yhFjwIm-nTVpXB-wBubf1kSJZ3IFDfPKnXc21kt75BNnrfGuzyQ04LZFPkwGrznWzPE8fjm-=w800-h600-k-no",
@@ -4804,12 +4700,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「地方レストラン_名店」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "綾の里-185",
+    "id": "綾の里-181",
     "name": "綾の里",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4820,8 +4716,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20013333333333,
-    "lng": 138.25956666666667,
+    "lat": 34.01533333333334,
+    "lng": 143.60666666666665,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B6%BE%E3%81%AE%E9%87%8C",
     "googlePlaceQuery": "綾の里",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmewJDXDEwj6iQ5nU2dTWdB1m9k_b9lkUYkysxtrTo4tCO9add_DorxvlS6PXG0HQIrL5ApJdUUq0db8djM1Y_ugRDTEubW8YPqcwEaRVZI0_kUF5z3t4khZqA0aWL7I3jjMuGmPlrzK98=w800-h600-k-no",
@@ -4830,12 +4726,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "郷土料理店"
     ],
-    "description": "郷土料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "郷土料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "開化亭-186",
+    "id": "開化亭-182",
     "name": "開化亭",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -4846,8 +4742,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.197966666666666,
-    "lng": 138.25173333333333,
+    "lat": 40.23316666666667,
+    "lng": 131.4488333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%96%8B%E5%8C%96%E4%BA%AD",
     "googlePlaceQuery": "開化亭",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn0BnAyZBO7LVnwESJJuRWWHbuRj1VMZue4lGF9UYFer7s8xiROJXrEmg1x03Y0Y3WB9YZBPIhVrC2In2gzIT2w_SBZGog8RU9CtomWmguzGzLWcdLdxC-T6hd2V2eIIbE2ZNLR=w800-h600-k-no",
@@ -4856,12 +4752,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "日本料理-たか田-八祥-187",
+    "id": "日本料理-たか田-八祥-183",
     "name": "日本料理 たか田 八祥",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4872,8 +4768,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21263333333333,
-    "lng": 138.25240000000002,
+    "lat": 38.96783333333333,
+    "lng": 134.89950000000002,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86%20%E3%81%9F%E3%81%8B%E7%94%B0%20%E5%85%AB%E7%A5%A5",
     "googlePlaceQuery": "日本料理 たか田 八祥",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmM6bM4Gi8QfRjAnygNdSzgR6ElQphgZRsBoTQK8RHQNFyLedUiEQN09gAjDLob1WyNIuQ_75vS3HkZLbspDBb0mi4NPRRVjhI6AUicyfPnNfMoJWPAy6uyX3D4dQuvee7Nse4r=w800-h600-k-no",
@@ -4882,12 +4778,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "いわしの大輪-188",
+    "id": "いわしの大輪-184",
     "name": "いわしの大輪",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4898,8 +4794,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20755,
-    "lng": 138.25815,
+    "lat": 32.63275,
+    "lng": 134.15525,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%82%8F%E3%81%97%E3%81%AE%E5%A4%A7%E8%BC%AA",
     "googlePlaceQuery": "いわしの大輪",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn6V7dKBQhmU2k0sdEmPdAGzxkn-Ot9-D7-hDlRVbYjBjHTsaQpw0NEJmCszTB2QV4blmKVRERNIveirK6mbe5zkqSu_qsRgVICKqcT_3l28ubqpGOfIx9SL98M8kKkjOfrHOfu=w800-h600-k-no",
@@ -4908,12 +4804,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "郷土料理店"
     ],
-    "description": "郷土料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "郷土料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "うなぎ家-しば福や-189",
+    "id": "うなぎ家-しば福や-185",
     "name": "うなぎ家 しば福や",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4924,8 +4820,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.209966666666666,
-    "lng": 138.25706666666667,
+    "lat": 43.765166666666666,
+    "lng": 138.41416666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%86%E3%81%AA%E3%81%8E%E5%AE%B6%20%E3%81%97%E3%81%B0%E7%A6%8F%E3%82%84",
     "googlePlaceQuery": "うなぎ家 しば福や",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmpUqOKmQWyhIas9mTwzxQk6J4wcu3BRDCxGjSnvfe189oyootEmX-ACx28EMrRNgiOCDxHSn6jYZD__IahkrvzMP6EVpsFBLrvS3oMQ9tELJl6Dshks2thQaMWC8-U9BfpTgsToNZi6htF=w800-h600-k-no",
@@ -4934,12 +4830,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "とやま鮨-海富山-190",
+    "id": "とやま鮨-海富山-186",
     "name": "とやま鮨 海富山",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -4950,8 +4846,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21263333333333,
-    "lng": 138.25106666666667,
+    "lat": 35.36783333333333,
+    "lng": 143.74816666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%82%84%E3%81%BE%E9%AE%A8%20%E6%B5%B7%E5%AF%8C%E5%B1%B1",
     "googlePlaceQuery": "とやま鮨 海富山",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkEJdlNFDHD7FXghBZfcHCfoUuFNSwVxgIZKgw8GvdGfsBzt3k9srRGFBzfEx9q7O5vg1wwSfshemHggwHb1SeuaDNYxK8qvhwXn9rfQH26lIaQ731U1vvw133lGolfsqdYtl6-h-TxblTj=w800-h600-k-no",
@@ -4960,12 +4856,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「地方レストラン_名店」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "敦賀ヨーロッパ軒-金山店-191",
+    "id": "敦賀ヨーロッパ軒-金山店-187",
     "name": "敦賀ヨーロッパ軒 金山店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -4976,8 +4872,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.197466666666664,
-    "lng": 138.25490000000002,
+    "lat": 33.29266666666666,
+    "lng": 127.27199999999999,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%95%A6%E8%B3%80%E3%83%A8%E3%83%BC%E3%83%AD%E3%83%83%E3%83%91%E8%BB%92%20%E9%87%91%E5%B1%B1%E5%BA%97",
     "googlePlaceQuery": "敦賀ヨーロッパ軒 金山店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk7v772viP-G2l9r3s4jPJUmidvcXodJppMxTT-tabZXyHhPJBb9z_B0XIHXTXNCvQ3GjhPTwMzi93dlFVWwlXeyXJtIh6JC0vr0mzwsklDyh9ijKgbT-Cl0t-Y0SKVftq-Jy3Q7MN9MmU=w800-h600-k-no",
@@ -4986,12 +4882,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "日本式洋食レストラン"
     ],
-    "description": "日本式洋食レストラン。Googleマップの「地方レストラン_名店」より。",
+    "description": "日本式洋食レストラン。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨-十兵衛-192",
+    "id": "鮨-十兵衛-188",
     "name": "鮨 十兵衛",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5002,8 +4898,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.197716666666665,
-    "lng": 138.25998333333334,
+    "lat": 38.44291666666667,
+    "lng": 116.58708333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E5%8D%81%E5%85%B5%E8%A1%9B",
     "googlePlaceQuery": "鮨 十兵衛",
     "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
@@ -5012,12 +4908,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "駿河屋-193",
+    "id": "駿河屋-189",
     "name": "駿河屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5028,8 +4924,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.212383333333335,
-    "lng": 138.26065,
+    "lat": 37.17758333333334,
+    "lng": 137.81775,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A7%BF%E6%B2%B3%E5%B1%8B",
     "googlePlaceQuery": "駿河屋",
     "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80",
@@ -5038,12 +4934,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "臨時休業"
     ],
-    "description": "臨時休業。Googleマップの「地方レストラン_名店」より。",
+    "description": "臨時休業。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店 / 鰻"
   },
   {
-    "id": "和洋遊膳中村-194",
+    "id": "和洋遊膳中村-190",
     "name": "和洋遊膳中村",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5054,8 +4950,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.1988,
-    "lng": 138.2575666666667,
+    "lat": 42.013999999999996,
+    "lng": 119.98466666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E6%B4%8B%E9%81%8A%E8%86%B3%E4%B8%AD%E6%9D%91",
     "googlePlaceQuery": "和洋遊膳中村",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl2TSjeAiTe6EBpUTEb55BMMnihgEdVvotNYYW8w4vpgPa2i4g_Ye9udltqnhps9hY6AbrLKU7oyBxA4zFbzgu_3nLDMq_LRF1TsW4kZrmVbQq20UYrawqnKPGtvfqCDMvOWIw=w800-h600-k-no",
@@ -5064,12 +4960,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "中國菜-月泉-195",
+    "id": "中國菜-月泉-191",
     "name": "中國菜 月泉",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -5080,8 +4976,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.197383333333335,
-    "lng": 138.25831666666667,
+    "lat": 43.602583333333335,
+    "lng": 130.61541666666668,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%9C%8B%E8%8F%9C%20%E6%9C%88%E6%B3%89",
     "googlePlaceQuery": "中國菜 月泉",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlvN7W_SJ6HbIUyh1VjQX6xsK19QhzboMgVeKrLdkO36itbWkWI6Hzxmncv0UPv6ScTNW7HDoTqFrnByjqmcRLSvMMEAMSvD2PVX161i7oVCnnKzebfI8iAZIZLHnvKz8-UDbXiKQ=w800-h600-k-no",
@@ -5090,12 +4986,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨-実紀-196",
+    "id": "鮨-実紀-192",
     "name": "鮨 実紀",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -5108,8 +5004,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19855,
-    "lng": 138.25715000000002,
+    "lat": 37.74375,
+    "lng": 134.80425000000002,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E5%AE%9F%E7%B4%80",
     "googlePlaceQuery": "鮨 実紀",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk-kOBwbzWcqGKIAssN-egvl179cpQCoRGlQnE-nV9dl0fK2A3IO9SmmYgkbp7pBzcpB50EVENTeFlcRYawg1Nppmwvk975jKheWBSlqOWG1wBgF2uU0MZ-p9hLvBFQIBKOX1f1brJLHaXY=w800-h600-k-no",
@@ -5118,12 +5014,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "春光園-197",
+    "id": "春光園-193",
     "name": "春光園",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5134,8 +5030,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20563333333333,
-    "lng": 138.25673333333336,
+    "lat": 38.08083333333333,
+    "lng": 144.45383333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%A5%E5%85%89%E5%9C%92",
     "googlePlaceQuery": "春光園",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlk20nDl66S2vvpv0IaCwKrhT6HpsVY-Ut9goC_BcG24mKSY5KJVBG3sQAW7v88uxg5oQHTit-VzXzh_FmOWTzTikN_3-VH8D_zWVDAfDZ0_F7idw2fitOaCHECKvER46niMEE6=w800-h600-k-no",
@@ -5144,12 +5040,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "旅館"
     ],
-    "description": "旅館。Googleマップの「地方レストラン_名店」より。",
+    "description": "旅館。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "福ずし-198",
+    "id": "福ずし-194",
     "name": "福ずし",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5160,8 +5056,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19813333333333,
-    "lng": 138.24823333333333,
+    "lat": 42.01333333333333,
+    "lng": 138.4453333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E3%81%9A%E3%81%97",
     "googlePlaceQuery": "福ずし",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmMtlFqQJt2cRkH9Se2YU3XKudj6uQPptLeU2DYtupiBIrTIwgG6ERUoTSfIOMQxb6WKA4ilbBfmZNJzhumQpDd3OPQVYidwgqoEzql5jLYHqyodQ5zvsagi0LzxhBTa0g35Uye=w800-h600-k-no",
@@ -5170,12 +5066,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "ふく亭本店-199",
+    "id": "ふく亭本店-195",
     "name": "ふく亭本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5186,8 +5082,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.198299999999996,
-    "lng": 138.25006666666667,
+    "lat": 43.4735,
+    "lng": 120.36716666666668,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%B5%E3%81%8F%E4%BA%AD%E6%9C%AC%E5%BA%97",
     "googlePlaceQuery": "ふく亭本店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnR1rGQodlhlN6S7mMDsgxoE8H82aeBA9Eo-9ie5WFS4x8Nfg619NaZn6h6hZ6ZsSPXIexmsWpWxgikCAmjauy0_JIOtXoD3V9lcmoS9PvctU2bf7ZHf0K4vVh0xEeoqzJVMd9RHw=w800-h600-k-no",
@@ -5196,12 +5092,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ふぐ料理店"
     ],
-    "description": "ふぐ料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "ふぐ料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "三郎丸蒸留所-200",
+    "id": "三郎丸蒸留所-196",
     "name": "三郎丸蒸留所",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5212,8 +5108,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.202799999999996,
-    "lng": 138.2569,
+    "lat": 31.538,
+    "lng": 134.094,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E9%83%8E%E4%B8%B8%E8%92%B8%E7%95%99%E6%89%80",
     "googlePlaceQuery": "三郎丸蒸留所",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmrPBnWyAxs8hx7lOAXVc52XqHxqDI8VzgM-Rl3VNSunyj3voauFMd11o7jOMROvx82CvCfzGJk4AkID6w_KBd9GC_OFNIG_ibjKpDfw9po2UPE87U3R-ZkeWm_jM6BPeh6rgJI=w800-h600-k-no",
@@ -5222,12 +5118,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蒸留所"
     ],
-    "description": "蒸留所。Googleマップの「地方レストラン_名店」より。",
+    "description": "蒸留所。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "says-farm-201",
+    "id": "says-farm-197",
     "name": "SAYS FARM",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5238,8 +5134,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2083,
-    "lng": 138.2594,
+    "lat": 40.0435,
+    "lng": 136.2465,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=SAYS%20FARM",
     "googlePlaceQuery": "SAYS FARM",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl69trAtOTwOlsMUfjB-ggjo9elN59eBVzXp9h9zRQHhSpwNsi12Y-rPqTZHN-Wnyp_uynbROn_K2ww4qJ9yVhSWGzX85l4ydyqt5CjTfxH4fZQpdA-JXHq2SPOld_LwK2OY9_FuKVHEYA=w800-h600-k-no",
@@ -5248,12 +5144,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ワイナリー"
     ],
-    "description": "ワイナリー。Googleマップの「地方レストラン_名店」より。",
+    "description": "ワイナリー。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "simples-202",
+    "id": "simples-198",
     "name": "simples",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5264,8 +5160,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20321666666666,
-    "lng": 138.24715,
+    "lat": 34.308416666666666,
+    "lng": 134.49425,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=simples",
     "googlePlaceQuery": "simples",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn-fanQnHi0tg4zpaMKNsqnQOmzl-UzfRcAD7ytTrynAvbUI-mkaNL643x-m-dYmNesdGyenfY4g02t4MJyrn85Lvj3F25S7bxNx-QWVW48RRuDMdNVLYnOrlLqrzVYXgb_SIbc=w800-h600-k-no",
@@ -5274,12 +5170,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「地方レストラン_名店」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "百姓屋敷じろえむ-203",
+    "id": "百姓屋敷じろえむ-199",
     "name": "百姓屋敷じろえむ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5290,8 +5186,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.200966666666666,
-    "lng": 138.2494,
+    "lat": 38.396166666666666,
+    "lng": 127.5565,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BE%E5%A7%93%E5%B1%8B%E6%95%B7%E3%81%98%E3%82%8D%E3%81%88%E3%82%80",
     "googlePlaceQuery": "百姓屋敷じろえむ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnSnZQeFGrPOZ6sgXjarXvakBlTub4N50U6-3FV3bQN-SKy60vnfnlGr7JKe1VCsPexXuFxSpt7061vYJZ5gofuYj5Kxhc8kijW-0KQe8AdeSw9DTiAfQJnmGvBDouYZ1Gjgut9=w800-h600-k-no",
@@ -5300,12 +5196,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「地方レストラン_名店」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "生石-大松家-204",
+    "id": "生石-大松家-200",
     "name": "生石 大松家",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5316,8 +5212,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19805,
-    "lng": 138.24631666666667,
+    "lat": 42.60325,
+    "lng": 143.61341666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%9F%E7%9F%B3%20%E5%A4%A7%E6%9D%BE%E5%AE%B6",
     "googlePlaceQuery": "生石 大松家",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmaS-YHvTh7oDYsoRm49azMmQXq0Q7ElM257u3KVI5dZOKGjiX_SRwp-UaZo2-iZVkU_GFTtoo7X64jX3nvysCOCt0SzcSG8ucRuT0JwOTpuwQNCNoFH2Riyjqyxxiv4YQJFhVw=w800-h600-k-no",
@@ -5326,12 +5222,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「地方レストラン_名店」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "御料理-柳家-205",
+    "id": "御料理-柳家-201",
     "name": "御料理 柳家",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5342,8 +5238,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19755,
-    "lng": 138.2468166666667,
+    "lat": 33.942750000000004,
+    "lng": 120.92391666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A1%E6%96%99%E7%90%86%20%E6%9F%B3%E5%AE%B6",
     "googlePlaceQuery": "御料理 柳家",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkS4ZZsDqVIrB19VxYmnQmVOEhdE91wquVu2TZNBorfYTG8KNRLpMMyYqsHL5rFLvMOcIUAqpqVDjOuyy4p_y6pTTh0O-WdUiCbxSyNumhPlc55-F_am7zPRP6-3z3_vf0ZwBaO=w800-h600-k-no",
@@ -5352,12 +5248,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "郷土料理店"
     ],
-    "description": "郷土料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "郷土料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "レヴォ-206",
+    "id": "レヴォ-202",
     "name": "レヴォ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5368,8 +5264,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19721666666666,
-    "lng": 138.25048333333334,
+    "lat": 38.622416666666666,
+    "lng": 135.21758333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%83%B4%E3%82%A9",
     "googlePlaceQuery": "レヴォ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkruhucOoPBnMVw6h7hxZwD27C8nme394_Ciy729NjyJv5CcwAbOfAvoFdGGO_giLBAt0DRJ4_PulRzstNqqmzMAsD5_oazvH6Iufp3swwatxfPlbMr7-YCNDqo-WrFjdln1dI=w800-h600-k-no",
@@ -5378,12 +5274,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "モダン"
     ],
-    "description": "モダン。Googleマップの「地方レストラン_名店」より。",
+    "description": "モダン。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "だしと炭火-八日や-207",
+    "id": "だしと炭火-八日や-203",
     "name": "だしと炭火 八日や",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -5395,8 +5291,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21055,
-    "lng": 138.24648333333334,
+    "lat": 43.555749999999996,
+    "lng": 130.82358333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A0%E3%81%97%E3%81%A8%E7%82%AD%E7%81%AB%20%E5%85%AB%E6%97%A5%E3%82%84",
     "googlePlaceQuery": "だしと炭火 八日や",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkT15_GU2tjJKN4nrkjtnekWEeCBVMbdC2kT0xoVhZ8a_xq-S9UHt6hHiPyfzht6q5pVk1R-VDFik73dbYUjwNz0OouunZ7m3JI_kpTj8tl9dA9z2SaHGnU4pCpugfepcSbAvHJjQ=w800-h600-k-no",
@@ -5405,12 +5301,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "めしや朔軒-208",
+    "id": "めしや朔軒-204",
     "name": "めしや朔軒",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -5421,8 +5317,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21013333333333,
-    "lng": 138.25223333333335,
+    "lat": 36.50533333333333,
+    "lng": 125.46933333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%81%E3%81%97%E3%82%84%E6%9C%94%E8%BB%92",
     "googlePlaceQuery": "めしや朔軒",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkPrY6zXt0EsSaV0Q8aTvPiKwpxok6gbsKvJtNI2BwnR2D0p_XFkRtXYjsapyxzR8pRJ3BGn8C79SC9fDZDf7auExK9MgzZI1Tnj9SoIEnzXKhgFl6HQzV_Qye33lgYkl9xHSyVNQ=w800-h600-k-no",
@@ -5431,12 +5327,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "焼き鳥幸羽こはね-209",
+    "id": "焼き鳥幸羽こはね-205",
     "name": "焼き鳥幸羽（こはね）",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5447,8 +5343,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20771666666666,
-    "lng": 138.24865,
+    "lat": 40.77291666666666,
+    "lng": 122.23575,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E3%81%8D%E9%B3%A5%E5%B9%B8%E7%BE%BD%EF%BC%88%E3%81%93%E3%81%AF%E3%81%AD%EF%BC%89",
     "googlePlaceQuery": "焼き鳥幸羽（こはね）",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnKkcXfhBMZ4Oju0Kb4d0C4hQMb258vl7YnS7PGW9aohiAneeHWc6Q1MRwtbF3tVkDybjlpMrZcAkSjrrOuYKNb8sw1tGRNmYOlJ0SElN9SjLE1RhhI2HF0EN1vpo5_KoHXJP0crHH_P2wj=w800-h600-k-no",
@@ -5457,12 +5353,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「地方レストラン_名店」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "勢麟-210",
+    "id": "勢麟-206",
     "name": "勢麟",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -5476,8 +5372,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19688333333333,
-    "lng": 138.25748333333334,
+    "lat": 34.14208333333333,
+    "lng": 133.90458333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%A2%E9%BA%9F",
     "googlePlaceQuery": "勢麟",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmgp2hSPGeBjRIcn5IfpcLk_wJhDWp7fTxRhKvJ1dzjEmnt8AoiUDfHLKcZu9JVy2wUw7tBYSgjFP0eAvG-3yeTrFhwppSzF64WsRAR60GyVZhG5rRaSQbL9EhfnOffYbdD92ND=w800-h600-k-no",
@@ -5486,12 +5382,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "てんぷら-成生-211",
+    "id": "てんぷら-成生-207",
     "name": "てんぷら 成生",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5502,8 +5398,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.200466666666664,
-    "lng": 138.24523333333335,
+    "lat": 39.855666666666664,
+    "lng": 123.53233333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A6%E3%82%93%E3%81%B7%E3%82%89%20%E6%88%90%E7%94%9F",
     "googlePlaceQuery": "てんぷら 成生",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkAVp1GHmOd0JZz5NxB2cqvi1nnq7jVSkQ6WZ3FQFYtpH2yghYGXZzFK-F8Eq7nbbt5wazqW_jT4rnEgSCjw9QvQwiluiI5oRscBXsoMK-ufULyO8WCFhTltO1T2Fn3UWyCerdB=w800-h600-k-no",
@@ -5512,12 +5408,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "天ぷら店"
     ],
-    "description": "天ぷら店。Googleマップの「地方レストラン_名店」より。",
+    "description": "天ぷら店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "蝦夷の里-212",
+    "id": "蝦夷の里-208",
     "name": "蝦夷の里",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -5528,8 +5424,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.212383333333335,
-    "lng": 138.25931666666668,
+    "lat": 36.337583333333335,
+    "lng": 143.79641666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%9D%A6%E5%A4%B7%E3%81%AE%E9%87%8C",
     "googlePlaceQuery": "蝦夷の里",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlMuBY2QPyKI46vlL0g7jzVzeXJt0oCStx3d5RhUik422L4dPKYqCWubP3vNp_5-M6cQYRqG4K3WnhDSJppyGOYbPYQdlQY3vTq6YlRmWWOJzkKgobBIi9IMVz6lSZOc6pnq5-jYw=w800-h600-k-no",
@@ -5538,12 +5434,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "the-kintan-steak-213",
+    "id": "the-kintan-steak-209",
     "name": "THE KINTAN STEAK",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -5554,8 +5450,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2003,
-    "lng": 138.25873333333334,
+    "lat": 43.475500000000004,
+    "lng": 142.90583333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=THE%20KINTAN%20STEAK",
     "googlePlaceQuery": "THE KINTAN STEAK",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnBamP7kWzYx3KZI6UX1woIhxVbLOrBlGvCplHhwOiq-Vp8GL_MmsGbJjTBdyGzL9zSRZDCw6XXMbso34tl6PXehHwMrwyxXX59S3CB9uI5FleYJQHFJdvUCIzdQAeSjOJLCxujR2SaZYd2=w800-h600-k-no",
@@ -5564,12 +5460,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "肉料理店"
     ],
-    "description": "肉料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "肉料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店 / 東京レストラン_会食middle / 東京レストラン_肉"
   },
   {
-    "id": "徳山鮓-214",
+    "id": "徳山鮓-210",
     "name": "徳山鮓",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5580,8 +5476,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20688333333333,
-    "lng": 138.24948333333333,
+    "lat": 36.312083333333334,
+    "lng": 137.2265833333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%B3%E5%B1%B1%E9%AE%93",
     "googlePlaceQuery": "徳山鮓",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm9GUs3Kie291UxWauozTc1qOKJHqpz-LgzYBFAqjKePtP0Yac2I9dWGkWHY9miYwrHKUntTljlx7FQ0K7EQRNF7uGHXkTvybmrZiEM7TMs7Y3WinCismi7LSOHaszCDCErPcp6=w800-h600-k-no",
@@ -5590,12 +5486,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "郷土料理店"
     ],
-    "description": "郷土料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "郷土料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "火ノ鳥-215",
+    "id": "火ノ鳥-211",
     "name": "火ノ鳥",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -5606,8 +5502,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.203966666666666,
-    "lng": 138.25573333333335,
+    "lat": 33.479166666666664,
+    "lng": 141.62283333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%81%AB%E3%83%8E%E9%B3%A5",
     "googlePlaceQuery": "火ノ鳥",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkttYvPz9I2xwBbuEFrxNNL7iRHSiMzzL89rmx1E8wYqHORgSwu968w2tIQdmgMxVqnR2uMjESvZYBJckwarZvyCAUm52zjHCS0Fo7K4pzWunUYU7xj8Ye9ompZXMan_3E97flR=w800-h600-k-no",
@@ -5616,12 +5512,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "gejo-216",
+    "id": "gejo-212",
     "name": "GEJO",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5632,8 +5528,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.209383333333335,
-    "lng": 138.25831666666667,
+    "lat": 42.934583333333336,
+    "lng": 141.16541666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=GEJO",
     "googlePlaceQuery": "GEJO",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnnLRkes0ihnBf11cbX9j6KwvsyQDcG4xjAWR86aP4zmfHvVfc2_qY97_aj_7w6QKjWPVBaV--rySfo4Wsf0_zT_jSHDD0JLF_TagQv5W9Cs7B-A3OiU2GKKM1wzkVJajQtbQ55h_wnXrs=w800-h600-k-no",
@@ -5642,12 +5538,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "mitoho-217",
+    "id": "mitoho-213",
     "name": "mitoho",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5658,8 +5554,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.206966666666666,
-    "lng": 138.25606666666667,
+    "lat": 33.762166666666666,
+    "lng": 123.07316666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=mitoho",
     "googlePlaceQuery": "mitoho",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnm9HtRj1WdzQDnf8ejZWEwORZObnDmTGae06a4WQwCo1I82sewg2_hH0sj32VIRA3EH8kwMDvA5UlXsopk_Q6_x7_AcRGgasnp_KYJ7AIHC67rvWRT8HYb-I2QCD5NShyrBYda=w800-h600-k-no",
@@ -5668,12 +5564,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "カフェ・喫茶"
     ],
-    "description": "カフェ・喫茶。Googleマップの「地方レストラン_名店」より。",
+    "description": "カフェ・喫茶。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "白金-にし田-218",
+    "id": "白金-にし田-214",
     "name": "白金 にし田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5684,8 +5580,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2118,
-    "lng": 138.2459,
+    "lat": 41.147,
+    "lng": 132.38299999999998,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E9%87%91%20%E3%81%AB%E3%81%97%E7%94%B0",
     "googlePlaceQuery": "白金 にし田",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk4ZeGXG61vgFw-4ZfDqQI-D4loHy5TsoL-KeEPQ7nBtXufK_SSpOpeOdSbsOPxFLpjU93BFrdOCacoJxHxCgt37z8AbMnxj3avY_1o9ziNGXzWy1Ft8buBzzTRgv6A-tAGLQIpAPJb0sCX=w800-h600-k-no",
@@ -5694,12 +5590,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「地方レストラン_名店」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "穴場天満店-219",
+    "id": "穴場天満店-215",
     "name": "穴場天満店",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5710,8 +5606,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19846666666667,
-    "lng": 138.25523333333334,
+    "lat": 34.29366666666667,
+    "lng": 129.97233333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A9%B4%E5%A0%B4%E5%A4%A9%E6%BA%80%E5%BA%97",
     "googlePlaceQuery": "穴場天満店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmexVE7Jj81kb1--DtJpXGu7EJfcT3zFlESMBAIrhDst9yMlzOkLppj3gYwJJKrXm_XU01ww1BLXqso2bHErDv-PFoPHLBrsgu6-L3XYubR_JtmfzlytsVbdxkHgKtdUzkHhlHEowUDQeAI=w800-h600-k-no",
@@ -5720,12 +5616,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "福寿司-220",
+    "id": "福寿司-216",
     "name": "福寿司",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5736,8 +5632,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19846666666667,
-    "lng": 138.24456666666669,
+    "lat": 34.85366666666667,
+    "lng": 140.18166666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%AF%BF%E5%8F%B8",
     "googlePlaceQuery": "福寿司",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnD708fzQPynjin7i85KVDNl2yu6rqJ7nTZGf-aMW_zcXnLlQFg_vvt0wKCvfMLV3X9HmvPtC1fwZSqCK2CIgUAqCtNKcM2veK5IE-S95bolkD1KXbmh4v8auzN_rsK0RVXTqQQgA=w800-h600-k-no",
@@ -5746,12 +5642,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "福寿司"
     ],
-    "description": "福寿司。Googleマップの「地方レストラン_名店」より。",
+    "description": "福寿司。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "narumi-221",
+    "id": "narumi-217",
     "name": "NARUMI",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5762,8 +5658,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19996666666667,
-    "lng": 138.2484,
+    "lat": 43.99516666666667,
+    "lng": 126.0955,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=NARUMI",
     "googlePlaceQuery": "NARUMI",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmVJSu76WRqXwrPZ77p5ea1MDEIShW42Pi9QxPWrDfLIUL9X2rt0cwDBe1jRJFbrbqVSiX775ID0_cf8T3n1-en57VbgOnCxFMmaFQEjLfuUAhWgs7RrZGSsoIx9u61z6hrZ6drIg=w800-h600-k-no",
@@ -5772,38 +5668,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "NARUMI"
     ],
-    "description": "NARUMI。Googleマップの「地方レストラン_名店」より。",
+    "description": "NARUMI。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "瞬-222",
-    "name": "瞬",
-    "cuisine": "和食",
-    "priceTier": "middle",
-    "priceDinner": "¥10,000〜",
-    "scenes": [
-      "会食"
-    ],
-    "area": "地方",
-    "address": "地方",
-    "nearestStation": "",
-    "lat": 36.199466666666666,
-    "lng": 138.25556666666668,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9E%AC",
-    "googlePlaceQuery": "瞬",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm7v2hG8qgiUxOi1L7OZmG7XGMjulv_yOu3_98z1yllFDCWuv2pNfpKHYMpvwJXlOVXWFA5p_tA6TJPYLK3AwWb28qmkQYHWnIvHhVJh3ChHTobBDheKVgqqEGAlmFNtYnQ95n_=w800-h600-k-no",
-    "rating": 4.3,
-    "reviewCount": 0,
-    "tags": [
-      "瞬"
-    ],
-    "description": "瞬。Googleマップの「地方レストラン_名店」より。",
-    "privateRoom": false,
-    "listSource": "地方レストラン_名店 / 鰻"
-  },
-  {
-    "id": "活海酒-223",
+    "id": "活海酒-218",
     "name": "活海酒",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5814,8 +5684,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.198966666666664,
-    "lng": 138.2540666666667,
+    "lat": 44.07416666666666,
+    "lng": 140.13116666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B4%BB%E6%B5%B7%E9%85%92",
     "googlePlaceQuery": "活海酒",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmjcL1DMNZGDIuOMPXM5cxr3tbwTUtbmxCa2L3SiY6l8TnVce37bG5gZk59GpHwaumJ4rRP9UOIIZKXqIJaJbctxtJP3d_kh5nqu03lJ1VAY-ArwsQ_mwiCNoh9hF-hm2y_4RU=w800-h600-k-no",
@@ -5824,12 +5694,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "活海酒"
     ],
-    "description": "活海酒。Googleマップの「地方レストラン_名店」より。",
+    "description": "活海酒。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "ピアット-スズキ-チンクエ-224",
+    "id": "ピアット-スズキ-チンクエ-219",
     "name": "ピアット スズキ チンクエ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5840,8 +5710,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21013333333333,
-    "lng": 138.24756666666667,
+    "lat": 40.86533333333333,
+    "lng": 119.75466666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%94%E3%82%A2%E3%83%83%E3%83%88%20%E3%82%B9%E3%82%BA%E3%82%AD%20%E3%83%81%E3%83%B3%E3%82%AF%E3%82%A8",
     "googlePlaceQuery": "ピアット スズキ チンクエ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnu8RQ4v9gOmzbuYF-b5XLGpm4RK4CdZJ-xK1NakD50O_UXzaihWkCXNEeUniFlFZ7MZMhZ_KEDenuzdWELcI9G9UnBfQewTfx-zy2OgmL5chkKPRSBBNt_6xhGELMOUSM_S7A=w800-h600-k-no",
@@ -5850,12 +5720,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ピアット スズキ チンクエ"
     ],
-    "description": "ピアット スズキ チンクエ。Googleマップの「地方レストラン_名店」より。",
+    "description": "ピアット スズキ チンクエ。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "翠-大屋-225",
+    "id": "翠-大屋-220",
     "name": "翠 大屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5866,8 +5736,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.209466666666664,
-    "lng": 138.24823333333333,
+    "lat": 35.184666666666665,
+    "lng": 136.11533333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BF%A0%20%E5%A4%A7%E5%B1%8B",
     "googlePlaceQuery": "翠 大屋",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkxQmwPnzzsC7p531coZUUzV3PnxNBu88rwFTMpndgB91jAaso7sWM8G6-jdf9jz0yihuWmp5osDP3dbVk6kFPz4IeZaVJf0NTxSy_wOmQOv9EsBBdlzwZCR4zv4sjYhM9u-HR2=w800-h600-k-no",
@@ -5876,12 +5746,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "翠 大屋"
     ],
-    "description": "翠 大屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "翠 大屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "手打蕎麦せんり-226",
+    "id": "手打蕎麦せんり-221",
     "name": "手打蕎麦せんり",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5892,8 +5762,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2033,
-    "lng": 138.2484,
+    "lat": 44.2385,
+    "lng": 141.5955,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%8B%E6%89%93%E8%95%8E%E9%BA%A6%E3%81%9B%E3%82%93%E3%82%8A",
     "googlePlaceQuery": "手打蕎麦せんり",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmimH5rrpZCkkMvFFudIV0zu8SiKwEuGZuwda7xLLytubMaNov3SmiqDTLvUeHinzz3U3PZ_rdquiocPo87EDYHiMu-v2gkWt6PIYQcJa4IVqG5S9T3bBJ1a0E-u9hyJ8SLsOcr4EHoerHw=w800-h600-k-no",
@@ -5902,38 +5772,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "手打蕎麦せんり"
     ],
-    "description": "手打蕎麦せんり。Googleマップの「地方レストラン_名店」より。",
+    "description": "手打蕎麦せんり。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "3442110n-13529156e-227",
-    "name": "34°42'11.0\"N 135°29'15.6\"E",
-    "cuisine": "和食",
-    "priceTier": "middle",
-    "priceDinner": "¥10,000〜",
-    "scenes": [
-      "会食"
-    ],
-    "area": "地方",
-    "address": "地方",
-    "nearestStation": "",
-    "lat": 36.2033,
-    "lng": 138.25973333333334,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=34%C2%B042'11.0%22N%20135%C2%B029'15.6%22E",
-    "googlePlaceQuery": "34°42'11.0\"N 135°29'15.6\"E",
-    "image": "https://images.unsplash.com/photo-1569058242567-93de6f36f8eb?w=800&q=80",
-    "rating": 4.3,
-    "reviewCount": 0,
-    "tags": [
-      "34°42'11.0\"N 135°29'15.6\"E"
-    ],
-    "description": "34°42'11.0\"N 135°29'15.6\"E。Googleマップの「地方レストラン_名店」より。",
-    "privateRoom": false,
-    "listSource": "地方レストラン_名店"
-  },
-  {
-    "id": "大安丸-228",
+    "id": "大安丸-222",
     "name": "大安丸",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5944,8 +5788,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.204299999999996,
-    "lng": 138.25273333333334,
+    "lat": 39.9995,
+    "lng": 143.22983333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%AE%89%E4%B8%B8",
     "googlePlaceQuery": "大安丸",
     "image": "https://images.unsplash.com/photo-1519690889869-e705e59f72e1?w=800&q=80",
@@ -5954,12 +5798,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "大安丸"
     ],
-    "description": "大安丸。Googleマップの「地方レストラン_名店」より。",
+    "description": "大安丸。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "立ち喰い鮨-人人-229",
+    "id": "立ち喰い鮨-人人-223",
     "name": "立ち喰い鮨 人人",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -5970,8 +5814,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.1993,
-    "lng": 138.24773333333334,
+    "lat": 39.7545,
+    "lng": 131.79483333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E3%81%A1%E5%96%B0%E3%81%84%E9%AE%A8%20%E4%BA%BA%E4%BA%BA",
     "googlePlaceQuery": "立ち喰い鮨 人人",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk5d-9oXdya60l9oFIG7aPj1Ugebb24vaSv2bNIBV_FM5JXR4z9Sij_oEKeFebbdHKNSMZiUm1WSNNeTqHfgc15YzPnaCQKk9NA-EUENYy2oLHRvpG2Qo6BP-4eim_w-6FX6hFhDzOm5dM=w800-h600-k-no",
@@ -5980,12 +5824,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "立ち喰い鮨 人人"
     ],
-    "description": "立ち喰い鮨 人人。Googleマップの「地方レストラン_名店」より。",
+    "description": "立ち喰い鮨 人人。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "一誠-230",
+    "id": "一誠-224",
     "name": "一誠",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -5996,8 +5840,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.202466666666666,
-    "lng": 138.25056666666669,
+    "lat": 37.45766666666667,
+    "lng": 133.68766666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E8%AA%A0",
     "googlePlaceQuery": "一誠",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmxDppyfLen2gKM1a4AoVmnd9DRhIKdYzn8ZRbGD3RSPJFcVN_KDx5FI2f9b0OEHQSiQ2h-pSUey2oHq0bs5QbP-VFGWlfgm88nXsFWYTlFuKVy9FNGiCPQMHvSkQDBfXovMALFCg=w800-h600-k-no",
@@ -6006,12 +5850,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "一誠"
     ],
-    "description": "一誠。Googleマップの「地方レストラン_名店」より。",
+    "description": "一誠。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "渡部旅館-231",
+    "id": "渡部旅館-225",
     "name": "渡部旅館",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6022,8 +5866,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2113,
-    "lng": 138.25973333333334,
+    "lat": 32.206500000000005,
+    "lng": 139.76683333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B8%A1%E9%83%A8%E6%97%85%E9%A4%A8",
     "googlePlaceQuery": "渡部旅館",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmXcSFWTK2G7VoL5yl__mKwyhRlWEIF9l5XjZpXvGVFVOMoXF_zFJICJtLbm0fLWWREMEl3VYKr9GgjQWIkzk7zw_YOmkHQe4GxWBq_OylQ_mBMh-J2KQPw9CHWCzbOrpkSr9Y_=w800-h600-k-no",
@@ -6032,12 +5876,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "渡部旅館"
     ],
-    "description": "渡部旅館。Googleマップの「地方レストラン_名店」より。",
+    "description": "渡部旅館。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "カスク-232",
+    "id": "カスク-226",
     "name": "カスク",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6048,8 +5892,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20121666666667,
-    "lng": 138.24648333333334,
+    "lat": 32.74641666666667,
+    "lng": 134.90358333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%82%B9%E3%82%AF",
     "googlePlaceQuery": "カスク",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmadATygZsXdgWanNLqPxsNQbd7-VzPyEgbhgIE-X547MRw_gifrTS_ZznGFvNtsNEBAsQoEa7hKnKsIRFTjOUytwNiSZlQ9fjB5WOQs_-gwAsV7XFRaOZvG4L-l61lqFQ5mWyiBw=w800-h600-k-no",
@@ -6058,12 +5902,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "カスク"
     ],
-    "description": "カスク。Googleマップの「地方レストラン_名店」より。",
+    "description": "カスク。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "バーフォーシーズン-233",
+    "id": "バーフォーシーズン-227",
     "name": "バー・フォーシーズン",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6074,8 +5918,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20571666666667,
-    "lng": 138.25398333333334,
+    "lat": 35.01091666666667,
+    "lng": 135.48108333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%90%E3%83%BC%E3%83%BB%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3",
     "googlePlaceQuery": "バー・フォーシーズン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkSiASsnifqJ8imSr0eayD5nE1lVCMRW2-yQziNlJZEGhlf4IqUyQFGBjGvg7LJib5KXFwPCqxbuBH_oXR-Av_9_VrGTIxhHh9eAp969AgJqBu0R6HIAU3fyrjgGGrBv-1zdqJMSqdefQcx=w800-h600-k-no",
@@ -6084,12 +5928,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "バー・フォーシーズン"
     ],
-    "description": "バー・フォーシーズン。Googleマップの「地方レストラン_名店」より。",
+    "description": "バー・フォーシーズン。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "炭火焼-八仙-234",
+    "id": "炭火焼-八仙-228",
     "name": "炭火焼 八仙",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6100,8 +5944,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20713333333333,
-    "lng": 138.25723333333335,
+    "lat": 42.742333333333335,
+    "lng": 128.51433333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%82%AD%E7%81%AB%E7%84%BC%20%E5%85%AB%E4%BB%99",
     "googlePlaceQuery": "炭火焼 八仙",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmaAjqIXWsXPhZweFFV_3K2yIGNebv4MtJj7bUt12KfqhTrYsXgVG7LtCgFmLFYtxmHaX6tWS4VlHw7vuZ_NBKKnSsmBevER2L5Qf69cEzqBMgfsYm4hW1G13VqkUiDOpxq0N4=w800-h600-k-no",
@@ -6110,12 +5954,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "炭火焼 八仙"
     ],
-    "description": "炭火焼 八仙。Googleマップの「地方レストラン_名店」より。",
+    "description": "炭火焼 八仙。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "しの田-235",
+    "id": "しの田-229",
     "name": "しの田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6126,8 +5970,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20321666666666,
-    "lng": 138.25848333333334,
+    "lat": 40.628416666666666,
+    "lng": 134.59558333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%97%E3%81%AE%E7%94%B0",
     "googlePlaceQuery": "しの田",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmlwYsL6e-8RS1zgKUv5sS4d_qEv4x_9xASEpmFKDw3Ydqll4jOv6op8hWwdMUB5UhDNhAZXBqUugpfNeVnQ1Zxq-f9j69Wq7fQNYuao3Cyz8wcsg62O7eBq7gHCTdqSKuSQqNy=w800-h600-k-no",
@@ -6136,12 +5980,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "しの田"
     ],
-    "description": "しの田。Googleマップの「地方レストラン_名店」より。",
+    "description": "しの田。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "あか吉-236",
+    "id": "あか吉-230",
     "name": "あか吉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6152,8 +5996,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20713333333333,
-    "lng": 138.25523333333334,
+    "lat": 42.102333333333334,
+    "lng": 134.44233333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%8B%E5%90%89",
     "googlePlaceQuery": "あか吉",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl3J-fuaiBSlHPzjQP4eBzqeqaVbY-2TwVxYkXG5wmD2LvL1XE8ex51-hVEdIVdDgTN7eGfqBGavzMx7ljrs0k1zR0gmC3BxPRbY0Xh21o_j6McL18hckSXaSZz12fZTwy2jOJVjA=w800-h600-k-no",
@@ -6162,12 +6006,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "あか吉"
     ],
-    "description": "あか吉。Googleマップの「地方レストラン_名店」より。",
+    "description": "あか吉。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "吉田酒店-237",
+    "id": "吉田酒店-231",
     "name": "吉田酒店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6178,8 +6022,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.1988,
-    "lng": 138.24823333333333,
+    "lat": 43.094,
+    "lng": 144.37533333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%89%E7%94%B0%E9%85%92%E5%BA%97",
     "googlePlaceQuery": "吉田酒店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnjzC361-k9AL1xJLbNT9-aEleLsalDeujGwbUNrRgDumvq_95aUM4qPf573WZHwfyrBk6mIhoUTLW4sZCACKTOf0fVGj1Dh9ueBBkY6GLdW-WxIe7cc-E4SwamuNNleWqkc0wMFTIwkKjY=w800-h600-k-no",
@@ -6188,12 +6032,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "吉田酒店"
     ],
-    "description": "吉田酒店。Googleマップの「地方レストラン_名店」より。",
+    "description": "吉田酒店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "金泉銀泉銅泉-238",
+    "id": "金泉銀泉銅泉-232",
     "name": "金泉、銀泉、銅泉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6204,8 +6048,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20605,
-    "lng": 138.24698333333333,
+    "lat": 34.411249999999995,
+    "lng": 143.82408333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%B3%89%E3%80%81%E9%8A%80%E6%B3%89%E3%80%81%E9%8A%85%E6%B3%89",
     "googlePlaceQuery": "金泉、銀泉、銅泉",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnzKGsNSDitnB7M57EZTcm4bb3ueEIL6Nw-z4nCVm9O-Etc9V4qcDjgPdD901W5xFknCtEcgIbQLocJ_Rwmb_aT_t03ZRgb--YIuYyrMcLnSIbku4HlZ1k59lOgzV8OtcO2diDz=w800-h600-k-no",
@@ -6214,12 +6058,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "金泉、銀泉、銅泉"
     ],
-    "description": "金泉、銀泉、銅泉。Googleマップの「地方レストラン_名店」より。",
+    "description": "金泉、銀泉、銅泉。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "大衆酒場-親爺-239",
+    "id": "大衆酒場-親爺-233",
     "name": "大衆酒場 親爺",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -6230,8 +6074,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20171666666666,
-    "lng": 138.24531666666667,
+    "lat": 43.40691666666666,
+    "lng": 128.58241666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%A1%86%E9%85%92%E5%A0%B4%20%E8%A6%AA%E7%88%BA",
     "googlePlaceQuery": "大衆酒場 親爺",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlIYBw6h46tW0dHa4Wos0GfloscQgDW1gczKa_XsM2fHfLXVZyjcjWkFDwGnMor_i7jtOdoHOrZmOJVVZfQNBrkHb7NjPDRLBuUmLTiGlASflM1NF085qdulnTPrzbRVPv-qFA-6pRQVn56=w800-h600-k-no",
@@ -6240,12 +6084,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "大衆酒場 親爺"
     ],
-    "description": "大衆酒場 親爺。Googleマップの「地方レストラン_名店」より。",
+    "description": "大衆酒場 親爺。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "艶次郎-240",
+    "id": "艶次郎-234",
     "name": "艶次郎",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6256,8 +6100,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20605,
-    "lng": 138.26098333333334,
+    "lat": 35.73125,
+    "lng": 137.54808333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%89%B6%E6%AC%A1%E9%83%8E",
     "googlePlaceQuery": "艶次郎",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmELHekWGVFFRv7rJMSB5G84MKB01TJAgGg2vy2QMQfgJp7ICbSP4jCpF5lnDu9t3RuUsDx3UAalq_h_5vOGpMvj-cnjXO7PJQcw1qZdbPxF39vS0z2pPRM6sdjox9_j5K5J7GSlg=w800-h600-k-no",
@@ -6266,12 +6110,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "艶次郎"
     ],
-    "description": "艶次郎。Googleマップの「地方レストラン_名店」より。",
+    "description": "艶次郎。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "糸庄-本店-241",
+    "id": "糸庄-本店-235",
     "name": "糸庄 本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6282,8 +6126,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21105,
-    "lng": 138.24798333333334,
+    "lat": 41.85625,
+    "lng": 137.84508333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B3%B8%E5%BA%84%20%E6%9C%AC%E5%BA%97",
     "googlePlaceQuery": "糸庄 本店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkhhu87BhiRzeuyDecWYKZOeciiCr3Gyy7GHlbE-r6Xq0PjyRR5cdxtohHJywVDSAvCmYTDw_eorZDiYKEyZ_JXjjlULppqoth4KYx4rNGhDPrxtQwNi45vD07b3kE0nAyQSCdYBE0YsHuo=w800-h600-k-no",
@@ -6292,12 +6136,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "糸庄 本店"
     ],
-    "description": "糸庄 本店。Googleマップの「地方レストラン_名店」より。",
+    "description": "糸庄 本店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "こいで-242",
+    "id": "こいで-236",
     "name": "こいで",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6308,8 +6152,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.206966666666666,
-    "lng": 138.2494,
+    "lat": 34.082166666666666,
+    "lng": 134.4765,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%93%E3%81%84%E3%81%A7",
     "googlePlaceQuery": "こいで",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWktBnPH3Kgt8gKePnvxWqtmjlb9DEQXbxDD2jP5Y8ivdBcxzANZdwcb7HujosS0RBP3XyciWDP1fOh9Seq7ySCqyLp9W1yTJD1bwZxouzQkoKkox2cgbOSeL6faaFSErmus_Q-S=w800-h600-k-no",
@@ -6318,12 +6162,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "こいで"
     ],
-    "description": "こいで。Googleマップの「地方レストラン_名店」より。",
+    "description": "こいで。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "さばたろう-243",
+    "id": "さばたろう-237",
     "name": "さばたろう",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6334,8 +6178,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.204883333333335,
-    "lng": 138.25748333333334,
+    "lat": 42.110083333333336,
+    "lng": 124.29458333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%95%E3%81%B0%E3%81%9F%E3%82%8D%E3%81%86",
     "googlePlaceQuery": "さばたろう",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk2fGiYET5yTNcme0X-mNY28Ab2-14i2sr1d_rzq5BP2RMCMhUw_E0ctk1M8qAkiytWqYXNAklHOBrWfYLvOJuOy5rewppgwkZeuzT-nh589J2-2xqJAywwQ-yGRfhd6mbjjcboZjzP7tCI=w800-h600-k-no",
@@ -6344,12 +6188,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "さばたろう"
     ],
-    "description": "さばたろう。Googleマップの「地方レストラン_名店」より。",
+    "description": "さばたろう。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "makinoncî-マキノンチ-244",
+    "id": "makinoncî-マキノンチ-238",
     "name": "MAKINONCÎ マキノンチ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6360,8 +6204,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20005,
-    "lng": 138.25831666666667,
+    "lat": 40.48525,
+    "lng": 137.30541666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MAKINONC%C3%8E%20%E3%83%9E%E3%82%AD%E3%83%8E%E3%83%B3%E3%83%81",
     "googlePlaceQuery": "MAKINONCÎ マキノンチ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnTHfPTV84unaWUeNPzYizuYeqnAHscP1pNJsPYakcmx1rKTdBuPzD7lC2ENqnRB20IBziG9l2HRtLzHa_JHQzoOqc7pBlq4AfECbFellv_9OOSMLLe573Ajd_EDu1vKWDcya7XlA=w800-h600-k-no",
@@ -6370,12 +6214,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "MAKINONCÎ マキノンチ"
     ],
-    "description": "MAKINONCÎ マキノンチ。Googleマップの「地方レストラン_名店」より。",
+    "description": "MAKINONCÎ マキノンチ。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "bar-main-malt-245",
+    "id": "bar-main-malt-239",
     "name": "Bar Main Malt",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6386,8 +6230,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.201633333333334,
-    "lng": 138.25740000000002,
+    "lat": 43.75683333333333,
+    "lng": 116.74449999999999,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Main%20Malt",
     "googlePlaceQuery": "Bar Main Malt",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn_yZrJw5-lE_hftjJTlzKfS1uI6U5TrQKPOiW-wrPYTFlyCpvJY4XrnHCnkjtXIdWKhwnXy0lumQEn2iHFMo-pozJ0nujm3LSTKjE-C1yBVrXKpzkHYfjfxMQROs96NG4ngn0U7NU-NnQO=w800-h600-k-no",
@@ -6396,12 +6240,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "Bar Main Malt"
     ],
-    "description": "Bar Main Malt。Googleマップの「地方レストラン_名店」より。",
+    "description": "Bar Main Malt。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "料亭-山田屋-246",
+    "id": "料亭-山田屋-240",
     "name": "料亭 山田屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6412,8 +6256,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19713333333333,
-    "lng": 138.25523333333334,
+    "lat": 31.812333333333335,
+    "lng": 122.01233333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%99%E4%BA%AD%20%E5%B1%B1%E7%94%B0%E5%B1%8B",
     "googlePlaceQuery": "料亭 山田屋",
     "image": "https://images.unsplash.com/photo-1607301405390-d831c242f59b?w=800&q=80",
@@ -6422,12 +6266,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "料亭 山田屋"
     ],
-    "description": "料亭 山田屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "料亭 山田屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "総合酒類探求所k-247",
+    "id": "総合酒類探求所k-241",
     "name": "総合酒類探求所K",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6439,8 +6283,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.208466666666666,
-    "lng": 138.25523333333334,
+    "lat": 36.623666666666665,
+    "lng": 123.35233333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B7%8F%E5%90%88%E9%85%92%E9%A1%9E%E6%8E%A2%E6%B1%82%E6%89%80K",
     "googlePlaceQuery": "総合酒類探求所K",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk3MGq9IBMP7fIRqOu7pB8KMAMACSZBWnAbLvhdXKbHcswjf3GOfIklrJBQA3bS6dB56Bqke6R5kC0RW-89PmXAJdzqJTIIot_rzTOeVjlAX3sRM0joJBV-PJ87qnVT9SKkGuXf=w800-h600-k-no",
@@ -6449,12 +6293,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "総合酒類探求所K"
     ],
-    "description": "総合酒類探求所K。Googleマップの「地方レストラン_名店」より。",
+    "description": "総合酒類探求所K。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店 / 東京レストラン_日本酒名店"
   },
   {
-    "id": "くるますし-248",
+    "id": "くるますし-242",
     "name": "くるますし",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -6465,8 +6309,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.206466666666664,
-    "lng": 138.24990000000003,
+    "lat": 42.38166666666667,
+    "lng": 129.29700000000003,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8F%E3%82%8B%E3%81%BE%E3%81%99%E3%81%97",
     "googlePlaceQuery": "くるますし",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmfcRMqBAL1xMSLOnMzhQ9OggOYC5S-U2RnHN_x8ObYbRekRZRr8kGNyx_xeMJkx9LlytX-x2UZu2skssWUh5ScpIz3hkt3pQggIRdInyMjxbvG-Gqd1tsFLcHFojAw7ZQxg2qBHQ=w800-h600-k-no",
@@ -6475,12 +6319,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "くるますし"
     ],
-    "description": "くるますし。Googleマップの「地方レストラン_名店」より。",
+    "description": "くるますし。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "ゑんどう寿司-中央市場店-249",
+    "id": "ゑんどう寿司-中央市場店-243",
     "name": "ゑんどう寿司 中央市場店",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -6491,8 +6335,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20213333333333,
-    "lng": 138.2575666666667,
+    "lat": 33.33733333333333,
+    "lng": 132.70466666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%91%E3%82%93%E3%81%A9%E3%81%86%E5%AF%BF%E5%8F%B8%20%E4%B8%AD%E5%A4%AE%E5%B8%82%E5%A0%B4%E5%BA%97",
     "googlePlaceQuery": "ゑんどう寿司 中央市場店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkH_6Bioa5bImYD_SK-RK311IN6Ff5rxOd_M289OUH6rYla-wZciOuMJhMOGZQUDxo6F-cPQMUWwiqbja_wVSkYULMwFsoHGv0zKDoPkia-bZ7uuyUzP6ZOPjxzrRxmrHF5JVFm98L4pBg=w800-h600-k-no",
@@ -6501,12 +6345,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ゑんどう寿司 中央市場店"
     ],
-    "description": "ゑんどう寿司 中央市場店。Googleマップの「地方レストラン_名店」より。",
+    "description": "ゑんどう寿司 中央市場店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨-慎之介-堺筋本町-250",
+    "id": "鮨-慎之介-堺筋本町-244",
     "name": "鮨 慎之介 堺筋本町",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -6517,8 +6361,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.207883333333335,
-    "lng": 138.25181666666668,
+    "lat": 37.59308333333334,
+    "lng": 127.66891666666668,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E6%85%8E%E4%B9%8B%E4%BB%8B%20%E5%A0%BA%E7%AD%8B%E6%9C%AC%E7%94%BA",
     "googlePlaceQuery": "鮨 慎之介 堺筋本町",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk9jMhTSb7e-8k8kKLs4B9YqiLuORnXRIYfH1Rt5CK_rGJ3VcfR31wxsx59OEZFyp4R6xK_kqEGZdYzfLL4kZrv-pCafM_By_vIv_wmRGyWgCRPMhJDglPsz1kkXaoxQ5gid0CZ=w800-h600-k-no",
@@ -6527,12 +6371,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "鮨 慎之介 堺筋本町"
     ],
-    "description": "鮨 慎之介 堺筋本町。Googleマップの「地方レストラン_名店」より。",
+    "description": "鮨 慎之介 堺筋本町。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "御料理-ふじ居-251",
+    "id": "御料理-ふじ居-245",
     "name": "御料理 ふじ居",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6543,8 +6387,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21046666666667,
-    "lng": 138.25923333333336,
+    "lat": 42.58566666666667,
+    "lng": 143.37633333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A1%E6%96%99%E7%90%86%20%E3%81%B5%E3%81%98%E5%B1%85",
     "googlePlaceQuery": "御料理 ふじ居",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlyV0X8L6osF86W_rKovKZksW4ZYkj9C2A09aPY3Hg-1ErTqVft-PnZEHSvlQe0wdwxzDJfbSfw0k3hO3WRAzFSkUh_CBg-zxKVAzvIgXmAj6SGKiWfmb9DOAeHR_KpQ3BQYCAs=w800-h600-k-no",
@@ -6553,12 +6397,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "御料理 ふじ居"
     ],
-    "description": "御料理 ふじ居。Googleマップの「地方レストラン_名店」より。",
+    "description": "御料理 ふじ居。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "懐石つる幸-252",
+    "id": "懐石つる幸-246",
     "name": "懐石つる幸",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6569,8 +6413,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20363333333333,
-    "lng": 138.25673333333336,
+    "lat": 33.35883333333333,
+    "lng": 129.13383333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%87%90%E7%9F%B3%E3%81%A4%E3%82%8B%E5%B9%B8",
     "googlePlaceQuery": "懐石つる幸",
     "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80",
@@ -6579,12 +6423,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "懐石つる幸"
     ],
-    "description": "懐石つる幸。Googleマップの「地方レストラン_名店」より。",
+    "description": "懐石つる幸。",
     "privateRoom": true,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "蓑むらかた-253",
+    "id": "蓑むらかた-247",
     "name": "蓑むらかた",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6595,8 +6439,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.206966666666666,
-    "lng": 138.25140000000002,
+    "lat": 42.162166666666664,
+    "lng": 133.5885,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%93%91%E3%82%80%E3%82%89%E3%81%8B%E3%81%9F",
     "googlePlaceQuery": "蓑むらかた",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk7KOlm-wtnzrDHt1PeOwismyxHbQDCr-wgbllk0WzNE6fnZcJEOu27ivlCw8toXA9-n4Vm00fttCHzW_CTjZXZrqO9ZzyMfKXlEQVV624rjd5HKU6GezSkH2fsi9PdVc88JNLSjAjqVhs=w800-h600-k-no",
@@ -6605,12 +6449,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蓑むらかた"
     ],
-    "description": "蓑むらかた。Googleマップの「地方レストラン_名店」より。",
+    "description": "蓑むらかた。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨きしん-254",
+    "id": "鮨きしん-248",
     "name": "鮨きしん",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -6621,8 +6465,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20121666666667,
-    "lng": 138.25581666666668,
+    "lat": 33.42641666666667,
+    "lng": 134.89291666666665,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%8D%E3%81%97%E3%82%93",
     "googlePlaceQuery": "鮨きしん",
     "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
@@ -6631,12 +6475,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "鮨きしん"
     ],
-    "description": "鮨きしん。Googleマップの「地方レストラン_名店」より。",
+    "description": "鮨きしん。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "レヴェルドゥーレ-255",
+    "id": "レヴェルドゥーレ-249",
     "name": "レ・ヴェルドゥーレ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6647,8 +6491,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20755,
-    "lng": 138.25948333333335,
+    "lat": 39.47275,
+    "lng": 126.91658333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%83%BB%E3%83%B4%E3%82%A7%E3%83%AB%E3%83%89%E3%82%A5%E3%83%BC%E3%83%AC",
     "googlePlaceQuery": "レ・ヴェルドゥーレ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnlWiU4HfADAf9J3GH4e_3NZPV13-nO0VLbVlcjUUcuD_Wc23mB8wlJN7z9mhcM-uG5MyJVqZwzKmkl7L03DN9VHFl7mxY3eBxfEkTXdOgsFBDgSD80xg1DL0s8Ry1kDXK67cHRLQ=w800-h600-k-no",
@@ -6657,12 +6501,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レ・ヴェルドゥーレ"
     ],
-    "description": "レ・ヴェルドゥーレ。Googleマップの「地方レストラン_名店」より。",
+    "description": "レ・ヴェルドゥーレ。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨-島本-256",
+    "id": "鮨-島本-250",
     "name": "鮨 島本",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -6673,8 +6517,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.207633333333334,
-    "lng": 138.25073333333336,
+    "lat": 36.20283333333334,
+    "lng": 134.81783333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E5%B3%B6%E6%9C%AC",
     "googlePlaceQuery": "鮨 島本",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmolZpL8w9Zjdxl7OkeZpBwLIonvELUsebbfh6Pz_2jp3w7WOFDxQw4f7pUmRNlPyNicWMA_pv-fjfJoSkPOVx9xnKkHQWeyZtlqCdzRmoPfRW2uOJT_genj5TziBrAxKNHRn-k=w800-h600-k-no",
@@ -6683,12 +6527,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "鮨 島本"
     ],
-    "description": "鮨 島本。Googleマップの「地方レストラン_名店」より。",
+    "description": "鮨 島本。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "湘南韓バルｇｏｋａｎ-257",
+    "id": "湘南韓バルｇｏｋａｎ-251",
     "name": "湘南韓バルＧＯＫＡＮ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6699,8 +6543,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.208549999999995,
-    "lng": 138.25848333333334,
+    "lat": 42.07375,
+    "lng": 122.61558333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%98%E5%8D%97%E9%9F%93%E3%83%90%E3%83%AB%EF%BC%A7%EF%BC%AF%EF%BC%AB%EF%BC%A1%EF%BC%AE",
     "googlePlaceQuery": "湘南韓バルＧＯＫＡＮ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm2mnMJwAE5UrqAn3v9joHAk9dStbPvIgm9BnYkBlAgUyqjOcK0yct_TzScU8K90vwWnkbUHZWWZHUwQNfOhcjGuqwl1D4PeiGl6KkrAo8AOX1Tq58uLSQnSjYCdqEQI8WAVYdW-4AuAirm=w800-h600-k-no",
@@ -6709,12 +6553,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "湘南韓バルＧＯＫＡＮ"
     ],
-    "description": "湘南韓バルＧＯＫＡＮ。Googleマップの「地方レストラン_名店」より。",
+    "description": "湘南韓バルＧＯＫＡＮ。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "おひょっくり-258",
+    "id": "おひょっくり-252",
     "name": "おひょっくり",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6725,8 +6569,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.209716666666665,
-    "lng": 138.25331666666668,
+    "lat": 42.974916666666665,
+    "lng": 133.36041666666668,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%B2%E3%82%87%E3%81%A3%E3%81%8F%E3%82%8A",
     "googlePlaceQuery": "おひょっくり",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmzPDbItPC79DBe6hGWUZEGmYQFNKqTy6LuEpdDDQb9aNJnsm2pOo-Xa1WH6eG8kfpMd9RIrwQlnvnLIGg0AZ6Xpmrt9ezbE9x1xS9uhVj1xg3Xr3AsgvxRrDqKj0uhE4THKygBQw=w800-h600-k-no",
@@ -6735,12 +6579,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "おひょっくり"
     ],
-    "description": "おひょっくり。Googleマップの「地方レストラン_名店」より。",
+    "description": "おひょっくり。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "bar-mercato-バールメルカート-259",
+    "id": "bar-mercato-バールメルカート-253",
     "name": "Bar mercato バールメルカート",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6751,8 +6595,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19913333333333,
-    "lng": 138.25990000000002,
+    "lat": 34.17433333333333,
+    "lng": 121.547,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20mercato%20%E3%83%90%E3%83%BC%E3%83%AB%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%BC%E3%83%88",
     "googlePlaceQuery": "Bar mercato バールメルカート",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnp82-hJLfKgCT-ScmseHAJhSn8rqd_Dm1B9zOEduWap_bNFmwy-Bnq24ImKJRrQVhTevuU7ejbJQ-DPOVad695SQSc3gIbGiT4UZH0vwXPEIHfsrw9zr6iQXrnxsAMIPw9l0s=w800-h600-k-no",
@@ -6761,12 +6605,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "Bar mercato バールメルカート"
     ],
-    "description": "Bar mercato バールメルカート。Googleマップの「地方レストラン_名店」より。",
+    "description": "Bar mercato バールメルカート。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "neo和食堂-一成-260",
+    "id": "neo和食堂-一成-254",
     "name": "NEO＂和＂食堂 一成",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -6777,8 +6621,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20688333333333,
-    "lng": 138.2468166666667,
+    "lat": 43.19208333333333,
+    "lng": 143.90391666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=NEO%EF%BC%82%E5%92%8C%EF%BC%82%E9%A3%9F%E5%A0%82%20%E4%B8%80%E6%88%90",
     "googlePlaceQuery": "NEO＂和＂食堂 一成",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkI9dqF-K04VC4RCpPIfGvtSZ_JagPrf0XCMPknGuAogg1ESF2dpaXmFVlCZqetWXiHeWBfV_Sfu0flCVir_Ndsy-iOkRE6A2yGH3BVKm2Md8hH3NuRRPvdtaiYPABgJFTFJchu=w800-h600-k-no",
@@ -6787,12 +6631,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "NEO＂和＂食堂 一成"
     ],
-    "description": "NEO＂和＂食堂 一成。Googleマップの「地方レストラン_名店」より。",
+    "description": "NEO＂和＂食堂 一成。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "とんかつ太郎-261",
+    "id": "とんかつ太郎-255",
     "name": "とんかつ太郎",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6803,8 +6647,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.212466666666664,
-    "lng": 138.25323333333336,
+    "lat": 43.94766666666666,
+    "lng": 142.87033333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%82%93%E3%81%8B%E3%81%A4%E5%A4%AA%E9%83%8E",
     "googlePlaceQuery": "とんかつ太郎",
     "image": "https://images.unsplash.com/photo-1569058242567-93de6f36f8eb?w=800&q=80",
@@ -6813,12 +6657,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "とんかつ太郎"
     ],
-    "description": "とんかつ太郎。Googleマップの「地方レストラン_名店」より。",
+    "description": "とんかつ太郎。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "樋山-262",
+    "id": "樋山-256",
     "name": "樋山",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6829,8 +6673,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.200966666666666,
-    "lng": 138.2594,
+    "lat": 38.716166666666666,
+    "lng": 134.7265,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A8%8B%E5%B1%B1",
     "googlePlaceQuery": "樋山",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm3TGgvzDo2IoerDdF6Ts1YFLZbLHsS_mhfbI8eH6FpsXBs0057BMcWSdfgUXtESPd7EArmHvHeemgUzwCY-S6fJ18a5Kwe_PZM3K9IqU6bLR7Qpm0M_zWivTTYp7MBakKqWsB7zdxt8Uc=w800-h600-k-no",
@@ -6839,12 +6683,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "樋山"
     ],
-    "description": "樋山。Googleマップの「地方レストラン_名店」より。",
+    "description": "樋山。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "高雄-263",
+    "id": "高雄-257",
     "name": "高雄",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6855,8 +6699,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2008,
-    "lng": 138.2589,
+    "lat": 43.856,
+    "lng": 136.686,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84",
     "googlePlaceQuery": "高雄",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl70TMQ6FBGGML6fx4jgWnlDPv5xiJgUMFtrstusuOjoaGzJhJXMse0Fu1l6z33IFE_hSJ0k2t0S5gPHW7C_Sclgkh5TSJcCFFQeMI-7C21DPOLXop7W6wgNL0Z1mToKDzAf_U=w800-h600-k-no",
@@ -6865,12 +6709,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "高雄"
     ],
-    "description": "高雄。Googleマップの「地方レストラン_名店」より。",
+    "description": "高雄。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "こなから-264",
+    "id": "こなから-258",
     "name": "こなから",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6881,8 +6725,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20288333333333,
-    "lng": 138.25148333333334,
+    "lat": 33.22808333333333,
+    "lng": 142.11858333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%93%E3%81%AA%E3%81%8B%E3%82%89",
     "googlePlaceQuery": "こなから",
     "image": "https://images.unsplash.com/photo-1569058242567-93de6f36f8eb?w=800&q=80",
@@ -6891,12 +6735,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "こなから"
     ],
-    "description": "こなから。Googleマップの「地方レストラン_名店」より。",
+    "description": "こなから。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "焼肉ginga旧店舗名-ホルモン銀牙-265",
+    "id": "焼肉ginga旧店舗名-ホルモン銀牙-259",
     "name": "焼肉GINGA（旧店舗名 ホルモン銀牙）",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -6907,8 +6751,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.196799999999996,
-    "lng": 138.24823333333333,
+    "lat": 33.891999999999996,
+    "lng": 130.8153333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89GINGA%EF%BC%88%E6%97%A7%E5%BA%97%E8%88%97%E5%90%8D%20%E3%83%9B%E3%83%AB%E3%83%A2%E3%83%B3%E9%8A%80%E7%89%99%EF%BC%89",
     "googlePlaceQuery": "焼肉GINGA（旧店舗名 ホルモン銀牙）",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlz0nJ1RcAWyGC-AXGThjLVHPRuayW7ydhloYnfSsG-jdw6VRIQ5LnZD-gXXBlonLl4GwqrJJWckjLNNx9CEk7SqefGtxR6LKzuFoS6w07Iga3rz_3i6fx97c-UMS6AlJ6P2ZUevw=w800-h600-k-no",
@@ -6917,12 +6761,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉GINGA（旧店舗名 ホルモン銀牙）"
     ],
-    "description": "焼肉GINGA（旧店舗名 ホルモン銀牙）。Googleマップの「地方レストラン_名店」より。",
+    "description": "焼肉GINGA（旧店舗名 ホルモン銀牙）。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "夜空のジンギスカン-45店-266",
+    "id": "夜空のジンギスカン-45店-260",
     "name": "夜空のジンギスカン 45店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6933,8 +6777,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.1988,
-    "lng": 138.2469,
+    "lat": 41.694,
+    "lng": 130.114,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9C%E7%A9%BA%E3%81%AE%E3%82%B8%E3%83%B3%E3%82%AE%E3%82%B9%E3%82%AB%E3%83%B3%2045%E5%BA%97",
     "googlePlaceQuery": "夜空のジンギスカン 45店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnFqpIT0bZsiUWRX4acGvzeizphfKkfx7BAw5bF0GjqaVE9oIjTHBgm9Mo_GZIxcHpnwz1_Bt4_HcfUtCw54nWV0V5UyFLDw9P1qgtxzfxvr0U3yfvnsgQaZWGVd5pzfqrHYPiZwg=w800-h600-k-no",
@@ -6943,12 +6787,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "夜空のジンギスカン 45店"
     ],
-    "description": "夜空のジンギスカン 45店。Googleマップの「地方レストラン_名店」より。",
+    "description": "夜空のジンギスカン 45店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "だるま-55店-267",
+    "id": "だるま-55店-261",
     "name": "だるま 5・5店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6959,8 +6803,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19755,
-    "lng": 138.25548333333333,
+    "lat": 42.222750000000005,
+    "lng": 126.41258333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A0%E3%82%8B%E3%81%BE%205%E3%83%BB5%E5%BA%97",
     "googlePlaceQuery": "だるま 5・5店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkWnciUH6ITnUVlJ5eZPeT9ubqFZjeDtHcrAGaADPpY-jxBaCx7Eo8IliEpFRJ8bNH5oB1C6r2BJYK450XScLDf9aejxo9PxAs0m3pxiL6TQ8MAJHKsH6XLMRi1bAdk31rJe2z7pPkpTrau=w800-h600-k-no",
@@ -6969,12 +6813,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "だるま 5・5店"
     ],
-    "description": "だるま 5・5店。Googleマップの「地方レストラン_名店」より。",
+    "description": "だるま 5・5店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "いただきます-268",
+    "id": "いただきます-262",
     "name": "いただきます。",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -6985,8 +6829,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20305,
-    "lng": 138.25865000000002,
+    "lat": 40.80825,
+    "lng": 127.22575,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82",
     "googlePlaceQuery": "いただきます。",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlyTdr_RFnd3OVmTkEroH86xzBVSBxHLprJA-m_atI8u53C0o7Ls6PHo2AzSqzKEdcpNjxhnqtYZS9nJm0kwE1Bo5NZ0BL_aC_K0-wJol7W4d-6xmva07Z__lSTCH3LwJgcxXM9=w800-h600-k-no",
@@ -6995,12 +6839,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "いただきます。"
     ],
-    "description": "いただきます。。Googleマップの「地方レストラン_名店」より。",
+    "description": "いただきます。。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨一-269",
+    "id": "鮨一-263",
     "name": "鮨一",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7011,8 +6855,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.202466666666666,
-    "lng": 138.24523333333335,
+    "lat": 39.05766666666667,
+    "lng": 136.61233333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E4%B8%80",
     "googlePlaceQuery": "鮨一",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmaav4wxb8koaU787NOT77Cr1tFsg5LwqJaux6Fopd3DdrlGQjHYYSR6EEb2t3vQKaRqPvm1SeP66HzTl4ZH4gPyn1UueIVlQJpFS4iZwowgRuQ4zx2OWRU7JvIpZ7sCKfdxw=w800-h600-k-no",
@@ -7021,12 +6865,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "鮨一"
     ],
-    "description": "鮨一。Googleマップの「地方レストラン_名店」より。",
+    "description": "鮨一。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "すゝき野-鮨金-270",
+    "id": "すゝき野-鮨金-264",
     "name": "すゝき野 鮨金",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7037,8 +6881,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21146666666667,
-    "lng": 138.25823333333335,
+    "lat": 39.54666666666667,
+    "lng": 139.39533333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%82%9D%E3%81%8D%E9%87%8E%20%E9%AE%A8%E9%87%91",
     "googlePlaceQuery": "すゝき野 鮨金",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk-7QqXsc3BRcab8BnLUTUq61lIqlQD7coitkA53DLefHLu64ctDcp5UbMqYQGlXvLdvi88HFfIkfNUuWWHHFocW2IBWJeVIk2P3XeEKACFbS6kqnkLmtZ-kYWfyeePO78ebvg=w800-h600-k-no",
@@ -7047,12 +6891,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "すゝき野 鮨金"
     ],
-    "description": "すゝき野 鮨金。Googleマップの「地方レストラン_名店」より。",
+    "description": "すゝき野 鮨金。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨処-有馬-271",
+    "id": "鮨処-有馬-265",
     "name": "鮨処 有馬",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7063,8 +6907,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.198883333333335,
-    "lng": 138.25815,
+    "lat": 42.744083333333336,
+    "lng": 122.71525,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E5%87%A6%20%E6%9C%89%E9%A6%AC",
     "googlePlaceQuery": "鮨処 有馬",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmH9qKyQH7ESuHaWA5avK9sM97GB3iSE80z5i38EpJSMQP2i5xEkMOfr8-s3ddK1eOZQm_D0g6w5IJGnaPduSgVv4JZTVM5QIdOdV-LdXkKLnrlR8nb4MrkWmii2-Yf_xCt45vT=w800-h600-k-no",
@@ -7073,12 +6917,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "鮨処 有馬"
     ],
-    "description": "鮨処 有馬。Googleマップの「地方レストラン_名店」より。",
+    "description": "鮨処 有馬。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "田久鮓たくずし-272",
+    "id": "田久鮓たくずし-266",
     "name": "田久鮓（たくずし）",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7089,8 +6933,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20663333333333,
-    "lng": 138.25306666666668,
+    "lat": 36.24183333333333,
+    "lng": 135.00016666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E4%B9%85%E9%AE%93%EF%BC%88%E3%81%9F%E3%81%8F%E3%81%9A%E3%81%97%EF%BC%89",
     "googlePlaceQuery": "田久鮓（たくずし）",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl01lYaQvxscnzNTp9Pemldr_sWziTyZZyavPUygZDPc_k2mnfqyvzxrG5S-W1g4ROqMnN_bo3HAatspxOYavybHlVr-iwo0EzAGYY9EsIHGSES3sCB2YOsq_PJSBbWlAzreidbMw=w800-h600-k-no",
@@ -7099,12 +6943,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "弐ノ蔵ニノクラ-273",
+    "id": "弐ノ蔵ニノクラ-267",
     "name": "弐ノ蔵(ニノクラ)",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7115,8 +6959,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21071666666666,
-    "lng": 138.25698333333335,
+    "lat": 32.05591666666666,
+    "lng": 140.60408333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%90%E3%83%8E%E8%94%B5(%E3%83%8B%E3%83%8E%E3%82%AF%E3%83%A9)",
     "googlePlaceQuery": "弐ノ蔵(ニノクラ)",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWldCKxnAszNkJ5BSn1oDqTTHfbAnIin5Ri2MOUe4XRYlbW7OiK3I8ya88dOTLC5xSGWHjBp_eTQt9_nQSYVMPVkiiIHTZOO4-kxO_hYkzlJ3ypHOpMjHHpwWCFFOdfb0zFNZ16dIg=w800-h600-k-no",
@@ -7125,12 +6969,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "民宿かどや-274",
+    "id": "民宿かどや-268",
     "name": "民宿かどや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -7141,8 +6985,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2098,
-    "lng": 138.25056666666669,
+    "lat": 34.025000000000006,
+    "lng": 135.8276666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%91%E5%AE%BF%E3%81%8B%E3%81%A9%E3%82%84",
     "googlePlaceQuery": "民宿かどや",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlMNnWRKTCgVsRr27zkiPaFHdz4fih8r7dzPU9m6OuPSXGHKAc-CAOHrR3THMqKM04cRKhZuzfvGnkzWdQ6aej1Z4EOBSabS_5tllDkCUVkItcg8r4BLpccmOJYRNo2LhKOm9zkrQ=w800-h600-k-no",
@@ -7151,12 +6995,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "つ星ホテル"
     ],
-    "description": "つ星ホテル。Googleマップの「地方レストラン_名店」より。",
+    "description": "つ星ホテル。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "鮨割烹-やま中-275",
+    "id": "鮨割烹-やま中-269",
     "name": "鮨割烹 やま中",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7167,8 +7011,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.207966666666664,
-    "lng": 138.25573333333335,
+    "lat": 33.88316666666667,
+    "lng": 132.74283333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E5%89%B2%E7%83%B9%20%E3%82%84%E3%81%BE%E4%B8%AD",
     "googlePlaceQuery": "鮨割烹 やま中",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkrg2Bx6j49pTKggDD1SnMRpkOB5qILXjwmskzPYJMOMzNMG5zfMOcv6b608xmRPEW5PTLxc1VW5MT2QsFNNMuVkD8cIeogIYYvH2vzutvnr726UGIX3EDk9ThVwRiU6oVFAkuP5A=w800-h600-k-no",
@@ -7177,12 +7021,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "おのころ五合-276",
+    "id": "おのころ五合-270",
     "name": "おのころ五合",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -7193,8 +7037,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.1973,
-    "lng": 138.25573333333335,
+    "lat": 37.472500000000004,
+    "lng": 137.17283333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%AE%E3%81%93%E3%82%8D%E4%BA%94%E5%90%88",
     "googlePlaceQuery": "おのころ五合",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlCgnp0MrZOV0l6OONqSLWM2ZJn5ssBWIFR0z6K1MWoHRtSGucE64gYPwfHYuoyx2Q-Za_Hqs_ExITdzjCO0JmXbh_6563COPP70Cy8DtLbYpxTTccBSYkngQQnYpubVN2NhaZ_1hH-GsI=w800-h600-k-no",
@@ -7203,12 +7047,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "katsuya-charcoal-grill-steakhouse-277",
+    "id": "katsuya-charcoal-grill-steakhouse-271",
     "name": "Katsuya charcoal grill steakhouse",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -7219,8 +7063,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21105,
-    "lng": 138.24731666666668,
+    "lat": 37.01625,
+    "lng": 141.79441666666668,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Katsuya%20charcoal%20grill%20steakhouse",
     "googlePlaceQuery": "Katsuya charcoal grill steakhouse",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8WfD7FZQ4g5RosdtLbcnMY3ye_9dM-Id0NPqDSYupbxsflZxPQFRy6Cxe31DH223RtmbijNPNjDqylETyojl9hHepBokfXtf7CxoDRib9J_8NS9Ofp45GqVj4jMQTuuKG3GauuQ=w800-h600-k-no",
@@ -7229,12 +7073,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ステーキハウス"
     ],
-    "description": "ステーキハウス。Googleマップの「地方レストラン_名店」より。",
+    "description": "ステーキハウス。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "すし-うえだ-278",
+    "id": "すし-うえだ-272",
     "name": "すし うえだ",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7245,8 +7089,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.205466666666666,
-    "lng": 138.26090000000002,
+    "lat": 40.86066666666667,
+    "lng": 137.888,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%20%E3%81%86%E3%81%88%E3%81%A0",
     "googlePlaceQuery": "すし うえだ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmo30O6mz2ODOED2sDhwIM8yPngqYF5NlWCPr7M7ipag0Ij_xAzfTCyWciewhl_Hw6ItqKO6aiXfJFfbX3aMrfwlvjrADsY-zDc0IIP0Aav4bsPhhgfrkF8oP7QtWNQCAraoHK_QQ=w800-h600-k-no",
@@ -7255,12 +7099,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "季節料理-喬司-279",
+    "id": "季節料理-喬司-273",
     "name": "季節料理 喬司",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -7271,8 +7115,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.207966666666664,
-    "lng": 138.2504,
+    "lat": 40.403166666666664,
+    "lng": 138.9775,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AD%A3%E7%AF%80%E6%96%99%E7%90%86%20%E5%96%AC%E5%8F%B8",
     "googlePlaceQuery": "季節料理 喬司",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnqo3NNE_du5ZyLBQ6x5P4r-gYizK_I1FD2KnDlWz6rzZzwuk82tRc1uyg1bp06F7XDbzpDGjLstjERRhQmKK2aphmrCFcb51WyA7cvWevKdSRadnjN8J-OVuihaD6e1C3miB-NFar4dpEg=w800-h600-k-no",
@@ -7281,12 +7125,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「地方レストラン_名店」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "焼肉藤山-280",
+    "id": "焼肉藤山-274",
     "name": "焼肉藤山",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -7297,8 +7141,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.204633333333334,
-    "lng": 138.25573333333335,
+    "lat": 36.83983333333334,
+    "lng": 138.91283333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E8%97%A4%E5%B1%B1",
     "googlePlaceQuery": "焼肉藤山",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk88mAIbD1aRnNhGO2lFT3afCHzQtekjIYQ36gNTgZVqRKMFPKkaei9CD5kfdL0YOxAc6mKUAMta82ooFACGUH6G1ZTIGmByycgDhuOyg5r34jLvB7GFAz5lg1MwgbMjOZgce1OQw=w800-h600-k-no",
@@ -7307,12 +7151,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「地方レストラン_名店」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "リストランテ-ダ-ルーポ322-281",
+    "id": "リストランテ-ダ-ルーポ322-275",
     "name": "リストランテ ダ ルーポ322",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7323,8 +7167,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20413333333333,
-    "lng": 138.2509,
+    "lat": 38.81933333333333,
+    "lng": 121.888,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AA%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E3%83%86%20%E3%83%80%20%E3%83%AB%E3%83%BC%E3%83%9D322",
     "googlePlaceQuery": "リストランテ ダ ルーポ322",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn_uY3s4zdJPcOxSaBWLazNEQ-VdIFoV5_RCCNqZueJPlfvi9Bn5Zi7MeF0QePXz22g28ka_8JB66mdr_hYL45zcRQraXcJ0RzmpX9XSnMTAagAg9oPIwRnqUEAEA8nuuOOBVVM=w800-h600-k-no",
@@ -7333,12 +7177,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "如雲ジョウン-282",
+    "id": "如雲ジョウン-276",
     "name": "如雲（ジョウン）",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -7349,8 +7193,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19955,
-    "lng": 138.25015000000002,
+    "lat": 34.944750000000006,
+    "lng": 129.93725,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A6%82%E9%9B%B2%EF%BC%88%E3%82%B8%E3%83%A7%E3%82%A6%E3%83%B3%EF%BC%89",
     "googlePlaceQuery": "如雲（ジョウン）",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkuDa6dOeVAvhfZkpmXiGS5CYbA9rNDI45ibPClM_3DtvZLf1lNxSkj3KR22Buih1Tk-02mmi1gjWMIQZd-19K9gjIgL0A6AtrTem66EG9F5yVfg_314pL7Ne9jK5LaRKgw12NeRw=w800-h600-k-no",
@@ -7359,12 +7203,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "閉業"
     ],
-    "description": "閉業。Googleマップの「地方レストラン_名店」より。",
+    "description": "閉業。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "天寿し京町店-283",
+    "id": "天寿し京町店-277",
     "name": "天寿し京町店",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -7375,8 +7219,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.2078,
-    "lng": 138.25256666666667,
+    "lat": 32.143,
+    "lng": 140.00966666666665,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E5%AF%BF%E3%81%97%E4%BA%AC%E7%94%BA%E5%BA%97",
     "googlePlaceQuery": "天寿し京町店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmEJTDc3jKBffD9uV_YDqGyeKdgLZkpyQ2ryUVxEyibchFjhqVHP1w8jEcYuYoCn2ada6DPjHSTR2nOuLbaKT0rZEzD8WzAjyS3VkUtZoq9LtgPJrH8KkFTZjVMR-XlFSlJ35r2=w800-h600-k-no",
@@ -7385,12 +7229,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「地方レストラン_名店」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "片折-284",
+    "id": "片折-278",
     "name": "片折",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -7403,8 +7247,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19988333333333,
-    "lng": 138.25915,
+    "lat": 31.945083333333333,
+    "lng": 135.05625,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%87%E6%8A%98",
     "googlePlaceQuery": "片折",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmCgcfm6J4OYtQmA2d_uuhs5OR8RFs-rQB42l5vFF1EdRjo2VCn7F1m8AzzturYe0LyTJ1T5zDPeoEkOLeaUla6R9wIqC2sPtZ3Rhtzbelv_y5TzKowBsE17T0j-i5oSdk2FJ7H7g=w800-h600-k-no",
@@ -7413,12 +7257,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「地方レストラン_名店」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "地方レストラン_名店"
   },
   {
-    "id": "リ-カーリカ-285",
+    "id": "リ-カーリカ-279",
     "name": "リ カーリカ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7439,12 +7283,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "トラットリア-シチリアーナ-ドンチッチョ-286",
+    "id": "トラットリア-シチリアーナ-ドンチッチョ-280",
     "name": "トラットリア シチリアーナ ドンチッチョ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7465,12 +7309,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "シチリア料理店（イタリア）"
     ],
-    "description": "シチリア料理店（イタリア）。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "シチリア料理店（イタリア）。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "trattoria-ciaoro-287",
+    "id": "trattoria-ciaoro-281",
     "name": "Trattoria Ciaoro",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7491,12 +7335,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "ヴォーロコズィ-288",
+    "id": "ヴォーロコズィ-282",
     "name": "ヴォーロ・コズィ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7517,12 +7361,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "le-bois-ル-ボア-289",
+    "id": "le-bois-ル-ボア-283",
     "name": "Le Bois （ル ボア）",
     "cuisine": "フレンチ",
     "priceTier": "executive",
@@ -7546,12 +7390,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン / 東京レストラン_フレンチ"
   },
   {
-    "id": "クラッティーニcrattini-290",
+    "id": "クラッティーニcrattini-284",
     "name": "クラッティーニ/Crattini",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7572,12 +7416,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "u-padrino-291",
+    "id": "u-padrino-285",
     "name": "U PADRINO",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7598,12 +7442,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "イタリアン-イルチェーロ-恵比寿-292",
+    "id": "イタリアン-イルチェーロ-恵比寿-286",
     "name": "イタリアン イルチェーロ 恵比寿",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7624,12 +7468,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "閉業"
     ],
-    "description": "閉業。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "閉業。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "トリム-natural-wine-izakaya-293",
+    "id": "トリム-natural-wine-izakaya-287",
     "name": "トリム NATURAL WINE IZAKAYA",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7652,12 +7496,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食low"
   },
   {
-    "id": "canade-294",
+    "id": "canade-288",
     "name": "Canade",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7678,12 +7522,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "トラットリア-タンタボッカ-295",
+    "id": "トラットリア-タンタボッカ-289",
     "name": "トラットリア タンタボッカ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7704,12 +7548,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "オステリア-ラディーチ-296",
+    "id": "オステリア-ラディーチ-290",
     "name": "オステリア ラディーチ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7730,12 +7574,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "knock-cucina-buona-italiana-東京ミッドタウン店-297",
+    "id": "knock-cucina-buona-italiana-東京ミッドタウン店-291",
     "name": "KNOCK CUCINA BUONA ITALIANA 東京ミッドタウン店",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7758,12 +7602,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食low"
   },
   {
-    "id": "knock-cucina-buona-italiana-六本木ヒルズ店-298",
+    "id": "knock-cucina-buona-italiana-六本木ヒルズ店-292",
     "name": "KNOCK CUCINA BUONA ITALIANA 六本木ヒルズ店",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7786,12 +7630,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン / 東京レストラン_コスパ / 東京レストラン_会食low"
   },
   {
-    "id": "カイマンテーブル-299",
+    "id": "カイマンテーブル-293",
     "name": "カイマンテーブル",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7812,12 +7656,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "エリオロカンダイタリアーナ-300",
+    "id": "エリオロカンダイタリアーナ-294",
     "name": "エリオ・ロカンダ・イタリアーナ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7838,12 +7682,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食middle"
   },
   {
-    "id": "坂の上レストラン-301",
+    "id": "坂の上レストラン-295",
     "name": "坂の上レストラン",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7864,12 +7708,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "モナトリエ-イタリアン-渋谷-302",
+    "id": "モナトリエ-イタリアン-渋谷-296",
     "name": "モナトリエ イタリアン 渋谷",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7891,12 +7735,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食exective"
   },
   {
-    "id": "delizioso-firenze-303",
+    "id": "delizioso-firenze-297",
     "name": "DELIZIOSO FIRENZE",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7917,12 +7761,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "italian-restaurant-les-désレデ-nishiazabu-304",
+    "id": "italian-restaurant-les-désレデ-nishiazabu-298",
     "name": "Italian Restaurant Les dés(レデ) Nishiazabu",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7944,12 +7788,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食middle"
   },
   {
-    "id": "テストキッチン-エイチ-305",
+    "id": "テストキッチン-エイチ-299",
     "name": "テストキッチン エイチ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7970,12 +7814,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食middle"
   },
   {
-    "id": "incanto-306",
+    "id": "incanto-300",
     "name": "incanto",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -7996,12 +7840,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "ピッコログランデ-307",
+    "id": "ピッコログランデ-301",
     "name": "ピッコログランデ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -8022,12 +7866,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食middle"
   },
   {
-    "id": "the-cellar-no4-308",
+    "id": "the-cellar-no4-302",
     "name": "THE CELLAR No.4",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -8048,12 +7892,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ワインバー"
     ],
-    "description": "ワインバー。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "ワインバー。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン"
   },
   {
-    "id": "beer--wine厨房-tamaya-八丁堀店-309",
+    "id": "beer--wine厨房-tamaya-八丁堀店-303",
     "name": "beer ＆ wine厨房 tamaya 八丁堀店",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -8074,12 +7918,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ワインバー"
     ],
-    "description": "ワインバー。Googleマップの「東京レストラン_イタリアン」より。",
+    "description": "ワインバー。",
     "privateRoom": false,
     "listSource": "東京レストラン_イタリアン / 東京レストラン_会食middle"
   },
   {
-    "id": "nomuno赤坂店-310",
+    "id": "nomuno赤坂店-304",
     "name": "nomuno赤坂店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8102,12 +7946,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ワインバー"
     ],
-    "description": "ワインバー。Googleマップの「東京レストラン_コスパ」より。",
+    "description": "ワインバー。",
     "privateRoom": false,
     "listSource": "東京レストラン_コスパ"
   },
   {
-    "id": "たちのみ-stand-by-mi-スタンドバイミー-311",
+    "id": "たちのみ-stand-by-mi-スタンドバイミー-305",
     "name": "たちのみ STAND BY Mi スタンドバイミー",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8130,12 +7974,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "立食形式の飲食店"
     ],
-    "description": "立食形式の飲食店。Googleマップの「東京レストラン_コスパ」より。",
+    "description": "立食形式の飲食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_コスパ / 東京レストラン_フレンチ / 東京レストラン_会食low"
   },
   {
-    "id": "馬喰ろう-新橋店-312",
+    "id": "馬喰ろう-新橋店-306",
     "name": "馬喰ろう 新橋店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8158,12 +8002,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_コスパ」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_コスパ / 東京レストラン_会食low / 東京レストラン_肉"
   },
   {
-    "id": "肉塊uno-溜池山王店-313",
+    "id": "肉塊uno-溜池山王店-307",
     "name": "肉塊UNO 溜池山王店",
     "cuisine": "肉",
     "priceTier": "casual",
@@ -8186,12 +8030,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "肉料理店"
     ],
-    "description": "肉料理店。Googleマップの「東京レストラン_コスパ」より。",
+    "description": "肉料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_コスパ / 東京レストラン_会食low / 東京レストラン_肉"
   },
   {
-    "id": "烏森百薬-314",
+    "id": "烏森百薬-308",
     "name": "烏森百薬",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8214,12 +8058,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_コスパ」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_コスパ / 東京レストラン_会食low"
   },
   {
-    "id": "青山ototo青山おとと-315",
+    "id": "青山ototo青山おとと-309",
     "name": "青山Ototo（青山おとと）",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8240,12 +8084,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ラミティエ-316",
+    "id": "ラミティエ-310",
     "name": "ラミティエ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -8266,12 +8110,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ビストロ-レシス-317",
+    "id": "ビストロ-レシス-311",
     "name": "ビストロ レ・シス",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -8292,12 +8136,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ビストロ"
     ],
-    "description": "ビストロ。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "ビストロ。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "串焼き-鳥茂-318",
+    "id": "串焼き-鳥茂-312",
     "name": "串焼き 鳥茂",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8318,12 +8162,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "串焼き店"
     ],
-    "description": "串焼き店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "串焼き店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "江戸蕎麦-ほそ川-319",
+    "id": "江戸蕎麦-ほそ川-313",
     "name": "江戸蕎麦 ほそ川",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8344,12 +8188,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "浅草-ひら山-320",
+    "id": "浅草-ひら山-314",
     "name": "浅草 ひら山",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8370,12 +8214,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "鮨-三か田-321",
+    "id": "鮨-三か田-315",
     "name": "鮨 三か田",
     "cuisine": "鮨",
     "priceTier": "casual",
@@ -8396,12 +8240,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "タストゥー-322",
+    "id": "タストゥー-316",
     "name": "タストゥー",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -8422,12 +8266,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ローブリュー-323",
+    "id": "ローブリュー-317",
     "name": "ローブリュー",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -8448,12 +8292,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "蕎麦-たじま-西麻布店-324",
+    "id": "蕎麦-たじま-西麻布店-318",
     "name": "蕎麦 たじま 西麻布店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8474,12 +8318,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "をことて-325",
+    "id": "をことて-319",
     "name": "をことて",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -8500,12 +8344,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "おそばの甲賀-326",
+    "id": "おそばの甲賀-320",
     "name": "おそばの甲賀",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8526,12 +8370,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "立喰-鮨となり-麻布十番-327",
+    "id": "立喰-鮨となり-麻布十番-321",
     "name": "立喰 鮨となり 麻布十番",
     "cuisine": "鮨",
     "priceTier": "casual",
@@ -8552,12 +8396,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ラス-328",
+    "id": "ラス-322",
     "name": "ラス",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8578,12 +8422,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ブラマソーレ-329",
+    "id": "ブラマソーレ-323",
     "name": "ブラマソーレ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -8604,12 +8448,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ma-cuisine-マ-キュイジーヌ-330",
+    "id": "ma-cuisine-マ-キュイジーヌ-324",
     "name": "Ma Cuisine （マ キュイジーヌ）",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -8630,12 +8474,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ビストロ"
     ],
-    "description": "ビストロ。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "ビストロ。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "浜町かねこ-331",
+    "id": "浜町かねこ-325",
     "name": "浜町かねこ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8656,12 +8500,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "レストラン-マ-プール-332",
+    "id": "レストラン-マ-プール-326",
     "name": "レストラン マ プール",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -8683,12 +8527,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "食堂-わた-333",
+    "id": "食堂-わた-327",
     "name": "食堂 わた",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8709,12 +8553,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ヤマト-334",
+    "id": "ヤマト-328",
     "name": "ヤマト",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8735,12 +8579,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ramen-matsui-335",
+    "id": "ramen-matsui-329",
     "name": "RAMEN MATSUI",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8761,12 +8605,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ぽん多本家-336",
+    "id": "ぽん多本家-330",
     "name": "ぽん多本家",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8787,12 +8631,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "日本式洋食レストラン"
     ],
-    "description": "日本式洋食レストラン。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "日本式洋食レストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "入鹿tokyo-六本木-337",
+    "id": "入鹿tokyo-六本木-331",
     "name": "入鹿TOKYO 六本木",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8813,12 +8657,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "かつ好-338",
+    "id": "かつ好-332",
     "name": "かつ好",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8839,12 +8683,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "とんかつ店"
     ],
-    "description": "とんかつ店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "とんかつ店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "天ぷら-かき揚げ-之村-339",
+    "id": "天ぷら-かき揚げ-之村-333",
     "name": "天ぷら かき揚げ 之村",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8865,12 +8709,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "天ぷら店"
     ],
-    "description": "天ぷら店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "天ぷら店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "わたべ-340",
+    "id": "わたべ-334",
     "name": "わたべ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -8891,12 +8735,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "hoppers-341",
+    "id": "hoppers-335",
     "name": "HOPPERS",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8917,12 +8761,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "スリランカ料理店"
     ],
-    "description": "スリランカ料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "スリランカ料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "銀座-八五-342",
+    "id": "銀座-八五-336",
     "name": "銀座 八五",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -8943,12 +8787,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ラーメン屋"
     ],
-    "description": "ラーメン屋。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ビストロヴィヴィエンヌ-343",
+    "id": "ビストロヴィヴィエンヌ-337",
     "name": "ビストロ・ヴィヴィエンヌ",
     "cuisine": "フレンチ",
     "priceTier": "casual",
@@ -8969,12 +8813,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ビストロ"
     ],
-    "description": "ビストロ。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "ビストロ。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ラベットラダオチアイ-344",
+    "id": "ラベットラダオチアイ-338",
     "name": "ラ·ベットラ·ダ·オチアイ",
     "cuisine": "イタリアン",
     "priceTier": "casual",
@@ -8995,12 +8839,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ビストロヌガ-345",
+    "id": "ビストロヌガ-339",
     "name": "ビストロ・ヌガ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9021,12 +8865,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ビストロ"
     ],
-    "description": "ビストロ。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "ビストロ。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "アロセリア-ラ-パンサ-346",
+    "id": "アロセリア-ラ-パンサ-340",
     "name": "アロセリア ラ パンサ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -9047,12 +8891,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "スペイン料理店"
     ],
-    "description": "スペイン料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "スペイン料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "焼鳥山香-347",
+    "id": "焼鳥山香-341",
     "name": "焼鳥山香",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -9073,12 +8917,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "レ-コパン-ドゥ-ドミニク-ブシェ-348",
+    "id": "レ-コパン-ドゥ-ドミニク-ブシェ-342",
     "name": "レ コパン ドゥ ドミニク ブシェ",
     "cuisine": "フレンチ",
     "priceTier": "casual",
@@ -9099,12 +8943,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ビストロ"
     ],
-    "description": "ビストロ。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "ビストロ。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "梅香-349",
+    "id": "梅香-343",
     "name": "梅香",
     "cuisine": "その他",
     "priceTier": "casual",
@@ -9125,12 +8969,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "四川料理店"
     ],
-    "description": "四川料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "四川料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "蕎楽亭-350",
+    "id": "蕎楽亭-344",
     "name": "蕎楽亭",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -9151,12 +8995,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ビリヤニ大澤-351",
+    "id": "ビリヤニ大澤-345",
     "name": "ビリヤニ大澤",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -9177,12 +9021,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ビリヤニ料理店"
     ],
-    "description": "ビリヤニ料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "ビリヤニ料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "loiseau-de-france-352",
+    "id": "loiseau-de-france-346",
     "name": "Loiseau de France",
     "cuisine": "フレンチ",
     "priceTier": "casual",
@@ -9204,12 +9048,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "三燈舎-353",
+    "id": "三燈舎-347",
     "name": "三燈舎",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -9230,12 +9074,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "臨時休業"
     ],
-    "description": "臨時休業。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "臨時休業。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "osteria-da-kkappa-354",
+    "id": "osteria-da-kkappa-348",
     "name": "Osteria da K.[kappa]",
     "cuisine": "イタリアン",
     "priceTier": "casual",
@@ -9256,12 +9100,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_ビブグルマン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_ビブグルマン"
   },
   {
-    "id": "ビストロレストラン-ロジエ-恵比寿-355",
+    "id": "ビストロレストラン-ロジエ-恵比寿-349",
     "name": "ビストロレストラン ロジエ 恵比寿",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9282,12 +9126,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "ユヌパンセ-356",
+    "id": "ユヌパンセ-350",
     "name": "ユヌパンセ",
     "cuisine": "フレンチ",
     "priceTier": "executive",
@@ -9311,12 +9155,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "渡辺料理店-357",
+    "id": "渡辺料理店-351",
     "name": "渡辺料理店",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9337,12 +9181,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ビストロ"
     ],
-    "description": "ビストロ。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "ビストロ。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "restaurant-karyon-358",
+    "id": "restaurant-karyon-352",
     "name": "Restaurant Karyon",
     "cuisine": "フレンチ",
     "priceTier": "executive",
@@ -9366,12 +9210,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ / 東京レストラン_会食exective"
   },
   {
-    "id": "boutary-359",
+    "id": "boutary-353",
     "name": "Boutary",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9393,12 +9237,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ビストロ"
     ],
-    "description": "ビストロ。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "ビストロ。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ / 東京レストラン_会食middle"
   },
   {
-    "id": "東京ウイスキーライブラリー-360",
+    "id": "東京ウイスキーライブラリー-354",
     "name": "東京ウイスキーライブラリー",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9419,12 +9263,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "ビストロ-シンバ-361",
+    "id": "ビストロ-シンバ-355",
     "name": "ビストロ シンバ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9445,12 +9289,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ビストロ"
     ],
-    "description": "ビストロ。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "ビストロ。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "ボルト-362",
+    "id": "ボルト-356",
     "name": "ボルト",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9471,12 +9315,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ビストロ"
     ],
-    "description": "ビストロ。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "ビストロ。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "ルグドゥノムブションリヨネ-363",
+    "id": "ルグドゥノムブションリヨネ-357",
     "name": "ルグドゥノム・ブション・リヨネ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9497,12 +9341,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "ライラ-364",
+    "id": "ライラ-358",
     "name": "ライラ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9523,12 +9367,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "シェ-オリビエ-365",
+    "id": "シェ-オリビエ-359",
     "name": "シェ オリビエ",
     "cuisine": "フレンチ",
     "priceTier": "executive",
@@ -9552,12 +9396,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "sugalabo-inc-366",
+    "id": "sugalabo-inc-360",
     "name": "SUGALABO inc",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9578,12 +9422,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "エクアトゥール-367",
+    "id": "エクアトゥール-361",
     "name": "エクアトゥール",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9604,12 +9448,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "閉業"
     ],
-    "description": "閉業。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "閉業。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "ニコラシュヴロリエ-368",
+    "id": "ニコラシュヴロリエ-362",
     "name": "ニコラ・シュヴロリエ",
     "cuisine": "フレンチ",
     "priceTier": "executive",
@@ -9633,12 +9477,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "エディションコウジ-シモムラ-369",
+    "id": "エディションコウジ-シモムラ-363",
     "name": "エディション・コウジ シモムラ",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9659,12 +9503,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ"
   },
   {
-    "id": "カンテサンス-370",
+    "id": "カンテサンス-364",
     "name": "カンテサンス",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9686,12 +9530,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "フランス料理店"
     ],
-    "description": "フランス料理店。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "フランス料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ / 東京レストラン_会食exective"
   },
   {
-    "id": "シノワ-渋谷店-371",
+    "id": "シノワ-渋谷店-365",
     "name": "シノワ 渋谷店",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9712,12 +9556,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ワインバー"
     ],
-    "description": "ワインバー。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "ワインバー。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ / 東京レストラン_会食middle"
   },
   {
-    "id": "村上開新堂-372",
+    "id": "村上開新堂-366",
     "name": "村上開新堂",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -9739,12 +9583,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "洋食レストラン"
     ],
-    "description": "洋食レストラン。Googleマップの「東京レストラン_フレンチ」より。",
+    "description": "洋食レストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_フレンチ / 東京レストラン_会食exective"
   },
   {
-    "id": "だるまや-373",
+    "id": "だるまや-367",
     "name": "だるまや",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9765,12 +9609,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.0(436)"
     ],
-    "description": "4.0(436)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.0(436)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "中国飯店-倶楽湾-374",
+    "id": "中国飯店-倶楽湾-368",
     "name": "中国飯店 倶楽湾",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9791,12 +9635,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.1(508)"
     ],
-    "description": "4.1(508)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.1(508)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "銀座-維新號-375",
+    "id": "銀座-維新號-369",
     "name": "銀座 維新號",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9817,12 +9661,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "3.9(381)"
     ],
-    "description": "3.9(381)。Googleマップの「東京レストラン_中華」より。",
+    "description": "3.9(381)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "香妃園-376",
+    "id": "香妃園-370",
     "name": "香妃園",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9843,38 +9687,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.2(1,336)"
     ],
-    "description": "4.2(1,336)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.2(1,336)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "華-377",
-    "name": "華",
-    "cuisine": "その他",
-    "priceTier": "middle",
-    "priceDinner": "¥10,000〜",
-    "scenes": [
-      "会食"
-    ],
-    "area": "東京",
-    "address": "東京都（東京周辺）",
-    "nearestStation": "",
-    "lat": 35.68745,
-    "lng": 139.76751666666667,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8F%AF%20%E6%9D%B1%E4%BA%AC",
-    "googlePlaceQuery": "華 東京",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlGDKLZmKxk58Hc-sWwTEPxhRpwPuKWp4Z_mljvFqV4v0Q6ZjfNrI-NtYH1ktLLw_0JMeCUIkKe0mT5XKeZQIXjvxWWAQx-cs-Vol29jCaNlOHP6EpQRPy9htSVC9WoJAHS9Q0rQQ=w800-h600-k-no",
-    "rating": 4,
-    "reviewCount": 0,
-    "tags": [
-      "4.0(26)"
-    ],
-    "description": "4.0(26)。Googleマップの「東京レストラン_中華」より。",
-    "privateRoom": false,
-    "listSource": "東京レストラン_中華"
-  },
-  {
-    "id": "新華-乃木坂-378",
+    "id": "新華-乃木坂-371",
     "name": "新華 乃木坂",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9895,12 +9713,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.8(44)"
     ],
-    "description": "4.8(44)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.8(44)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "縁香園-379",
+    "id": "縁香園-372",
     "name": "縁香園",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9923,12 +9741,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "3.9(411)"
     ],
-    "description": "3.9(411)。Googleマップの「東京レストラン_中華」より。",
+    "description": "3.9(411)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食low"
   },
   {
-    "id": "の弥七ノヤシチ四谷三丁目-380",
+    "id": "の弥七ノヤシチ四谷三丁目-373",
     "name": "の弥七（ノヤシチ）四谷三丁目",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9949,12 +9767,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.4(78)"
     ],
-    "description": "4.4(78)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.4(78)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "維新號銀座新館-381",
+    "id": "維新號銀座新館-374",
     "name": "維新號銀座新館",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -9975,12 +9793,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "3.8(270)"
     ],
-    "description": "3.8(270)。Googleマップの「東京レストラン_中華」より。",
+    "description": "3.8(270)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "中国料理-礼華-青鸞居-382",
+    "id": "中国料理-礼華-青鸞居-375",
     "name": "中国料理 礼華 青鸞居",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10001,12 +9819,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.2(279)"
     ],
-    "description": "4.2(279)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.2(279)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "中国料理-礼華-新宿店-383",
+    "id": "中国料理-礼華-新宿店-376",
     "name": "中国料理 礼華 新宿店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10027,12 +9845,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.2(413)"
     ],
-    "description": "4.2(413)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.2(413)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食middle"
   },
   {
-    "id": "筑紫樓ツクシロウ-銀座店-384",
+    "id": "筑紫樓ツクシロウ-銀座店-377",
     "name": "筑紫樓(ツクシロウ) 銀座店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10053,12 +9871,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.2(778)"
     ],
-    "description": "4.2(778)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.2(778)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "赤坂-維新號-本店-385",
+    "id": "赤坂-維新號-本店-378",
     "name": "赤坂 維新號 本店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10079,12 +9897,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.3(440)"
     ],
-    "description": "4.3(440)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.3(440)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "中国飯店-三田店-386",
+    "id": "中国飯店-三田店-379",
     "name": "中国飯店 三田店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10105,12 +9923,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.0(782)"
     ],
-    "description": "4.0(782)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.0(782)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "中国飯店-富麗華-387",
+    "id": "中国飯店-富麗華-380",
     "name": "中国飯店 富麗華",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10132,12 +9950,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.4(1,355)"
     ],
-    "description": "4.4(1,355)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.4(1,355)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食exective"
   },
   {
-    "id": "中国飯店-市ヶ谷店-388",
+    "id": "中国飯店-市ヶ谷店-381",
     "name": "中国飯店 市ヶ谷店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10159,12 +9977,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.3(539)"
     ],
-    "description": "4.3(539)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.3(539)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食exective"
   },
   {
-    "id": "上海庭-九段南店-389",
+    "id": "上海庭-九段南店-382",
     "name": "上海庭 九段南店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10185,12 +10003,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "3.8(285)"
     ],
-    "description": "3.8(285)。Googleマップの「東京レストラン_中華」より。",
+    "description": "3.8(285)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "わさ-390",
+    "id": "わさ-383",
     "name": "わさ",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10211,12 +10029,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.5(104)"
     ],
-    "description": "4.5(104)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.5(104)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "furuta-391",
+    "id": "furuta-384",
     "name": "Furuta",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10237,12 +10055,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.2(68)"
     ],
-    "description": "4.2(68)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.2(68)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "textura-392",
+    "id": "textura-385",
     "name": "TexturA",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10263,12 +10081,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.2(587)"
     ],
-    "description": "4.2(587)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.2(587)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食middle"
   },
   {
-    "id": "薬膳火鍋専門店-天香回味-銀座中央通り店-393",
+    "id": "薬膳火鍋専門店-天香回味-銀座中央通り店-386",
     "name": "薬膳火鍋専門店 天香回味 銀座中央通り店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10289,12 +10107,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.2(299)"
     ],
-    "description": "4.2(299)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.2(299)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "薬膳火鍋専門店-天香回味-銀座店-394",
+    "id": "薬膳火鍋専門店-天香回味-銀座店-387",
     "name": "薬膳火鍋専門店 天香回味 銀座店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10315,12 +10133,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.2(194)"
     ],
-    "description": "4.2(194)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.2(194)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "薬膳火鍋専門店-天香回味-赤坂店-395",
+    "id": "薬膳火鍋専門店-天香回味-赤坂店-388",
     "name": "薬膳火鍋専門店 天香回味 赤坂店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10341,12 +10159,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.6(11)"
     ],
-    "description": "4.6(11)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.6(11)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "胡桃茶家-396",
+    "id": "胡桃茶家-389",
     "name": "胡桃茶家",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10369,12 +10187,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.5(54)"
     ],
-    "description": "4.5(54)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.5(54)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食low"
   },
   {
-    "id": "赤坂-桃の木-397",
+    "id": "赤坂-桃の木-390",
     "name": "赤坂 桃の木",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10396,12 +10214,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.3(170)"
     ],
-    "description": "4.3(170)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.3(170)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食exective"
   },
   {
-    "id": "サエキ飯店-398",
+    "id": "サエキ飯店-391",
     "name": "サエキ飯店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10422,12 +10240,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.5(70)"
     ],
-    "description": "4.5(70)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.5(70)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "登龍-麻布店-399",
+    "id": "登龍-麻布店-392",
     "name": "登龍 麻布店",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10448,12 +10266,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.1(640)"
     ],
-    "description": "4.1(640)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.1(640)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "銀座-桃花源-400",
+    "id": "銀座-桃花源-393",
     "name": "銀座 桃花源",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10474,12 +10292,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.3(348)"
     ],
-    "description": "4.3(348)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.3(348)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "新富町-湯浅-401",
+    "id": "新富町-湯浅-394",
     "name": "新富町 湯浅",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10500,12 +10318,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.2(50)"
     ],
-    "description": "4.2(50)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.2(50)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食middle"
   },
   {
-    "id": "私厨房-勇-402",
+    "id": "私厨房-勇-395",
     "name": "私厨房 勇",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10526,12 +10344,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.3(71)"
     ],
-    "description": "4.3(71)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.3(71)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "茶禅華-403",
+    "id": "茶禅華-396",
     "name": "茶禅華",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -10552,12 +10370,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.7(326)"
     ],
-    "description": "4.7(326)。Googleマップの「東京レストラン_中華」より。",
+    "description": "4.7(326)。",
     "privateRoom": false,
     "listSource": "東京レストラン_中華"
   },
   {
-    "id": "小笠原伯爵邸-404",
+    "id": "小笠原伯爵邸-397",
     "name": "小笠原伯爵邸",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -10579,12 +10397,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "スペイン料理店"
     ],
-    "description": "スペイン料理店。Googleマップの「東京レストラン_会食exective」より。",
+    "description": "スペイン料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食exective"
   },
   {
-    "id": "割烹料理-丸の内-舞s-405",
+    "id": "割烹料理-丸の内-舞s-398",
     "name": "割烹料理 丸の内 舞's",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -10606,12 +10424,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "純和食店"
     ],
-    "description": "純和食店。Googleマップの「東京レストラン_会食exective」より。",
+    "description": "純和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食exective"
   },
   {
-    "id": "白虹-406",
+    "id": "白虹-399",
     "name": "白虹",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -10634,12 +10452,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_会食exective」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_会食exective"
   },
   {
-    "id": "虎ノ門-肉と日本酒-407",
+    "id": "虎ノ門-肉と日本酒-400",
     "name": "虎ノ門 肉と日本酒",
     "cuisine": "肉",
     "priceTier": "casual",
@@ -10662,12 +10480,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_会食low」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食low / 東京レストラン_肉"
   },
   {
-    "id": "nakameguro-燻製-apartment-408",
+    "id": "nakameguro-燻製-apartment-401",
     "name": "nakameguro 燻製 apartment",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -10690,12 +10508,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「東京レストラン_会食low」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食low"
   },
   {
-    "id": "knock-409",
+    "id": "knock-402",
     "name": "KNOCK",
     "cuisine": "イタリアン",
     "priceTier": "casual",
@@ -10718,12 +10536,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_会食low」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食low"
   },
   {
-    "id": "なきざかな--鳴魚--410",
+    "id": "なきざかな--鳴魚--403",
     "name": "なきざかな -鳴魚-",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -10746,12 +10564,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_会食low」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食low"
   },
   {
-    "id": "肉塊-uno-虎ノ門店-411",
+    "id": "肉塊-uno-虎ノ門店-404",
     "name": "肉塊 UNO 虎ノ門店",
     "cuisine": "肉",
     "priceTier": "casual",
@@ -10774,12 +10592,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "肉料理店"
     ],
-    "description": "肉料理店。Googleマップの「東京レストラン_会食low」より。",
+    "description": "肉料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食low / 東京レストラン_肉"
   },
   {
-    "id": "lenocanto-レノカント-大手町-412",
+    "id": "lenocanto-レノカント-大手町-405",
     "name": "L'ENOCANTO レノカント 大手町",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -10801,12 +10619,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「東京レストラン_会食middle」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "瓢嘻-ひょうき-京橋店-413",
+    "id": "瓢嘻-ひょうき-京橋店-406",
     "name": "瓢嘻 (ひょうき) 京橋店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -10828,12 +10646,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "しゃぶしゃぶレストラン"
     ],
-    "description": "しゃぶしゃぶレストラン。Googleマップの「東京レストラン_会食middle」より。",
+    "description": "しゃぶしゃぶレストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "こはぜ-414",
+    "id": "こはぜ-407",
     "name": "こはぜ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -10854,12 +10672,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_会食middle」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食middle / 東京レストラン_和食"
   },
   {
-    "id": "割烹料理-霞町三一ノ一-西麻布-415",
+    "id": "割烹料理-霞町三一ノ一-西麻布-408",
     "name": "割烹料理 霞町三◯一ノ一 西麻布",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -10880,12 +10698,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_会食middle」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食middle / 東京レストラン_和食"
   },
   {
-    "id": "鮨-若尊-416",
+    "id": "鮨-若尊-409",
     "name": "鮨 若尊",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -10906,12 +10724,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「東京レストラン_会食middle」より。",
+    "description": "寿司店。",
     "privateRoom": false,
-    "listSource": "東京レストラン_会食middle"
+    "listSource": "東京レストラン_会食middle / 鮨"
   },
   {
-    "id": "豚しゃぶ-しくら-417",
+    "id": "豚しゃぶ-しくら-410",
     "name": "豚しゃぶ しくら",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -10933,12 +10751,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "しゃぶしゃぶレストラン"
     ],
-    "description": "しゃぶしゃぶレストラン。Googleマップの「東京レストラン_会食middle」より。",
+    "description": "しゃぶしゃぶレストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食middle / 東京レストラン_肉"
   },
   {
-    "id": "赤坂あんど-418",
+    "id": "赤坂あんど-411",
     "name": "赤坂あんど",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -10959,12 +10777,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_会食middle」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "李南河-代官山-419",
+    "id": "李南河-代官山-412",
     "name": "李南河 代官山",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -10985,12 +10803,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "韓国料理店"
     ],
-    "description": "韓国料理店。Googleマップの「東京レストラン_会食middle」より。",
+    "description": "韓国料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "馬刺料理と季節の割烹-そま莉-420",
+    "id": "馬刺料理と季節の割烹-そま莉-413",
     "name": "馬刺料理と季節の割烹 そま莉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11012,12 +10830,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_会食middle」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_会食middle / 東京レストラン_肉"
   },
   {
-    "id": "日本料理-京懐石-みのきち-新宿住友店-421",
+    "id": "日本料理-京懐石-みのきち-新宿住友店-414",
     "name": "日本料理 京懐石 みのきち 新宿住友店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11038,12 +10856,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_会食middle」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "個室会席-北大路-京橋茶寮-422",
+    "id": "個室会席-北大路-京橋茶寮-415",
     "name": "個室会席 北大路 京橋茶寮",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11064,12 +10882,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_会食middle」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_会食middle"
   },
   {
-    "id": "銀座浅野屋-423",
+    "id": "銀座浅野屋-416",
     "name": "銀座浅野屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11090,12 +10908,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_十割そば」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "つきじ-文化人-424",
+    "id": "つきじ-文化人-417",
     "name": "つきじ 文化人",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11116,12 +10934,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_十割そば」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "十割蕎麦と天麩羅-満天ノ秀そば-425",
+    "id": "十割蕎麦と天麩羅-満天ノ秀そば-418",
     "name": "十割蕎麦と天麩羅 満天ノ秀そば",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11142,12 +10960,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_十割そば」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "soba-stand-そばうさ-426",
+    "id": "soba-stand-そばうさ-419",
     "name": "SOBA STAND そばうさ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11168,12 +10986,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_十割そば」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "sobaco-神谷町店-427",
+    "id": "sobaco-神谷町店-420",
     "name": "Soba＆Co. 神谷町店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11194,12 +11012,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_十割そば」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "総本家更科堀井-青-428",
+    "id": "総本家更科堀井-青-421",
     "name": "総本家更科堀井 青",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11220,12 +11038,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_十割そば」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "池袋-十割蕎麦-鴨料理-ならや-429",
+    "id": "池袋-十割蕎麦-鴨料理-ならや-422",
     "name": "池袋 十割蕎麦 鴨料理 ならや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11246,12 +11064,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_十割そば」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_十割そば"
   },
   {
-    "id": "なるきよ-430",
+    "id": "なるきよ-423",
     "name": "なるきよ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11272,12 +11090,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_和食」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "銀座あんどう-431",
+    "id": "銀座あんどう-424",
     "name": "銀座あんどう",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11298,12 +11116,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_和食」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "楽食ふじた-432",
+    "id": "楽食ふじた-425",
     "name": "楽食ふじた",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11324,12 +11142,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "純和食店"
     ],
-    "description": "純和食店。Googleマップの「東京レストラン_和食」より。",
+    "description": "純和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "うなぎ-かぶと-433",
+    "id": "うなぎ-かぶと-426",
     "name": "うなぎ かぶと",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11350,12 +11168,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食 / 鰻"
   },
   {
-    "id": "旨いもん割烹-輝咲-434",
+    "id": "旨いもん割烹-輝咲-427",
     "name": "旨いもん割烹 輝咲",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11376,12 +11194,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_和食」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "西麻布-清水-435",
+    "id": "西麻布-清水-428",
     "name": "西麻布 清水",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11402,12 +11220,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_和食」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "和食-青-代々木上原店-436",
+    "id": "和食-青-代々木上原店-429",
     "name": "和食 青 代々木上原店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11428,12 +11246,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_和食」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "味満ん-437",
+    "id": "味満ん-430",
     "name": "味満ん",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11454,12 +11272,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ふぐ料理店"
     ],
-    "description": "ふぐ料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "ふぐ料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "季節料理-小伝馬-438",
+    "id": "季節料理-小伝馬-431",
     "name": "季節料理 小伝馬",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11480,12 +11298,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "シーフード・海鮮料理店"
     ],
-    "description": "シーフード・海鮮料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "シーフード・海鮮料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "あかぎ-439",
+    "id": "あかぎ-432",
     "name": "あかぎ",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11506,12 +11324,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_和食」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "荒木町たつや-440",
+    "id": "荒木町たつや-433",
     "name": "荒木町たつや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11532,12 +11350,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_和食」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "大衆酒場-豊田屋-441",
+    "id": "大衆酒場-豊田屋-434",
     "name": "大衆酒場 豊田屋",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11558,12 +11376,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_和食」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "高太郎-442",
+    "id": "高太郎-435",
     "name": "高太郎",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11584,12 +11402,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_和食」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "鮨かみなり-443",
+    "id": "鮨かみなり-436",
     "name": "鮨かみなり",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -11610,12 +11428,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_和食」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "日本料理-晴山-444",
+    "id": "日本料理-晴山-437",
     "name": "日本料理 晴山",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -11639,12 +11457,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "紀尾井町-とんかつ洋食-ひとみ-445",
+    "id": "紀尾井町-とんかつ洋食-ひとみ-438",
     "name": "紀尾井町 とんかつ・洋食 ひとみ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11665,12 +11483,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "とんかつ店"
     ],
-    "description": "とんかつ店。Googleマップの「東京レストラン_和食」より。",
+    "description": "とんかつ店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "和食割烹-鈴なり-446",
+    "id": "和食割烹-鈴なり-439",
     "name": "和食割烹 鈴なり",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -11693,12 +11511,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食 / 東京レストラン_日本酒名店"
   },
   {
-    "id": "寿々屋-447",
+    "id": "寿々屋-440",
     "name": "寿々屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11719,12 +11537,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "閉業"
     ],
-    "description": "閉業。Googleマップの「東京レストラン_和食」より。",
+    "description": "閉業。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "あらいかわ-448",
+    "id": "あらいかわ-441",
     "name": "あらいかわ",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -11747,12 +11565,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "わたなべ-449",
+    "id": "わたなべ-442",
     "name": "わたなべ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11773,12 +11591,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_和食」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "ふぐ俱楽部-miyawaki-別邸-450",
+    "id": "ふぐ俱楽部-miyawaki-別邸-443",
     "name": "ふぐ俱楽部 miyawaki 別邸",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11799,12 +11617,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ふぐ料理店"
     ],
-    "description": "ふぐ料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "ふぐ料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食 / 東京レストラン_日本酒名店"
   },
   {
-    "id": "和田-451",
+    "id": "和田-444",
     "name": "和田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11825,12 +11643,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "懐石-辻留-452",
+    "id": "懐石-辻留-445",
     "name": "懐石 辻留",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11851,12 +11669,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "eat-鮨と和食-453",
+    "id": "eat-鮨と和食-446",
     "name": "eat 鮨と和食",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -11877,38 +11695,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。Googleマップの「東京レストラン_和食」より。",
+    "description": "寿司店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "月-454",
-    "name": "月",
-    "cuisine": "和食",
-    "priceTier": "middle",
-    "priceDinner": "¥10,000〜",
-    "scenes": [
-      "会食"
-    ],
-    "area": "東京",
-    "address": "東京都（東京周辺）",
-    "nearestStation": "",
-    "lat": 35.68753333333333,
-    "lng": 139.77076666666667,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%88%20%E6%9D%B1%E4%BA%AC",
-    "googlePlaceQuery": "月 東京",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkSYHbNcrq4QB4-or5tZbekfmnqkNtEVliPvruqshK02TOE0SYk0BRD994hGgpoWTGKEiekT7F1qHVMMXqUBac7g6CYTeiGkJQ2VNkZGCJ6XxjYzaEyXYYe-LrWyLIG6kIvmGK6Wg=w800-h600-k-no",
-    "rating": 4.4,
-    "reviewCount": 0,
-    "tags": [
-      "和食店"
-    ],
-    "description": "和食店。Googleマップの「東京レストラン_和食」より。",
-    "privateRoom": false,
-    "listSource": "東京レストラン_和食"
-  },
-  {
-    "id": "居酒屋-赤鬼-455",
+    "id": "居酒屋-赤鬼-447",
     "name": "居酒屋 赤鬼",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -11929,12 +11721,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_和食」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "日本料理-青山浅田-456",
+    "id": "日本料理-青山浅田-448",
     "name": "日本料理 青山浅田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11955,12 +11747,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "高級料理レストラン"
     ],
-    "description": "高級料理レストラン。Googleマップの「東京レストラン_和食」より。",
+    "description": "高級料理レストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "日本料理-赤坂浅田-457",
+    "id": "日本料理-赤坂浅田-449",
     "name": "日本料理 赤坂浅田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -11981,12 +11773,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "高級料理レストラン"
     ],
-    "description": "高級料理レストラン。Googleマップの「東京レストラン_和食」より。",
+    "description": "高級料理レストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "壱縁-458",
+    "id": "壱縁-450",
     "name": "壱縁",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -12007,12 +11799,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_和食」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "稲垣-459",
+    "id": "稲垣-451",
     "name": "稲垣",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -12033,12 +11825,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_和食」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "たきや-460",
+    "id": "たきや-452",
     "name": "たきや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12059,12 +11851,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "天ぷら店"
     ],
-    "description": "天ぷら店。Googleマップの「東京レストラン_和食」より。",
+    "description": "天ぷら店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "新ばし-星野-461",
+    "id": "新ばし-星野-453",
     "name": "新ばし 星野",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -12088,12 +11880,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "日本料理-久丹-462",
+    "id": "日本料理-久丹-454",
     "name": "日本料理 久丹",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12114,12 +11906,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "膳司-水光庵-463",
+    "id": "膳司-水光庵-455",
     "name": "膳司 水光庵",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12140,12 +11932,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_和食」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "麻布-かどわき-464",
+    "id": "麻布-かどわき-456",
     "name": "麻布 かどわき",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12166,12 +11958,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "松川-465",
+    "id": "松川-457",
     "name": "松川",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -12195,12 +11987,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "みつ芳-466",
+    "id": "みつ芳-458",
     "name": "みつ芳",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12221,12 +12013,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「東京レストラン_和食」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "喰切り江ぐち-467",
+    "id": "喰切り江ぐち-459",
     "name": "喰切り江ぐち",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12247,12 +12039,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_和食」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "恵比寿くろいわ-468",
+    "id": "恵比寿くろいわ-460",
     "name": "恵比寿くろいわ",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -12275,12 +12067,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "山﨑-469",
+    "id": "山﨑-461",
     "name": "山﨑",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -12303,12 +12095,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "きんはる-代々木上原店-470",
+    "id": "きんはる-代々木上原店-462",
     "name": "きんはる 代々木上原店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12329,12 +12121,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "臨時休業"
     ],
-    "description": "臨時休業。Googleマップの「東京レストラン_和食」より。",
+    "description": "臨時休業。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "くすのき-471",
+    "id": "くすのき-463",
     "name": "くすのき",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12355,12 +12147,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "天ぷら店"
     ],
-    "description": "天ぷら店。Googleマップの「東京レストラン_和食」より。",
+    "description": "天ぷら店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "美の-472",
+    "id": "美の-464",
     "name": "美の",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12381,12 +12173,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_和食」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "炭火割烹-白坂-473",
+    "id": "炭火割烹-白坂-465",
     "name": "炭火割烹 白坂",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -12409,12 +12201,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "御料理-辻-おりょうり-つじ-474",
+    "id": "御料理-辻-おりょうり-つじ-466",
     "name": "御料理 辻 (おりょうり つじ)",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12435,38 +12227,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "傳-475",
-    "name": "傳",
-    "cuisine": "和食",
-    "priceTier": "middle",
-    "priceDinner": "¥10,000〜",
-    "scenes": [
-      "会食"
-    ],
-    "area": "東京",
-    "address": "東京都（東京周辺）",
-    "nearestStation": "",
-    "lat": 35.67778333333333,
-    "lng": 139.76918333333333,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%82%B3%20%E6%9D%B1%E4%BA%AC",
-    "googlePlaceQuery": "傳 東京",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkKtD5vYqTc3646Bvmvh7jzvHrDMda5GA2VL58nOtACMbrGAbKC71fJUubOdfHOoeuu3wKt6HUQoea8ypDINW6Fj18SBVa3NPB0Rfl9aRCgN7mF-P4i6Zi6ZG0KzC2ZjrjHbFE=w800-h600-k-no",
-    "rating": 4.4,
-    "reviewCount": 0,
-    "tags": [
-      "和食店"
-    ],
-    "description": "和食店。Googleマップの「東京レストラン_和食」より。",
-    "privateRoom": false,
-    "listSource": "東京レストラン_和食"
-  },
-  {
-    "id": "八重洲-鰻-はし本-476",
+    "id": "八重洲-鰻-はし本-467",
     "name": "八重洲 鰻 はし本",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12487,12 +12253,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "明神下-神田川-本店-477",
+    "id": "明神下-神田川-本店-468",
     "name": "明神下 神田川 本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12513,12 +12279,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食 / 鰻"
   },
   {
-    "id": "日本料理-太月-478",
+    "id": "日本料理-太月-469",
     "name": "日本料理 太月",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12539,12 +12305,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "しのはら-479",
+    "id": "しのはら-470",
     "name": "しのはら",
     "cuisine": "和食",
     "priceTier": "executive",
@@ -12567,12 +12333,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "会席・懐石料理店"
     ],
-    "description": "会席・懐石料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "会席・懐石料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "天ぷら元吉-480",
+    "id": "天ぷら元吉-471",
     "name": "天ぷら元吉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12593,12 +12359,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "天ぷら店"
     ],
-    "description": "天ぷら店。Googleマップの「東京レストラン_和食」より。",
+    "description": "天ぷら店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "あんちゅう-代々木上原-481",
+    "id": "あんちゅう-代々木上原-472",
     "name": "あんちゅう 代々木上原",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12619,12 +12385,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_和食」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "銘酒処-串駒-本店-482",
+    "id": "銘酒処-串駒-本店-473",
     "name": "銘酒処 串駒 本店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -12646,12 +12412,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「東京レストラン_和食」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "うなぎ魚政-483",
+    "id": "うなぎ魚政-474",
     "name": "うなぎ魚政",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12672,12 +12438,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食 / 鰻"
   },
   {
-    "id": "マルタ-484",
+    "id": "マルタ-475",
     "name": "マルタ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12698,12 +12464,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「東京レストラン_和食」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "ぼたん-485",
+    "id": "ぼたん-476",
     "name": "ぼたん",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12724,12 +12490,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "鶏料理店"
     ],
-    "description": "鶏料理店。Googleマップの「東京レストラン_和食」より。",
+    "description": "鶏料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "酒場たかや-日本酒と蕎麦と天麩羅-486",
+    "id": "酒場たかや-日本酒と蕎麦と天麩羅-477",
     "name": "酒場たかや 日本酒と蕎麦と天麩羅",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12750,12 +12516,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "蕎麦店"
     ],
-    "description": "蕎麦店。Googleマップの「東京レストラン_和食」より。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
   {
-    "id": "まるしげ夢葉家-487",
+    "id": "まるしげ夢葉家-478",
     "name": "まるしげ夢葉家",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12766,8 +12532,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19838333333333,
-    "lng": 138.24731666666668,
+    "lat": 36.96358333333333,
+    "lng": 123.85441666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%BE%E3%82%8B%E3%81%97%E3%81%92%E5%A4%A2%E8%91%89%E5%AE%B6",
     "googlePlaceQuery": "まるしげ夢葉家",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkZG_k1z03vD9FAr0ZB1uwYwrFWtXL8JC7hv8O95SCqFkQ8cib-dxILRak1xo2_V12KDHdLrLbqeZGe7nQAq4PWwBr39hAXPsicOlXhX3Zs-SnCvt1VRZeo1WHa3Oz9khScyIllaA=w800-h600-k-no",
@@ -12776,12 +12542,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "3.8(368)"
     ],
-    "description": "3.8(368)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "3.8(368)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "博多鰻屋-藤う那-天神本店-488",
+    "id": "博多鰻屋-藤う那-天神本店-479",
     "name": "博多鰻屋 藤う那 天神本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12792,8 +12558,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.21171666666667,
-    "lng": 138.24598333333336,
+    "lat": 42.93691666666667,
+    "lng": 133.86308333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E9%B0%BB%E5%B1%8B%20%E8%97%A4%E3%81%86%E9%82%A3%20%E5%A4%A9%E7%A5%9E%E6%9C%AC%E5%BA%97",
     "googlePlaceQuery": "博多鰻屋 藤う那 天神本店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlBvbSsqvNWk5emvMzxEKjkCCn58pEtxcegOmLCCRgAhkte4woDqpcVj_DDqFUjPTqFlkyM9hOtqPWKHT18UAm-RhYRRD28fVxkk_4Wne96W1LG2aFVJ4DWxVq6EmRR3ma9hUva0MRuCsgx=w800-h600-k-no",
@@ -12802,12 +12568,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.4(212)"
     ],
-    "description": "4.4(212)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.4(212)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "広尾九尺-489",
+    "id": "広尾九尺-480",
     "name": "広尾九尺",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12818,8 +12584,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20113333333333,
-    "lng": 138.25656666666669,
+    "lat": 32.49633333333333,
+    "lng": 137.95366666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BA%83%E5%B0%BE%E4%B9%9D%E5%B0%BA",
     "googlePlaceQuery": "広尾九尺",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnAqHhAROm_oz7pF_1rYlF_Ge7R-eTere5bCr6fn0qpDf44lAY3lpXEg1vw2vWw8Dg6G-iOd9Vn8YCwrnodfrrE7L0tYIflL3xR__dI48gQoYRhget0d13tHvN9bydVWJM3TLju_vtcAY8L=w800-h600-k-no",
@@ -12828,12 +12594,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "3.9(14)"
     ],
-    "description": "3.9(14)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "3.9(14)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "博多酒場-ソルリバ-490",
+    "id": "博多酒場-ソルリバ-481",
     "name": "博多酒場 ソルリバ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12844,8 +12610,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.1993,
-    "lng": 138.25706666666667,
+    "lat": 33.6345,
+    "lng": 132.19416666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E9%85%92%E5%A0%B4%20%E3%82%BD%E3%83%AB%E3%83%AA%E3%83%90",
     "googlePlaceQuery": "博多酒場 ソルリバ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmZEu-OrA_HOKH1-UmzrSRy-C7w3StRe6_hJwoOHyALHks3uKMBC3Cdgb8jn9tjY_xZfWtxwXr9nrwW8yJw8POhG00BJLUJCEuSQ2R3xYqL8HP-CXtNeZoogGyytrcCwD42TF-R=w800-h600-k-no",
@@ -12854,12 +12620,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.4(231)"
     ],
-    "description": "4.4(231)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.4(231)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "kunizake-ya-クニザケ屋-491",
+    "id": "kunizake-ya-クニザケ屋-482",
     "name": "KUNIZAKE-YA クニザケ屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12870,8 +12636,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20205,
-    "lng": 138.25831666666667,
+    "lat": 34.92725,
+    "lng": 143.74541666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=KUNIZAKE-YA%20%E3%82%AF%E3%83%8B%E3%82%B6%E3%82%B1%E5%B1%8B",
     "googlePlaceQuery": "KUNIZAKE-YA クニザケ屋",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkUSdYYyQiFDOnlxVfARXw6L28BvyFTAtKl7WybkgtaUHl-GhJi4x2K_zwiT3IIVrc-gTw1wbtDx8W0vHwi6uUutUvxVT7LYM3l48j2UNwtHLcCP9eqdpsq4gvjsZh5W5FGUEK2=w800-h600-k-no",
@@ -12880,12 +12646,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.7(50)"
     ],
-    "description": "4.7(50)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.7(50)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "手打ち蕎麦-汐見-492",
+    "id": "手打ち蕎麦-汐見-483",
     "name": "手打ち蕎麦 汐見",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12896,8 +12662,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19663333333333,
-    "lng": 138.25373333333334,
+    "lat": 41.99183333333333,
+    "lng": 132.54083333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%8B%E6%89%93%E3%81%A1%E8%95%8E%E9%BA%A6%20%E6%B1%90%E8%A6%8B",
     "googlePlaceQuery": "手打ち蕎麦 汐見",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl6kySCIno2mpu1utSYZh3wAj6iE9LhmuYb7zhQoj7gU_oT7bd2WPboY3hlz8H4t4gZLCzyYbWc3SHDg_fRvRbmG_7hYppcQ6zBPyFi0GNsGwhQ5ANU7-Do1_sbdSfcq2YoZXyB=w800-h600-k-no",
@@ -12906,12 +12672,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.5(215)"
     ],
-    "description": "4.5(215)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.5(215)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "おいしい地酒とワインの店-ワダヤ-493",
+    "id": "おいしい地酒とワインの店-ワダヤ-484",
     "name": "おいしい地酒とワインの店 ワダヤ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12922,8 +12688,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20605,
-    "lng": 138.24831666666668,
+    "lat": 35.69125,
+    "lng": 139.13541666666666,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E5%9C%B0%E9%85%92%E3%81%A8%E3%83%AF%E3%82%A4%E3%83%B3%E3%81%AE%E5%BA%97%20%E3%83%AF%E3%83%80%E3%83%A4",
     "googlePlaceQuery": "おいしい地酒とワインの店 ワダヤ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkiCrY0cS6xqGrNou9vyBDgqWNx7qu7G279rYR1nWF8-fYgodt4mhcpuypVcgRc3WzwtxOn1kijyHWw947YYvho5WBTuCnsJUeBoG-k6F_TN4Ic21OewKFqqGAvwxCgHUj6FN1tNbZK6q0=w800-h600-k-no",
@@ -12932,12 +12698,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.4(316)"
     ],
-    "description": "4.4(316)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.4(316)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "瑠灯-494",
+    "id": "瑠灯-485",
     "name": "瑠灯",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12948,8 +12714,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19905,
-    "lng": 138.25331666666668,
+    "lat": 38.84425,
+    "lng": 135.15041666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%91%A0%E7%81%AF",
     "googlePlaceQuery": "瑠灯",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnnLRPcqnHw4CEcPfV7FLQeIYfjfm3LEDEBrgCD3ZrqY1Y3TpNnFiadkNqQ67MvuozZfT523FsOG5jgfmoFUeSDqEaGxsUAu1jl84YLmuazQYEGYE1lyo0GDylJuExQytd_SELWDQ=w800-h600-k-no",
@@ -12958,12 +12724,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "3.7(40)"
     ],
-    "description": "3.7(40)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "3.7(40)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "リカーショップ-升本-495",
+    "id": "リカーショップ-升本-486",
     "name": "リカーショップ 升本",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -12974,8 +12740,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.200966666666666,
-    "lng": 138.24873333333335,
+    "lat": 31.516166666666667,
+    "lng": 125.03583333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AA%E3%82%AB%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E5%8D%87%E6%9C%AC",
     "googlePlaceQuery": "リカーショップ 升本",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmXx_lLj9lPxJ47pcSTtMp3iRw63Nd0kOmv6Xo2jfv6jN3JByZl5x9YIBBYhs-7EW8J4mKD5FgscXSPmwy4RAn6N6FVM84wDEeQCYrT0iX0_9B17Vs1va__f0fNwj6NVbZxT7bc_r8wAfFR=w800-h600-k-no",
@@ -12984,12 +12750,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.5(46)"
     ],
-    "description": "4.5(46)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.5(46)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "十八代-光蔵-名駅-496",
+    "id": "十八代-光蔵-名駅-487",
     "name": "十八代 光蔵 名駅",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13000,8 +12766,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.211549999999995,
-    "lng": 138.2468166666667,
+    "lat": 35.516749999999995,
+    "lng": 131.03391666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%81%E5%85%AB%E4%BB%A3%20%E5%85%89%E8%94%B5%20%E5%90%8D%E9%A7%85",
     "googlePlaceQuery": "十八代 光蔵 名駅",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmH66btxrwQZU-ec5cloKRZKVKNVXwc55ied1t2jnkRvdhZZsOHnnfIbCEP8xt2HFNy0kIjcHs6YYEgU38Mu5HSZU_H00Ln0xUeqEIQGgfj3SAmKVNQi5opLI7jWgOo5Njch7Z_=w800-h600-k-no",
@@ -13010,12 +12776,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.0(207)"
     ],
-    "description": "4.0(207)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.0(207)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "キリマン酒店-497",
+    "id": "キリマン酒店-488",
     "name": "キリマン酒店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13026,8 +12792,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20105,
-    "lng": 138.24465,
+    "lat": 36.40625,
+    "lng": 125.39175,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AD%E3%83%AA%E3%83%9E%E3%83%B3%E9%85%92%E5%BA%97",
     "googlePlaceQuery": "キリマン酒店",
     "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
@@ -13036,12 +12802,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.2(44)"
     ],
-    "description": "4.2(44)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.2(44)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "isego-honten-伊勢五本店-千駄木店-498",
+    "id": "isego-honten-伊勢五本店-千駄木店-489",
     "name": "Isego Honten 伊勢五本店 千駄木店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13052,8 +12818,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.204299999999996,
-    "lng": 138.25806666666668,
+    "lat": 44.119499999999995,
+    "lng": 117.42516666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Isego%20Honten%20%E4%BC%8A%E5%8B%A2%E4%BA%94%E6%9C%AC%E5%BA%97%20%E5%8D%83%E9%A7%84%E6%9C%A8%E5%BA%97",
     "googlePlaceQuery": "Isego Honten 伊勢五本店 千駄木店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnNZvGEv68u0gSanAzmuLbRxib6sLsBZ4TsQw7rrTdikDE86dG8XU1-Mxa3zcI1j-ZX_C-12MSBRweJZCkc_y7a9-LJvNSDReE965tGPy_SLfy-Vya-EFaJq1aNXEZk5GhTcp42xaQGyJ_F=w800-h600-k-no",
@@ -13062,12 +12828,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.5(456)"
     ],
-    "description": "4.5(456)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.5(456)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "伊勢五本店-中目黒店-499",
+    "id": "伊勢五本店-中目黒店-490",
     "name": "伊勢五本店 中目黒店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13078,8 +12844,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20238333333333,
-    "lng": 138.24865,
+    "lat": 32.20758333333333,
+    "lng": 118.99575,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E5%8B%A2%E4%BA%94%E6%9C%AC%E5%BA%97%20%E4%B8%AD%E7%9B%AE%E9%BB%92%E5%BA%97",
     "googlePlaceQuery": "伊勢五本店 中目黒店",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnjyg_MKY7f0FkdqT0Vs6nxWNVgHCvm7ot428By18cuk6q25E5n3iDJbt4SqdrWvzgFFydu3luYWALUJ9_RaG44wNQpmNO5KlUXLQBRYEPjkV0wIicA6Iy_11M4tE5B5pHytIhUzPU9LLzs=w800-h600-k-no",
@@ -13088,12 +12854,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.5(381)"
     ],
-    "description": "4.5(381)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.5(381)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "こだわりの料理と酒-利き酒家-500",
+    "id": "こだわりの料理と酒-利き酒家-491",
     "name": "こだわりの料理と酒 利き酒家",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13104,8 +12870,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.203383333333335,
-    "lng": 138.24698333333333,
+    "lat": 36.72858333333334,
+    "lng": 143.5340833333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%93%E3%81%A0%E3%82%8F%E3%82%8A%E3%81%AE%E6%96%99%E7%90%86%E3%81%A8%E9%85%92%20%E5%88%A9%E3%81%8D%E9%85%92%E5%AE%B6",
     "googlePlaceQuery": "こだわりの料理と酒 利き酒家",
     "image": "https://images.unsplash.com/photo-1607301405390-d831c242f59b?w=800&q=80",
@@ -13114,12 +12880,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.3(144)"
     ],
-    "description": "4.3(144)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.3(144)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "和風居酒屋-あかね-501",
+    "id": "和風居酒屋-あかね-492",
     "name": "和風居酒屋 あかね",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13130,8 +12896,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20563333333333,
-    "lng": 138.24540000000002,
+    "lat": 41.36083333333333,
+    "lng": 141.8125,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%A2%A8%E5%B1%85%E9%85%92%E5%B1%8B%20%E3%81%82%E3%81%8B%E3%81%AD",
     "googlePlaceQuery": "和風居酒屋 あかね",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlp-skJdKYXIenPmDM_lVKEu95WBRazKHG_VI-yMA7_dcaSQtvNeZvgn6AreZ2pyCMrA1jVUT3RYaHXJYHNTxaG-ViAItfP7A7GBkhLlherpjJc4GOo2m4nkLAj37bOHXfaDhdvd6lGbroX=w800-h600-k-no",
@@ -13140,12 +12906,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.4(68)"
     ],
-    "description": "4.4(68)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.4(68)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "premium-sake-pub-gashue-502",
+    "id": "premium-sake-pub-gashue-493",
     "name": "Premium Sake Pub Gashue",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13156,8 +12922,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20055,
-    "lng": 138.26115000000001,
+    "lat": 34.34575,
+    "lng": 138.97825,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Premium%20Sake%20Pub%20Gashue",
     "googlePlaceQuery": "Premium Sake Pub Gashue",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlUrtA0W2rU5M_ltt5ZJChTw_9R6HAdaRBcCNIaLLLG205FsLkIzVHgnZfiYuLzn_jVKEXQGXJz9_OyEA3TT_Acm5UQoQYw-ghDD60kRl2GhSdiPpbPrzzky2ak2Ik_i6i3PmW8ILhCcQw=w800-h600-k-no",
@@ -13166,12 +12932,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.9(928)"
     ],
-    "description": "4.9(928)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.9(928)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "つくしのこ-503",
+    "id": "つくしのこ-494",
     "name": "つくしのこ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13182,8 +12948,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.20655,
-    "lng": 138.24648333333334,
+    "lat": 43.87175,
+    "lng": 117.08358333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A4%E3%81%8F%E3%81%97%E3%81%AE%E3%81%93",
     "googlePlaceQuery": "つくしのこ",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl6vBKJCWIt866RsEIRLkE6NEBp4REWlml768-LcnikGPt7d_C542arbeCvYCO4BO7JdF65Y2jwtoECdDiIqzRmixjIcst-Pw20CiYTO6r5yzLmd95X06oLbw_BBr74XT7vqXUF=w800-h600-k-no",
@@ -13192,12 +12958,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.6(110)"
     ],
-    "description": "4.6(110)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.6(110)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "根津-日本酒-多田-504",
+    "id": "根津-日本酒-多田-495",
     "name": "根津 日本酒 多田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13208,8 +12974,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.212383333333335,
-    "lng": 138.24665000000002,
+    "lat": 40.89758333333334,
+    "lng": 144.31375,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A0%B9%E6%B4%A5%20%E6%97%A5%E6%9C%AC%E9%85%92%20%E5%A4%9A%E7%94%B0",
     "googlePlaceQuery": "根津 日本酒 多田",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnnlgdl8ZxbNFWvHC5z0KD07yly-iaWHV7egCEhj9KLvv7l3s8WHxMm9xOGT-gvBbA9CNiiFUINdgxI8xWwYss8_f-rGBslJGwTX_KxM_16GpR7QFCRdsHEHbBqdlEs-g1LynQSew=w800-h600-k-no",
@@ -13218,12 +12984,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.3(63)"
     ],
-    "description": "4.3(63)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.3(63)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "和食-酒肴-まさむら-505",
+    "id": "和食-酒肴-まさむら-496",
     "name": "和食 酒肴 まさむら",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13234,8 +13000,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.211216666666665,
-    "lng": 138.25048333333334,
+    "lat": 41.156416666666665,
+    "lng": 121.55758333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%A3%9F%20%E9%85%92%E8%82%B4%20%E3%81%BE%E3%81%95%E3%82%80%E3%82%89",
     "googlePlaceQuery": "和食 酒肴 まさむら",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl8lQFAlYUIvyDOpWo7G9fb5_4JpkPIMIoiww_QStBOwwss5pdXcjis7iIpjX8VCL-heA7mdG5U9egtHT7T86GLHs2IrRqr9ZTWL4n7q2hkJ_WgqOohjbj4x4SbxR50pUEM8_zC=w800-h600-k-no",
@@ -13244,12 +13010,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.3(184)"
     ],
-    "description": "4.3(184)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.3(184)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "旬菜と酒-余花-506",
+    "id": "旬菜と酒-余花-497",
     "name": "旬菜と酒 余花",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13260,8 +13026,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.200966666666666,
-    "lng": 138.2594,
+    "lat": 35.59616666666667,
+    "lng": 123.76650000000001,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%AC%E8%8F%9C%E3%81%A8%E9%85%92%20%E4%BD%99%E8%8A%B1",
     "googlePlaceQuery": "旬菜と酒 余花",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlKCfJXoPBrRKSKG1R3xJDAHdHFOIll0OUYxzJMtXzh2oNm2Ml0jGWQ5PN80WkZ__kt7YvTe0UAowoYWwuvNQExp1oWepv8uJV9B4vdyFte0Duudi8S1X5OeU5r66SQCYaIwE9k=w800-h600-k-no",
@@ -13270,12 +13036,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.6(33)"
     ],
-    "description": "4.6(33)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.6(33)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "酛tokyo-507",
+    "id": "酛tokyo-498",
     "name": "酛TOKYO",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13286,8 +13052,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.19805,
-    "lng": 138.25365000000002,
+    "lat": 33.68325,
+    "lng": 134.76075,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%85%9BTOKYO",
     "googlePlaceQuery": "酛TOKYO",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm6545m7paUKygpAn9pRvz_ImrXyStnmJYHXTsCLkBmuh92N0Kyfd3huy14XJecBX2o2UWdvcSJmFtVI5W9J3t-HKw02rcajUyhCkILSbZxDB7q34TqNmQy7VM_7tppvw7oXq8=w800-h600-k-no",
@@ -13296,12 +13062,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.5(62)"
     ],
-    "description": "4.5(62)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.5(62)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "和食と和酒-おがた-508",
+    "id": "和食と和酒-おがた-499",
     "name": "和食と和酒 おがた",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13312,8 +13078,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "地方",
     "address": "地方",
     "nearestStation": "",
-    "lat": 36.202466666666666,
-    "lng": 138.25123333333335,
+    "lat": 38.37766666666667,
+    "lng": 119.16833333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E9%A3%9F%E3%81%A8%E5%92%8C%E9%85%92%20%E3%81%8A%E3%81%8C%E3%81%9F",
     "googlePlaceQuery": "和食と和酒 おがた",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk7kclumjvi8F_B08H4K1i7V_CSxLqcOfFDvw_4AldkqsdwVGtFBW52eUgVlnVtm0KJ4VMWclhfMuVpU8370WWZIwZODcJOrPqRFwCnHowVeqHjv0zwt3WAYBqWeDPWUhgiJnxojpN9Ptv9=w800-h600-k-no",
@@ -13322,12 +13088,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "4.5(59)"
     ],
-    "description": "4.5(59)。Googleマップの「東京レストラン_日本酒名店」より。",
+    "description": "4.5(59)。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
-    "id": "五反田-鳥茂-509",
+    "id": "五反田-鳥茂-500",
     "name": "五反田 鳥茂",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13348,12 +13114,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "串焼き店"
     ],
-    "description": "串焼き店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "串焼き店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "やきとり-阿部-510",
+    "id": "やきとり-阿部-501",
     "name": "やきとり 阿部",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13374,12 +13140,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "白金鳥とも-511",
+    "id": "白金鳥とも-502",
     "name": "白金鳥とも",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13400,12 +13166,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "目黒-焼鳥煉火-512",
+    "id": "目黒-焼鳥煉火-503",
     "name": "目黒 焼鳥煉火",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13426,12 +13192,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "加賀屋-513",
+    "id": "加賀屋-504",
     "name": "㈱加賀屋",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -13452,12 +13218,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "食肉卸売業者"
     ],
-    "description": "食肉卸売業者。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "食肉卸売業者。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "炭火串焼き-こころ-514",
+    "id": "炭火串焼き-こころ-505",
     "name": "炭火串焼き こころ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13478,12 +13244,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "閉業"
     ],
-    "description": "閉業。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "閉業。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "本家あべや-秋田純米酒処-恵比寿店-515",
+    "id": "本家あべや-秋田純米酒処-恵比寿店-506",
     "name": "本家あべや 秋田純米酒処 恵比寿店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13504,12 +13270,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "鶏料理店"
     ],
-    "description": "鶏料理店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "鶏料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "日本橋-とり慶-焼き鳥屋-516",
+    "id": "日本橋-とり慶-焼き鳥屋-507",
     "name": "日本橋 とり慶 焼き鳥屋",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13530,12 +13296,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "南青山-七鳥目-517",
+    "id": "南青山-七鳥目-508",
     "name": "南青山 七鳥目",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13556,12 +13322,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "三政-518",
+    "id": "三政-509",
     "name": "三政",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13582,12 +13348,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "串焼き店"
     ],
-    "description": "串焼き店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "串焼き店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "かさ原-519",
+    "id": "かさ原-510",
     "name": "かさ原",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13608,12 +13374,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "焼鳥bar-a-vins-76-76vin-520",
+    "id": "焼鳥bar-a-vins-76-76vin-511",
     "name": "焼鳥BAR A VINS 76 (76vin)",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13634,12 +13400,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ワインバー"
     ],
-    "description": "ワインバー。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "ワインバー。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "焼鳥-朱夏-521",
+    "id": "焼鳥-朱夏-512",
     "name": "焼鳥 朱夏",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13660,12 +13426,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "根津-照隅-522",
+    "id": "根津-照隅-513",
     "name": "根津 照隅",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13686,12 +13452,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "むろまち-鳥や-523",
+    "id": "むろまち-鳥や-514",
     "name": "むろまち 鳥や",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13712,12 +13478,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "鳥つね-自然洞-524",
+    "id": "鳥つね-自然洞-515",
     "name": "鳥つね 自然洞",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13738,12 +13504,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "鶏料理店"
     ],
-    "description": "鶏料理店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "鶏料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "赤坂-希鳥-525",
+    "id": "赤坂-希鳥-516",
     "name": "赤坂 希鳥",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13764,12 +13530,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "とり茶太郎-526",
+    "id": "とり茶太郎-517",
     "name": "とり茶太郎",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13790,12 +13556,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "焼き鳥-平良-527",
+    "id": "焼き鳥-平良-518",
     "name": "焼き鳥 平良",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13816,12 +13582,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "鍈輝-528",
+    "id": "鍈輝-519",
     "name": "鍈輝",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13842,12 +13608,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "いぐち-本店-529",
+    "id": "いぐち-本店-520",
     "name": "いぐち 本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13868,12 +13634,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "串焼-大助-530",
+    "id": "串焼-大助-521",
     "name": "串焼 大助",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13894,12 +13660,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "やきとり結火-531",
+    "id": "やきとり結火-522",
     "name": "やきとり結火",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13920,12 +13686,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼き鳥店"
     ],
-    "description": "焼き鳥店。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "焼き鳥店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "やき鳥-益子-532",
+    "id": "やき鳥-益子-523",
     "name": "やき鳥 益子",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -13946,12 +13712,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "閉業"
     ],
-    "description": "閉業。Googleマップの「東京レストラン_焼き鳥」より。",
+    "description": "閉業。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
   {
-    "id": "羊香味坊-533",
+    "id": "羊香味坊-524",
     "name": "羊香味坊",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -13972,12 +13738,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「東京レストラン_肉」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "炭火焼ホルモンぐう-八重洲本店-534",
+    "id": "炭火焼ホルモンぐう-八重洲本店-525",
     "name": "炭火焼ホルモンぐう 八重洲本店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -13998,12 +13764,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "日本焼肉はせ川-表参道店-535",
+    "id": "日本焼肉はせ川-表参道店-526",
     "name": "日本焼肉はせ川 表参道店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14024,38 +13790,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "135-0004-東京都江東区森下２丁目１９９-536",
-    "name": "〒135-0004 東京都江東区森下２丁目１９−９",
-    "cuisine": "肉",
-    "priceTier": "middle",
-    "priceDinner": "¥10,000〜",
-    "scenes": [
-      "会食"
-    ],
-    "area": "京都",
-    "address": "京都府（周辺）",
-    "nearestStation": "",
-    "lat": 35.017516666666666,
-    "lng": 135.76218333333333,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%80%92135-0004%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%9D%B1%E5%8C%BA%E6%A3%AE%E4%B8%8B%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%99%E2%88%92%EF%BC%99%20%E4%BA%AC%E9%83%BD",
-    "googlePlaceQuery": "〒135-0004 東京都江東区森下２丁目１９−９ 京都",
-    "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=800&q=80",
-    "rating": 4.3,
-    "reviewCount": 0,
-    "tags": [
-      "〒135-0004 東京都江東区森下２丁目１９−９"
-    ],
-    "description": "〒135-0004 東京都江東区森下２丁目１９−９。Googleマップの「東京レストラン_肉」より。",
-    "privateRoom": false,
-    "listSource": "東京レストラン_肉"
-  },
-  {
-    "id": "桜鍋みの家本店-537",
+    "id": "桜鍋みの家本店-527",
     "name": "桜鍋みの家本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14076,12 +13816,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「東京レストラン_肉」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "しゃぶしゃぶすし-紀尾井町-八山-538",
+    "id": "しゃぶしゃぶすし-紀尾井町-八山-528",
     "name": "しゃぶしゃぶ・すし 紀尾井町 八山",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -14102,12 +13842,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "すき焼き/しゃぶしゃぶ店"
     ],
-    "description": "すき焼き/しゃぶしゃぶ店。Googleマップの「東京レストラン_肉」より。",
+    "description": "すき焼き/しゃぶしゃぶ店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉-うし松-539",
+    "id": "焼肉-うし松-529",
     "name": "焼肉 うし松",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14128,12 +13868,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "四谷三丁目-大衆焼肉-暴飲暴食-540",
+    "id": "四谷三丁目-大衆焼肉-暴飲暴食-530",
     "name": "四谷三丁目 大衆焼肉 暴飲暴食",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14154,12 +13894,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "大幸園-小宮本店-541",
+    "id": "大幸園-小宮本店-531",
     "name": "大幸園 小宮本店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14180,12 +13920,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "ただハンバーグが食べたい-542",
+    "id": "ただハンバーグが食べたい-532",
     "name": "ただハンバーグが食べたい",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14206,12 +13946,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「東京レストラン_肉」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "炭火焼肉-たん清-543",
+    "id": "炭火焼肉-たん清-533",
     "name": "炭火焼肉 たん清",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14232,12 +13972,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "肉屋田中-銀座-544",
+    "id": "肉屋田中-銀座-534",
     "name": "肉屋田中 銀座",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14258,12 +13998,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "肉料理店"
     ],
-    "description": "肉料理店。Googleマップの「東京レストラン_肉」より。",
+    "description": "肉料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "嬉嬉豚とんかつ-君に揚げる-極-545",
+    "id": "嬉嬉豚とんかつ-君に揚げる-極-535",
     "name": "嬉嬉豚とんかつ 『君に、揚げる。』 （極）",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14284,12 +14024,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "とんかつ店"
     ],
-    "description": "とんかつ店。Googleマップの「東京レストラン_肉」より。",
+    "description": "とんかつ店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "神田-タンだけ-546",
+    "id": "神田-タンだけ-536",
     "name": "神田 タンだけ",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14310,12 +14050,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉-ジャンボ-はなれ-547",
+    "id": "焼肉-ジャンボ-はなれ-537",
     "name": "焼肉 ジャンボ はなれ",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14336,12 +14076,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "広尾-肉幸-548",
+    "id": "広尾-肉幸-538",
     "name": "広尾 肉幸",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14362,12 +14102,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "肉料理店"
     ],
-    "description": "肉料理店。Googleマップの「東京レストラン_肉」より。",
+    "description": "肉料理店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "赤坂-na-camo-guroなかもぐろ-549",
+    "id": "赤坂-na-camo-guroなかもぐろ-539",
     "name": "赤坂 Na Camo guro（なかもぐろ）",
     "cuisine": "フレンチ",
     "priceTier": "middle",
@@ -14388,12 +14128,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ビストロ"
     ],
-    "description": "ビストロ。Googleマップの「東京レストラン_肉」より。",
+    "description": "ビストロ。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉くにもと-新館-550",
+    "id": "焼肉くにもと-新館-540",
     "name": "焼肉くにもと 新館",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14414,12 +14154,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉-くにもと-本店-551",
+    "id": "焼肉-くにもと-本店-541",
     "name": "焼肉 くにもと 本店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14440,12 +14180,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉かねこ-552",
+    "id": "焼肉かねこ-542",
     "name": "焼肉かねこ",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14466,12 +14206,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉やっちゃん分店-茅場町店-553",
+    "id": "焼肉やっちゃん分店-茅場町店-543",
     "name": "焼肉やっちゃん分店 茅場町店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14492,12 +14232,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "munchs-burger-shack-芝公園本店-554",
+    "id": "munchs-burger-shack-芝公園本店-544",
     "name": "MUNCH'S BURGER SHACK 芝公園本店",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14518,12 +14258,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ハンバーガー店"
     ],
-    "description": "ハンバーガー店。Googleマップの「東京レストラン_肉」より。",
+    "description": "ハンバーガー店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "よろにく-555",
+    "id": "よろにく-545",
     "name": "よろにく",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14544,12 +14284,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "焼肉-しみず-556",
+    "id": "焼肉-しみず-546",
     "name": "焼肉 しみず",
     "cuisine": "肉",
     "priceTier": "middle",
@@ -14570,12 +14310,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "焼肉店"
     ],
-    "description": "焼肉店。Googleマップの「東京レストラン_肉」より。",
+    "description": "焼肉店。",
     "privateRoom": false,
     "listSource": "東京レストラン_肉"
   },
   {
-    "id": "二代目魚清わさび-557",
+    "id": "二代目魚清わさび-547",
     "name": "二代目魚清わさび",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14596,12 +14336,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「茅ヶ崎/鎌倉レストラン」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "鎌倉-松原庵-青-558",
+    "id": "鎌倉-松原庵-青-548",
     "name": "鎌倉 松原庵 青",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14622,12 +14362,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「茅ヶ崎/鎌倉レストラン」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "湘南韓国料理gokan-559",
+    "id": "湘南韓国料理gokan-549",
     "name": "湘南韓国料理GOKAN",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14648,12 +14388,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "韓国料理店"
     ],
-    "description": "韓国料理店。Googleマップの「茅ヶ崎/鎌倉レストラン」より。",
+    "description": "韓国料理店。",
     "privateRoom": false,
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "えぼし本店-560",
+    "id": "えぼし本店-550",
     "name": "えぼし本店",
     "cuisine": "和食",
     "priceTier": "casual",
@@ -14674,12 +14414,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "居酒屋"
     ],
-    "description": "居酒屋。Googleマップの「茅ヶ崎/鎌倉レストラン」より。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "ピザヤ-ショーチャン-561",
+    "id": "ピザヤ-ショーチャン-551",
     "name": "ピザヤ ショーチャン",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -14700,12 +14440,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ピザ店"
     ],
-    "description": "ピザ店。Googleマップの「茅ヶ崎/鎌倉レストラン」より。",
+    "description": "ピザ店。",
     "privateRoom": false,
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "アマルフィー-デラセーラ-562",
+    "id": "アマルフィー-デラセーラ-552",
     "name": "アマルフィー デラセーラ",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -14726,12 +14466,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「茅ヶ崎/鎌倉レストラン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "ピッツェリアgg-鎌倉-563",
+    "id": "ピッツェリアgg-鎌倉-553",
     "name": "ピッツェリアGG 鎌倉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14752,12 +14492,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「茅ヶ崎/鎌倉レストラン」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "かまくら和久-564",
+    "id": "かまくら和久-554",
     "name": "かまくら和久",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14778,12 +14518,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "純和食店"
     ],
-    "description": "純和食店。Googleマップの「茅ヶ崎/鎌倉レストラン」より。",
+    "description": "純和食店。",
     "privateRoom": false,
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "イチリン-ハナレ-565",
+    "id": "イチリン-ハナレ-555",
     "name": "イチリン ハナレ",
     "cuisine": "その他",
     "priceTier": "middle",
@@ -14804,12 +14544,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "中華料理店"
     ],
-    "description": "中華料理店。Googleマップの「茅ヶ崎/鎌倉レストラン」より。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "ハウス-オブ-フレーバーズ-566",
+    "id": "ハウス-オブ-フレーバーズ-556",
     "name": "ハウス オブ フレーバーズ",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14830,12 +14570,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "ケーキ屋"
     ],
-    "description": "ケーキ屋。Googleマップの「茅ヶ崎/鎌倉レストラン」より。",
+    "description": "ケーキ屋。",
     "privateRoom": false,
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "latteria-bebè-kamakura-567",
+    "id": "latteria-bebè-kamakura-557",
     "name": "Latteria BeBè Kamakura",
     "cuisine": "イタリアン",
     "priceTier": "middle",
@@ -14856,12 +14596,1187 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "イタリア料理店"
     ],
-    "description": "イタリア料理店。Googleマップの「茅ヶ崎/鎌倉レストラン」より。",
+    "description": "イタリア料理店。",
     "privateRoom": false,
     "listSource": "茅ヶ崎/鎌倉レストラン"
   },
   {
-    "id": "はせ川-568",
+    "id": "鮨一幸-558",
+    "name": "鮨一幸",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.6842,
+    "lng": 139.77476666666666,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E4%B8%80%E5%B9%B8%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨一幸 東京",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "すし屋のまつ勘-麻布十番店-559",
+    "name": "すし屋のまつ勘 麻布十番店",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "六本木",
+    "address": "東京都（六本木周辺）",
+    "nearestStation": "",
+    "lat": 35.65408333333333,
+    "lng": 139.73694999999998,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E5%B1%8B%E3%81%AE%E3%81%BE%E3%81%A4%E5%8B%98%20%E9%BA%BB%E5%B8%83%E5%8D%81%E7%95%AA%E5%BA%97%20%E5%85%AD%E6%9C%AC%E6%9C%A8",
+    "googlePlaceQuery": "すし屋のまつ勘 麻布十番店 六本木",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-本店上ル-560",
+    "name": "鮨 本店上ル",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.67453333333333,
+    "lng": 139.76843333333332,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E6%9C%AC%E5%BA%97%E4%B8%8A%E3%83%AB%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 本店上ル 東京",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "晴ノ鮨-561",
+    "name": "晴ノ鮨",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.680699999999995,
+    "lng": 139.76093333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%B4%E3%83%8E%E9%AE%A8%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "晴ノ鮨 東京",
+    "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-波づき-562",
+    "name": "鮨 波づき",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.6757,
+    "lng": 139.76193333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E6%B3%A2%E3%81%A5%E3%81%8D%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 波づき 東京",
+    "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "道後-海舟-563",
+    "name": "道後 海舟",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68411666666666,
+    "lng": 139.76551666666666,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E5%BE%8C%20%E6%B5%B7%E8%88%9F%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "道後 海舟 東京",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "純和食店"
+    ],
+    "description": "純和食店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "寿司栄-564",
+    "name": "寿司栄",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.67578333333333,
+    "lng": 139.77518333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%BF%E5%8F%B8%E6%A0%84%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "寿司栄 東京",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨なかむら-565",
+    "name": "鮨なかむら",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.680366666666664,
+    "lng": 139.76193333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%AA%E3%81%8B%E3%82%80%E3%82%89%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨なかむら 東京",
+    "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-ゆうき-sushi-yuki-566",
+    "name": "鮨 ゆうき Sushi Yuki",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68111666666666,
+    "lng": 139.76385,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%82%86%E3%81%86%E3%81%8D%20Sushi%20Yuki%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 ゆうき Sushi Yuki 東京",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-陸-567",
+    "name": "鮨 陸",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.6742,
+    "lng": 139.75943333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E9%99%B8%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 陸 東京",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-和さび-568",
+    "name": "鮨 和さび",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68303333333333,
+    "lng": 139.76393333333334,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E5%92%8C%E3%81%95%E3%81%B3%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 和さび 東京",
+    "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "八重洲-鮨-海味-569",
+    "name": "八重洲 鮨 海味",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.67626666666667,
+    "lng": 139.76749999999998,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E9%87%8D%E6%B4%B2%20%E9%AE%A8%20%E6%B5%B7%E5%91%B3%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "八重洲 鮨 海味 東京",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "仲野-570",
+    "name": "仲野",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.679199999999994,
+    "lng": 139.76976666666667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%B2%E9%87%8E%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "仲野 東京",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨処やまと-571",
+    "name": "鮨処やまと",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68086666666667,
+    "lng": 139.77009999999999,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E5%87%A6%E3%82%84%E3%81%BE%E3%81%A8%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨処やまと 東京",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4.2,
+    "reviewCount": 0,
+    "tags": [
+      "和食店"
+    ],
+    "description": "和食店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨結う翼つばさ-572",
+    "name": "鮨結う翼（つばさ）",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.6857,
+    "lng": 139.77193333333332,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E7%B5%90%E3%81%86%E7%BF%BC%EF%BC%88%E3%81%A4%E3%81%B0%E3%81%95%EF%BC%89%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨結う翼（つばさ） 東京",
+    "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-すがひさ-573",
+    "name": "鮨 すがひさ",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.673366666666666,
+    "lng": 139.76093333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%99%E3%81%8C%E3%81%B2%E3%81%95%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 すがひさ 東京",
+    "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-由う-574",
+    "name": "鮨 由う",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68128333333333,
+    "lng": 139.76368333333332,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E7%94%B1%E3%81%86%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 由う 東京",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "すし-おうみ-575",
+    "name": "すし おうみ",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68295,
+    "lng": 139.76935,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%20%E3%81%8A%E3%81%86%E3%81%BF%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "すし おうみ 東京",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "和食店"
+    ],
+    "description": "和食店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "長島-576",
+    "name": "長島",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68145,
+    "lng": 139.75951666666666,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E5%B3%B6%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "長島 東京",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "はっこく-577",
+    "name": "はっこく",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.67753333333333,
+    "lng": 139.7681,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%AF%E3%81%A3%E3%81%93%E3%81%8F%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "はっこく 東京",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4.3,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-みずかみ-578",
+    "name": "鮨 みずかみ",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68145,
+    "lng": 139.75951666666666,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%BF%E3%81%9A%E3%81%8B%E3%81%BF%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 みずかみ 東京",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-くりや川-579",
+    "name": "鮨 くりや川",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.6812,
+    "lng": 139.76243333333332,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%8F%E3%82%8A%E3%82%84%E5%B7%9D%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 くりや川 東京",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "恵比寿えんどう-580",
+    "name": "恵比寿えんどう",
+    "cuisine": "和食",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "渋谷",
+    "address": "東京都（渋谷周辺）",
+    "nearestStation": "",
+    "lat": 35.649033333333335,
+    "lng": 139.70566666666667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%81%B5%E6%AF%94%E5%AF%BF%E3%81%88%E3%82%93%E3%81%A9%E3%81%86%20%E6%B8%8B%E8%B0%B7",
+    "googlePlaceQuery": "恵比寿えんどう 渋谷",
+    "image": "https://images.unsplash.com/photo-1607301405390-d831c242f59b?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "tags": [
+      "店舗"
+    ],
+    "description": "店舗。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-がみ-581",
+    "name": "鮨 がみ",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68111666666666,
+    "lng": 139.77185,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%8C%E3%81%BF%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 がみ 東京",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.9,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "すし匠-582",
+    "name": "すし匠",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68703333333333,
+    "lng": 139.7646,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%E5%8C%A0%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "すし匠 東京",
+    "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-つぼみ-583",
+    "name": "鮨 つぼみ",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.67478333333333,
+    "lng": 139.77285,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%A4%E3%81%BC%E3%81%BF%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 つぼみ 東京",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "二葉鮨-584",
+    "name": "二葉鮨",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68578333333333,
+    "lng": 139.76585,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%8C%E8%91%89%E9%AE%A8%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "二葉鮨 東京",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.3,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-龍次郎-585",
+    "name": "鮨 龍次郎",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.677699999999994,
+    "lng": 139.75926666666666,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E9%BE%8D%E6%AC%A1%E9%83%8E%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 龍次郎 東京",
+    "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-おにかい1-たすいち-586",
+    "name": "鮨 おにかい+1 (たすいち)",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68836666666667,
+    "lng": 139.76326666666665,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%8A%E3%81%AB%E3%81%8B%E3%81%84%2B1%20(%E3%81%9F%E3%81%99%E3%81%84%E3%81%A1)%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 おにかい+1 (たすいち) 東京",
+    "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
+    "rating": 4,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-おにかい-587",
+    "name": "鮨 おにかい",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68303333333333,
+    "lng": 139.76326666666665,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%8A%E3%81%AB%E3%81%8B%E3%81%84%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 おにかい 東京",
+    "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-はし本-588",
+    "name": "鮨 はし本",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.681866666666664,
+    "lng": 139.7691,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%AF%E3%81%97%E6%9C%AC%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 はし本 東京",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4.2,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "三宿の寿司-えん-589",
+    "name": "三宿の寿司 えん",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.677699999999994,
+    "lng": 139.77393333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%AE%BF%E3%81%AE%E5%AF%BF%E5%8F%B8%20%E3%81%88%E3%82%93%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "三宿の寿司 えん 東京",
+    "image": "https://images.unsplash.com/photo-1583623025817-d180a2225852?w=800&q=80",
+    "rating": 4.3,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "金多楼寿司-590",
+    "name": "金多楼寿司",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.68253333333333,
+    "lng": 139.77043333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E5%A4%9A%E6%A5%BC%E5%AF%BF%E5%8F%B8%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "金多楼寿司 東京",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4.4,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "西麻布-鮨いち-591",
+    "name": "西麻布 鮨いち",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "六本木",
+    "address": "東京都（六本木周辺）",
+    "nearestStation": "",
+    "lat": 35.6588,
+    "lng": 139.7295,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%BA%BB%E5%B8%83%20%E9%AE%A8%E3%81%84%E3%81%A1%20%E5%85%AD%E6%9C%AC%E6%9C%A8",
+    "googlePlaceQuery": "西麻布 鮨いち 六本木",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4.8,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-海心-592",
+    "name": "鮨 海心",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.679199999999994,
+    "lng": 139.7751,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E6%B5%B7%E5%BF%83%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 海心 東京",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "くろ﨑-593",
+    "name": "くろ﨑",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.67578333333333,
+    "lng": 139.77451666666667,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%8F%E3%82%8D%EF%A8%91%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "くろ﨑 東京",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨なんば-594",
+    "name": "鮨なんば",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.685449999999996,
+    "lng": 139.77085,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%AA%E3%82%93%E3%81%B0%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨なんば 東京",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "東麻布天本-595",
+    "name": "東麻布天本",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "六本木",
+    "address": "東京都（六本木周辺）",
+    "nearestStation": "",
+    "lat": 35.658500000000004,
+    "lng": 139.74053333333333,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E9%BA%BB%E5%B8%83%E5%A4%A9%E6%9C%AC%20%E5%85%AD%E6%9C%AC%E6%9C%A8",
+    "googlePlaceQuery": "東麻布天本 六本木",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "sushi-shin-by-miyakawa-596",
+    "name": "Sushi shin by miyakawa",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.67728333333333,
+    "lng": 139.77235,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushi%20shin%20by%20miyakawa%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "Sushi shin by miyakawa 東京",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "銀座-鮨青木-597",
+    "name": "銀座 鮨青木",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "銀座",
+    "address": "東京都（銀座周辺）",
+    "nearestStation": "",
+    "lat": 35.67178333333334,
+    "lng": 139.77015,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%8A%80%E5%BA%A7%20%E9%AE%A8%E9%9D%92%E6%9C%A8%20%E9%8A%80%E5%BA%A7",
+    "googlePlaceQuery": "銀座 鮨青木 銀座",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+    "rating": 4.1,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-さいとう-598",
+    "name": "鮨 さいとう",
+    "cuisine": "鮨",
+    "priceTier": "middle",
+    "priceDinner": "¥10,000〜",
+    "scenes": [
+      "会食"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.686616666666666,
+    "lng": 139.76701666666668,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%95%E3%81%84%E3%81%A8%E3%81%86%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 さいとう 東京",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+    "rating": 4.5,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "鮨-あらい-599",
+    "name": "鮨 あらい",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.680616666666666,
+    "lng": 139.77368333333334,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%82%E3%82%89%E3%81%84%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 あらい 東京",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "すし-凱-600",
+    "name": "すし 凱",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "記念日",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.67811666666666,
+    "lng": 139.75885,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%99%E3%81%97%20%E5%87%B1%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "すし 凱 東京",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.7,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "日本橋-蛎殻町-すぎた-601",
+    "name": "日本橋 蛎殻町 すぎた",
+    "cuisine": "鮨",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
+    "scenes": [
+      "とっておき",
+      "接待"
+    ],
+    "area": "東京",
+    "address": "東京都（東京周辺）",
+    "nearestStation": "",
+    "lat": 35.67711666666666,
+    "lng": 139.76725,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%E6%A9%8B%20%E8%9B%8E%E6%AE%BB%E7%94%BA%20%E3%81%99%E3%81%8E%E3%81%9F%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "日本橋 蛎殻町 すぎた 東京",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "rating": 4.6,
+    "reviewCount": 0,
+    "tags": [
+      "寿司店"
+    ],
+    "description": "寿司店。",
+    "privateRoom": false,
+    "listSource": "鮨"
+  },
+  {
+    "id": "はせ川-602",
     "name": "はせ川",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14882,12 +15797,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "お食事処-福吉-569",
+    "id": "お食事処-福吉-603",
     "name": "お食事処 福吉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14908,12 +15823,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "鰻-炭焼-ひつまぶし-美濃金-神田本店-570",
+    "id": "鰻-炭焼-ひつまぶし-美濃金-神田本店-604",
     "name": "鰻 炭焼 ひつまぶし 美濃金 神田本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14934,12 +15849,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "うなぎ成田新川-東京駅店-571",
+    "id": "うなぎ成田新川-東京駅店-605",
     "name": "うなぎ成田新川 東京駅店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14960,12 +15875,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "魚徳-572",
+    "id": "魚徳-606",
     "name": "魚徳",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -14986,12 +15901,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "うなぎ新川-本店-573",
+    "id": "うなぎ新川-本店-607",
     "name": "うなぎ新川 本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15012,12 +15927,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "参宮橋-あさや-574",
+    "id": "参宮橋-あさや-608",
     "name": "参宮橋 あさや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15038,12 +15953,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "川魚-根本-575",
+    "id": "川魚-根本-609",
     "name": "川魚 根本",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15064,12 +15979,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "那古野-しば福や-名駅店-576",
+    "id": "那古野-しば福や-名駅店-610",
     "name": "那古野 しば福や 名駅店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15090,12 +16005,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "和食店"
     ],
-    "description": "和食店。Googleマップの「鰻」より。",
+    "description": "和食店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "江戸川-石ばし-577",
+    "id": "江戸川-石ばし-611",
     "name": "江戸川 石ばし",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15116,12 +16031,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "うなぎ-藤田-578",
+    "id": "うなぎ-藤田-612",
     "name": "うなぎ 藤田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15142,12 +16057,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "鰻家-579",
+    "id": "鰻家-613",
     "name": "鰻家",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15168,12 +16083,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "うなぎ-はし本-580",
+    "id": "うなぎ-はし本-614",
     "name": "うなぎ はし本",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15194,12 +16109,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "神泉いちのや-581",
+    "id": "神泉いちのや-615",
     "name": "神泉いちのや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15220,12 +16135,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "花園吉野-582",
+    "id": "花園吉野-616",
     "name": "花園・吉野",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15246,12 +16161,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "レストラン"
     ],
-    "description": "レストラン。Googleマップの「鰻」より。",
+    "description": "レストラン。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "日本橋いづもや本店-別館-583",
+    "id": "日本橋いづもや本店-別館-617",
     "name": "日本橋いづもや本店 別館",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15272,12 +16187,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "日本橋いづもや本店-本館-584",
+    "id": "日本橋いづもや本店-本館-618",
     "name": "日本橋いづもや本店 本館",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15298,12 +16213,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "伊豆榮-不忍亭-585",
+    "id": "伊豆榮-不忍亭-619",
     "name": "伊豆榮 不忍亭",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15324,12 +16239,12 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   },
   {
-    "id": "伊豆榮-梅川亭-586",
+    "id": "伊豆榮-梅川亭-620",
     "name": "伊豆榮 梅川亭",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15350,7 +16265,7 @@ export const generatedRestaurants: Restaurant[] = [
     "tags": [
       "うなぎ料理店"
     ],
-    "description": "うなぎ料理店。Googleマップの「鰻」より。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "鰻"
   }

@@ -22,16 +22,17 @@ export const priceTiers = [
   { id: "executive" as const, label: "High", hint: "¥20,000〜" },
 ];
 
-export const scenes = [
+export const preferenceScenes = [
   { id: "会食" as const, label: "会食", description: "ビジネス・お客様との食事" },
-  { id: "個室" as const, label: "個室あり", description: "プライベートな空間" },
   { id: "カジュアル" as const, label: "カジュアル", description: "気軽に立ち寄れる" },
   { id: "とっておき" as const, label: "とっておき", description: "特別な一軒" },
   { id: "記念日" as const, label: "記念日", description: "お祝い・アニバーサリー" },
   { id: "コスパ" as const, label: "コスパ良し", description: "満足度の高い価格帯" },
   { id: "接待" as const, label: "接待", description: "フォーマルな接待" },
-  { id: "デート" as const, label: "デート", description: "二人の食事に" },
-];
+] as const;
+
+/** @deprecated use preferenceScenes */
+export const scenes = preferenceScenes;
 
 export const areas = [
   "東京",
@@ -43,18 +44,6 @@ export const areas = [
   "地方",
   "神奈川",
 ] as const;
-
-/** Build the list-source filter chips from the data that is actually present. */
-export const listSources = [...new Set(restaurants.map((r) => r.listSource))]
-  .flatMap((s) => s.split(" / "))
-  .filter((s, i, arr) => arr.indexOf(s) === i)
-  .map((name) => ({
-    id: name,
-    label: name
-      .replace(/^東京レストラン_/, "東京_")
-      .replace(/会食exective/i, "会食high"),
-    match: name,
-  }));
 
 export function getRestaurantById(id: string) {
   const decoded = decodeURIComponent(id);

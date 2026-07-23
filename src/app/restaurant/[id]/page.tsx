@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { MapPanel } from "@/components/map-panel";
+import { GoogleMapEmbed } from "@/components/google-map-embed";
 import { getRestaurantById, priceLabel } from "@/lib/restaurants";
 
 type Props = {
@@ -17,10 +17,6 @@ export default async function RestaurantPage({ params }: Props) {
   const { id } = await params;
   const r = getRestaurantById(id);
   if (!r) notFound();
-
-  const embedSrc = `https://maps.google.com/maps?q=${encodeURIComponent(
-    `${r.googlePlaceQuery} @${r.lat},${r.lng}`,
-  )}&z=15&output=embed`;
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
@@ -45,7 +41,7 @@ export default async function RestaurantPage({ params }: Props) {
             <p className="mt-1 text-sm text-[var(--ink-muted)]">{r.nameEn}</p>
           )}
           <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">
-            {r.description}
+            {r.description.replace(/Googleマップの「[^」]+」より。?/g, "").trim()}
           </p>
 
           <dl className="mt-6 grid gap-3 rounded-2xl border border-[var(--line)] bg-white p-5 text-sm sm:grid-cols-2">
@@ -65,15 +61,11 @@ export default async function RestaurantPage({ params }: Props) {
             </div>
             <div>
               <dt className="text-[var(--ink-muted)]">最寄駅</dt>
-              <dd className="font-medium">{r.nearestStation}</dd>
+              <dd className="font-medium">{r.nearestStation || "—"}</dd>
             </div>
             <div className="sm:col-span-2">
               <dt className="text-[var(--ink-muted)]">住所</dt>
               <dd className="font-medium">{r.address}</dd>
-            </div>
-            <div className="sm:col-span-2">
-              <dt className="text-[var(--ink-muted)]">Googleマップリスト元</dt>
-              <dd className="font-medium">{r.listSource}</dd>
             </div>
           </dl>
 
@@ -97,38 +89,25 @@ export default async function RestaurantPage({ params }: Props) {
             ))}
           </div>
 
-          <div className="mt-6 flex flex-wrap gap-3">
-            <a
-              href={r.googleMapsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full bg-[var(--brand)] px-5 py-3 text-sm font-semibold text-white hover:bg-[var(--brand-deep)]"
-            >
-              Googleマップで開く
-            </a>
+          <div className="mt-6">
             <Link
               href="/ai"
-              className="rounded-full border border-[var(--line)] bg-white px-5 py-3 text-sm font-medium text-[var(--ink)] hover:border-[var(--brand)]"
+              className="inline-flex rounded-full border border-[var(--line)] bg-white px-5 py-3 text-sm font-medium text-[var(--ink)] hover:border-[var(--brand)]"
             >
               AIで似たシーンを探す
             </Link>
           </div>
         </div>
 
-        <div className="space-y-4">
-          <div className="overflow-hidden rounded-2xl border border-[var(--line)] bg-white shadow-sm">
-            <iframe
-              title={`${r.name} on Google Maps`}
-              src={embedSrc}
-              className="h-[320px] w-full border-0"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
-          <MapPanel restaurants={[r]} view="fit" className="h-[280px]" />
-          <p className="text-xs text-[var(--ink-muted)]">
-            上: Googleマップ埋め込み / 下: 一覧用マップ（OSM）
-          </p>
+        <div>
+          <GoogleMapEmbed
+            name={r.name}
+            googleMapsUrl={r.googleMapsUrl}
+            lat={r.lat}
+            lng={r.lng}
+            query={r.googlePlaceQuery}
+            className="h-[420px]"
+          />
         </div>
       </div>
     </div>

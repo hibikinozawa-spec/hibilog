@@ -28,6 +28,7 @@ const LISTS = [
   ["地方レストラン_名店", "https://maps.app.goo.gl/a5JATnasa5Q1Aqx28"],
   ["東京レストラン_コスパ", "https://maps.app.goo.gl/btNiKmntFgy3983w9"],
   ["茅ヶ崎/鎌倉レストラン", "https://maps.app.goo.gl/9u23dXb3DNFe2iUM7"],
+  ["鮨", "https://maps.app.goo.gl/PgNEACSTe8taKRYf9"],
 ];
 
 fs.mkdirSync(listsDir, { recursive: true });

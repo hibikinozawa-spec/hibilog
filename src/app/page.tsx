@@ -3,7 +3,7 @@ import { CuisineGenreGrid } from "@/components/cuisine-genre-grid";
 import { HeroSearch } from "@/components/hero-search";
 import { RestaurantCard } from "@/components/restaurant-card";
 import { MapPanel } from "@/components/map-panel";
-import { restaurants, scenes } from "@/lib/restaurants";
+import { preferenceScenes, restaurants } from "@/lib/restaurants";
 
 const tokyoAreas = ["東京", "六本木", "銀座", "渋谷", "新宿"] as const;
 
@@ -12,6 +12,7 @@ const featured = restaurants
     (r) =>
       tokyoAreas.includes(r.area as (typeof tokyoAreas)[number]) &&
       !/^〒/.test(r.name) &&
+      r.name !== "豚しゃぶ しくら" &&
       ["会食", "とっておき", "記念日"].some((s) =>
         r.scenes.includes(s as (typeof r.scenes)[number]),
       ),
@@ -66,7 +67,7 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          {scenes.map((s, i) => (
+          {preferenceScenes.map((s, i) => (
             <Link
               key={s.id}
               href={`/search?scene=${encodeURIComponent(s.id)}`}

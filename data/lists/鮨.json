@@ -1,0 +1,466 @@
+{
+  "list": "鮨",
+  "count": 46,
+  "places": [
+    {
+      "name": "鮨一幸",
+      "rating": 4.9,
+      "info": [
+        "4.9"
+      ],
+      "href": null,
+      "cardText": "鮨一幸 4.9 寿司店",
+      "image": null
+    },
+    {
+      "name": "すし屋のまつ勘 麻布十番店",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "すし屋のまつ勘 麻布十番店 4.5 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 本店上ル",
+      "rating": 4.9,
+      "info": [
+        "4.9"
+      ],
+      "href": null,
+      "cardText": "鮨 本店上ル 4.9 寿司店",
+      "image": null
+    },
+    {
+      "name": "晴ノ鮨",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "晴ノ鮨 4.8 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 波づき",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "鮨 波づき 4.5 寿司店",
+      "image": null
+    },
+    {
+      "name": "道後 海舟",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "道後 海舟 4.6 純和食店",
+      "image": null
+    },
+    {
+      "name": "寿司栄",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "寿司栄 4.4 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨なかむら",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "鮨なかむら 4.7 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 ゆうき Sushi Yuki",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "鮨 ゆうき Sushi Yuki 4.5 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 陸",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "鮨 陸 4.5 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 和さび",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "鮨 和さび 4.7 寿司店",
+      "image": null
+    },
+    {
+      "name": "八重洲 鮨 海味",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "八重洲 鮨 海味 4.0 寿司店",
+      "image": null
+    },
+    {
+      "name": "仲野",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "仲野 4.6 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨処やまと",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "鮨処やまと 4.2 和食店",
+      "image": null
+    },
+    {
+      "name": "鮨結う翼（つばさ）",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "鮨結う翼（つばさ） 4.5 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 すがひさ",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "鮨 すがひさ 4.6 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 由う",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "鮨 由う 4.4 寿司店",
+      "image": null
+    },
+    {
+      "name": "すし おうみ",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "すし おうみ 4.5 和食店",
+      "image": null
+    },
+    {
+      "name": "長島",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "長島 4.7 寿司店",
+      "image": null
+    },
+    {
+      "name": "はっこく",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "はっこく 4.3 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 若尊",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "鮨 若尊 4.3 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 みずかみ",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "鮨 みずかみ 4.8 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 くりや川",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "鮨 くりや川 4.7 寿司店",
+      "image": null
+    },
+    {
+      "name": "恵比寿えんどう",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "恵比寿えんどう 4.4 店舗",
+      "image": null
+    },
+    {
+      "name": "鮨 がみ",
+      "rating": 4.9,
+      "info": [
+        "4.9"
+      ],
+      "href": null,
+      "cardText": "鮨 がみ 4.9 寿司店",
+      "image": null
+    },
+    {
+      "name": "すし匠",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "すし匠 4.6 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 つぼみ",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "鮨 つぼみ 4.6 寿司店",
+      "image": null
+    },
+    {
+      "name": "二葉鮨",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "二葉鮨 4.3 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 龍次郎",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "鮨 龍次郎 4.5 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 おにかい+1 (たすいち)",
+      "rating": 4,
+      "info": [
+        "4.0"
+      ],
+      "href": null,
+      "cardText": "鮨 おにかい+1 (たすいち) 4.0 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 おにかい",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "鮨 おにかい 4.4 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 はし本",
+      "rating": 4.2,
+      "info": [
+        "4.2"
+      ],
+      "href": null,
+      "cardText": "鮨 はし本 4.2 寿司店",
+      "image": null
+    },
+    {
+      "name": "三宿の寿司 えん",
+      "rating": 4.3,
+      "info": [
+        "4.3"
+      ],
+      "href": null,
+      "cardText": "三宿の寿司 えん 4.3 寿司店",
+      "image": null
+    },
+    {
+      "name": "金多楼寿司",
+      "rating": 4.4,
+      "info": [
+        "4.4"
+      ],
+      "href": null,
+      "cardText": "金多楼寿司 4.4 寿司店",
+      "image": null
+    },
+    {
+      "name": "西麻布 鮨いち",
+      "rating": 4.8,
+      "info": [
+        "4.8"
+      ],
+      "href": null,
+      "cardText": "西麻布 鮨いち 4.8 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 海心",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "鮨 海心 4.5 寿司店",
+      "image": null
+    },
+    {
+      "name": "くろ﨑",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "くろ﨑 4.6 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨なんば",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "鮨なんば 4.6 寿司店",
+      "image": null
+    },
+    {
+      "name": "東麻布天本",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "東麻布天本 4.5 寿司店",
+      "image": null
+    },
+    {
+      "name": "Sushi shin by miyakawa",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "Sushi shin by miyakawa 4.6 寿司店",
+      "image": null
+    },
+    {
+      "name": "銀座 鮨青木",
+      "rating": 4.1,
+      "info": [
+        "4.1"
+      ],
+      "href": null,
+      "cardText": "銀座 鮨青木 4.1 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 さいとう",
+      "rating": 4.5,
+      "info": [
+        "4.5"
+      ],
+      "href": null,
+      "cardText": "鮨 さいとう 4.5 寿司店",
+      "image": null
+    },
+    {
+      "name": "鮨 あらい",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "鮨 あらい 4.6 寿司店",
+      "image": null
+    },
+    {
+      "name": "すし 凱",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "すし 凱 4.7 寿司店",
+      "image": null
+    },
+    {
+      "name": "日本橋 蛎殻町 すぎた",
+      "rating": 4.6,
+      "info": [
+        "4.6"
+      ],
+      "href": null,
+      "cardText": "日本橋 蛎殻町 すぎた 4.6 寿司店",
+      "image": null
+    },
+    {
+      "name": "梢",
+      "rating": 4.7,
+      "info": [
+        "4.7"
+      ],
+      "href": null,
+      "cardText": "梢 4.7 寿司店",
+      "image": null
+    }
+  ]
+}

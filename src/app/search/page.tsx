@@ -28,9 +28,12 @@ export default async function SearchPage({ searchParams }: Props) {
   };
 
   const results = filterRestaurants(current);
-  const regionalAreas = ["京都", "地方", "神奈川"];
   const mapView =
-    current.area && regionalAreas.includes(current.area) ? "fit" : "tokyo";
+    current.area === "地方"
+      ? "japan"
+      : current.area && ["京都", "神奈川"].includes(current.area)
+        ? "fit"
+        : "tokyo";
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">

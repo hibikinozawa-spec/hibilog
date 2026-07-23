@@ -54,8 +54,6 @@ function toScenes(listName, category, rating, priceTier) {
   if (/コスパ|安い|会食low/.test(listName)) s.add("コスパ");
   if (/行ってみたい|とっておき/.test(listName)) s.add("とっておき");
   if (/記念日|アニバーサリー/.test(listName)) s.add("記念日");
-  if (/デート/.test(listName)) s.add("デート");
-  if (/個室/.test(listName)) s.add("個室");
 
   const c = category || "";
   if (/(割烹|懐石|会席|日本料理|フレンチ|フランス)/.test(c)) s.add("会食");
@@ -98,11 +96,34 @@ function detectArea(name, listName) {
   }
   if (/京都/.test(listName)) return AREA_COORDS["京都"];
   if (/茅ヶ崎|鎌倉/.test(listName)) return { area: "神奈川", lat: 35.3192, lng: 139.45 };
-  if (/地方|名店/.test(listName)) return { area: "地方", lat: 36.2048, lng: 138.2529 };
+  if (/地方|名店/.test(listName)) {
+    const coords = regionalCoords(name);
+    return { area: "地方", lat: coords.lat, lng: coords.lng };
+  }
   return { area: "東京", lat: 35.6812, lng: 139.7671 };
 }
 
-// deterministic jitter so pins don't overlap
+function isValidName(name) {
+  if (!name || name.length < 2) return false;
+  if (/^〒/.test(name)) return false;
+  if (/^[0-9０-９]/.test(name)) return false;
+  if (/^\d{2,3}°/.test(name)) return false;
+  if (/閉業|permanently closed|closed permanently/i.test(name)) return false;
+  if (/(京都府|東京都|大阪府|神奈川県|愛知県|福岡県)/.test(name) && /\d/.test(name)) {
+    return false;
+  }
+  return true;
+}
+
+function regionalCoords(name) {
+  let h = 0;
+  for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
+  return {
+    lat: 31.5 + (h % 1300) / 100,
+    lng: 130.5 + ((h >> 11) % 1400) / 100,
+  };
+}
+
 function jitter(seed) {
   let h = 0;
   for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) & 0xffff;
@@ -187,7 +208,7 @@ for (const file of files) {
   const listName = raw.list || file.replace(/\.json$/, "");
   for (const p of raw.places) {
     const name = p.name.trim();
-    if (!name) continue;
+    if (!isValidName(name)) continue;
     const category = (p.info && p.info.find((x) => !/^[0-9.]+$/.test(x))) || p.cardTextCategory || guessCategoryFromText(p.cardText, name);
     const rating = typeof p.rating === "number" ? p.rating : 4.3;
     const cuisine = toCuisine(category, name, listName);
@@ -244,7 +265,7 @@ for (const file of files) {
       rating,
       reviewCount: 0,
       tags: [category].filter(Boolean),
-      description: `${category || cuisine}。Googleマップの「${listName}」より。`,
+      description: `${category || cuisine}。`,
       privateRoom: /個室|割烹|懐石|日本料理/.test((category || "") + listName),
       listSources: [listName],
     });

@@ -1,11 +1,5 @@
 import Link from "next/link";
-import {
-  areas,
-  cuisines,
-  listSources,
-  priceTiers,
-  scenes,
-} from "@/lib/restaurants";
+import { areas, cuisines, priceTiers, preferenceScenes } from "@/lib/restaurants";
 
 function chipClass(active: boolean) {
   return active
@@ -21,7 +15,6 @@ export function SearchFilters({
     price?: string;
     scene?: string;
     area?: string;
-    list?: string;
     privateRoom?: string;
     q?: string;
   };
@@ -40,22 +33,6 @@ export function SearchFilters({
     <div className="space-y-4 rounded-2xl border border-[var(--line)] bg-white p-4">
       <div>
         <p className="mb-2 text-xs font-semibold tracking-wide text-[var(--ink-muted)]">
-          利用シーンから探す
-        </p>
-        <div className="flex flex-wrap gap-2">
-          {scenes.map((s) => (
-            <Link
-              key={s.id}
-              href={href({ scene: current.scene === s.id ? undefined : s.id })}
-              className={chipClass(current.scene === s.id)}
-            >
-              {s.label}
-            </Link>
-          ))}
-        </div>
-      </div>
-      <div>
-        <p className="mb-2 text-xs font-semibold tracking-wide text-[var(--ink-muted)]">
           こだわり条件
         </p>
         <div className="flex flex-wrap gap-2">
@@ -66,6 +43,15 @@ export function SearchFilters({
               className={chipClass(current.price === p.id)}
             >
               {p.label}
+            </Link>
+          ))}
+          {preferenceScenes.map((s) => (
+            <Link
+              key={s.id}
+              href={href({ scene: current.scene === s.id ? undefined : s.id })}
+              className={chipClass(current.scene === s.id)}
+            >
+              {s.label}
             </Link>
           ))}
           <Link
@@ -110,27 +96,10 @@ export function SearchFilters({
           ))}
         </div>
       </div>
-      <div>
-        <p className="mb-2 text-xs font-semibold tracking-wide text-[var(--ink-muted)]">
-          Googleマップのリスト
-        </p>
-        <div className="flex flex-wrap gap-2">
-          {listSources.map((l) => (
-            <Link
-              key={l.id}
-              href={href({ list: current.list === l.match ? undefined : l.match })}
-              className={chipClass(current.list === l.match)}
-            >
-              {l.label}
-            </Link>
-          ))}
-        </div>
-      </div>
       {(current.cuisine ||
         current.price ||
         current.scene ||
         current.area ||
-        current.list ||
         current.privateRoom ||
         current.q) && (
         <Link href="/search" className="inline-block text-sm text-[var(--accent)]">

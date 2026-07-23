@@ -22,7 +22,7 @@ export function MapPanel({
 }: {
   restaurants: Restaurant[];
   className?: string;
-  view?: "tokyo" | "fit";
+  view?: "tokyo" | "fit" | "japan";
 }) {
   return (
     <RestaurantMap restaurants={restaurants} className={className} view={view} />
