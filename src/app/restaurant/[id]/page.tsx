@@ -105,7 +105,6 @@ export default async function RestaurantPage({ params }: Props) {
             googleMapsUrl={r.googleMapsUrl}
             lat={r.lat}
             lng={r.lng}
-            query={r.googlePlaceQuery}
             className="h-[420px]"
           />
         </div>

@@ -5,17 +5,16 @@ export function GoogleMapEmbed({
   googleMapsUrl,
   lat,
   lng,
-  query,
   className = "h-[320px]",
 }: {
   name: string;
   googleMapsUrl: string;
   lat: number;
   lng: number;
-  query: string;
   className?: string;
 }) {
-  const embedSrc = `https://maps.google.com/maps?q=${encodeURIComponent(query)}&ll=${lat},${lng}&z=15&output=embed`;
+  const coords = `${lat},${lng}`;
+  const embedSrc = `https://maps.google.com/maps?q=${coords}&ll=${coords}&z=16&hl=ja&output=embed`;
 
   return (
     <a
