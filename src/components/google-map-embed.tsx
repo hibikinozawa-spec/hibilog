@@ -3,18 +3,21 @@
 export function GoogleMapEmbed({
   name,
   googleMapsUrl,
+  query,
   lat,
   lng,
   className = "h-[320px]",
 }: {
   name: string;
   googleMapsUrl: string;
+  query: string;
   lat: number;
   lng: number;
   className?: string;
 }) {
-  const coords = `${lat},${lng}`;
-  const embedSrc = `https://maps.google.com/maps?q=${coords}&ll=${coords}&z=16&hl=ja&output=embed`;
+  const embedSrc = query
+    ? `https://maps.google.com/maps?q=${encodeURIComponent(query)}&z=16&hl=ja&output=embed`
+    : `https://maps.google.com/maps?q=${lat},${lng}&ll=${lat},${lng}&z=16&hl=ja&output=embed`;
 
   return (
     <a

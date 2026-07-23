@@ -8,6 +8,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const listsDir = path.join(root, "data", "lists");
 const photoCachePath = path.join(root, "data", "photo-cache.json");
+const placeCachePath = path.join(root, "data", "place-cache.json");
 const outFile = path.join(root, "src", "lib", "generated-restaurants.ts");
 
 // ---- Mapping helpers -------------------------------------------------
@@ -96,11 +97,65 @@ function detectArea(name, listName) {
   }
   if (/京都/.test(listName)) return AREA_COORDS["京都"];
   if (/茅ヶ崎|鎌倉/.test(listName)) return { area: "神奈川", lat: 35.3192, lng: 139.45 };
-  if (/地方|名店/.test(listName)) {
-    const coords = regionalCoords(name);
-    return { area: "地方", lat: coords.lat, lng: coords.lng };
+  if (/地方/.test(listName)) {
+    return { area: "地方", lat: 35.6812, lng: 139.7671 };
   }
   return { area: "東京", lat: 35.6812, lng: 139.7671 };
+}
+
+function inferLocationHint(name) {
+  const patterns = [
+    [/富山/, "富山"],
+    [/金沢/, "金沢"],
+    [/函館|小樽|札幌|北海道/, "北海道"],
+    [/福岡|博多/, "福岡"],
+    [/大阪|心斎橋|梅田|北区/, "大阪"],
+    [/京都|祇園/, "京都"],
+    [/名古屋|栄/, "名古屋"],
+    [/広島/, "広島"],
+    [/仙台/, "仙台"],
+    [/長崎/, "長崎"],
+    [/鹿児島/, "鹿児島"],
+    [/沖縄|那覇/, "沖縄"],
+    [/高松|香川/, "香川"],
+    [/松山|道後/, "愛媛"],
+    [/勝どき|銀座|麻布|六本木|渋谷|新宿|恵比寿|日本橋|品川|表参道|青山|赤坂|上野|池袋|八重洲|神田|大手町|西麻布|東麻布/, "東京"],
+    [/横浜|鎌倉|茅ヶ崎|神奈川/, "神奈川"],
+    [/佐賀|祐徳/, "佐賀"],
+  ];
+  for (const [re, hint] of patterns) {
+    if (re.test(name)) return hint;
+  }
+  return "";
+}
+
+function inferAreaFromAddress(address) {
+  if (!address) return "地方";
+  if (/京都府|京都市|祇園/.test(address)) return "京都";
+  if (/神奈川|横浜|鎌倉|茅ヶ崎/.test(address)) return "神奈川";
+  if (/東京|渋谷|新宿|港区|中央区|千代田|品川|目黒|世田谷|豊島|台東|江東|大田|杉並|中野|練馬|板橋|足立|葛飾|江戸川|文京|墨田/.test(address)) {
+    if (/銀座|中央区/.test(address)) return "銀座";
+    if (/六本木|麻布|港区|西麻布|東麻布|赤坂|青山|表参道/.test(address)) return "六本木";
+    if (/渋谷|恵比寿|代々木|代官山/.test(address)) return "渋谷";
+    if (/新宿|代々木/.test(address)) return "新宿";
+    return "東京";
+  }
+  return "地方";
+}
+
+function buildPlaceQuery(name, listName, area) {
+  const hint = inferLocationHint(name);
+  if (hint) return `${name} ${hint}`.trim();
+  if (area && area !== "地方") return `${name} ${area}`.trim();
+  if (/地方/.test(listName)) return `${name} 日本`.trim();
+  return name;
+}
+
+function formatFallbackAddress(area) {
+  if (area === "京都") return "京都府（周辺）";
+  if (area === "神奈川") return "神奈川県（周辺）";
+  if (area === "地方") return "";
+  return `東京都（${area}周辺）`;
 }
 
 function isValidName(name) {
@@ -198,6 +253,9 @@ const files = fs
 const photoCache = fs.existsSync(photoCachePath)
   ? JSON.parse(fs.readFileSync(photoCachePath, "utf8"))
   : {};
+const placeCache = fs.existsSync(placeCachePath)
+  ? JSON.parse(fs.readFileSync(placeCachePath, "utf8"))
+  : {};
 
 const byName = new Map(); // dedupe by restaurant name, merge lists/scenes
 let counter = 0;
@@ -214,6 +272,7 @@ for (const file of files) {
     const priceTier = toPriceTier(listName, category, rating);
     const scenes = toScenes(listName, category, rating, priceTier);
     const areaInfo = detectArea(name, listName);
+    const cachedPlace = placeCache[name];
 
     if (byName.has(name)) {
       const ex = byName.get(name);
@@ -227,13 +286,19 @@ for (const file of files) {
         ex.image = photoCache[name];
         ex.imageFromMaps = true;
       }
+      if (cachedPlace) {
+        applyPlaceCache(ex, cachedPlace);
+      }
       continue;
     }
 
     counter += 1;
-    const lat = areaInfo.lat + jitter(name);
-    const lng = areaInfo.lng + jitter(name + "x");
-    const query = `${name} ${areaInfo.area === "地方" ? "" : areaInfo.area}`.trim();
+    const area = cachedPlace?.address
+      ? inferAreaFromAddress(cachedPlace.address)
+      : areaInfo.area;
+    const lat = cachedPlace?.lat ?? areaInfo.lat + jitter(name);
+    const lng = cachedPlace?.lng ?? areaInfo.lng + jitter(name + "x");
+    const query = cachedPlace?.query || buildPlaceQuery(name, listName, area);
     byName.set(name, {
       id: slugify(name, counter),
       name,
@@ -242,15 +307,12 @@ for (const file of files) {
       priceTier,
       priceDinner: priceGuess(priceTier),
       scenes,
-      area: areaInfo.area,
+      area,
       address:
-        areaInfo.area === "地方"
-          ? "地方"
-          : areaInfo.area === "京都"
-              ? "京都府（周辺）"
-              : areaInfo.area === "神奈川"
-                ? "神奈川県（周辺）"
-                : `東京都（${areaInfo.area}周辺）`,
+        cachedPlace?.address ||
+        (cachedPlace?.lat
+          ? "Googleマップ参照（地図で所在地を確認）"
+          : formatFallbackAddress(area)),
       nearestStation: "",
       lat,
       lng,
@@ -268,6 +330,21 @@ for (const file of files) {
       privateRoom: /個室|割烹|懐石|日本料理/.test((category || "") + listName),
       listSources: [listName],
     });
+  }
+}
+
+function applyPlaceCache(entry, cachedPlace) {
+  if (cachedPlace.address) {
+    entry.address = cachedPlace.address;
+    entry.area = inferAreaFromAddress(cachedPlace.address);
+  } else if (typeof cachedPlace.lat === "number") {
+    entry.address = "Googleマップ参照（地図で所在地を確認）";
+  }
+  if (typeof cachedPlace.lat === "number") entry.lat = cachedPlace.lat;
+  if (typeof cachedPlace.lng === "number") entry.lng = cachedPlace.lng;
+  if (cachedPlace.query) {
+    entry.googlePlaceQuery = cachedPlace.query;
+    entry.googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(cachedPlace.query)}`;
   }
 }
 

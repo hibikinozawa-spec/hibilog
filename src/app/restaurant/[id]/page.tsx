@@ -65,7 +65,7 @@ export default async function RestaurantPage({ params }: Props) {
             </div>
             <div className="sm:col-span-2">
               <dt className="text-[var(--ink-muted)]">住所</dt>
-              <dd className="font-medium">{r.address}</dd>
+              <dd className="font-medium">{r.address || "—"}</dd>
             </div>
           </dl>
 
@@ -103,6 +103,7 @@ export default async function RestaurantPage({ params }: Props) {
           <GoogleMapEmbed
             name={r.name}
             googleMapsUrl={r.googleMapsUrl}
+            query={r.googlePlaceQuery}
             lat={r.lat}
             lng={r.lng}
             className="h-[420px]"
