@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { displayBrowseGenre } from "@/lib/genre-matching";
 import { priceLabel } from "@/lib/restaurants";
 import type { Restaurant } from "@/lib/types";
 
@@ -60,7 +61,7 @@ export function RestaurantCard({
             </span>
           </div>
           <p className="text-sm text-[var(--ink-muted)]">
-            {restaurant.cuisine} ／ {restaurant.area} ／ {restaurant.priceDinner}
+            {displayBrowseGenre(restaurant)} ／ {restaurant.area} ／ {restaurant.priceDinner}
           </p>
           {showDescription && displayDescription(restaurant.description) && (
             <p className="line-clamp-2 text-sm leading-relaxed text-[var(--ink-muted)]">

@@ -223,7 +223,7 @@ function refineCuisine(name, category, cuisine) {
   if (/バー$|ワインクラブ|ワインショップ|Wine Bar|シガー倶楽部/i.test(blob)) {
     if (cuisine === "和食") return "その他";
   }
-  if (/イノベーティブ|創作料理|郷土料理/.test(category) && cuisine === "和食") {
+  if (/イノベーティブ|創作料理/.test(category) && cuisine === "和食") {
     return "フレンチ";
   }
   return cuisine;
@@ -458,6 +458,8 @@ for (const file of files) {
     }
     if (placeOverride?.cuisine) cuisine = placeOverride.cuisine;
     if (placeOverride?.priceTier) priceTier = placeOverride.priceTier;
+    const tags = placeOverride?.tags || [category].filter(Boolean);
+    const description = placeOverride?.description || `${category || cuisine}。`;
     byName.set(name, {
       id: slugify(name, counter),
       name,
@@ -481,8 +483,8 @@ for (const file of files) {
       ),
       rating,
       reviewCount: 0,
-      tags: [category].filter(Boolean),
-      description: placeOverride?.description || `${category || cuisine}。`,
+      tags,
+      description,
       privateRoom: /個室|割烹|懐石|日本料理/.test((category || "") + listName),
       listSources: [listName],
     });
@@ -514,6 +516,13 @@ function applyPlaceCache(entry, cachedPlace) {
   }
   if (overrides.places?.[entry.name]?.description) {
     entry.description = overrides.places[entry.name].description;
+  }
+  if (overrides.places?.[entry.name]?.tags) {
+    entry.tags = overrides.places[entry.name].tags;
+  }
+  if (overrides.places?.[entry.name]?.priceTier) {
+    entry.priceTier = overrides.places[entry.name].priceTier;
+    entry.priceDinner = priceGuess(entry.priceTier);
   }
 }
 

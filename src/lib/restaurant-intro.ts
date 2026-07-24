@@ -1,4 +1,16 @@
 import type { Restaurant } from "./types";
+import introCacheData from "../../data/intro-cache.json";
+
+type IntroCacheEntry = {
+  intro: string;
+  reviewCount?: number;
+  source?: string;
+};
+
+const INTRO_CACHE: Record<string, IntroCacheEntry> = introCacheData as Record<
+  string,
+  IntroCacheEntry
+>;
 
 const INTRO_OVERRIDES: Record<string, string> = {
   瞬:
@@ -24,10 +36,6 @@ const INTRO_OVERRIDES: Record<string, string> = {
     "成田山新勝寺総門脇に佇む、江戸時代創業の鰻専門店。\n" +
     "秘伝のタレと紀州備長炭で、できたての蒲焼きを提供。\n" +
     "参拝のあとに立ち寄る、老舗ならではの落ち着いた味わい。",
-  "総本家更科堀井 青":
-    "虎ノ門アルセアタワーに店を構える、更科堀井の十割蕎麦。\n" +
-    "京都の名門が手がける香り高い蕎麦を、虎ノ門の落ち着いた空間で楽しめる。\n" +
-    "会食や接待にも選ばれる、洗練された和の一軒。",
 };
 
 function hash(name: string) {
@@ -297,6 +305,8 @@ function customIntroFromDescription(description: string): string | null {
 }
 
 export function buildRestaurantIntro(r: Restaurant): string {
+  const fromReviews = INTRO_CACHE[r.name]?.intro?.trim();
+  if (fromReviews) return fromReviews;
   if (INTRO_OVERRIDES[r.name]) return INTRO_OVERRIDES[r.name];
 
   const fromDesc = customIntroFromDescription(r.description);

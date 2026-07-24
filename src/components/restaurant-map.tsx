@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import L from "leaflet";
+import { displayBrowseGenre } from "@/lib/genre-matching";
 import type { Restaurant } from "@/lib/types";
 
 const pinIcon = L.divIcon({
@@ -83,7 +84,7 @@ export function RestaurantMap({
               <div className="min-w-[160px] space-y-1">
                 <p className="font-semibold">{r.name}</p>
                 <p className="text-xs text-neutral-600">
-                  {r.cuisine} · {r.area}
+                  {displayBrowseGenre(r)} · {r.area}
                 </p>
                 <div className="flex gap-2 pt-1 text-xs">
                   <Link href={`/restaurant/${r.id}`} className="text-[var(--brand)]">

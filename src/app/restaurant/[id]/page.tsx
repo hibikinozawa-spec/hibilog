@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { GoogleMapEmbed } from "@/components/google-map-embed";
+import { displayBrowseGenre } from "@/lib/genre-matching";
 import { buildRestaurantIntro } from "@/lib/restaurant-intro";
 import { getRestaurantById, priceLabel } from "@/lib/restaurants";
 
@@ -51,7 +52,7 @@ export default async function RestaurantPage({ params }: Props) {
           <dl className="mt-6 grid gap-3 rounded-2xl border border-[var(--line)] bg-white p-5 text-sm sm:grid-cols-2">
             <div>
               <dt className="text-[var(--ink-muted)]">ジャンル</dt>
-              <dd className="font-medium">{r.cuisine}</dd>
+              <dd className="font-medium">{displayBrowseGenre(r)}</dd>
             </div>
             <div>
               <dt className="text-[var(--ink-muted)]">値段帯</dt>

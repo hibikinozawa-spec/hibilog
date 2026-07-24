@@ -28,11 +28,19 @@ export function matchesBrowseGenre(r: Restaurant, genre: string): boolean {
     return /(焼き鳥|焼鳥|やきとり|鳥料理|せせり|yakitori)/i.test(h);
   }
   if (genre === "蕎麦（麺）") {
-    return /(そば|蕎麦|ラーメン|らーめん|麺|うどん|中華そば)/.test(h);
+    return /(そば|蕎麦|ラーメン|らーめん|麺|うどん|中華そば|沖縄そば|沖縄)/.test(h);
   }
   return r.cuisine === genre;
 }
 
 export function countBrowseGenre(genre: BrowseGenre, restaurants: Restaurant[]) {
   return restaurants.filter((r) => matchesBrowseGenre(r, genre)).length;
+}
+
+/** Card/detail label: sub-genres (蕎麦/鰻/焼き鳥) when matched, else primary cuisine. */
+export function displayBrowseGenre(r: Restaurant): string {
+  for (const genre of ["蕎麦（麺）", "鰻", "焼き鳥"] as const) {
+    if (matchesBrowseGenre(r, genre)) return genre;
+  }
+  return r.cuisine;
 }
