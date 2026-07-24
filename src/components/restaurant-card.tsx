@@ -28,14 +28,16 @@ export function RestaurantCard({
   return (
     <article className="group overflow-hidden rounded-2xl border border-[var(--line)] bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow)]">
       <Link href={detailHref} className="block">
-        <div className="relative aspect-[4/3] overflow-hidden bg-[var(--brand-soft)]">
+        <div
+          className={`relative overflow-hidden bg-[var(--brand-soft)] ${
+            portraitFit ? "aspect-[3/4]" : "aspect-[4/3]"
+          }`}
+        >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={restaurant.image}
             alt={restaurant.name}
-            className={`h-full w-full transition duration-500 group-hover:scale-105 ${
-              portraitFit ? "object-contain object-center" : "object-cover"
-            }`}
+            className="h-full w-full object-cover object-center transition duration-500 group-hover:scale-105"
           />
           {typeof matchScore === "number" && (
             <div className="absolute left-3 top-3 rounded-full bg-[var(--accent)] px-3 py-1 text-xs font-bold text-white shadow">
