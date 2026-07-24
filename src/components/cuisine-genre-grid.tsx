@@ -3,7 +3,7 @@ import { cuisineGenres } from "@/lib/cuisine-genres";
 
 export function CuisineGenreGrid() {
   return (
-    <div className="grid grid-cols-3 gap-0.5 sm:grid-cols-6 sm:gap-1">
+    <div className="grid grid-cols-3 gap-0.5 sm:grid-cols-5 lg:grid-cols-9 sm:gap-1">
       {cuisineGenres.map(({ cuisine, count, image }) => (
         <Link
           key={cuisine}
@@ -18,7 +18,11 @@ export function CuisineGenreGrid() {
           />
           <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
           <div className="absolute inset-x-0 bottom-0 px-2 pb-3 pt-8 text-center text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">
-            <p className="text-sm font-bold leading-tight sm:text-[15px]">
+            <p
+              className={`font-[family-name:var(--font-body)] text-sm leading-tight sm:text-[15px] ${
+                cuisine === "鰻" ? "font-black" : "font-bold"
+              }`}
+            >
               {cuisine}
             </p>
             <p className="mt-1 text-[11px] text-white/85">{count}件</p>

@@ -1,7 +1,8 @@
-import { cuisines, restaurants } from "./restaurants";
+import { browseGenres, countBrowseGenre } from "./genre-matching";
+import { restaurants } from "./restaurants";
 
-/** Tabelog-style food hero shots per genre (verified Unsplash URLs). */
-const cuisineFoodImages: Record<(typeof cuisines)[number], string> = {
+/** Hero shots per genre — verified URLs or curated restaurant photos. */
+const cuisineFoodImages: Record<(typeof browseGenres)[number], string> = {
   和食:
     "https://images.unsplash.com/photo-1766582931800-fd79665257fa?w=640&q=85",
   鮨: "https://images.unsplash.com/photo-1763627719076-3e71ddff7cb4?w=640&q=85",
@@ -10,12 +11,15 @@ const cuisineFoodImages: Record<(typeof cuisines)[number], string> = {
     "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=640&q=85",
   フレンチ:
     "https://images.unsplash.com/photo-1646296586390-723f37ba380a?w=640&q=85",
+  鰻: "/media/unagi-unaju.jpg",
+  焼き鳥: "/media/yakitori.jpg",
+  "蕎麦（麺）": "/media/soba-genre.jpg",
   その他:
     "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=640&q=85",
 };
 
-export const cuisineGenres = cuisines.map((cuisine) => ({
+export const cuisineGenres = browseGenres.map((cuisine) => ({
   cuisine,
-  count: restaurants.filter((r) => r.cuisine === cuisine).length,
+  count: countBrowseGenre(cuisine, restaurants),
   image: cuisineFoodImages[cuisine],
 }));

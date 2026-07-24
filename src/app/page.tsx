@@ -3,23 +3,22 @@ import { CuisineGenreGrid } from "@/components/cuisine-genre-grid";
 import { HeroSearch } from "@/components/hero-search";
 import { RestaurantCard } from "@/components/restaurant-card";
 import { MapPanel } from "@/components/map-panel";
-import { preferenceScenes, restaurants } from "@/lib/restaurants";
+import { scenes, restaurants } from "@/lib/restaurants";
+
+const FEATURED_NAMES = [
+  "ピッコログランデ",
+  "すし 凱",
+  "Restaurant Karyon",
+  "神田 タンだけ",
+  "しのはら",
+  "瞬",
+];
 
 const tokyoAreas = ["東京", "六本木", "銀座", "渋谷", "新宿"] as const;
 
-const featured = restaurants
-  .filter(
-    (r) =>
-      tokyoAreas.includes(r.area as (typeof tokyoAreas)[number]) &&
-      !/^〒/.test(r.name) &&
-      r.name !== "豚しゃぶ しくら" &&
-      r.image.includes("googleusercontent.com") &&
-      ["会食", "とっておき", "記念日"].some((s) =>
-        r.scenes.includes(s as (typeof r.scenes)[number]),
-      ),
-  )
-  .sort((a, b) => b.rating - a.rating)
-  .slice(0, 6);
+const featured = FEATURED_NAMES.map((name) => restaurants.find((r) => r.name === name)).filter(
+  (r): r is (typeof restaurants)[number] => Boolean(r),
+);
 
 const tokyoPins = restaurants.filter((r) => tokyoAreas.includes(r.area as (typeof tokyoAreas)[number]));
 
@@ -68,7 +67,7 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          {preferenceScenes.map((s, i) => (
+          {scenes.map((s, i) => (
             <Link
               key={s.id}
               href={`/search?scene=${encodeURIComponent(s.id)}`}
@@ -108,12 +107,7 @@ export default function HomePage() {
         </h2>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {featured.map((r) => (
-            <RestaurantCard
-              key={r.id}
-              restaurant={r}
-              showGoogleLink={false}
-              showDescription={false}
-            />
+            <RestaurantCard key={r.id} restaurant={r} />
           ))}
         </div>
       </section>

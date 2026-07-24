@@ -1,4 +1,5 @@
 import type { PriceTier, Restaurant, Scene } from "./types";
+import { matchesBrowseGenre } from "./genre-matching";
 import { restaurants } from "./restaurants";
 
 export interface SearchParams {
@@ -21,7 +22,7 @@ export function filterRestaurants(params: SearchParams): Restaurant[] {
   const privateRoom = params.privateRoom === "1" || params.privateRoom === "true";
 
   return restaurants.filter((r) => {
-    if (cuisine && r.cuisine !== cuisine) return false;
+    if (cuisine && !matchesBrowseGenre(r, cuisine)) return false;
     if (price && r.priceTier !== price) return false;
     if (scene && !r.scenes.includes(scene)) return false;
     if (area && r.area !== area) return false;

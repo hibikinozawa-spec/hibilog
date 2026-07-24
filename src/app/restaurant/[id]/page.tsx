@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { GoogleMapEmbed } from "@/components/google-map-embed";
+import { buildRestaurantIntro } from "@/lib/restaurant-intro";
 import { getRestaurantById, priceLabel } from "@/lib/restaurants";
 
 type Props = {
@@ -18,6 +19,10 @@ export default async function RestaurantPage({ params }: Props) {
   const r = getRestaurantById(id);
   if (!r) notFound();
 
+  const intro = buildRestaurantIntro(r);
+  const portraitFit =
+    r.name === "すし 凱" || r.image.includes("kai-sushi-handoff");
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
       <Link href="/search" className="text-sm text-[var(--brand)]">
@@ -31,7 +36,9 @@ export default async function RestaurantPage({ params }: Props) {
             <img
               src={r.image}
               alt={r.name}
-              className="aspect-[16/10] w-full object-cover"
+              className={`aspect-[16/10] w-full bg-[var(--brand-soft)] ${
+                portraitFit ? "object-contain object-center" : "object-cover"
+              }`}
             />
           </div>
           <h1 className="mt-6 font-[family-name:var(--font-display)] text-4xl text-[var(--brand-deep)]">
@@ -40,9 +47,6 @@ export default async function RestaurantPage({ params }: Props) {
           {r.nameEn && (
             <p className="mt-1 text-sm text-[var(--ink-muted)]">{r.nameEn}</p>
           )}
-          <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">
-            {r.description.replace(/Googleマップの「[^」]+」より。?/g, "").trim()}
-          </p>
 
           <dl className="mt-6 grid gap-3 rounded-2xl border border-[var(--line)] bg-white p-5 text-sm sm:grid-cols-2">
             <div>
@@ -66,6 +70,11 @@ export default async function RestaurantPage({ params }: Props) {
             <div className="sm:col-span-2">
               <dt className="text-[var(--ink-muted)]">住所</dt>
               <dd className="font-medium">{r.address || "—"}</dd>
+            </div>
+            <div className="sm:col-span-2 border-t border-[var(--line)] pt-4">
+              <dd className="whitespace-pre-line leading-relaxed text-[var(--ink-muted)]">
+                {intro}
+              </dd>
             </div>
           </dl>
 
@@ -99,15 +108,22 @@ export default async function RestaurantPage({ params }: Props) {
           </div>
         </div>
 
-        <div>
+        <div className="flex w-full flex-col items-center">
           <GoogleMapEmbed
             name={r.name}
-            googleMapsUrl={r.googleMapsUrl}
             query={r.googlePlaceQuery}
             lat={r.lat}
             lng={r.lng}
-            className="h-[420px]"
+            className="h-[420px] w-full"
           />
+          <a
+            href={r.googleMapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="map-launch-btn mt-8 inline-flex items-center rounded-lg bg-[var(--brand)] px-4 py-2.5 text-base font-bold transition hover:bg-[var(--brand-deep)]"
+          >
+            Google Mapへ
+          </a>
         </div>
       </div>
     </div>

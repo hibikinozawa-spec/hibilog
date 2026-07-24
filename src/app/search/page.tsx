@@ -7,6 +7,22 @@ export const metadata = {
   title: "お店を探す",
 };
 
+const GENRE_FEATURED: Record<string, string[]> = {
+  鰻: ["伊豆榮 梅川亭"],
+  焼き鳥: ["炭火焼鳥 吉田山せせり"],
+};
+
+function sortWithFeatured<T extends { name: string }>(items: T[], cuisine?: string) {
+  const featured = cuisine ? GENRE_FEATURED[cuisine] : undefined;
+  if (!featured?.length) return items;
+  const priority = new Map(featured.map((name, i) => [name, i]));
+  return [...items].sort((a, b) => {
+    const pa = priority.get(a.name) ?? 999;
+    const pb = priority.get(b.name) ?? 999;
+    return pa - pb;
+  });
+}
+
 type Props = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
@@ -27,7 +43,7 @@ export default async function SearchPage({ searchParams }: Props) {
     privateRoom: one(sp.privateRoom),
   };
 
-  const results = filterRestaurants(current);
+  const results = sortWithFeatured(filterRestaurants(current), current.cuisine);
   const mapView =
     current.area === "地方"
       ? "japan"

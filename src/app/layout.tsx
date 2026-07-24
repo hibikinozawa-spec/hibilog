@@ -13,7 +13,7 @@ const display = Dela_Gothic_One({
 const body = Zen_Kaku_Gothic_New({
   variable: "--font-body",
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["400", "500", "700", "900"],
 });
 
 export const metadata: Metadata = {

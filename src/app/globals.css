@@ -53,6 +53,12 @@ a {
   text-decoration: none;
 }
 
+a.map-launch-btn,
+a.map-launch-btn:visited,
+a.map-launch-btn:hover {
+  color: #fff;
+}
+
 ::selection {
   background: var(--brand-soft);
 }

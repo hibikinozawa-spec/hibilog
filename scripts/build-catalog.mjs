@@ -6,10 +6,19 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
-const listsDir = path.join(root, "data", "lists");
-const photoCachePath = path.join(root, "data", "photo-cache.json");
-const placeCachePath = path.join(root, "data", "place-cache.json");
+const deployRoot = fs.existsSync(path.resolve(__dirname, "../../../hibilog/data/lists"))
+  ? path.resolve(__dirname, "../../../hibilog")
+  : root;
+const listsDir = path.join(deployRoot, "data", "lists");
+const photoCachePath = path.join(deployRoot, "data", "photo-cache.json");
+const placeCachePath = path.join(deployRoot, "data", "place-cache.json");
+const overridesPath = path.join(deployRoot, "data", "catalog-overrides.json");
 const outFile = path.join(root, "src", "lib", "generated-restaurants.ts");
+
+const overrides = fs.existsSync(overridesPath)
+  ? JSON.parse(fs.readFileSync(overridesPath, "utf8"))
+  : { excludeNames: [], places: {}, photos: {} };
+const excludeNames = new Set(overrides.excludeNames || []);
 
 // ---- Mapping helpers -------------------------------------------------
 
@@ -133,13 +142,15 @@ function inferAreaFromAddress(address) {
   if (!address) return "地方";
   if (/京都府|京都市|祇園/.test(address)) return "京都";
   if (/神奈川|横浜|鎌倉|茅ヶ崎/.test(address)) return "神奈川";
-  if (/東京|渋谷|新宿|港区|中央区|千代田|品川|目黒|世田谷|豊島|台東|江東|大田|杉並|中野|練馬|板橋|足立|葛飾|江戸川|文京|墨田/.test(address)) {
+  if (/東京都/.test(address)) {
     if (/銀座|中央区/.test(address)) return "銀座";
     if (/六本木|麻布|港区|西麻布|東麻布|赤坂|青山|表参道/.test(address)) return "六本木";
     if (/渋谷|恵比寿|代々木|代官山/.test(address)) return "渋谷";
     if (/新宿|代々木/.test(address)) return "新宿";
     return "東京";
   }
+  if (/福岡|博多/.test(address)) return "地方";
+  if (/大阪府|大阪市/.test(address)) return "地方";
   return "地方";
 }
 
@@ -151,47 +162,138 @@ function listLocationHint(listName) {
   return "";
 }
 
-function buildPlaceQuery(name, listName, area) {
+function categoryHint(listName, category) {
+  const blob = `${listName} ${category || ""}`;
+  if (/鰻/.test(blob) || /うなぎ/.test(blob)) return "うなぎ";
+  if (/鮨|寿司/.test(blob)) return "鮨";
+  if (/焼肉|肉/.test(blob)) return "焼肉";
+  if (/焼き鳥/.test(blob)) return "焼き鳥";
+  if (/蕎麦|そば|十割/.test(blob)) return "蕎麦";
+  if (/フレンチ|イタリアン/.test(blob)) return "";
+  return "レストラン";
+}
+
+function buildPlaceQuery(name, listName, area, category) {
   const hint = inferLocationHint(name);
-  if (hint) return `${name} ${hint}`.trim();
+  if (hint) {
+    const cat = categoryHint(listName, category);
+    return cat ? `${name} ${cat} ${hint}`.trim() : `${name} ${hint}`.trim();
+  }
   const listHint = listLocationHint(listName);
-  if (listHint) return `${name} ${listHint}`.trim();
+  if (listHint && listHint !== "日本") {
+    const cat = categoryHint(listName, category);
+    return cat ? `${name} ${cat} ${listHint}`.trim() : `${name} ${listHint}`.trim();
+  }
   if (area && area !== "地方") return `${name} ${area}`.trim();
-  return name;
-}
-
-function isRealAddress(address) {
-  if (!address) return false;
-  const a = cleanAddress(address);
-  if (/^〒/.test(a)) return true;
-  if (/\d{3}-\d{4}/.test(a) && /(北海道|東京都|京都府|大阪府|.{2,3}県)/.test(a))
-    return true;
-  if (/(北海道|東京都|京都府|大阪府)/.test(a) && /(市|区|町|村|郡)/.test(a))
-    return true;
-  return /.{2,3}県/.test(a) && /(市|区|町|村|郡)/.test(a);
-}
-
-function cleanAddress(address) {
-  return (address || "")
-    .replace(/\s*の操作オプション.*$/, "")
-    .replace(/^住所[：:\s]*/, "")
-    .trim();
+  const cat = categoryHint(listName, category);
+  return cat ? `${name} ${cat}`.trim() : name;
 }
 
 function formatFallbackAddress(area) {
-  return "";
+  if (area === "京都") return "京都府（周辺）";
+  if (area === "神奈川") return "神奈川県（周辺）";
+  if (area === "地方") return "";
+  return `東京都（${area}周辺）`;
 }
 
-function isValidName(name) {
-  if (!name || name.length < 2) return false;
+function isValidName(name, category, cardText) {
+  const allowShort = new Set(["瞬", ...(overrides.allowShortNames || [])]);
+  if (!name || (name.length < 2 && !allowShort.has(name))) return false;
+  if (excludeNames.has(name)) return false;
   if (/^〒/.test(name)) return false;
   if (/^[0-9０-９]/.test(name)) return false;
   if (/^\d{2,3}°/.test(name)) return false;
   if (/閉業|permanently closed|closed permanently/i.test(name)) return false;
+  if (/神社$|稲荷神社|護国神社|天満宮$|神宮$/.test(name)) return false;
   if (/(京都府|東京都|大阪府|神奈川県|愛知県|福岡県)/.test(name) && /\d/.test(name)) {
     return false;
   }
+  const meta = `${category || ""} ${cardText || ""}`;
+  if (/^閉業[。.]?$/.test(meta.trim())) return false;
   return true;
+}
+
+function refineCuisine(name, category, cuisine) {
+  const blob = `${name} ${category || ""}`;
+  if (/MAKINONC|マキノンチ/i.test(name)) return "フレンチ";
+  if (name === "レヴォ" || /L'?[eé]vo/i.test(name)) return "フレンチ";
+  if (name === "カスク" || /^CASK/i.test(name)) return "その他";
+  if (/^(Bar |Cafe\/Bar|Ｂａｒ )/i.test(name)) return "その他";
+  if (/バー$|ワインクラブ|ワインショップ|Wine Bar|シガー倶楽部/i.test(blob)) {
+    if (cuisine === "和食") return "その他";
+  }
+  if (/イノベーティブ|創作料理|郷土料理/.test(category) && cuisine === "和食") {
+    return "フレンチ";
+  }
+  return cuisine;
+}
+
+const PREF_BOUNDS = {
+  北海道: { lat: [41.2, 45.6], lng: [139.2, 145.9] },
+  青森: { lat: [40.2, 41.6], lng: [139.5, 141.7] },
+  岩手: { lat: [38.9, 40.5], lng: [140.6, 142.1] },
+  宮城: { lat: [37.8, 39.0], lng: [140.3, 141.7] },
+  秋田: { lat: [39.0, 40.6], lng: [139.6, 140.9] },
+  山形: { lat: [37.7, 39.2], lng: [139.5, 140.6] },
+  福島: { lat: [36.8, 38.1], lng: [139.2, 141.1] },
+  茨城: { lat: [35.7, 36.9], lng: [139.6, 140.9] },
+  栃木: { lat: [36.2, 37.2], lng: [139.2, 140.2] },
+  群馬: { lat: [36.0, 37.0], lng: [138.4, 139.6] },
+  埼玉: { lat: [35.7, 36.3], lng: [138.9, 139.9] },
+  千葉: { lat: [34.9, 35.9], lng: [139.7, 140.9] },
+  東京: { lat: [35.5, 35.9], lng: [139.4, 139.95] },
+  神奈川: { lat: [35.1, 35.7], lng: [138.9, 139.8] },
+  新潟: { lat: [36.8, 38.6], lng: [137.6, 139.9] },
+  富山: { lat: [36.4, 36.9], lng: [136.7, 137.8] },
+  石川: { lat: [36.0, 37.4], lng: [136.2, 137.4] },
+  福井: { lat: [35.4, 36.3], lng: [135.8, 136.9] },
+  山梨: { lat: [35.2, 35.9], lng: [138.2, 139.1] },
+  長野: { lat: [35.2, 37.1], lng: [137.3, 138.9] },
+  岐阜: { lat: [35.3, 36.4], lng: [136.5, 137.8] },
+  静岡: { lat: [34.6, 35.5], lng: [137.5, 139.2] },
+  愛知: { lat: [34.5, 35.5], lng: [136.7, 137.8] },
+  三重: { lat: [33.7, 35.0], lng: [135.8, 136.9] },
+  滋賀: { lat: [34.8, 35.7], lng: [135.8, 136.4] },
+  京都: { lat: [34.8, 35.8], lng: [135.0, 135.9] },
+  大阪: { lat: [34.3, 35.0], lng: [135.3, 135.8] },
+  兵庫: { lat: [34.3, 35.7], lng: [134.3, 135.5] },
+  奈良: { lat: [33.9, 34.8], lng: [135.6, 136.2] },
+  和歌山: { lat: [33.4, 34.4], lng: [135.0, 136.0] },
+  鳥取: { lat: [35.2, 35.7], lng: [133.2, 134.4] },
+  島根: { lat: [34.3, 36.3], lng: [131.8, 133.5] },
+  岡山: { lat: [34.3, 35.3], lng: [133.2, 134.4] },
+  広島: { lat: [34.0, 35.0], lng: [132.0, 133.5] },
+  山口: { lat: [33.7, 34.6], lng: [130.8, 132.2] },
+  徳島: { lat: [33.6, 34.4], lng: [133.5, 134.8] },
+  香川: { lat: [34.0, 34.5], lng: [133.5, 134.5] },
+  愛媛: { lat: [32.9, 34.3], lng: [132.0, 133.5] },
+  高知: { lat: [32.7, 33.8], lng: [132.5, 134.2] },
+  福岡: { lat: [33.0, 33.9], lng: [130.0, 131.2] },
+  佐賀: { lat: [33.0, 33.6], lng: [129.8, 130.5] },
+  長崎: { lat: [32.6, 34.7], lng: [128.8, 130.4] },
+  熊本: { lat: [32.2, 33.4], lng: [130.0, 131.2] },
+  大分: { lat: [32.7, 33.6], lng: [131.0, 132.2] },
+  宮崎: { lat: [31.4, 32.8], lng: [130.7, 131.9] },
+  鹿児島: { lat: [30.5, 32.3], lng: [129.5, 131.5] },
+  沖縄: { lat: [24.0, 28.0], lng: [122.9, 131.4] },
+};
+
+function prefectureFromAddress(address) {
+  if (!address) return null;
+  const m = address.match(/(北海道|東京都|京都府|大阪府|(.{2,3}県))/);
+  if (!m) return null;
+  if (m[1] === "東京都") return "東京";
+  if (m[1] === "京都府") return "京都";
+  if (m[1] === "大阪府") return "大阪";
+  if (m[1] === "北海道") return "北海道";
+  return m[2]?.replace(/県$/, "") || null;
+}
+
+function coordsMatchPrefecture(lat, lng, pref) {
+  if (!pref || typeof lat !== "number" || typeof lng !== "number") return true;
+  const b = PREF_BOUNDS[pref];
+  if (!b) return true;
+  return lat >= b.lat[0] && lat <= b.lat[1] && lng >= b.lng[0] && lng <= b.lng[1];
 }
 
 function regionalCoords(name) {
@@ -213,9 +315,14 @@ const CUISINE_IMG = {
   和食: [
     "photo-1553621042-f6e147245754",
     "photo-1580822184713-fc5400e7fe10",
-    "photo-1569058242567-93de6f36f8eb",
+    "photo-1596797038530-2c107229654b",
     "photo-1607301405390-d831c242f59b",
-    "photo-1519690889869-e705e59f72e1",
+    "photo-1547592166-23ac45744acd",
+  ],
+  蕎麦: [
+    "photo-1596797038530-2c107229654b",
+    "photo-1547592166-23ac45744acd",
+    "photo-1553621042-f6e147245754",
   ],
   鮨: [
     "photo-1579584425555-c3ce17fd4351",
@@ -247,10 +354,21 @@ const CUISINE_IMG = {
 };
 
 function pickImage(cuisine, seed) {
-  const arr = CUISINE_IMG[cuisine] || CUISINE_IMG["和食"];
+  const soba = /(蕎麦|そば|soba)/i.test(seed);
+  const arr = soba
+    ? CUISINE_IMG["蕎麦"]
+    : CUISINE_IMG[cuisine] || CUISINE_IMG["和食"];
   let h = 0;
   for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) & 0xffff;
   return arr[h % arr.length];
+}
+
+function resolveImage(name, p, cuisine) {
+  const overridePhoto = overrides.photos?.[name];
+  if (overridePhoto?.startsWith("/media/")) return overridePhoto;
+  if (photoCache[name]) return photoCache[name];
+  if (p.image) return p.image;
+  return `https://images.unsplash.com/${pickImage(cuisine, name)}?w=800&q=80`;
 }
 
 function slugify(name, i) {
@@ -289,14 +407,17 @@ for (const file of files) {
   const listName = raw.list || file.replace(/\.json$/, "");
   for (const p of raw.places) {
     const name = p.name.trim();
-    if (!isValidName(name)) continue;
     const category = (p.info && p.info.find((x) => !/^[0-9.]+$/.test(x))) || p.cardTextCategory || guessCategoryFromText(p.cardText, name);
+    if (!isValidName(name, category, p.cardText)) continue;
     const rating = typeof p.rating === "number" ? p.rating : 4.3;
-    const cuisine = toCuisine(category, name, listName);
-    const priceTier = toPriceTier(listName, category, rating);
+    let cuisine = refineCuisine(name, category, toCuisine(category, name, listName));
+    let priceTier = toPriceTier(listName, category, rating);
     const scenes = toScenes(listName, category, rating, priceTier);
     const areaInfo = detectArea(name, listName);
-    const cachedPlace = placeCache[name];
+    const placeOverride = overrides.places?.[name];
+    const cachedPlace = placeOverride
+      ? { ...placeCache[name], ...placeOverride }
+      : placeCache[name];
 
     if (byName.has(name)) {
       const ex = byName.get(name);
@@ -322,9 +443,20 @@ for (const file of files) {
       : cachedPlace?.lat
         ? areaInfo.area
         : areaInfo.area;
-    const lat = cachedPlace?.lat ?? areaInfo.lat + jitter(name);
-    const lng = cachedPlace?.lng ?? areaInfo.lng + jitter(name + "x");
-    const query = cachedPlace?.query || buildPlaceQuery(name, listName, area);
+    let lat = cachedPlace?.lat ?? areaInfo.lat + jitter(name);
+    let lng = cachedPlace?.lng ?? areaInfo.lng + jitter(name + "x");
+    const query = cachedPlace?.query || buildPlaceQuery(name, listName, area, category);
+    let address =
+      cachedPlace?.address && /^〒/.test(cachedPlace.address)
+        ? cachedPlace.address
+        : formatFallbackAddress(area);
+    const pref = prefectureFromAddress(address);
+    if (!coordsMatchPrefecture(lat, lng, pref)) {
+      lat = areaInfo.lat + jitter(name);
+      lng = areaInfo.lng + jitter(name + "x");
+    }
+    if (placeOverride?.cuisine) cuisine = placeOverride.cuisine;
+    if (placeOverride?.priceTier) priceTier = placeOverride.priceTier;
     byName.set(name, {
       id: slugify(name, counter),
       name,
@@ -334,24 +466,22 @@ for (const file of files) {
       priceDinner: priceGuess(priceTier),
       scenes,
       area,
-      address:
-        (cachedPlace?.address && isRealAddress(cachedPlace.address)
-          ? cleanAddress(cachedPlace.address)
-          : formatFallbackAddress(area)),
+      address,
       nearestStation: "",
       lat,
       lng,
       googleMapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`,
       googlePlaceQuery: query,
-      image:
-        photoCache[name] ||
-        p.image ||
-        `https://images.unsplash.com/${pickImage(cuisine, name)}?w=800&q=80`,
-      imageFromMaps: Boolean(photoCache[name] || p.image),
+      image: resolveImage(name, p, cuisine),
+      imageFromMaps: Boolean(
+        overrides.photos?.[name]?.startsWith("/media/") ||
+          photoCache[name] ||
+          p.image,
+      ),
       rating,
       reviewCount: 0,
       tags: [category].filter(Boolean),
-      description: `${category || cuisine}。`,
+      description: placeOverride?.description || `${category || cuisine}。`,
       privateRoom: /個室|割烹|懐石|日本料理/.test((category || "") + listName),
       listSources: [listName],
     });
@@ -359,15 +489,30 @@ for (const file of files) {
 }
 
 function applyPlaceCache(entry, cachedPlace) {
-  if (cachedPlace.address && isRealAddress(cachedPlace.address)) {
-    entry.address = cleanAddress(cachedPlace.address);
-    entry.area = inferAreaFromAddress(entry.address);
+  const merged = overrides.places?.[entry.name]
+    ? { ...cachedPlace, ...overrides.places[entry.name] }
+    : cachedPlace;
+  if (merged.address && /^〒/.test(merged.address)) {
+    entry.address = merged.address;
+    entry.area = inferAreaFromAddress(merged.address);
   }
-  if (typeof cachedPlace.lat === "number") entry.lat = cachedPlace.lat;
-  if (typeof cachedPlace.lng === "number") entry.lng = cachedPlace.lng;
-  if (cachedPlace.query) {
-    entry.googlePlaceQuery = cachedPlace.query;
-    entry.googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(cachedPlace.query)}`;
+  if (typeof merged.lat === "number") entry.lat = merged.lat;
+  if (typeof merged.lng === "number") entry.lng = merged.lng;
+  const pref = prefectureFromAddress(entry.address);
+  if (!coordsMatchPrefecture(entry.lat, entry.lng, pref)) {
+    const areaInfo = detectArea(entry.name, entry.listSource);
+    entry.lat = areaInfo.lat + jitter(entry.name);
+    entry.lng = areaInfo.lng + jitter(entry.name + "x");
+  }
+  if (merged.query) {
+    entry.googlePlaceQuery = merged.query;
+    entry.googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(merged.query)}`;
+  }
+  if (overrides.places?.[entry.name]?.cuisine) {
+    entry.cuisine = overrides.places[entry.name].cuisine;
+  }
+  if (overrides.places?.[entry.name]?.description) {
+    entry.description = overrides.places[entry.name].description;
   }
 }
 
@@ -377,10 +522,23 @@ function guessCategoryFromText(text, name) {
   return t.split(" ").filter(Boolean)[0] || "";
 }
 
-const restaurants = [...byName.values()].map((r) => ({
-  ...r,
-  listSource: r.listSources.join(" / "),
-}));
+const restaurants = [...byName.values()]
+  .filter((r) => {
+    if (/^閉業[。.]?$/.test(r.description)) return false;
+    if (r.tags.some((t) => /^閉業/.test(t))) return false;
+    return true;
+  })
+  .map((r) => {
+    let image = r.image;
+    if (/gps-proxy/.test(image)) {
+      image = `https://images.unsplash.com/${pickImage(r.cuisine, r.name)}?w=800&q=80`;
+    }
+    return {
+      ...r,
+      image,
+      listSource: r.listSources.join(" / "),
+    };
+  });
 
 const header = `// AUTO-GENERATED by scripts/build-catalog.mjs — do not edit by hand.
 // Source: data/lists/*.json (scraped from Hibiki's Google Maps saved lists).
