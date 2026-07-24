@@ -20,19 +20,11 @@ export function RestaurantCard({
   showDescription?: boolean;
 }) {
   const detailHref = `/restaurant/${encodeURIComponent(restaurant.id)}`;
-  const portraitFit =
-    restaurant.name === "すし 凱" ||
-    restaurant.name === "ピッコログランデ" ||
-    restaurant.image.includes("kai-sushi-handoff");
 
   return (
-    <article className="group overflow-hidden rounded-2xl border border-[var(--line)] bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow)]">
-      <Link href={detailHref} className="block">
-        <div
-          className={`relative overflow-hidden bg-[var(--brand-soft)] ${
-            portraitFit ? "aspect-[3/4]" : "aspect-[4/3]"
-          }`}
-        >
+    <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--line)] bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow)]">
+      <Link href={detailHref} className="block flex-1">
+        <div className="relative aspect-[4/3] overflow-hidden bg-[var(--brand-soft)]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={restaurant.image}
@@ -85,7 +77,7 @@ export function RestaurantCard({
           )}
         </div>
       </Link>
-      <div className="flex border-t border-[var(--line)]">
+      <div className="mt-auto flex border-t border-[var(--line)]">
         {showGoogleLink && (
           <a
             href={restaurant.googleMapsUrl}
