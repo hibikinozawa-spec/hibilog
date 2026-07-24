@@ -4485,7 +4485,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 136.9042857,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E6%9C%AC%E5%B1%8B%E6%9C%AC%E5%BA%97%20%E6%A0%84%E5%BA%97%20%E5%90%8D%E5%8F%A4%E5%B1%8B",
     "googlePlaceQuery": "山本屋本店 栄店 名古屋",
-    "image": "https://images.unsplash.com/photo-1607301405390-d831c242f59b?w=800&q=80",
+    "image": "/media/yamamotoya-sakae-udon.jpg",
     "rating": 3.9,
     "reviewCount": 0,
     "tags": [
