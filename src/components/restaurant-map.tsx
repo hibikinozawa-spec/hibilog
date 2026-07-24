@@ -8,7 +8,7 @@ import type { Restaurant } from "@/lib/types";
 
 const pinIcon = L.divIcon({
   className: "hibi-pin",
-  html: `<div style="width:28px;height:28px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#177ee5;border:2px solid white;box-shadow:0 4px 12px rgba(0,0,0,.25)"></div>`,
+  html: `<div style="width:28px;height:28px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#EA4335;border:2px solid white;box-shadow:0 4px 12px rgba(0,0,0,.25)"></div>`,
   iconSize: [28, 28],
   iconAnchor: [14, 28],
   popupAnchor: [0, -28],
