@@ -67,6 +67,11 @@ a {
   border: none !important;
 }
 
+.hibi-pin-wrap {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.28));
+  line-height: 0;
+}
+
 @keyframes rise {
   from {
     opacity: 0;

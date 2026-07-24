@@ -8,10 +8,10 @@ import type { Restaurant } from "@/lib/types";
 
 const pinIcon = L.divIcon({
   className: "hibi-pin",
-  html: `<div style="width:28px;height:28px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#EA4335;border:2px solid white;box-shadow:0 4px 12px rgba(0,0,0,.25)"></div>`,
-  iconSize: [28, 28],
-  iconAnchor: [14, 28],
-  popupAnchor: [0, -28],
+  html: `<div class="hibi-pin-wrap"><svg width="32" height="42" viewBox="0 0 27 43" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13.5 1C6.596 1 1 6.596 1 13.5c0 9.5 12.5 28 12.5 28s12.5-18.5 12.5-28C26 6.596 20.404 1 13.5 1z" fill="#EA4335" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/><circle cx="13.5" cy="13" r="5.2" fill="#C5221F"/></svg></div>`,
+  iconSize: [32, 42],
+  iconAnchor: [16, 42],
+  popupAnchor: [0, -42],
 });
 
 const TOKYO_CENTER: [number, number] = [35.6812, 139.7671];
