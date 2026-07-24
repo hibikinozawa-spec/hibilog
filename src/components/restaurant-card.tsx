@@ -20,6 +20,8 @@ export function RestaurantCard({
   showDescription?: boolean;
 }) {
   const detailHref = `/restaurant/${encodeURIComponent(restaurant.id)}`;
+  const containImage =
+    restaurant.name === "すし 凱" || restaurant.image.includes("kai-sushi-handoff");
 
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--line)] bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow)]">
@@ -29,7 +31,9 @@ export function RestaurantCard({
           <img
             src={restaurant.image}
             alt={restaurant.name}
-            className="h-full w-full object-cover object-center transition duration-500 group-hover:scale-105"
+            className={`h-full w-full transition duration-500 group-hover:scale-105 ${
+              containImage ? "object-contain object-center" : "object-cover object-center"
+            }`}
           />
           {typeof matchScore === "number" && (
             <div className="absolute left-3 top-3 rounded-full bg-[var(--accent)] px-3 py-1 text-xs font-bold text-white shadow">
