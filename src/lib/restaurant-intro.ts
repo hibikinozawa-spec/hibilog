@@ -24,6 +24,10 @@ const INTRO_OVERRIDES: Record<string, string> = {
     "成田山新勝寺総門脇に佇む、江戸時代創業の鰻専門店。\n" +
     "秘伝のタレと紀州備長炭で、できたての蒲焼きを提供。\n" +
     "参拝のあとに立ち寄る、老舗ならではの落ち着いた味わい。",
+  "総本家更科堀井 青":
+    "虎ノ門アルセアタワーに店を構える、更科堀井の十割蕎麦。\n" +
+    "京都の名門が手がける香り高い蕎麦を、虎ノ門の落ち着いた空間で楽しめる。\n" +
+    "会食や接待にも選ばれる、洗練された和の一軒。",
 };
 
 function hash(name: string) {
@@ -52,10 +56,12 @@ function cleanCategory(tags: string[], description: string): string {
 
 function areaLabel(area: Restaurant["area"], address: string): string {
   if (/渋谷/.test(address)) return "渋谷";
+  if (/虎ノ門|虎の門/.test(address)) return "虎ノ門";
   if (/六本木|麻布|白金|赤坂|青山|表参道|西麻布/.test(address)) return "六本木・麻布";
   if (/銀座|日本橋|中央区/.test(address)) return "銀座";
   if (/新宿/.test(address)) return "新宿";
-  if (/京都/.test(address)) return "京都";
+  if (/東京都/.test(address)) return "東京";
+  if (/京都府|京都市|祇園/.test(address)) return "京都";
   if (/神奈川|横浜|鎌倉/.test(address)) return "神奈川";
   if (area !== "地方" && area !== "東京") return area;
   const pref = address.match(/(?:北海道|東京都|京都府|大阪府|(.{2,3}県))/);

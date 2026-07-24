@@ -143,6 +143,7 @@ function inferAreaFromAddress(address) {
   if (/京都府|京都市|祇園/.test(address)) return "京都";
   if (/神奈川|横浜|鎌倉|茅ヶ崎/.test(address)) return "神奈川";
   if (/東京都/.test(address)) {
+    if (/虎ノ門|虎の門/.test(address)) return "虎ノ門";
     if (/銀座|中央区/.test(address)) return "銀座";
     if (/六本木|麻布|港区|西麻布|東麻布|赤坂|青山|表参道/.test(address)) return "六本木";
     if (/渋谷|恵比寿|代々木|代官山/.test(address)) return "渋谷";

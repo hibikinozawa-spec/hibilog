@@ -37,6 +37,7 @@ export const scenes = preferenceScenes;
 export const areas = [
   "東京",
   "六本木",
+  "虎ノ門",
   "銀座",
   "渋谷",
   "新宿",

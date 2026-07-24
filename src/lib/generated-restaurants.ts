@@ -7275,7 +7275,7 @@ export const generatedRestaurants: Restaurant[] = [
       "コスパ",
       "カジュアル"
     ],
-    "area": "六本木",
+    "area": "虎ノ門",
     "address": "〒105-0001 東京都港区虎ノ門３丁目２２−７ 東武ハイライン第２芝虎ノ門 102号室",
     "nearestStation": "",
     "lat": 35.661505,
@@ -10345,7 +10345,7 @@ export const generatedRestaurants: Restaurant[] = [
       "コスパ",
       "カジュアル"
     ],
-    "area": "六本木",
+    "area": "虎ノ門",
     "address": "〒105-0003 東京都港区西新橋２丁目１５−１７ リッツ虎ノ門 1F",
     "nearestStation": "",
     "lat": 35.6671349,
@@ -10765,7 +10765,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "六本木",
+    "area": "虎ノ門",
     "address": "〒105-0001 東京都港区虎ノ門５丁目１２−８ クローバー神谷町 1F・2F",
     "nearestStation": "",
     "lat": 35.6623924,
@@ -10791,7 +10791,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "六本木",
+    "area": "虎ノ門",
     "address": "〒105-0001 東京都港区虎ノ門２丁目２−３ マルシェ 虎ノ門アルセアタワー 1F",
     "nearestStation": "",
     "lat": 35.669103,
@@ -12451,7 +12451,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "六本木",
+    "area": "虎ノ門",
     "address": "〒105-6403 東京都港区虎ノ門１丁目１７−１ 虎ノ門ヒルズ ビジネスタワー 3F 横丁",
     "nearestStation": "",
     "lat": 35.6677688,
@@ -12477,7 +12477,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "六本木",
+    "area": "虎ノ門",
     "address": "〒105-0001 東京都港区虎ノ門１丁目７−６",
     "nearestStation": "",
     "lat": 35.6695268,
@@ -14699,7 +14699,7 @@ export const generatedRestaurants: Restaurant[] = [
       "とっておき",
       "接待"
     ],
-    "area": "六本木",
+    "area": "虎ノ門",
     "address": "〒105-0001 東京都港区虎ノ門２丁目６−７ 虎ノ門ヒルズステーションタワー ４階 ４階",
     "nearestStation": "",
     "lat": 35.6674681,
