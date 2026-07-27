@@ -66,7 +66,8 @@ function areaLabel(area: Restaurant["area"], address: string): string {
   if (/渋谷/.test(address)) return "渋谷";
   if (/虎ノ門|虎の門/.test(address)) return "虎ノ門";
   if (/六本木|麻布|白金|赤坂|青山|表参道|西麻布/.test(address)) return "六本木・麻布";
-  if (/銀座|日本橋|中央区/.test(address)) return "銀座";
+  if (/銀座/.test(address)) return "銀座";
+  if (/日本橋|人形町|蛎殻町|小伝馬町|茅場町|浜町/.test(address)) return "人形町";
   if (/新宿/.test(address)) return "新宿";
   if (/東京都/.test(address)) return "東京";
   if (/京都府|京都市|祇園/.test(address)) return "京都";

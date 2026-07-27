@@ -25,7 +25,10 @@ const excludeNames = new Set(overrides.excludeNames || []);
 
 // Google category (日本語) -> app cuisine
 function toCuisine(category, name, listName) {
-  const c = (category || "") + " " + (name || "");
+  const cat = category || "";
+  // Explicit scraped category wins over name (e.g. 鮨かみなり listed as 和食店)
+  if (/和食店|日本料理|割烹|懐石|会席|料亭|海鮮|居酒屋|小料理/.test(cat)) return "和食";
+  const c = cat + " " + (name || "");
   if (/(寿司|鮨|すし|鮓)/.test(c)) return "鮨";
   if (/(焼肉|ステーキ|鉄板|肉|ホルモン|しゃぶ|すき焼)/.test(c)) return "肉";
   if (/(イタリア|パスタ|ピッツァ|ピザ|トラットリア|オステリア)/.test(c)) return "イタリアン";
@@ -153,7 +156,8 @@ function inferAreaFromAddress(address) {
   if (/神奈川|横浜|鎌倉|茅ヶ崎/.test(address)) return "神奈川";
   if (/東京都/.test(address) || /^(台東区|港区|渋谷区|中央区|新宿区|千代田区|目黒区|品川区|大田区|世田谷区|杉並区|豊島区|墨田区|江東区|文京区|中野区|板橋区|練馬区|足立区|葛飾区|江戸川区)/.test(address)) {
     if (/虎ノ門|虎の門/.test(address)) return "虎ノ門";
-    if (/銀座|日本橋/.test(address)) return "銀座";
+    if (/銀座/.test(address)) return "銀座";
+    if (/日本橋|人形町|蛎殻町|小伝馬町|茅場町|浜町/.test(address)) return "東京";
     if (/六本木|麻布|港区|西麻布|東麻布|赤坂|青山|表参道/.test(address)) {
       if (/西麻布/.test(address)) return "西麻布";
       return "六本木";

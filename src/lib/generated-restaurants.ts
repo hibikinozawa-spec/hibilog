@@ -4883,7 +4883,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "とやま鮨-海富山-181",
     "name": "とやま鮨 海富山",
-    "cuisine": "鮨",
+    "cuisine": "和食",
     "priceTier": "middle",
     "priceDinner": "¥2,000〜6,000",
     "scenes": [
@@ -7727,7 +7727,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0021 東京都中央区日本橋本石町４丁目５−１５ 門倉ビル 1F",
     "nearestStation": "",
     "lat": 35.688813,
@@ -8615,7 +8615,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0007 東京都中央区日本橋浜町３丁目７−３",
     "nearestStation": "",
     "lat": 35.6840375,
@@ -8798,7 +8798,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0013 東京都中央区日本橋人形町３丁目４−１１",
     "nearestStation": "",
     "lat": 35.686228,
@@ -8876,7 +8876,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0026 東京都中央区日本橋兜町７−１ KABUTO ONE 1F",
     "nearestStation": "",
     "lat": 35.6812057,
@@ -11387,7 +11387,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0003 東京都中央区日本橋横山町３−１５",
     "nearestStation": "",
     "lat": 35.6919275,
@@ -11511,26 +11511,26 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "鮨かみなり-429",
     "name": "鮨かみなり",
-    "cuisine": "鮨",
+    "cuisine": "和食",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
       "接待"
     ],
-    "area": "銀座",
-    "address": "〒103-0013 東京都中央区日本橋人形町１丁目５−１０ 芸者新道ビル 3F",
+    "area": "東京",
+    "address": "〒103-0013 東京都中央区日本橋人形町1-5-10 日本橋芸者新道ビル",
     "nearestStation": "",
     "lat": 35.6852674,
     "lng": 139.7820592,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%8B%E3%81%BF%E3%81%AA%E3%82%8A%20%E6%9D%B1%E4%BA%AC",
-    "googlePlaceQuery": "鮨かみなり 東京",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E3%82%84%20%E3%81%8B%E3%81%BF%E3%81%AA%E3%82%8A%20%E4%BA%BA%E5%BD%A2%E7%94%BA%20%E5%92%8C%E9%A3%9F",
+    "googlePlaceQuery": "魚や かみなり 人形町 和食",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl4Jn11W2DCNKvqQNTbsp6cMK5yJFA1r1JHNP-OewpzE2oSlLQH86_Jjymsq62Ovl7MkABzPq71VUDRryuueJ6LmcAnZrebT7twbT36124y_skCnX9yqBS3C2-3pThgMfluS2w=w800-h600-k-no",
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [
       "和食店"
     ],
-    "description": "和食店。",
+    "description": "人形町の和食店。",
     "privateRoom": false,
     "listSource": "東京レストラン_和食"
   },
@@ -13307,7 +13307,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0006 東京都中央区日本橋富沢町１３−２ 小川ビル B1",
     "nearestStation": "",
     "lat": 35.6898686,
@@ -13489,7 +13489,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0022 東京都中央区日本橋本町１丁目４−１ ムロホン7 1階",
     "nearestStation": "",
     "lat": 35.6860949,
@@ -13988,9 +13988,9 @@ export const generatedRestaurants: Restaurant[] = [
     "nearestStation": "",
     "lat": 35.67162,
     "lng": 139.7620136,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E5%B1%8B%E7%94%B0%E4%B8%AD%20%E9%8A%80%E5%BA%A7%20%E6%9D%B1%E4%BA%AC",
-    "googlePlaceQuery": "肉屋田中 銀座 東京",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmdF1hGJcz-FiebzdBz8fL90ORlowv0hW_hpR_4bRlGCueMK1Nx9SomAA1SoJ3D_jIDC5r00YQ50YbW4vAd7EDWIHDvsl5Qjfev32cCwrX-uNuv3jmdFl5lp9EcUIaet3_dCnVrRdwBlTk=w800-h600-k-no",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E5%B1%8B%20%E7%94%B0%E4%B8%AD%20%E9%8A%80%E5%BA%A76-4-3",
+    "googlePlaceQuery": "肉屋 田中 銀座6-4-3",
+    "image": "/media/nikuya-tanaka-ginza.jpg",
     "rating": 4,
     "reviewCount": 0,
     "tags": [
@@ -14217,7 +14217,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0016 東京都中央区日本橋茅場町２丁目１１−５",
     "nearestStation": "",
     "lat": 35.6780513,
@@ -14903,7 +14903,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0027 東京都中央区日本橋３丁目４−１４ 八重洲N3ビル B1F",
     "nearestStation": "",
     "lat": 35.6798654,
@@ -14923,7 +14923,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "鮨処やまと-562",
     "name": "鮨処やまと",
-    "cuisine": "鮨",
+    "cuisine": "和食",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -15028,7 +15028,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "すし-おうみ-566",
     "name": "すし おうみ",
-    "cuisine": "鮨",
+    "cuisine": "和食",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -15198,7 +15198,7 @@ export const generatedRestaurants: Restaurant[] = [
       "記念日",
       "接待"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0014 東京都中央区日本橋蛎殻町２丁目１０−１１ 1F",
     "nearestStation": "",
     "lat": 35.6834521,
@@ -15570,7 +15570,7 @@ export const generatedRestaurants: Restaurant[] = [
       "とっておき",
       "接待"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-8328 東京都中央区日本橋室町２丁目１−１ 日本橋三井タワー内マンダリン オリエンタル ホテル 38F",
     "nearestStation": "",
     "lat": 35.6869835,
@@ -15704,7 +15704,7 @@ export const generatedRestaurants: Restaurant[] = [
       "とっておき",
       "接待"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0014 東京都中央区日本橋蛎殻町１丁目３３−６ ビューハイツ日本橋 地下１階",
     "nearestStation": "",
     "lat": 35.6819299,
@@ -16120,7 +16120,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0021 東京都中央区日本橋本石町３丁目３−２",
     "nearestStation": "",
     "lat": 35.6875705,
@@ -16146,7 +16146,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0021 東京都中央区日本橋本石町３丁目３−４",
     "nearestStation": "",
     "lat": 35.6878211,

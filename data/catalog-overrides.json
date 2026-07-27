@@ -155,6 +155,18 @@
         "接待"
       ]
     },
+    "鮨かみなり": {
+      "query": "魚や かみなり 人形町 和食",
+      "address": "〒103-0013 東京都中央区日本橋人形町1-5-10 日本橋芸者新道ビル",
+      "lat": 35.6852674,
+      "lng": 139.7820592,
+      "area": "東京",
+      "cuisine": "和食",
+      "description": "人形町の和食店。",
+      "tags": [
+        "和食店"
+      ]
+    },
     "三政": {
       "query": "三政 新橋 串焼き",
       "address": "〒105-0004 東京都港区新橋3-19-6 新陽ビルディング",
@@ -189,6 +201,7 @@
     "西麻布 鮨いち": "/media/nishiazabu-sushi-ichi.jpg",
     "鮨一": "/media/nishiazabu-sushi-ichi.jpg",
     "鮨 くりや川": "/media/kuriyagawa-nigiri.jpg",
-    "三政": "/media/mitsumasa-yakitori.jpg"
+    "三政": "/media/mitsumasa-yakitori.jpg",
+    "肉屋田中 銀座": "/media/nikuya-tanaka-ginza.jpg"
   }
 }
