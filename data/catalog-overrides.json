@@ -91,7 +91,10 @@
       "cuisine": "和食",
       "description": "沖縄そばの郷土料理店。",
       "priceTier": "casual",
-      "tags": ["沖縄そば", "郷土料理店"]
+      "tags": [
+        "沖縄そば",
+        "郷土料理店"
+      ]
     },
     "鮨一": {
       "query": "西麻布 鮨いち 東京",
@@ -103,8 +106,14 @@
       "priceTier": "executive",
       "rating": 4.8,
       "description": "西麻布の寿司店。",
-      "tags": ["寿司店"],
-      "scenes": ["とっておき", "記念日", "接待"]
+      "tags": [
+        "寿司店"
+      ],
+      "scenes": [
+        "とっておき",
+        "記念日",
+        "接待"
+      ]
     },
     "北新地 喜多郎寿し 本店": {
       "query": "北新地 喜多郎寿し 本店 大阪"
@@ -115,7 +124,9 @@
       "lat": 33.5782,
       "lng": 130.3623,
       "description": "西新の下町寿司店。",
-      "tags": ["寿司店"]
+      "tags": [
+        "寿司店"
+      ]
     },
     "福寿司": {
       "query": "福寿司 浅草 東京",
@@ -123,7 +134,9 @@
       "lat": 35.7124,
       "lng": 139.7965,
       "description": "浅草の寿司店。",
-      "tags": ["寿司店"],
+      "tags": [
+        "寿司店"
+      ],
       "priceTier": "casual"
     },
     "二葉鮨": {
@@ -133,8 +146,25 @@
       "lng": 139.764214,
       "area": "銀座",
       "description": "銀座の江戸前寿司の老舗。",
-      "tags": ["寿司店"],
-      "scenes": ["とっておき", "記念日", "接待"]
+      "tags": [
+        "寿司店"
+      ],
+      "scenes": [
+        "とっておき",
+        "記念日",
+        "接待"
+      ]
+    },
+    "三政": {
+      "query": "三政 新橋 串焼き",
+      "address": "〒105-0004 東京都港区新橋3-19-6 新陽ビルディング",
+      "lat": 35.6658,
+      "lng": 139.7572,
+      "area": "新橋",
+      "description": "新橋の老舗串焼き専門店。",
+      "tags": [
+        "串焼き店"
+      ]
     }
   },
   "photos": {
@@ -158,6 +188,7 @@
     "山本屋本店 栄店": "/media/yamamotoya-sakae-udon.jpg",
     "西麻布 鮨いち": "/media/nishiazabu-sushi-ichi.jpg",
     "鮨一": "/media/nishiazabu-sushi-ichi.jpg",
-    "鮨 くりや川": "/media/kuriyagawa-nigiri.jpg"
+    "鮨 くりや川": "/media/kuriyagawa-nigiri.jpg",
+    "三政": "/media/mitsumasa-yakitori.jpg"
   }
 }

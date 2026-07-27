@@ -13359,20 +13359,20 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "東京",
-    "address": "〒102-0072 東京都千代田区飯田橋２丁目７−１ 三政ビル",
+    "area": "新橋",
+    "address": "〒105-0004 東京都港区新橋3-19-6 新陽ビルディング",
     "nearestStation": "",
-    "lat": 35.6821182,
-    "lng": 139.7591982,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%94%BF%20%E6%9D%B1%E4%BA%AC",
-    "googlePlaceQuery": "三政 東京",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnxqEWbUyq_iO-sjaYpkSzsqJtKGosYQK97GCR3Ql-YqtD5PCR9rOxtJz9l8GeAblWgDkQvuS8-Idoyy5h8DzVrv6LTEN-OivwkjogG6iv9FjoJV890aHkbUXojibC1rUkOWFHd9Mt9XLbh=k-no-",
+    "lat": 35.6658,
+    "lng": 139.7572,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%94%BF%20%E6%96%B0%E6%A9%8B%20%E4%B8%B2%E7%84%BC%E3%81%8D",
+    "googlePlaceQuery": "三政 新橋 串焼き",
+    "image": "/media/mitsumasa-yakitori.jpg",
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
       "串焼き店"
     ],
-    "description": "串焼き店。",
+    "description": "新橋の老舗串焼き専門店。",
     "privateRoom": false,
     "listSource": "東京レストラン_焼き鳥"
   },
