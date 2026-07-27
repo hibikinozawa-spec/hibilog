@@ -15302,22 +15302,25 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食"
+      "会食",
+      "とっておき",
+      "記念日",
+      "接待"
     ],
-    "area": "埼玉",
-    "address": "〒334-0051 埼玉県川口市安行出羽三丁目越谷川口線",
+    "area": "銀座",
+    "address": "〒104-0061 東京都中央区銀座4-10-13",
     "nearestStation": "",
-    "lat": 35.854726,
-    "lng": 139.7551944,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%8C%E8%91%89%E9%AE%A8",
-    "googlePlaceQuery": "二葉鮨",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWld98UQT9TisXH3KNdmO3-nTIzdmNJc31j7t_n4oCWF0OcsF0pPrUMmswU9c4unsLEwYVXtOwlSdXlB0_aF_k-kbNpg7J7GcghF_-21IpPD-C_Lr7_LjDIexfZCUIpMGbrhorY1-g=k-no-",
+    "lat": 35.670726,
+    "lng": 139.764214,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%8C%E8%91%89%E9%AE%A8%20%E9%8A%80%E5%BA%A7%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "二葉鮨 銀座 東京",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl0UJpi1qKToQ2DdIU0Vajt_jTrwuVG7kZftl2mwzUidC9terkmXtFLGYSFTN6tUF91xxzbi4vwNzth_DC2Y7QuZtovM5v1RdvkyaShj4cVCOuL2dJrxdgtnBajS0oG8aM2CrVAIUjONN9Q=w800-h600-k-no",
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。",
+    "description": "銀座の江戸前寿司の老舗。",
     "privateRoom": true,
     "listSource": "鮨"
   },
