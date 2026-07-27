@@ -1337,11 +1337,11 @@
     "source": "google_maps_reviews"
   },
   "福ずし": {
-    "intro": " 福岡の寿司店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n握り寿、握り寿司、天ぷらなどが人気。",
+    "intro": "早良区西新の寿司店。\n漁師直送の地魚と、リーズナブルな握りが口コミでも支持されている。\n刺身や一品料理、日本酒の組み合わせも楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
-    "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "generatedAt": "2026-07-27",
+    "source": "manual_override"
   },
   "ふく亭本店": {
     "intro": " 大分のふぐ料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
@@ -1491,11 +1491,11 @@
     "source": "google_maps_reviews"
   },
   "福寿司": {
-    "intro": " 大分の寿司店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "浅草の寿司店。\nリーズナブルな価格で本格的な握りが楽しめる。\n観光の合間にも立ち寄りやすい、気軽な一軒。",
     "reviewCount": 9,
     "totalReviews": 10,
-    "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "generatedAt": "2026-07-27",
+    "source": "manual_override"
   },
   "NARUMI": {
     "intro": " 大分の寿司店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",

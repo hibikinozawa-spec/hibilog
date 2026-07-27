@@ -69,7 +69,10 @@ export function RestaurantCard({
             </p>
           )}
           <div className="flex flex-wrap gap-1.5 pt-1">
-            {restaurant.scenes.slice(0, 3).map((s) => (
+            {restaurant.scenes
+              .filter((s) => !(s === "個室" && restaurant.privateRoom))
+              .slice(0, 3)
+              .map((s) => (
               <span
                 key={s}
                 className="rounded-full border border-[var(--line)] px-2 py-0.5 text-[11px] text-[var(--ink-muted)]"

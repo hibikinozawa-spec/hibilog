@@ -97,6 +97,7 @@ const AREA_COORDS = {
   神田: { area: "東京", lat: 35.6918, lng: 139.7709 },
   京都: { area: "京都", lat: 35.0116, lng: 135.7681 },
   祇園: { area: "京都", lat: 35.0037, lng: 135.7788 },
+  北新地: { area: "大阪", lat: 34.6972, lng: 135.5002 },
   茅ヶ崎: { area: "神奈川", lat: 35.3192, lng: 139.4043 },
   鎌倉: { area: "神奈川", lat: 35.3192, lng: 139.5503 },
 };
@@ -119,7 +120,7 @@ function inferLocationHint(name) {
     [/金沢/, "金沢"],
     [/函館|小樽|札幌|北海道/, "北海道"],
     [/福岡|博多/, "福岡"],
-    [/大阪|心斎橋|梅田|北区/, "大阪"],
+    [/大阪|心斎橋|梅田|北区|北新地|曾根崎/, "大阪"],
     [/京都|祇園/, "京都"],
     [/名古屋|栄/, "名古屋"],
     [/広島/, "広島"],
@@ -141,18 +142,26 @@ function inferLocationHint(name) {
 
 function inferAreaFromAddress(address) {
   if (!address) return "地方";
+  if (/北新地|曾根崎|大阪府|大阪市/.test(address)) return "大阪";
+  if (/福岡市|福岡県/.test(address)) return "福岡";
+  if (/神戸市|兵庫県/.test(address)) return "神戸";
+  if (/名古屋|愛知県/.test(address)) return "名古屋";
+  if (/広島/.test(address)) return "広島";
+  if (/仙台|宮城/.test(address)) return "仙台";
+  if (/札幌|北海道/.test(address)) return "北海道";
   if (/京都府|京都市|祇園/.test(address)) return "京都";
   if (/神奈川|横浜|鎌倉|茅ヶ崎/.test(address)) return "神奈川";
-  if (/東京都/.test(address)) {
+  if (/東京都/.test(address) || /^(台東区|港区|渋谷区|中央区|新宿区|千代田区|目黒区|品川区|大田区|世田谷区|杉並区|豊島区|墨田区|江東区|文京区|中野区|板橋区|練馬区|足立区|葛飾区|江戸川区)/.test(address)) {
     if (/虎ノ門|虎の門/.test(address)) return "虎ノ門";
-    if (/銀座|中央区/.test(address)) return "銀座";
+    if (/銀座|日本橋/.test(address)) return "銀座";
     if (/六本木|麻布|港区|西麻布|東麻布|赤坂|青山|表参道/.test(address)) return "六本木";
     if (/渋谷|恵比寿|代々木|代官山/.test(address)) return "渋谷";
     if (/新宿|代々木/.test(address)) return "新宿";
+    if (/浅草|上野|台東区/.test(address)) return "東京";
     return "東京";
   }
-  if (/福岡|博多/.test(address)) return "地方";
-  if (/大阪府|大阪市/.test(address)) return "地方";
+  const pref = prefectureFromAddress(address);
+  if (pref) return pref;
   return "地方";
 }
 
@@ -283,12 +292,28 @@ const PREF_BOUNDS = {
 function prefectureFromAddress(address) {
   if (!address) return null;
   const m = address.match(/(北海道|東京都|京都府|大阪府|(.{2,3}県))/);
-  if (!m) return null;
-  if (m[1] === "東京都") return "東京";
-  if (m[1] === "京都府") return "京都";
-  if (m[1] === "大阪府") return "大阪";
-  if (m[1] === "北海道") return "北海道";
-  return m[2]?.replace(/県$/, "") || null;
+  if (m) {
+    if (m[1] === "東京都") return "東京";
+    if (m[1] === "京都府") return "京都";
+    if (m[1] === "大阪府") return "大阪";
+    if (m[1] === "北海道") return "北海道";
+    return m[2]?.replace(/県$/, "") || null;
+  }
+  if (/台東区|港区|渋谷区|中央区|新宿区|千代田区|目黒区|品川区|大田区|世田谷区|杉並区|豊島区|墨田区|江東区|文京区|中野区|板橋区|練馬区|足立区|葛飾区|江戸川区|浅草|上野/.test(address)) {
+    return "東京";
+  }
+  return null;
+}
+
+function fallbackCoords(name, pref) {
+  if (pref && PREF_BOUNDS[pref]) {
+    const b = PREF_BOUNDS[pref];
+    return {
+      lat: (b.lat[0] + b.lat[1]) / 2 + jitter(name),
+      lng: (b.lng[0] + b.lng[1]) / 2 + jitter(name + "x"),
+    };
+  }
+  return regionalCoords(name);
 }
 
 function coordsMatchPrefecture(lat, lng, pref) {
@@ -487,8 +512,14 @@ for (const file of files) {
         : formatFallbackAddress(area);
     const pref = prefectureFromAddress(address);
     if (!coordsMatchPrefecture(lat, lng, pref)) {
-      lat = areaInfo.lat + jitter(name);
-      lng = areaInfo.lng + jitter(name + "x");
+      if (cachedPlace?.lat != null && cachedPlace?.lng != null && coordsMatchPrefecture(cachedPlace.lat, cachedPlace.lng, pref)) {
+        lat = cachedPlace.lat;
+        lng = cachedPlace.lng;
+      } else {
+        const fb = fallbackCoords(name, pref);
+        lat = fb.lat;
+        lng = fb.lng;
+      }
     }
     if (placeOverride?.cuisine) cuisine = placeOverride.cuisine;
     if (placeOverride?.priceTier) priceTier = placeOverride.priceTier;
@@ -542,9 +573,14 @@ function applyPlaceCache(entry, cachedPlace) {
   if (typeof merged.lng === "number") entry.lng = merged.lng;
   const pref = prefectureFromAddress(entry.address);
   if (!coordsMatchPrefecture(entry.lat, entry.lng, pref)) {
-    const areaInfo = detectArea(entry.name, entry.listSource);
-    entry.lat = areaInfo.lat + jitter(entry.name);
-    entry.lng = areaInfo.lng + jitter(entry.name + "x");
+    if (merged.lat != null && merged.lng != null && coordsMatchPrefecture(merged.lat, merged.lng, pref)) {
+      entry.lat = merged.lat;
+      entry.lng = merged.lng;
+    } else {
+      const fb = fallbackCoords(entry.name, pref);
+      entry.lat = fb.lat;
+      entry.lng = fb.lng;
+    }
   }
   if (merged.query) {
     entry.googlePlaceQuery = merged.query;
@@ -586,13 +622,9 @@ const restaurants = [...byName.values()]
     if (/gps-proxy/.test(image)) {
       image = `https://images.unsplash.com/${pickImage(r.cuisine, r.name)}?w=800&q=80`;
     }
-    const scenes = r.privateRoom && !r.scenes.includes("個室")
-      ? [...r.scenes, "個室"]
-      : r.scenes;
     return {
       ...r,
       image,
-      scenes,
       listSource: r.listSources.join(" / "),
     };
   });

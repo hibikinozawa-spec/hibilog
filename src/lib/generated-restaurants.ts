@@ -36,8 +36,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒600-8237 京都府京都市下京区松明町1−番地",
@@ -122,8 +121,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "京都",
     "address": "〒603-8133 京都府京都市北区出雲路松ノ下町１６−２１",
@@ -150,8 +148,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒605-0822 京都府京都市東山区上弁天町４２７−２",
@@ -262,8 +259,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥2,000〜4,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒600-8001 京都府京都市中京区",
@@ -514,8 +510,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥2,000〜3,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒605-0073 京都府京都市東山区祇園町北側２９２−１",
@@ -546,8 +541,7 @@ export const generatedRestaurants: Restaurant[] = [
       "会食",
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "京都",
     "address": "〒605-0074 京都府京都市東山区祇園町南側５７０−６",
@@ -629,8 +623,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒606-8434 京都府京都市左京区南禅寺下河原町３０−４",
@@ -657,8 +650,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒604-8024 京都府京都市中京区紙屋町３５５",
@@ -742,8 +734,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食",
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "京都",
     "address": "〒604-8084 京都府京都市中京区福長町１２０−１",
@@ -798,7 +789,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": " 長野",
     "address": "〒395-0304 長野県阿智村中平網掛山登山道",
     "nearestStation": "",
     "lat": 35.4480055,
@@ -1101,8 +1092,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "京都",
     "address": "〒605-0073 京都府京都市東山区祇園町北側３４７−８７",
@@ -1128,8 +1118,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒604-0923 京都府京都市中京区上樵木町４９１−６",
@@ -1239,8 +1228,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒604-8221 京都府京都市中京区天神山町２８３−２",
@@ -1266,8 +1254,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒605-0074 京都府京都市東山区祇園町南側５７０−６",
@@ -1293,8 +1280,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒604-8017 京都府京都市中京区先斗町通三条下る材木町１８８",
@@ -1349,8 +1335,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥4,000〜10,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒605-0811 京都府京都市東山区大和大路通四条下る四丁目小松町５９４",
@@ -1460,8 +1445,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒605-0077 京都府京都市東山区廿一軒町２３３",
@@ -1598,8 +1582,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒605-0086 京都府京都市東山区弁財天町１８",
@@ -1962,8 +1945,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒605-0801 京都府京都市東山区宮川筋１丁目２２５",
@@ -1991,8 +1973,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食",
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "京都",
     "address": "〒600-8103 京都府京都市下京区柳馬場上ル塩竈町３７９ 坂田ビル 379",
@@ -2074,8 +2055,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "京都",
     "address": "〒604-0924 京都府京都市中京区河原町通",
@@ -2179,8 +2159,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "京都",
     "address": "〒605-0062 京都府京都市東山区林下町４３８",
@@ -2344,8 +2323,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食",
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "京都",
     "address": "〒604-0804 京都府京都市中京区絹屋町１３６ ヴェルドール御所 １F",
@@ -2508,10 +2486,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "名古屋",
     "address": "〒460-0002 愛知県名古屋市中区丸の内３丁目１７−３０ 戸谷ビル",
     "nearestStation": "",
     "lat": 35.1752928,
@@ -2538,7 +2515,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 岐阜",
     "address": "〒503-0105 岐阜県大垣市墨俣町二ツ木２１４−１",
     "nearestStation": "",
     "lat": 35.3616265,
@@ -2564,7 +2541,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒930-0003 富山県富山市桜町２丁目２−１１",
     "nearestStation": "",
     "lat": 36.6985135,
@@ -2590,10 +2567,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥8,000〜9,000",
     "scenes": [
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": " 高知",
     "address": "〒785-0172 高知県須崎市浦ノ内２４４",
     "nearestStation": "",
     "lat": 33.4093446,
@@ -2622,7 +2598,7 @@ export const generatedRestaurants: Restaurant[] = [
       "カジュアル",
       "接待"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒830-0047 福岡県久留米市津福本町２２４−１",
     "nearestStation": "",
     "lat": 33.3021161,
@@ -2650,7 +2626,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒839-0254 福岡県柳川市大和町中島４５１−１",
     "nearestStation": "",
     "lat": 33.1274189,
@@ -2678,7 +2654,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 佐賀",
     "address": "〒849-1615 佐賀県藤津郡太良町大浦乙３１６−３",
     "nearestStation": "",
     "lat": 32.9578872,
@@ -2704,10 +2680,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "casual",
     "priceDinner": "¥4,000〜5,000",
     "scenes": [
-      "カジュアル",
-      "個室"
+      "カジュアル"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0023 福岡県福岡市中央区警固２丁目１６−６ ＦＩＴけやき フィットけやき1F",
     "nearestStation": "",
     "lat": 33.5837882,
@@ -2735,7 +2710,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0042 福岡県福岡市中央区赤坂３丁目９−３１",
     "nearestStation": "",
     "lat": 33.5837296,
@@ -2766,8 +2741,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "京都",
     "address": "〒629-3245 京都府京丹後市網野町浜詰６９４−３",
     "nearestStation": "",
-    "lat": 35.67403333333333,
-    "lng": 139.7736,
+    "lat": 35.29283333333333,
+    "lng": 135.45649999999998,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E7%B5%84%E9%99%90%E5%AE%9A%20%E7%99%92%E3%81%97%E3%81%AE%20%E5%AE%BF%20%E7%B9%81%E3%82%88%E3%81%97%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "一組限定 癒しの 宿 繁よし レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWneAG_94yPSEdMhmoNhamXNQkCRmtLengIfGVwxOmNxmE-ABSB6Jr1IVAsnzpVy6Q5w-RAOi-e_7tXs2LQyaY8bsG1O9LXPIVlQCSMKAgH3arzBLq0UqibN3wYmSSK6pQet0vld=w800-h600-k-no",
@@ -2787,8 +2762,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥5,000〜10,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "東京",
     "address": "〒135-0061 東京都江東区豊洲６丁目３−２",
@@ -2818,7 +2792,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "神戸",
     "address": "〒659-0066 兵庫県芦屋市大桝町３−１６ カサリナ７",
     "nearestStation": "",
     "lat": 35.2011656,
@@ -2845,7 +2819,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 千葉",
     "address": "〒260-0012 千葉県千葉市中央区本町２丁目１−２１ 石井ビル 1F",
     "nearestStation": "",
     "lat": 35.6092474,
@@ -2870,14 +2844,13 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "北海道",
     "address": "〒064-0806 北海道札幌市中央区南６条西１丁目 ６・１ビル １F",
     "nearestStation": "",
-    "lat": 35.67986666666666,
-    "lng": 139.77443333333332,
+    "lat": 43.39866666666667,
+    "lng": 142.55733333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%9F%E3%81%AA%E8%8F%AF%20%E9%AE%A8",
     "googlePlaceQuery": "鮨たな華 鮨",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnsjYSJdCZhY9fubYi8SAkMs7Ng3JFBEnqPV4oKgrjO--pZz6gQZ9gof5PBZQTzt5LmRc1dIVKTI_AbLD1JTplbyTCc1239vwZFQaJKQflrZjaUCvSheMSZ1audCF0AsSgskfYuTpo3Fvc4=w800-h600-k-no",
@@ -2900,7 +2873,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 奈良",
     "address": "〒630-8115 奈良県奈良市大宮町１丁目１３３−５ トータスビルディング 1階",
     "nearestStation": "",
     "lat": 34.6846784,
@@ -2928,7 +2901,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 奈良",
     "address": "〒630-8372 奈良県奈良市西寺林町２２",
     "nearestStation": "",
     "lat": 34.6796764,
@@ -2952,14 +2925,13 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
-    "address": "",
+    "area": " 奈良",
+    "address": "東京都（ 奈良周辺）",
     "nearestStation": "",
-    "lat": 34.6810642,
-    "lng": 135.8298742,
+    "lat": 35.693000000000005,
+    "lng": 139.68066666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%90%82%E3%81%A4%E3%81%AD%EF%BC%88%E3%81%8D%E3%81%A4%E3%81%AD%EF%BC%89%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "㐂つね（きつね） レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk_MHeLPBnLmSed68VR0IhhujIdmVXxNLctLOO_d8_11OrT-7ywQl-FDfuksmthjRRrUVsT8Il-0xQdK2epoyZM1mw3X2hqMINmAh8sCLGJhLBLfasUKH20fEFNMObdE-CQzj3L=w800-h600-k-no",
@@ -2982,7 +2954,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 奈良",
     "address": "〒630-8221 奈良県奈良市元林院町９",
     "nearestStation": "",
     "lat": 34.6811515,
@@ -3010,7 +2982,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 長野",
     "address": "〒389-0111 長野県北佐久郡軽井沢町長倉２０５５−４",
     "nearestStation": "",
     "lat": 36.3443182,
@@ -3038,7 +3010,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 長野",
     "address": "〒389-0201 長野県北佐久郡御代田町塩野内字５２０−２",
     "nearestStation": "",
     "lat": 36.3391875,
@@ -3066,7 +3038,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 長野",
     "address": "〒380-0841 長野県長野市大字長野大門町５８７−３",
     "nearestStation": "",
     "lat": 36.6574482,
@@ -3094,7 +3066,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 長野",
     "address": "〒389-0113 長野県北佐久郡軽井沢町発地１３９８−５８",
     "nearestStation": "",
     "lat": 36.3167641,
@@ -3125,8 +3097,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "新宿",
     "address": "〒162-0053 東京都新宿区原町２丁目３０ 牛込ハイム",
     "nearestStation": "",
-    "lat": 35.68603333333333,
-    "lng": 139.7676,
+    "lat": 35.70483333333333,
+    "lng": 139.6755,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%92%BC%E7%A9%BA%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "蒼空 レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnNs6tK0b7hQ5AAlCgmWwWK20lo-sol-zsMwq0qzfKsnIFPd4JxP1xY5WLTRyhnkM6chDZEMmhrBV8tZLSJKmRtrmQ1c0sGFAX_ne7-cgBzqMoSeQyZ9VUWHJf-4Ul86f2i0nAD=w800-h600-k-no",
@@ -3148,7 +3120,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": " 長野",
     "address": "〒389-0102 長野県北佐久郡軽井沢町軽井沢旧軽井沢１３７３−６ ホテル鹿島ノ森",
     "nearestStation": "",
     "lat": 36.3580052,
@@ -3176,7 +3148,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": " 長野",
     "address": "〒389-0102 長野県北佐久郡軽井沢町軽井沢１２７７−１",
     "nearestStation": "",
     "lat": 36.350142,
@@ -3204,11 +3176,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
-    "address": "",
+    "area": "神戸",
+    "address": "東京都（神戸周辺）",
     "nearestStation": "",
-    "lat": 34.6476318,
-    "lng": 135.0816104,
+    "lat": 35.696583333333336,
+    "lng": 139.67908333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E3%81%A1%E3%82%83%E3%82%93%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "八ちゃんラーメン レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkUJdt80Q_NN-vZsiCdVwX_vc8p4Cpf1_mg4-D_arUaWecHc68iJ0HUHKimtE1wQvuK3U1Fs_lF4QsLx0XKQCDKkjxG_V9K28nP0it3dCFHzhckjmD5goXI0LUkOckDwei45DETWKXhLsYf=w800-h600-k-no",
@@ -3232,7 +3204,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒812-0018 福岡県福岡市博多区住吉５丁目５−１５ パークサイドビル 3F",
     "nearestStation": "",
     "lat": 33.582364,
@@ -3258,7 +3230,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒812-0018 福岡県福岡市博多区住吉５丁目５−１５",
     "nearestStation": "",
     "lat": 34.6556651,
@@ -3286,7 +3258,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 佐賀",
     "address": "〒849-1613 佐賀県藤津郡太良町大浦６１４",
     "nearestStation": "",
     "lat": 32.9625937,
@@ -3310,10 +3282,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0041 福岡県福岡市中央区大名２丁目２−１７",
     "nearestStation": "",
     "lat": 33.587798,
@@ -3340,7 +3311,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0021 福岡県福岡市中央区今泉１丁目１９−１８ 楽天地ビル ２階",
     "nearestStation": "",
     "lat": 33.5862847,
@@ -3368,7 +3339,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0801 福岡県福岡市博多区中洲２丁目６−１２ 中洲セントラル第５ラインビル １F",
     "nearestStation": "",
     "lat": 33.5922672,
@@ -3394,10 +3365,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒812-0018 福岡県福岡市博多区住吉２丁目１５−１０ カーサ博多 １階",
     "nearestStation": "",
     "lat": 33.5874681,
@@ -3422,10 +3392,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥4,000〜5,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0021 福岡県福岡市中央区今泉１丁目３−２２",
     "nearestStation": "",
     "lat": 34.6202727,
@@ -3453,7 +3422,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒939-8006 富山県富山市山室２９２−１",
     "nearestStation": "",
     "lat": 36.6768537,
@@ -3478,8 +3447,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥10,000〜",
     "scenes": [
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "六本木",
     "address": "〒105-0011 東京都港区芝公園１丁目７−１４",
@@ -3508,7 +3476,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒930-0003 富山県富山市桜町２丁目３−２７ 開ビル",
     "nearestStation": "",
     "lat": 36.6980648,
@@ -3534,10 +3502,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "casual",
     "priceDinner": "¥3,000〜5,000",
     "scenes": [
-      "カジュアル",
-      "個室"
+      "カジュアル"
     ],
-    "area": "地方",
+    "area": " 岡山",
     "address": "〒700-0901 岡山県岡山市北区本町１０−１６ １階",
     "nearestStation": "",
     "lat": 34.6639068,
@@ -3565,7 +3532,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 石川",
     "address": "〒920-2112 石川県白山市鶴来日吉町３２",
     "nearestStation": "",
     "lat": 36.4456245,
@@ -3593,7 +3560,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒814-0171 福岡県福岡市早良区野芥１丁目７−１",
     "nearestStation": "",
     "lat": 33.5464239,
@@ -3619,10 +3586,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥2,000〜7,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 鳥取",
     "address": "〒680-0831 鳥取県鳥取市栄町６１１",
     "nearestStation": "",
     "lat": 35.4435263,
@@ -3650,7 +3616,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 鳥取",
     "address": "〒680-0831 鳥取県鳥取市栄町６０２",
     "nearestStation": "",
     "lat": 35.496032,
@@ -3676,10 +3642,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 大分",
     "address": "〒872-0503 大分県宇佐市安心院町新原５９−５",
     "nearestStation": "",
     "lat": 33.443188,
@@ -3706,7 +3671,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "和歌山",
     "address": "〒646-0031 和歌山県田辺市湊１４−１４−６",
     "nearestStation": "",
     "lat": 33.7326252,
@@ -3732,10 +3697,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥2,000〜6,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 石川",
     "address": "〒926-0047 石川県七尾市大手町１１２",
     "nearestStation": "",
     "lat": 35.8614242,
@@ -3763,7 +3727,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 福井",
     "address": "〒915-0815 福井県越前市深草２丁目９−２８",
     "nearestStation": "",
     "lat": 35.9071562,
@@ -3791,10 +3755,9 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒935-0021 富山県氷見市幸町３２−３１",
     "nearestStation": "",
     "lat": 36.2535412,
@@ -3819,10 +3782,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 大分",
     "address": "〒876-0803 大分県佐伯市駅前２丁目２−１７",
     "nearestStation": "",
     "lat": 32.972371,
@@ -3849,7 +3811,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "神戸",
     "address": "〒650-0022 兵庫県神戸市中央区元町通２丁目３−５",
     "nearestStation": "",
     "lat": 34.6880544,
@@ -3875,10 +3837,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "casual",
     "priceDinner": "¥2,000〜3,000",
     "scenes": [
-      "カジュアル",
-      "個室"
+      "カジュアル"
     ],
-    "area": "地方",
+    "area": " 茨城",
     "address": "〒300-0332 茨城県阿見町大字若栗",
     "nearestStation": "",
     "lat": 35.7156092,
@@ -3906,7 +3867,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒550-0004 大阪府大阪市西区靱本町１丁目７−１４",
     "nearestStation": "",
     "lat": 34.6861345,
@@ -3934,7 +3895,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "神戸",
     "address": "〒650-0004 兵庫県神戸市中央区中山手通１丁目１７−６ M101",
     "nearestStation": "",
     "lat": 34.6961596,
@@ -3962,7 +3923,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 滋賀",
     "address": "〒520-0047 滋賀県大津市浜大津３丁目３−２",
     "nearestStation": "",
     "lat": 35.0115964,
@@ -3989,7 +3950,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 鳥取",
     "address": "〒680-0907 鳥取県鳥取市賀露町北１丁目８−１２",
     "nearestStation": "",
     "lat": 35.5354989,
@@ -4017,7 +3978,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 石川",
     "address": "〒923-0835 石川県小松市吉竹町１丁目３７−１",
     "nearestStation": "",
     "lat": 36.3937206,
@@ -4042,10 +4003,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 石川",
     "address": "〒923-0811 石川県小松市白江町ワ２７−２",
     "nearestStation": "",
     "lat": 36.41059,
@@ -4071,7 +4031,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": " 静岡",
     "address": "〒420-0859 静岡県静岡市葵区栄町３−６",
     "nearestStation": "",
     "lat": 34.9747544,
@@ -4098,7 +4058,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒530-0017 大阪府大阪市北区角田町９−２６ 新梅田食道街",
     "nearestStation": "",
     "lat": 34.7034725,
@@ -4126,7 +4086,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "名古屋",
     "address": "〒460-0003 愛知県名古屋市中区錦１丁目１５−８ アミティエ錦 中館地下1 階",
     "nearestStation": "",
     "lat": 35.1689434,
@@ -4152,14 +4112,13 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥3,000〜8,000",
     "scenes": [
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
-    "address": "",
+    "area": "神戸",
+    "address": "東京都（神戸周辺）",
     "nearestStation": "",
-    "lat": 35.214396,
-    "lng": 137.4858462,
+    "lat": 35.70733333333334,
+    "lng": 139.66833333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E3%81%9C%E3%82%93%20%E7%84%BC%E8%82%89",
     "googlePlaceQuery": "焼肉ぜん 焼肉",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWntEZnQZquJujl0bDiC9u34ZAbgmdH2BYzFSwypH-vqvbY9agLAqZ9c5JqIvKA6WLav7ebS2o9WIlHpzOJpLkrk_wb0R7t6ag7mEprJ1Izp6WCKUXx5uYaU-2wnOzN8xNFrgpYvsV9JaZs_=w800-h600-k-no",
@@ -4186,8 +4145,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "東京",
     "address": "〒154-0011 東京都世田谷区上馬２丁目２２−２ セントヒルズ三軒茶屋 1F",
     "nearestStation": "",
-    "lat": 35.68461666666666,
-    "lng": 139.76435,
+    "lat": 35.70341666666667,
+    "lng": 139.67225000000002,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AA%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A2%E3%83%89%E3%82%A5%E3%82%A8%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "オステリアドゥエ レストラン",
     "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80",
@@ -4209,7 +4168,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒542-0076 大阪府大阪市中央区難波１丁目１−１８ エチゲンビル 1F",
     "nearestStation": "",
     "lat": 34.668159,
@@ -4237,11 +4196,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒108-0071 港区白金台三丁目目黒通り",
     "nearestStation": "",
-    "lat": 35.578532,
-    "lng": 137.6672805,
+    "lat": 35.69291666666667,
+    "lng": 139.66741666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%97%A4%E4%B9%83%20%E8%95%8E%E9%BA%A6",
     "googlePlaceQuery": "藤乃 蕎麦",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmuzw9XXKx5nQQeTsdF_N2mdjO0RP-6ZdikGTA_TCXxY0jl9UMbiuvEd-2-IWYBLayfX4ueoVdx1CdAiwbgPzCecsfLiiQ9dHewXR1gCwztq7SzYi435BiNuzsJaUEREh2Xj1wf3VSrKJc=w800-h600-k-no",
@@ -4265,7 +4224,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "鹿児島",
     "address": "〒892-0843 鹿児島県鹿児島市千日町９−１９",
     "nearestStation": "",
     "lat": 31.5885561,
@@ -4292,7 +4251,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0801 福岡県福岡市博多区中洲２丁目５−２ 森ビル 1F",
     "nearestStation": "",
     "lat": 33.5952221,
@@ -4320,7 +4279,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "神戸",
     "address": "〒655-0854 兵庫県神戸市垂水区桃山台１０７号線",
     "nearestStation": "",
     "lat": 34.6729823,
@@ -4346,8 +4305,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "六本木",
     "address": "〒106-0032 東京都港区六本木７丁目１８−１１ DMビル 地下１F",
@@ -4376,11 +4334,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
-    "address": "",
+    "area": "神戸",
+    "address": "東京都（神戸周辺）",
     "nearestStation": "",
-    "lat": 34.9773755,
-    "lng": 135.0860527,
+    "lat": 35.691750000000006,
+    "lng": 139.67858333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Classico%20%E3%82%AF%E3%83%A9%E3%82%B7%E3%82%B3%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "Classico クラシコ レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkBT5taaelUJ8dSlEiMPtCvp9s7as-Zhr0MtZ08ExuFZYSdIcnURBqnEYLaqr2n_w8Y8428LhN8QX34RlwSBUqLlX0Lo4kZ2wzrRkJmcvU1yKkBh67CXL_IjGU70flssHJY9g-N=w800-h600-k-no",
@@ -4404,7 +4362,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0022 福岡県福岡市中央区薬院２丁目４−３５",
     "nearestStation": "",
     "lat": 33.5809807,
@@ -4432,11 +4390,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
-    "address": "",
+    "area": "福岡",
+    "address": "東京都（福岡周辺）",
     "nearestStation": "",
-    "lat": 33.5799755,
-    "lng": 130.4040207,
+    "lat": 35.700583333333334,
+    "lng": 139.67375,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%A8%E3%81%A9%E3%82%8D%E3%81%8D%E9%85%92%E5%BA%97%20%E8%96%AC%E9%99%A2stand!%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "とどろき酒店 薬院stand! レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkQI4OFc5FlthgHI89ryKBjY0ZUV8iIFfP0Dh4fDXNQBM0hIS02oDjXpWNFhheCp5NthMmOc8vgb27O75obOvsQflZGfjzVEObZGn0wjpNMK1raXxT_ZjXLbDNfMwGJJAiwwAJUuj-9CKZH=w800-h600-k-no",
@@ -4460,7 +4418,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0021 福岡県福岡市中央区今泉２丁目４−１１",
     "nearestStation": "",
     "lat": 33.5834122,
@@ -4488,7 +4446,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0003 福岡県福岡市中央区春吉３丁目２２−７",
     "nearestStation": "",
     "lat": 33.5888379,
@@ -4540,10 +4498,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒530-0002 大阪府大阪市北区曾根崎新地１丁目７−２５ 1階",
     "nearestStation": "",
     "lat": 34.6971727,
@@ -4567,16 +4524,15 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥4,000〜5,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒530-0002 大阪府大阪市北区曾根崎新地１丁目７−６",
     "nearestStation": "",
     "lat": 34.697271,
     "lng": 135.5001703,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%96%B0%E5%9C%B0%20%E5%96%9C%E5%A4%9A%E9%83%8E%E5%AF%BF%E3%81%97%20%E6%9C%AC%E5%BA%97%20%E9%AE%A8",
-    "googlePlaceQuery": "北新地 喜多郎寿し 本店 鮨",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%96%B0%E5%9C%B0%20%E5%96%9C%E5%A4%9A%E9%83%8E%E5%AF%BF%E3%81%97%20%E6%9C%AC%E5%BA%97%20%E5%A4%A7%E9%98%AA",
+    "googlePlaceQuery": "北新地 喜多郎寿し 本店 大阪",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnL5uAKIIClhl7P8KujI6rjJa9GkMGLJPA4qOcKNUu9AurBYspER9ZvipFwVJP5WP7PobGiDvXCoWSSapsfhF6hNeuw19HQ58beXAqaRCbllbuekF4xVmrTQZVMq4_3Pn5ssRhg=w800-h600-k-no",
     "rating": 4.3,
     "reviewCount": 0,
@@ -4598,7 +4554,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": " 滋賀",
     "address": "〒520-1592 滋賀県高島市朽木小川",
     "nearestStation": "",
     "lat": 35.7770639,
@@ -4624,10 +4580,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 静岡",
     "address": "〒430-0949 静岡県浜松市中央区尾張町１１６−２６",
     "nearestStation": "",
     "lat": 34.7108128,
@@ -4655,7 +4610,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "名古屋",
     "address": "〒460-0008 愛知県名古屋市中区入江町通",
     "nearestStation": "",
     "lat": 35.1677905,
@@ -4683,7 +4638,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 石川",
     "address": "〒920-0903 石川県金沢市博労町６７",
     "nearestStation": "",
     "lat": 36.5707504,
@@ -4710,7 +4665,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "北海道",
     "address": "〒060-0063 北海道札幌市中央区南３条西７丁目 アーケード 内",
     "nearestStation": "",
     "lat": 43.0563992,
@@ -4739,7 +4694,7 @@ export const generatedRestaurants: Restaurant[] = [
       "カジュアル",
       "接待"
     ],
-    "area": "地方",
+    "area": " 福島",
     "address": "〒965-0035 福島県会津若松市馬場町４−４５",
     "nearestStation": "",
     "lat": 37.4992402,
@@ -4767,7 +4722,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 島根",
     "address": "〒691-0001 島根県出雲市平田町４８５−３７",
     "nearestStation": "",
     "lat": 35.435887,
@@ -4795,7 +4750,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 宮崎",
     "address": "〒880-1303 宮崎県東諸県郡綾町南俣５６９０",
     "nearestStation": "",
     "lat": 32.021718,
@@ -4823,7 +4778,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 静岡",
     "address": "〒420-8602 静岡県静岡市葵区",
     "nearestStation": "",
     "lat": 35.5602827,
@@ -4849,10 +4804,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 岐阜",
     "address": "〒500-8829 岐阜県岐阜市杉山町１７−２",
     "nearestStation": "",
     "lat": 35.4223295,
@@ -4877,10 +4831,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 千葉",
     "address": "〒283-0104 千葉県山武郡九十九里町片貝２９６６−２",
     "nearestStation": "",
     "lat": 35.537826,
@@ -4906,10 +4859,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥5,000〜6,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "名古屋",
     "address": "〒451-0042 愛知県名古屋市西区那古野１丁目２３−１０",
     "nearestStation": "",
     "lat": 35.1751295,
@@ -4937,7 +4889,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒930-0001 富山県富山市明輪町１−２３１ MAROOT ４階",
     "nearestStation": "",
     "lat": 36.7014634,
@@ -4965,7 +4917,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 福井",
     "address": "〒914-0146 福井県敦賀市金山７９−５−２",
     "nearestStation": "",
     "lat": 35.6271711,
@@ -4991,10 +4943,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 福井",
     "address": "〒910-0017 福井県福井市文京５丁目１７−５",
     "nearestStation": "",
     "lat": 35.9864161,
@@ -5019,10 +4970,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥4,000〜5,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 千葉",
     "address": "〒286-0027 千葉県成田市仲町359",
     "nearestStation": "",
     "lat": 35.7846252,
@@ -5048,10 +4998,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒542-0086 大阪府大阪市中央区西心斎橋２丁目３−２２ フランス料理Ｌｅ Ｃｌｏｓ",
     "nearestStation": "",
     "lat": 34.6701209,
@@ -5078,7 +5027,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒530-0047 大阪府大阪市北区西天満１丁目６−４",
     "nearestStation": "",
     "lat": 34.6943828,
@@ -5105,14 +5054,13 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒530-0002 大阪府大阪市北区曾根崎新地１丁目２−６ 新松リンデンビル 曽根崎新地１－２－６新松リンデンビル１階",
     "nearestStation": "",
-    "lat": 35.674949999999995,
-    "lng": 139.77135,
+    "lat": 34.64375,
+    "lng": 135.55425000000002,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E5%AE%9F%E7%B4%80%20%E9%AE%A8",
     "googlePlaceQuery": "鮨 実紀 鮨",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkPy272JjdBA_EcxfMGSIz53HiI0get0DmfQGxUvhm8OM2_ILh08QTPGir3tlxNHLBxyuZ0Of0i1bDg_nu6wn2L0zRe_ojZ_fZLS5x85x5CtQN5QI5q4coQU7Vi3jjjKtR8M6cnTzD1LUuC=w800-h600-k-no",
@@ -5161,23 +5109,22 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥4,000〜8,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
-    "address": "〒657-0025 兵庫県神戸市灘区高羽北８号線",
+    "area": "福岡",
+    "address": "〒814-0002 福岡県福岡市早良区西新5-15-28 New8西新1F",
     "nearestStation": "",
-    "lat": 35.6790772,
-    "lng": 139.6977486,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E3%81%9A%E3%81%97%20%E9%AE%A8",
-    "googlePlaceQuery": "福ずし 鮨",
+    "lat": 33.5782,
+    "lng": 130.3623,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E3%81%9A%E3%81%97%20%E8%A5%BF%E6%96%B0%20%E7%A6%8F%E5%B2%A1",
+    "googlePlaceQuery": "福ずし 西新 福岡",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl1--eLuDa-YlSiBmt7guFTU3uvdNtwnnFb451d-61OqF5YUn6pNnkRpdveukCV3sEQAmlA_Ct3-HaSMr3QvQ2ue6U9LoIwMPvn7CD474l9kh818sB1bQLHtU4DU85l565wewV1=w800-h600-k-no",
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
       "寿司店"
     ],
-    "description": "寿司店。",
+    "description": "西新の下町寿司店。",
     "privateRoom": true,
     "priceMin": 4000,
     "priceMax": 8000,
@@ -5190,10 +5137,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 大分",
     "address": "〒870-0034 大分県大分市都町３丁目７−５",
     "nearestStation": "",
     "lat": 33.2418714,
@@ -5220,7 +5166,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒939-1308 富山県砺波市三郎丸２０８ 若鶴令和蔵",
     "nearestStation": "",
     "lat": 36.6555077,
@@ -5248,7 +5194,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒935-0061 富山県氷見市余川字北山２３８",
     "nearestStation": "",
     "lat": 36.8971582,
@@ -5272,10 +5218,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 静岡",
     "address": "〒421-0103 静岡県静岡市駿河区丸子３２６２−１",
     "nearestStation": "",
     "lat": 35.3335727,
@@ -5302,7 +5247,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 千葉",
     "address": "〒294-0802 千葉県南房総市山名２０１１",
     "nearestStation": "",
     "lat": 35.0449131,
@@ -5328,10 +5273,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 山形",
     "address": "〒998-0802 山形県酒田市生石上坂１２５",
     "nearestStation": "",
     "lat": 37.2999816,
@@ -5357,10 +5301,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": " 岐阜",
     "address": "〒509-6361 岐阜県瑞浪市陶町猿爪猿爪５７３−２７",
     "nearestStation": "",
     "lat": 35.3180079,
@@ -5385,10 +5328,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒939-2518 富山県南砺市利賀村大勘場田島100",
     "nearestStation": "",
     "lat": 36.485,
@@ -5414,10 +5356,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥3,000〜6,000",
     "scenes": [
       "カジュアル",
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": " 沖縄",
     "address": "〒902-0067 沖縄県那覇市安里４９２−３",
     "nearestStation": "",
     "lat": 26.2211462,
@@ -5445,7 +5386,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 静岡",
     "address": "〒430-0932 静岡県浜松市中区肴町３１８−１６ かわかみビル",
     "nearestStation": "",
     "lat": 34.7063208,
@@ -5473,7 +5414,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": " 静岡",
     "address": "〒430-0934 静岡県浜松市中区千歳町６ コートクビル 1階 3号室",
     "nearestStation": "",
     "lat": 34.7031922,
@@ -5501,10 +5442,9 @@ export const generatedRestaurants: Restaurant[] = [
       "会食",
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": " 静岡",
     "address": "〒430-0945 静岡県浜松市中央区元城町２２２−２５",
     "nearestStation": "",
     "lat": 34.7088199,
@@ -5531,7 +5471,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 静岡",
     "address": "〒420-0861 静岡県静岡市葵区丸山町１２−２",
     "nearestStation": "",
     "lat": 34.9850092,
@@ -5558,7 +5498,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": "北海道",
     "address": "〒097-0022 北海道稚内市中央２丁目７−９",
     "nearestStation": "",
     "lat": 45.4184744,
@@ -5613,7 +5553,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 滋賀",
     "address": "〒529-0523 滋賀県長浜市余呉町川並１４０８",
     "nearestStation": "",
     "lat": 35.5987779,
@@ -5637,10 +5577,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒541-0044 大阪府大阪市中央区伏見町２丁目４−９",
     "nearestStation": "",
     "lat": 34.6892133,
@@ -5665,10 +5604,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒931-8358 富山県富山市東岩瀬町１８２",
     "nearestStation": "",
     "lat": 36.7581228,
@@ -5695,7 +5633,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒541-0041 大阪府大阪市中央区北浜２丁目３−１３ 武田ビル 1階",
     "nearestStation": "",
     "lat": 34.8450615,
@@ -5721,10 +5659,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0003 福岡県福岡市中央区春吉３丁目２４−１０ アーバンテム春吉 1F",
     "nearestStation": "",
     "lat": 34.6444172,
@@ -5749,10 +5686,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥2,000〜3,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒530-0041 大阪府大阪市北区天神橋４丁目１２−７",
     "nearestStation": "",
     "lat": 34.7058478,
@@ -5775,26 +5711,26 @@ export const generatedRestaurants: Restaurant[] = [
     "id": "福寿司-211",
     "name": "福寿司",
     "cuisine": "鮨",
-    "priceTier": "middle",
+    "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
-      "会食"
+      "カジュアル"
     ],
-    "area": "地方",
-    "address": "〒110-0005 台東区上野五丁目ルビーストリート2",
+    "area": "東京",
+    "address": "〒111-0032 東京都台東区浅草1-18-12",
     "nearestStation": "",
-    "lat": 35.6790772,
-    "lng": 139.6927437,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%AF%BF%E5%8F%B8%20%E9%AE%A8",
-    "googlePlaceQuery": "福寿司 鮨",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl1--eLuDa-YlSiBmt7guFTU3uvdNtwnnFb451d-61OqF5YUn6pNnkRpdveukCV3sEQAmlA_Ct3-HaSMr3QvQ2ue6U9LoIwMPvn7CD474l9kh818sB1bQLHtU4DU85l565wewV1=w800-h600-k-no",
+    "lat": 35.7124,
+    "lng": 139.7965,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%AF%BF%E5%8F%B8%20%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "福寿司 浅草 東京",
+    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
-      "福寿司"
+      "寿司店"
     ],
-    "description": "福寿司。",
-    "privateRoom": false,
+    "description": "浅草の寿司店。",
+    "privateRoom": true,
     "priceMin": 1000,
     "priceMax": 2000,
     "listSource": "地方レストラン_名店"
@@ -5811,8 +5747,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "渋谷",
     "address": "〒151-0064 東京都渋谷区上原１丁目３５−２ ナルミ",
     "nearestStation": "",
-    "lat": 35.67636666666667,
-    "lng": 139.7626,
+    "lat": 35.69516666666667,
+    "lng": 139.6705,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=NARUMI%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "NARUMI レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmVJSu76WRqXwrPZ77p5ea1MDEIShW42Pi9QxPWrDfLIUL9X2rt0cwDBe1jRJFbrbqVSiX775ID0_cf8T3n1-en57VbgOnCxFMmaFQEjLfuUAhWgs7RrZGSsoIx9u61z6hrZ6drIg=w800-h600-k-no",
@@ -5835,7 +5771,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 静岡",
     "address": "〒420-0969 静岡県静岡市葵区有永２２−２６０−１",
     "nearestStation": "",
     "lat": 35.0318311,
@@ -5861,7 +5797,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0023 福岡県福岡市中央区警固２丁目５−１３",
     "nearestStation": "",
     "lat": 33.583147,
@@ -5889,7 +5825,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒931-8358 富山県富山市東岩瀬町９３",
     "nearestStation": "",
     "lat": 36.7583999,
@@ -5917,7 +5853,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒530-0043 大阪府大阪市北区天満３丁目１−２ ＴＳビル 2F",
     "nearestStation": "",
     "lat": 34.6922188,
@@ -5944,7 +5880,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 愛媛",
     "address": "〒790-0012 愛媛県松山市湊町７丁目6−１０ マリン コミセン前ビル 一階",
     "nearestStation": "",
     "lat": 33.835906,
@@ -5972,7 +5908,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 沖縄",
     "address": "〒900-0015 沖縄県那覇市久茂地２丁目１３−１３−１４",
     "nearestStation": "",
     "lat": 26.2217629,
@@ -5998,10 +5934,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 石川",
     "address": "〒920-0981 石川県金沢市片町１丁目１０−５ １階",
     "nearestStation": "",
     "lat": 36.5586634,
@@ -6028,7 +5963,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 滋賀",
     "address": "〒520-0243 滋賀県大津市堅田１丁目１７−７ マリーナマンション墨田 1F",
     "nearestStation": "",
     "lat": 35.2887728,
@@ -6056,7 +5991,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 鳥取",
     "address": "〒680-0907 鳥取県鳥取市賀露町北１丁目５−３４",
     "nearestStation": "",
     "lat": 35.53493,
@@ -6082,7 +6017,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 大分",
     "address": "〒870-0044 大分県大分市都町3-2-35 山下ビル2F",
     "nearestStation": "",
     "lat": 33.2392,
@@ -6110,7 +6045,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒100-0005 千代田区丸の内二丁目丸の内パークビルディング車寄せ",
     "nearestStation": "",
     "lat": 35.6866798,
@@ -6138,7 +6073,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "北海道",
     "address": "〒064-0805 北海道札幌市中央区南５条西４丁目 美松ビル 地下1F ニュ",
     "nearestStation": "",
     "lat": 43.0541559,
@@ -6166,7 +6101,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき"
     ],
-    "area": "地方",
+    "area": " 愛媛",
     "address": "〒794-0036 愛媛県今治市松本町2-2-4",
     "nearestStation": "",
     "lat": 34.0662,
@@ -6193,7 +6128,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 愛媛",
     "address": "〒794-2304 愛媛県今治市伯方町北浦甲１２０３-８",
     "nearestStation": "",
     "lat": 34.2307457,
@@ -6246,10 +6181,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥2,000〜7,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒930-0029 富山県富山市本町８−１",
     "nearestStation": "",
     "lat": 36.6932548,
@@ -6277,7 +6211,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒930-0003 富山県富山市桜町２丁目１−１７",
     "nearestStation": "",
     "lat": 36.6988944,
@@ -6305,7 +6239,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒930-0003 富山県富山市桜町２丁目１−１４",
     "nearestStation": "",
     "lat": 36.698871,
@@ -6333,7 +6267,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒939-8272 富山県富山市太郎丸本町１丁目７−６",
     "nearestStation": "",
     "lat": 36.6779236,
@@ -6387,7 +6321,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0042 福岡県福岡市中央区赤坂１丁目５−１１",
     "nearestStation": "",
     "lat": 34.6439229,
@@ -6442,7 +6376,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "神戸",
     "address": "〒650-0004 兵庫県神戸市中央区中山手通１丁目６−２",
     "nearestStation": "",
     "lat": 34.6945825,
@@ -6468,10 +6402,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 大分",
     "address": "〒875-0041 大分県臼杵市臼杵２−１０７−１５２",
     "nearestStation": "",
     "lat": 33.1200557,
@@ -6499,7 +6432,7 @@ export const generatedRestaurants: Restaurant[] = [
       "会食",
       "接待"
     ],
-    "area": "地方",
+    "area": " 山口",
     "address": "〒754-1277 山口県山口市阿知須３３２２",
     "nearestStation": "",
     "lat": 35.7032134,
@@ -6527,7 +6460,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 愛媛",
     "address": "〒790-0001 愛媛県松山市一番町１丁目6−９",
     "nearestStation": "",
     "lat": 33.8410117,
@@ -6554,7 +6487,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒553-0005 大阪府大阪市福島区野田１丁目１−８６",
     "nearestStation": "",
     "lat": 34.6842148,
@@ -6580,10 +6513,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒541-0052 大阪府大阪市中央区安土町２丁目２−１０",
     "nearestStation": "",
     "lat": 34.6842651,
@@ -6610,7 +6542,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 富山",
     "address": "〒931-8353 富山県富山市東岩瀬町93",
     "nearestStation": "",
     "lat": 36.7585136,
@@ -6635,10 +6567,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 石川",
     "address": "〒920-0864 石川県金沢市高岡町６−５ 懐石つる幸",
     "nearestStation": "",
     "lat": 36.1174695,
@@ -6665,7 +6596,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "仙台",
     "address": "〒980-0803 宮城県仙台市青葉区国分町１丁目７−８",
     "nearestStation": "",
     "lat": 38.2617273,
@@ -6690,8 +6621,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒107-0052 東京都港区赤坂２丁目２２−１１ メイプルアーベント赤坂 1階",
@@ -6718,10 +6648,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 長野",
     "address": "〒399-9211 長野県北安曇郡白馬村神城１５５６０",
     "nearestStation": "",
     "lat": 36.6459311,
@@ -6745,10 +6674,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "神戸",
     "address": "〒650-0011 兵庫県神戸市中央区下山手通３丁目７−９ KESX101",
     "nearestStation": "",
     "lat": 34.6922905,
@@ -6803,7 +6731,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 長野",
     "address": "〒399-9301 長野県北安曇郡白馬村北城５０８１",
     "nearestStation": "",
     "lat": 36.7015153,
@@ -6859,7 +6787,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": " 長野",
     "address": "〒399-9301 長野県北安曇郡白馬村北城５２１１",
     "nearestStation": "",
     "lat": 36.7000233,
@@ -6887,7 +6815,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 埼玉",
     "address": "〒333-0801 埼玉県川口市東川口２丁目６−８ ニッショウビル",
     "nearestStation": "",
     "lat": 35.87654,
@@ -6940,7 +6868,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "北海道",
     "address": "〒060-0063 北海道札幌市中央区南３条西３丁目３ ＧDINING札幌 6F",
     "nearestStation": "",
     "lat": 43.056664,
@@ -6968,7 +6896,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "北海道",
     "address": "〒064-0804 北海道札幌市中央区南４条西５丁目５−４ 備広札幌すすきのビル2 4階",
     "nearestStation": "",
     "lat": 43.0556992,
@@ -6996,7 +6924,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "北海道",
     "address": "〒064-0805 北海道札幌市中央区南５条西５丁目１−１",
     "nearestStation": "",
     "lat": 43.0536649,
@@ -7024,8 +6952,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "六本木",
     "address": "〒106-0031 東京都港区西麻布１丁目１０−１４ アビターレ霞町 1F",
@@ -7052,10 +6979,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "北海道",
     "address": "〒064-0804 北海道札幌市中央区南４条西４丁目７",
     "nearestStation": "",
     "lat": 43.0559678,
@@ -7080,10 +7006,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "北海道",
     "address": "〒060-0063 北海道札幌市中央区南３条西４丁目２１−６",
     "nearestStation": "",
     "lat": 43.0567584,
@@ -7108,10 +7033,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "北海道",
     "address": "〒060-0063 北海道札幌市中央区南３条西３丁目 ２ＧDINING SAPPORO ６F",
     "nearestStation": "",
     "lat": 43.0567457,
@@ -7136,10 +7060,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "北海道",
     "address": "〒064-0803 北海道札幌市中央区南３条西２２丁目２−7 第51 藤栄ビル 1F",
     "nearestStation": "",
     "lat": 43.0535833,
@@ -7166,7 +7089,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "神戸",
     "address": "〒669-6402 兵庫県美方郡香美町香住区訓谷３１９",
     "nearestStation": "",
     "lat": 35.6532595,
@@ -7190,10 +7113,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒812-0018 福岡県福岡市博多区住吉２６２号線",
     "nearestStation": "",
     "lat": 33.5869974,
@@ -7220,7 +7142,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0075 福岡県福岡市中央区港１丁目４−２４ グレイス Ｔ＆Ｔ１階",
     "nearestStation": "",
     "lat": 33.5925358,
@@ -7248,7 +7170,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒530-0031 大阪府大阪市北区菅栄町１２−１２ ベルエアＳＨＩＭＩＺＵ",
     "nearestStation": "",
     "lat": 34.7095698,
@@ -7273,10 +7195,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "神戸",
     "address": "〒650-0004 兵庫県神戸市中央区中山手通３丁目２−１ １１２",
     "nearestStation": "",
     "lat": 34.6934442,
@@ -7303,7 +7224,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒530-0056 大阪府大阪市北区兎我野町３−１５ 北邑ビル 1F",
     "nearestStation": "",
     "lat": 34.7013608,
@@ -7331,7 +7252,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "大阪",
     "address": "〒532-0023 大阪府大阪市淀川区十三東４丁目１−１０",
     "nearestStation": "",
     "lat": 34.7233458,
@@ -7359,7 +7280,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "神戸",
     "address": "〒662-0978 兵庫県西宮市産所町３−２２",
     "nearestStation": "",
     "lat": 34.7366552,
@@ -7384,10 +7305,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒802-0002 福岡県北九州市小倉北区京町３丁目１１−９",
     "nearestStation": "",
     "lat": 33.8852434,
@@ -7414,10 +7334,9 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食",
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": " 石川",
     "address": "〒920-0928 石川県金沢市並木町３−３６",
     "nearestStation": "",
     "lat": 36.5695625,
@@ -7444,7 +7363,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒152-0022 目黒区碑文谷五丁目",
     "nearestStation": "",
     "lat": 35.6230709,
@@ -7557,7 +7476,7 @@ export const generatedRestaurants: Restaurant[] = [
       "記念日",
       "接待"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒135-0044 江東区越中島一丁目清澄通り",
     "nearestStation": "",
     "lat": 35.6693677,
@@ -7613,7 +7532,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒104-0033 東京都中央区新川１丁目１−６",
     "nearestStation": "",
     "lat": 35.6794222,
@@ -7860,8 +7779,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "新宿",
     "address": "〒162-0825 東京都新宿区神楽坂３丁目１",
@@ -7889,10 +7807,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥10,000〜",
     "scenes": [
       "会食",
-      "とっておき",
-      "個室"
+      "とっておき"
     ],
-    "area": "渋谷",
+    "area": "仙台",
     "address": "〒150-0002 東京都渋谷区渋谷１丁目１０−１２ 宮城ビル 2F",
     "nearestStation": "",
     "lat": 35.6607243,
@@ -7945,8 +7862,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥10,000〜",
     "scenes": [
       "接待",
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒106-0031 東京都港区西麻布２丁目８−１１ 西麻布ビル ２階",
@@ -7973,8 +7889,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒107-0062 東京都港区南青山５丁目１２−１３",
@@ -8082,10 +7997,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥4,000〜8,000",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒104-0032 東京都中央区八丁堀３丁目１４−２ 東八重洲シティービル 1F",
     "nearestStation": "",
     "lat": 35.6758621,
@@ -8143,8 +8057,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "コスパ",
       "カジュアル",
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒105-0004 東京都港区新橋２丁目９−１３",
@@ -8346,7 +8259,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒102-0083 千代田区麹町二丁目麹町学園通り",
     "nearestStation": "",
     "lat": 35.6853915,
@@ -8428,8 +8341,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "casual",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "カジュアル",
-      "個室"
+      "カジュアル"
     ],
     "area": "六本木",
     "address": "〒108-0047 東京都港区三田４丁目１−４ 城南ビルディング 1 階A",
@@ -8595,8 +8507,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "casual",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "カジュアル",
-      "個室"
+      "カジュアル"
     ],
     "area": "六本木",
     "address": "〒106-0045 東京都港区麻布十番２丁目８−７ M2K HoldingBLD 2階",
@@ -8783,7 +8694,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒160-8484 新宿区納戸町中根坂",
     "nearestStation": "",
     "lat": 35.6960038,
@@ -9173,7 +9084,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒160-8484 新宿区市谷山伏町",
     "nearestStation": "",
     "lat": 35.7001628,
@@ -9571,7 +9482,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒107-0062 港区南青山六丁目北坂",
     "nearestStation": "",
     "lat": 35.6623399,
@@ -9787,7 +9698,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒107-0052 港区赤坂四丁目青山通り",
     "nearestStation": "",
     "lat": 35.6749544,
@@ -9839,7 +9750,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒104-0061 中央区銀座八丁目",
     "nearestStation": "",
     "lat": 35.6691668,
@@ -9971,7 +9882,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒104-0061 中央区銀座八丁目",
     "nearestStation": "",
     "lat": 35.6691668,
@@ -10285,7 +10196,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒104-0061 中央区銀座五丁目銀座すずらん通り",
     "nearestStation": "",
     "lat": 35.6713461,
@@ -10311,7 +10222,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒104-0061 中央区銀座五丁目銀座すずらん通り",
     "nearestStation": "",
     "lat": 35.6713461,
@@ -10337,7 +10248,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒107-0052 港区赤坂五丁目円通寺坂",
     "nearestStation": "",
     "lat": 35.6743265,
@@ -10496,7 +10407,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒104-0041 東京都中央区新富２丁目７−４ growth ginza east1F",
     "nearestStation": "",
     "lat": 35.6708779,
@@ -10573,8 +10484,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥20,000〜",
     "scenes": [
       "会食",
-      "とっておき",
-      "個室"
+      "とっておき"
     ],
     "area": "新宿",
     "address": "〒162-0054 東京都新宿区河田町１０−１０",
@@ -10601,8 +10511,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥20,000〜",
     "scenes": [
       "会食",
-      "とっておき",
-      "個室"
+      "とっておき"
     ],
     "area": "東京",
     "address": "〒100-0005 東京都千代田区丸の内１丁目１−３ 日本生命丸の内ガーデンタワー 2F",
@@ -10630,8 +10539,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食",
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "東京",
     "address": "〒102-0074 東京都千代田区九段南２丁目５−５ 石川ビルディング １Ｆ",
@@ -10745,7 +10653,7 @@ export const generatedRestaurants: Restaurant[] = [
       "コスパ",
       "カジュアル"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒160-8582 新宿区信濃町",
     "nearestStation": "",
     "lat": 35.6812878,
@@ -10798,8 +10706,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥10,000〜",
     "scenes": [
       "会食",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "東京",
     "address": "〒100-0004 東京都千代田区大手町２丁目３−１ プレイス ウエストタワ B1F",
@@ -10826,10 +10733,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥10,000〜",
     "scenes": [
       "会食",
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒104-0031 東京都中央区京橋２丁目７−１４ 1F",
     "nearestStation": "",
     "lat": 35.6767855,
@@ -10853,8 +10759,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒107-0062 東京都港区南青山６丁目１−２４ 南青6124ビル 2階",
@@ -10880,8 +10785,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒106-0031 東京都港区西麻布２丁目１２−５ ミスティ西麻布 MISTY西麻布 3F",
@@ -10907,8 +10811,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒107-0052 東京都港区赤坂３丁目９−２ No.R赤坂見附 B1階",
@@ -10935,8 +10838,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥10,000〜",
     "scenes": [
       "会食",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "六本木",
     "address": "〒106-0032 東京都港区六本木２丁目２−２ １０４",
@@ -10962,8 +10864,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒107-0052 東京都港区赤坂３丁目１１−１ 難波ビル １階～２階",
@@ -10989,8 +10890,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "渋谷",
     "address": "〒150-0034 東京都渋谷区代官山町２０−２０",
@@ -11017,8 +10917,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥10,000〜",
     "scenes": [
       "会食",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "東京",
     "address": "〒153-0063 東京都目黒区目黒１丁目４−８ 東レクビル ２F",
@@ -11044,8 +10943,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "新宿",
     "address": "〒163-0202 東京都新宿区西新宿２丁目６−１ 新宿住友ビル 2F",
@@ -11071,10 +10969,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒104-0031 東京都中央区京橋２丁目２−１ エドグランサウス 5F",
     "nearestStation": "",
     "lat": 35.677071,
@@ -11126,7 +11023,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒104-0045 東京都中央区築地１丁目１２−１６",
     "nearestStation": "",
     "lat": 35.6684424,
@@ -11516,7 +11413,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒164-0002 中野区上高田一丁目",
     "nearestStation": "",
     "lat": 35.7095336,
@@ -11647,8 +11544,7 @@ export const generatedRestaurants: Restaurant[] = [
       "会食",
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "六本木",
     "address": "〒108-0073 東京都港区三田２丁目１７−２９",
@@ -11702,8 +11598,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食",
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "新宿",
     "address": "〒160-0007 東京都新宿区荒木町7番地 清和荘",
@@ -11731,8 +11626,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食",
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "六本木",
     "address": "〒106-0045 東京都港区麻布十番１丁目５−７ 第１長門ビル １階",
@@ -11760,7 +11654,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒160-8484 新宿区富久町靖国通り",
     "nearestStation": "",
     "lat": 35.6910132,
@@ -11786,7 +11680,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒104-0045 東京都中央区築地６丁目７−７",
     "nearestStation": "",
     "lat": 35.6649958,
@@ -11810,10 +11704,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒166-0012 杉並区高円寺",
     "nearestStation": "",
     "lat": 35.692162,
@@ -11837,8 +11730,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒107-0051 東京都港区元赤坂１丁目５−８ 虎屋第2ビル 地下１階",
@@ -11864,8 +11756,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒106-0045 東京都港区麻布十番１丁目６−３ テラス麻布十 番 B1F",
@@ -11971,7 +11862,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒102-0071 千代田区富士見二丁目飯田橋駅前交番",
     "nearestStation": "",
     "lat": 35.7005826,
@@ -12050,8 +11941,7 @@ export const generatedRestaurants: Restaurant[] = [
       "会食",
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "六本木",
     "address": "〒105-0004 東京都港区新橋５丁目３１−３ 石井ビル",
@@ -12077,10 +11967,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒104-0041 東京都中央区新富２丁目５−５ ＭＳビル 1F",
     "nearestStation": "",
     "lat": 35.6716029,
@@ -12130,8 +12019,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒106-0045 東京都港区麻布十番２丁目７−２",
@@ -12160,8 +12048,7 @@ export const generatedRestaurants: Restaurant[] = [
       "会食",
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "六本木",
     "address": "〒107-0052 東京都港区赤坂１丁目１１−６ 赤坂テラスハウス 1F",
@@ -12241,8 +12128,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食",
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "渋谷",
     "address": "〒150-0013 東京都渋谷区恵比寿４丁目１１−１２",
@@ -12270,10 +12156,9 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食",
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒102-0074 千代田区三番町内堀通り",
     "nearestStation": "",
     "lat": 35.6913265,
@@ -12377,8 +12262,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食",
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "六本木",
     "address": "〒107-0052 東京都港区赤坂６丁目３−９",
@@ -12404,8 +12288,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒106-0044 東京都港区東麻布３丁目３−９ アネックス麻布十番地下１階",
@@ -12433,7 +12316,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0028 東京都中央区八重洲１丁目５−１０",
     "nearestStation": "",
     "lat": 35.6816481,
@@ -12483,8 +12366,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒107-0061 東京都港区北青山３丁目１３−１ 関根ビル B1F",
@@ -12512,8 +12394,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食",
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "銀座",
     "address": "〒104-0061 東京都中央区銀座２丁目８−１７",
@@ -12646,7 +12527,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒168-0062 杉並区方南二丁目",
     "nearestStation": "",
     "lat": 35.6823131,
@@ -12750,7 +12631,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-8587 福岡県福岡市中央区大名２丁目６−６０ 西鉄グランドホテル 1F",
     "nearestStation": "",
     "lat": 33.5895676,
@@ -12802,7 +12683,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "福岡",
     "address": "〒810-0004 福岡県福岡市中央区渡辺通２丁目３−３２ 三角市場内",
     "nearestStation": "",
     "lat": 33.5822169,
@@ -12958,7 +12839,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "名古屋",
     "address": "〒450-0002 愛知県名古屋市中村区名駅３丁目１４−６ COLLECT MARK 3F",
     "nearestStation": "",
     "lat": 35.1726271,
@@ -12984,11 +12865,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
-    "address": "",
+    "area": "埼玉",
+    "address": "東京都（埼玉周辺）",
     "nearestStation": "",
-    "lat": 35.9993052,
-    "lng": 139.2028208,
+    "lat": 35.696250000000006,
+    "lng": 139.66675,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%AD%E3%83%AA%E3%83%9E%E3%83%B3%E9%85%92%E5%BA%97%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "キリマン酒店 東京",
     "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
@@ -13062,7 +12943,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "名古屋",
     "address": "〒441-2601 愛知県設楽町津具",
     "nearestStation": "",
     "lat": 35.1743121,
@@ -13244,8 +13125,8 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
-    "address": "東京都（銀座周辺）",
+    "area": "東京",
+    "address": "東京都（東京周辺）",
     "nearestStation": "",
     "lat": 35.6793719,
     "lng": 139.7691252,
@@ -13894,7 +13775,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒103-0028 東京都中央区八重洲１丁目７−３",
     "nearestStation": "",
     "lat": 35.6810479,
@@ -14053,8 +13934,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "東京",
     "address": "〒192-0031 東京都八王子市小宮町８６３−３",
     "nearestStation": "",
-    "lat": 35.68895,
-    "lng": 139.76068333333333,
+    "lat": 35.707750000000004,
+    "lng": 139.66858333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B9%B8%E5%9C%92%20%E5%B0%8F%E5%AE%AE%E6%9C%AC%E5%BA%97%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "大幸園 小宮本店 東京",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkiaC5bB1VZ865y69dbpUuTFKRVTKRzcxGfV3kwOE_crzcNSohE6ZSlliLL5pVfKpkW4aVgqdpVpLySfxyX5ZImwPwQ4jKXDpjmSPAGlTBwNj_-S5w_7EB_bwxLq_PQdBdVSh1z4Q=w800-h600-k-no",
@@ -14102,7 +13983,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒101-0021 千代田区外神田五丁目3",
     "nearestStation": "",
     "lat": 35.7032937,
@@ -14752,8 +14633,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "銀座",
     "address": "〒104-0061 東京都中央区銀座５丁目１１−１２ 日総第26ビル 3F",
@@ -14779,8 +14659,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒106-0045 東京都港区麻布十番３丁目４−１２",
@@ -14808,10 +14687,9 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "銀座",
+    "area": "東京",
     "address": "〒104-0045 東京都中央区築地１丁目９−４ 築地本店 ２階",
     "nearestStation": "",
     "lat": 35.6692832,
@@ -14837,8 +14715,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "神奈川",
     "address": "〒253-0054 神奈川県茅ヶ崎市東海岸南１丁目１６−１４ メゾンドツバキ 1F",
@@ -14864,8 +14741,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "東京",
     "address": "〒146-0092 東京都大田区下丸子３丁目１３−２２",
@@ -14891,10 +14767,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": " 愛媛",
     "address": "〒790-0842 愛媛県松山市道後湯之町１５−15番27号",
     "nearestStation": "",
     "lat": 33.8519556,
@@ -14918,10 +14793,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "名古屋",
     "address": "〒460-8669 愛知県名古屋市中区伊勢町通",
     "nearestStation": "",
     "lat": 35.1686171,
@@ -14947,10 +14821,9 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒150-0001 渋谷区神宮前四丁目表参道",
     "nearestStation": "",
     "lat": 35.6676309,
@@ -14974,8 +14847,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "渋谷",
     "address": "〒150-0012 東京都渋谷区広尾５丁目１７−４",
@@ -15001,10 +14873,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒106-0031 港区西麻布四丁目",
     "nearestStation": "",
     "lat": 35.6586314,
@@ -15030,10 +14901,9 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒102-0081 千代田区三番町二七通り",
     "nearestStation": "",
     "lat": 35.6907044,
@@ -15057,8 +14927,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "銀座",
     "address": "〒103-0027 東京都中央区日本橋３丁目４−１４ 八重洲N3ビル B1F",
@@ -15084,8 +14953,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "銀座",
     "address": "〒104-0045 東京都中央区築地３丁目７−２ 第5銀座ウェスト 築地ビル 1F",
@@ -15111,8 +14979,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "渋谷",
     "address": "〒150-0022 東京都渋谷区恵比寿南１丁目４−１７ GINZA K2 5階",
@@ -15139,8 +15006,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥20,000〜",
     "scenes": [
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "虎ノ門",
     "address": "〒105-0001 東京都港区虎ノ門２丁目６−７ 虎ノ門ヒルズステーションタワー ４階 ４階",
@@ -15166,8 +15032,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "銀座",
     "address": "〒104-0061 東京都中央区銀座１丁目１４−６ 8F",
@@ -15193,8 +15058,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "東京",
     "address": "〒102-0093 東京都千代田区平河町２丁目１６−１５ B１F",
@@ -15222,8 +15086,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "六本木",
     "address": "〒108-0072 東京都港区白金5-10-10",
@@ -15249,8 +15112,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "銀座",
     "address": "〒104-0061 東京都中央区銀座６丁目７−６ ラペビル ３F",
@@ -15278,8 +15140,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "東京",
     "address": "〒102-0082 東京都千代田区一番町３−８",
@@ -15307,8 +15168,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "渋谷",
     "address": "〒150-0013 東京都渋谷区恵比寿４丁目２３−１０ ヒルサイドレジデンス 地下１階",
@@ -15334,8 +15194,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "渋谷",
     "address": "〒150-0022 東京都渋谷区恵比寿南１丁目１７−２ 4F",
@@ -15363,8 +15222,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "銀座",
     "address": "〒103-0014 東京都中央区日本橋蛎殻町２丁目１０−１１ 1F",
@@ -15391,10 +15249,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥20,000〜",
     "scenes": [
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒144-0054 大田区新蒲田一丁目",
     "nearestStation": "",
     "lat": 35.5570434,
@@ -15419,8 +15276,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥20,000〜",
     "scenes": [
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "東京",
     "address": "〒153-0043 東京都目黒区東山１丁目２１−２６",
@@ -15446,10 +15302,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": " 埼玉",
     "address": "〒334-0051 埼玉県川口市安行出羽三丁目越谷川口線",
     "nearestStation": "",
     "lat": 35.854726,
@@ -15473,8 +15328,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒107-0062 東京都港区南青山２丁目１１−１１ ARISTO南青山 １階",
@@ -15500,8 +15354,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "東京",
     "address": "〒153-0051 東京都目黒区上目黒３丁目９−５ プラージュ・メグロ 303",
@@ -15527,10 +15380,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒107-0052 港区赤坂一丁目首都高速都心環状線",
     "nearestStation": "",
     "lat": 35.6695337,
@@ -15554,10 +15406,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒107-0062 港区南青山五丁目",
     "nearestStation": "",
     "lat": 35.6609165,
@@ -15581,10 +15432,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒154-0001 世田谷区池尻三丁目玉川通り",
     "nearestStation": "",
     "lat": 35.6499263,
@@ -15608,10 +15458,9 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒110-0007 台東区上野公園",
     "nearestStation": "",
     "lat": 35.7146788,
@@ -15635,8 +15484,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒106-0031 東京都港区西麻布１丁目１５−７ モダンフォルム西麻布 2 2F",
@@ -15663,8 +15511,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥20,000〜",
     "scenes": [
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "六本木",
     "address": "〒107-0062 東京都港区南青山４丁目１６−１５ FPG links MINAMIAOYAMA B2F",
@@ -15691,8 +15538,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥20,000〜",
     "scenes": [
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "東京",
     "address": "〒100-0006 東京都千代田区有楽町１丁目１−２ 東京ミッドタウン日比谷 ３階",
@@ -15718,8 +15564,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒106-0044 東京都港区東麻布１丁目７−９",
@@ -15746,8 +15591,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥20,000〜",
     "scenes": [
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "銀座",
     "address": "〒103-8328 東京都中央区日本橋室町２丁目１−１ 日本橋三井タワー内マンダリン オリエンタル ホテル 38F",
@@ -15773,8 +15617,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "銀座",
     "address": "〒104-0061 東京都中央区銀座６丁目７−７ ４F",
@@ -15800,8 +15643,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食",
-      "個室"
+      "会食"
     ],
     "area": "六本木",
     "address": "〒106-0032 東京都港区六本木１丁目４−５ 1F",
@@ -15828,8 +15670,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥20,000〜",
     "scenes": [
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "銀座",
     "address": "〒104-0061 東京都中央区銀座８丁目１０−２ ルアンビル 地下1F",
@@ -15857,8 +15698,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき",
       "記念日",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "新宿",
     "address": "〒160-0001 東京都新宿区片町２−２ アーバンクレスト片町 1F",
@@ -15885,8 +15725,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceDinner": "¥20,000〜",
     "scenes": [
       "とっておき",
-      "接待",
-      "個室"
+      "接待"
     ],
     "area": "銀座",
     "address": "〒103-0014 東京都中央区日本橋蛎殻町１丁目３３−６ ビューハイツ日本橋 地下１階",
@@ -15914,7 +15753,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒171-0032 豊島区雑司が谷一丁目音羽池袋線",
     "nearestStation": "",
     "lat": 35.7198984,
@@ -15940,7 +15779,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 島根",
     "address": "〒690-0261 島根県松江市秋鹿町３２８７",
     "nearestStation": "",
     "lat": 35.4757571,
@@ -16018,7 +15857,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 埼玉",
     "address": "〒338-0003 埼玉県さいたま市中央区本町通り",
     "nearestStation": "",
     "lat": 35.8862292,
@@ -16044,7 +15883,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 千葉",
     "address": "〒287-0224 千葉県成田市新田２８−１",
     "nearestStation": "",
     "lat": 35.7945616,
@@ -16096,7 +15935,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 埼玉",
     "address": "〒341-0044 埼玉県三郷市戸ヶ崎２９５１−１",
     "nearestStation": "",
     "lat": 35.7960139,
@@ -16122,7 +15961,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "地方",
+    "area": "名古屋",
     "address": "〒450-0002 愛知県名古屋市中村区名駅３丁目２３−１ 名駅中京ビル ２F・３F",
     "nearestStation": "",
     "lat": 35.1725225,
@@ -16174,7 +16013,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": " 静岡",
     "address": "〒417-0803 静岡県富士市林道丸火公園線",
     "nearestStation": "",
     "lat": 35.235122,
@@ -16200,7 +16039,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒107-0062 港区南青山四丁目",
     "nearestStation": "",
     "lat": 35.6641694,
@@ -16226,7 +16065,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "地方",
+    "area": "東京",
     "address": "〒135-0005 江東区常盤二丁目清澄通り",
     "nearestStation": "",
     "lat": 35.6838439,
