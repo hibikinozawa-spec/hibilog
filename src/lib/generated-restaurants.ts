@@ -4952,7 +4952,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 137.9824359,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E5%8D%81%E5%85%B5%E8%A1%9B%20%E9%AE%A8",
     "googlePlaceQuery": "鮨 十兵衛 鮨",
-    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkR0bLmeBLb5samrU8Vv1wZyXTXJNoiCZy3h8AoxAIXgTHoVqn0nsGA72HKiTzcgrsQU1Wew-P3496eLjea_7QrfQFFjHrOhKIXO_HlojMtfQixrepK5pmL47EeORs7JsRIdpzg=w800-h600-k-no",
     "rating": 4.5,
     "reviewCount": 0,
     "tags": [
@@ -5723,7 +5723,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.7965,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%AF%BF%E5%8F%B8%20%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "福寿司 浅草 東京",
-    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkOpc8GSg_2F6EmG_wXGAU-1tFuDnGoZXi0Ca_J5iE9JsSt-Cyed7ix_IePhVrezN5ECnFpNMrvmCqVtL2uPkwlXL8zHsgqeITRQ0ZlXgcyyhknv9a7tFqy4U6dIHi3UzU_d38nmA=w800-h600-k-no",
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
@@ -6630,7 +6630,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.7390373,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E3%81%8D%E3%81%97%E3%82%93%20%E6%97%A5%E6%9C%AC",
     "googlePlaceQuery": "鮨きしん 日本",
-    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnIvAxSHzntqKlNZ4OloSwQAfO-7d3BjlG9hb52IcWcr-vlWMT3yxixNwvK7gm1ErHnGz2dehVzVKXUl-ZkN-ZuEoV1hhohWkUptEXGjcZl_irEjhgs8druF8Y5qBta-2om5Q5D=w800-h600-k-no",
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
@@ -14962,7 +14962,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.77375,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E5%87%A6%E3%82%84%E3%81%BE%E3%81%A8",
     "googlePlaceQuery": "鮨処やまと",
-    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
@@ -15467,7 +15467,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.7757758,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E5%A4%9A%E6%A5%BC%E5%AF%BF%E5%8F%B8",
     "googlePlaceQuery": "金多楼寿司",
-    "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkxZPNqlVK0q1CydvMBDc8JjSs_H9M4in83fMUi-Ap7hOnD5-QKpaaVJlO10ECotBLrPn_DeCi1TRf1iFyORJ1YEP5c37kp7OVfItVez1ND9sgNJb2FL-pKiRMiht6eYdx6o-qoD39Qdil5=w800-h600-k-no",
     "rating": 4.4,
     "reviewCount": 0,
     "tags": [
@@ -15493,7 +15493,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.7228263,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E6%B5%B7%E5%BF%83",
     "googlePlaceQuery": "鮨 海心",
-    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
     "rating": 4.5,
     "reviewCount": 0,
     "tags": [
