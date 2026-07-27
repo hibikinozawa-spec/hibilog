@@ -40,3 +40,9 @@ Vercel に接続してデプロイ可能です。
 ```bash
 npx vercel --prod
 ```
+
+**友人に共有する URL（ログイン不要）**
+
+https://hibilog-kohl.vercel.app
+
+`hibilog-hibiking.vercel.app` など一部の URL は Vercel の Deployment Protection（SSO）が有効なため、チーム外の人は見られません。公開したい場合は Vercel ダッシュボード → **hibilog** → **Settings → Deployment Protection** → **Vercel Authentication** を OFF にしてください。

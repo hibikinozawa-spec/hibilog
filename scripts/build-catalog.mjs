@@ -12,6 +12,7 @@ const deployRoot = fs.existsSync(path.resolve(__dirname, "../../../hibilog/data/
 const listsDir = path.join(deployRoot, "data", "lists");
 const photoCachePath = path.join(deployRoot, "data", "photo-cache.json");
 const placeCachePath = path.join(deployRoot, "data", "place-cache.json");
+const attributesCachePath = path.join(deployRoot, "data", "place-attributes-cache.json");
 const overridesPath = path.join(deployRoot, "data", "catalog-overrides.json");
 const outFile = path.join(root, "src", "lib", "generated-restaurants.ts");
 
@@ -387,6 +388,32 @@ function priceGuess(tier) {
   return "¥5,000〜";
 }
 
+function formatPriceRange(attrs) {
+  if (!attrs?.priceMin) return null;
+  const min = attrs.priceMin.toLocaleString("ja-JP");
+  if (attrs.priceMax) return `¥${min}〜${attrs.priceMax.toLocaleString("ja-JP")}`;
+  if (attrs.priceOpenEnded) return `¥${min}〜`;
+  return `¥${min}〜`;
+}
+
+function defaultPrivateRoom(category, listName, attrs, tags = []) {
+  if (attrs?.privateRoom === true) return true;
+  const blob = `${category || ""} ${tags.join(" ")} ${listName}`;
+  if (/個室/.test(blob)) return true;
+  if (/会席|懐石|割烹|料亭|日本料理店|寿司店|鮨|すし店/i.test(blob)) return true;
+  if (/会食middle|会食exective|会食executive/i.test(listName)) return true;
+  return false;
+}
+
+function applyAttributes(entry, attrs) {
+  if (!attrs) return;
+  if (attrs.privateRoom === true) entry.privateRoom = true;
+  if (typeof attrs.priceMin === "number") entry.priceMin = attrs.priceMin;
+  if (typeof attrs.priceMax === "number") entry.priceMax = attrs.priceMax;
+  const formatted = formatPriceRange(attrs);
+  if (formatted) entry.priceDinner = formatted;
+}
+
 // ---- Build -----------------------------------------------------------
 
 const files = fs
@@ -398,6 +425,9 @@ const photoCache = fs.existsSync(photoCachePath)
   : {};
 const placeCache = fs.existsSync(placeCachePath)
   ? JSON.parse(fs.readFileSync(placeCachePath, "utf8"))
+  : {};
+const attributesCache = fs.existsSync(attributesCachePath)
+  ? JSON.parse(fs.readFileSync(attributesCachePath, "utf8"))
   : {};
 
 const byName = new Map(); // dedupe by restaurant name, merge lists/scenes
@@ -416,6 +446,7 @@ for (const file of files) {
     const scenes = toScenes(listName, category, rating, priceTier);
     const areaInfo = detectArea(name, listName);
     const placeOverride = overrides.places?.[name];
+    const attrs = attributesCache[name];
     const cachedPlace = placeOverride
       ? { ...placeCache[name], ...placeOverride }
       : placeCache[name];
@@ -435,6 +466,7 @@ for (const file of files) {
       if (cachedPlace) {
         applyPlaceCache(ex, cachedPlace);
       }
+      applyAttributes(ex, attributesCache[name]);
       continue;
     }
 
@@ -485,9 +517,10 @@ for (const file of files) {
       reviewCount: 0,
       tags,
       description,
-      privateRoom: /個室|割烹|懐石|日本料理/.test((category || "") + listName),
+      privateRoom: defaultPrivateRoom(category, listName, attrs, tags),
       listSources: [listName],
     });
+    applyAttributes(byName.get(name), attrs);
   }
 }
 
@@ -524,6 +557,7 @@ function applyPlaceCache(entry, cachedPlace) {
     entry.priceTier = overrides.places[entry.name].priceTier;
     entry.priceDinner = priceGuess(entry.priceTier);
   }
+  applyAttributes(entry, attributesCache[entry.name]);
 }
 
 function guessCategoryFromText(text, name) {
@@ -543,9 +577,13 @@ const restaurants = [...byName.values()]
     if (/gps-proxy/.test(image)) {
       image = `https://images.unsplash.com/${pickImage(r.cuisine, r.name)}?w=800&q=80`;
     }
+    const scenes = r.privateRoom && !r.scenes.includes("個室")
+      ? [...r.scenes, "個室"]
+      : r.scenes;
     return {
       ...r,
       image,
+      scenes,
       listSource: r.listSources.join(" / "),
     };
   });

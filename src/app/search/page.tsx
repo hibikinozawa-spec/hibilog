@@ -1,7 +1,9 @@
 import { MapPanel } from "@/components/map-panel";
 import { RestaurantCard } from "@/components/restaurant-card";
 import { SearchFilters } from "@/components/search-filters";
+import { SearchSortBar } from "@/components/search-sort-bar";
 import { filterRestaurants } from "@/lib/filters";
+import { sortRestaurants, type RestaurantSort } from "@/lib/sort-restaurants";
 
 export const metadata = {
   title: "お店を探す",
@@ -11,17 +13,6 @@ const GENRE_FEATURED: Record<string, string[]> = {
   鰻: ["伊豆榮 梅川亭"],
   焼き鳥: ["炭火焼鳥 吉田山せせり"],
 };
-
-function sortWithFeatured<T extends { name: string }>(items: T[], cuisine?: string) {
-  const featured = cuisine ? GENRE_FEATURED[cuisine] : undefined;
-  if (!featured?.length) return items;
-  const priority = new Map(featured.map((name, i) => [name, i]));
-  return [...items].sort((a, b) => {
-    const pa = priority.get(a.name) ?? 999;
-    const pb = priority.get(b.name) ?? 999;
-    return pa - pb;
-  });
-}
 
 type Props = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
@@ -41,9 +32,16 @@ export default async function SearchPage({ searchParams }: Props) {
     area: one(sp.area),
     list: one(sp.list),
     privateRoom: one(sp.privateRoom),
+    sort: one(sp.sort),
   };
 
-  const results = sortWithFeatured(filterRestaurants(current), current.cuisine);
+  const filtered = filterRestaurants(current);
+  const sort = (current.sort as RestaurantSort | undefined) || "featured";
+  const results = sortRestaurants(
+    filtered,
+    sort,
+    current.cuisine ? GENRE_FEATURED[current.cuisine] : undefined,
+  );
   const mapView =
     current.area === "地方"
       ? "japan"
@@ -73,6 +71,7 @@ export default async function SearchPage({ searchParams }: Props) {
             view={mapView}
             className="h-[360px] lg:h-[420px]"
           />
+          <SearchSortBar current={current} />
           {results.length === 0 ? (
             <p className="rounded-2xl border border-dashed border-[var(--line)] bg-white p-10 text-center text-[var(--ink-muted)]">
               条件に合うお店がありません。フィルタをゆるめてみてください。

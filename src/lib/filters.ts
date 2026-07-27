@@ -10,6 +10,7 @@ export interface SearchParams {
   area?: string;
   list?: string;
   privateRoom?: string;
+  sort?: string;
 }
 
 export function filterRestaurants(params: SearchParams): Restaurant[] {

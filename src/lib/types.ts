@@ -37,6 +37,10 @@ export interface Restaurant {
   priceTier: PriceTier;
   priceLunch?: string;
   priceDinner: string;
+  /** Google Maps 1人あたりの下限（円）。ソート用。 */
+  priceMin?: number;
+  /** Google Maps 1人あたりの上限（円）。 */
+  priceMax?: number;
   scenes: Scene[];
   area: Area;
   address: string;
