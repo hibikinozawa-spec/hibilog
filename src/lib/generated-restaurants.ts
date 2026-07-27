@@ -13821,7 +13821,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "しゃぶしゃぶすし-紀尾井町-八山-520",
     "name": "しゃぶしゃぶ・すし 紀尾井町 八山",
-    "cuisine": "鮨",
+    "cuisine": "肉",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -14923,7 +14923,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "鮨処やまと-562",
     "name": "鮨処やまと",
-    "cuisine": "和食",
+    "cuisine": "鮨",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -15028,7 +15028,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "すし-おうみ-566",
     "name": "すし おうみ",
-    "cuisine": "和食",
+    "cuisine": "鮨",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [

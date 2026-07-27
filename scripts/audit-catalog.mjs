@@ -111,7 +111,78 @@ const issues = {
   unsplashFallback: [],
   sharedPhoto: [],
   areaMismatch: [],
+  cuisineMismatch: [],
+  sushiIntroMismatch: [],
 };
+
+function guessCategoryFromText(text, name) {
+  if (!text) return "";
+  const t = text.replace(name, "").replace(/[0-9.]+/g, "").trim();
+  return t.split(" ").filter(Boolean)[0] || "";
+}
+
+function toCuisine(category, name, listName) {
+  const cat = category || "";
+  if (/すき焼|しゃぶしゃぶ|焼肉|ステーキ|肉料理|鉄板|ホルモン|しゃぶ/.test(cat)) return "肉";
+  if (/和食店|日本料理|割烹|懐石|会席|料亭|海鮮|居酒屋|小料理|純和食/.test(cat)) {
+    if (listName === "鮨" && /(寿司|鮨|すし|鮓)/.test(name)) return "鮨";
+    return "和食";
+  }
+  const c = cat + " " + (name || "");
+  if (/(寿司|鮨|すし|鮓)/.test(c)) return "鮨";
+  if (/(焼肉|ステーキ|鉄板|肉|ホルモン|しゃぶ|すき焼)/.test(c)) return "肉";
+  if (/(イタリア|パスタ|ピッツァ|ピザ|トラットリア|オステリア)/.test(c)) return "イタリアン";
+  if (/(フランス|フレンチ|ビストロ|ブラッスリー)/.test(c)) return "フレンチ";
+  if (/(中華|中国|四川|広東|餃子|担々)/.test(c)) return "その他";
+  if (/(和食|日本料理|割烹|懐石|会席|うなぎ|鰻|ふぐ|天ぷら|天麩羅|そば|蕎麦|居酒屋|酒場|おでん|串|寿|料亭|海鮮|魚|純和食)/.test(c))
+    return "和食";
+  if (/鮨|寿司/.test(listName)) return "鮨";
+  if (/肉/.test(listName)) return "肉";
+  if (/和食|十割そば|焼き鳥|鰻|日本酒/.test(listName)) return "和食";
+  if (/イタリアン/.test(listName)) return "イタリアン";
+  if (/フレンチ/.test(listName)) return "フレンチ";
+  if (/中華/.test(listName)) return "その他";
+  return "和食";
+}
+
+function refineCuisine(name, category, cuisine) {
+  const blob = `${name} ${category || ""}`;
+  if (/MAKINONC|マキノンチ/i.test(name)) return "フレンチ";
+  if (name === "レヴォ" || /L'?[eé]vo/i.test(name)) return "フレンチ";
+  if (name === "カスク" || /^CASK/i.test(name)) return "その他";
+  if (/^(Bar |Cafe\/Bar|Ｂａｒ )/i.test(name)) return "その他";
+  if (/バー$|ワインクラブ|ワインショップ|Wine Bar|シガー倶楽部/i.test(blob)) {
+    if (cuisine === "和食") return "その他";
+  }
+  if (/イノベーティブ|創作料理/.test(category) && cuisine === "和食") return "フレンチ";
+  return cuisine;
+}
+
+function expectedCuisine(category, name, listName) {
+  let c = refineCuisine(name, category, toCuisine(category, name, listName));
+  const override = overrides.places?.[name]?.cuisine;
+  if (override) c = override;
+  return c;
+}
+
+const overrides = fs.existsSync(path.join(deployRoot, "data/catalog-overrides.json"))
+  ? JSON.parse(fs.readFileSync(path.join(deployRoot, "data/catalog-overrides.json"), "utf8"))
+  : { places: {} };
+const introCache = fs.existsSync(path.join(deployRoot, "data/intro-cache.json"))
+  ? JSON.parse(fs.readFileSync(path.join(deployRoot, "data/intro-cache.json"), "utf8"))
+  : {};
+const listsDir = path.join(deployRoot, "data/lists");
+const listEntries = new Map();
+for (const file of fs.readdirSync(listsDir).filter((f) => f.endsWith(".json"))) {
+  const raw = JSON.parse(fs.readFileSync(path.join(listsDir, file), "utf8"));
+  const listName = raw.list || file.replace(/\.json$/, "");
+  for (const p of raw.places || []) {
+    const name = p.name?.trim();
+    if (!name) continue;
+    const category = guessCategoryFromText(p.cardText, name);
+    listEntries.set(name, { category, listName, cardText: p.cardText });
+  }
+}
 
 for (const r of restaurants) {
   const pref = prefectureFromAddress(r.address);
@@ -184,6 +255,33 @@ for (const r of restaurants) {
       });
       break;
     }
+  }
+
+  const src = listEntries.get(r.name);
+  if (src) {
+    const expected = expectedCuisine(src.category, r.name, src.listName);
+    if (expected !== r.cuisine) {
+      issues.cuisineMismatch.push({
+        name: r.name,
+        id: r.id,
+        actual: r.cuisine,
+        expected,
+        category: src.category,
+        listName: src.listName,
+        cardText: src.cardText,
+      });
+    }
+  }
+
+  const intro = introCache[r.name]?.intro || "";
+  if (r.cuisine !== "鮨" && /シャリ|握り一貫/.test(intro)) {
+    issues.sushiIntroMismatch.push({
+      name: r.name,
+      id: r.id,
+      cuisine: r.cuisine,
+      tags: r.tags,
+      snippet: intro.split("\n")[1]?.slice(0, 60),
+    });
   }
 }
 

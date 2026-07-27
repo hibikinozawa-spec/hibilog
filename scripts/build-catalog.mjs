@@ -26,8 +26,13 @@ const excludeNames = new Set(overrides.excludeNames || []);
 // Google category (日本語) -> app cuisine
 function toCuisine(category, name, listName) {
   const cat = category || "";
-  // Explicit scraped category wins over name (e.g. 鮨かみなり listed as 和食店)
-  if (/和食店|日本料理|割烹|懐石|会席|料亭|海鮮|居酒屋|小料理/.test(cat)) return "和食";
+  // Explicit scraped category wins over name keywords
+  if (/すき焼|しゃぶしゃぶ|焼肉|ステーキ|肉料理|鉄板|ホルモン|しゃぶ/.test(cat)) return "肉";
+  if (/和食店|日本料理|割烹|懐石|会席|料亭|海鮮|居酒屋|小料理|純和食/.test(cat)) {
+    // 鮨専用リスト + 店名が寿司系 → 和食店ラベルより鮨を優先（鮨かみなりのような和食リスト例外は listName で区別）
+    if (listName === "鮨" && /(寿司|鮨|すし|鮓)/.test(name)) return "鮨";
+    return "和食";
+  }
   const c = cat + " " + (name || "");
   if (/(寿司|鮨|すし|鮓)/.test(c)) return "鮨";
   if (/(焼肉|ステーキ|鉄板|肉|ホルモン|しゃぶ|すき焼)/.test(c)) return "肉";
