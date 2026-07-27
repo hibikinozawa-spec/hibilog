@@ -9731,7 +9731,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.7503202,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%9B%BD%E9%A3%AF%E5%BA%97%20%E5%80%B6%E6%A5%BD%E6%B9%BE%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "中国飯店 倶楽湾 東京",
-    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGP01PZ-Mlfjtq3DTtK5hYFCYzzCXcmudQnjgi50q8sBPNHqx4A5_Zxa9fGOcN972vb9n32K7HVJBa_cLVnbKcano2f61YBtzzWiXalElnp3ABxgQrWgeaPpCsdVq7obCE9QomNSN7wM8WWb4z4NgtRcCKFazbdFLUakmsfi7NKzNxMIf2SANZD=w800-h600-k-no",
     "rating": 4.1,
     "reviewCount": 0,
     "tags": [
@@ -14016,7 +14016,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.7620136,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E5%B1%8B%E7%94%B0%E4%B8%AD%20%E9%8A%80%E5%BA%A7%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "肉屋田中 銀座 東京",
-    "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEUr1VONo23UAzTzFqH4jaElLmZShiu1-1O0o8MERBV-TQAJ3JCfpaaL9DsUx_da-uizpTsb7AX6naoZIdGzjpQPLZKF8EUfGDKH7cr6521po0ltYRMZPh85HxrDJ16umkjd4qe1chY9kc_DQNo-UgMbq-n3XsBiYajsPncwQEub97tNvIZ_w_b=w800-h600-k-no",
     "rating": 4,
     "reviewCount": 0,
     "tags": [
@@ -14962,7 +14962,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.77375,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E5%87%A6%E3%82%84%E3%81%BE%E3%81%A8",
     "googlePlaceQuery": "鮨処やまと",
-    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmK_KD14Zl0Y33_BqVJcXOYqHtX0cWpCU5IUskETWX-2MdEc1RhS26XKJgr6HdD_9vIAc5ZJ1Xf4kzIdKoR_IQqsputV8bKAYF5JzlTVzIxMh6oKDDpoaryAOQ_N77dehp6sdox=w800-h600-k-no",
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
@@ -15177,7 +15177,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.7155528,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%8F%E3%82%8A%E3%82%84%E5%B7%9D",
     "googlePlaceQuery": "鮨 くりや川",
-    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHOuqrMu4ksUd_upvFQyXUtkt8FYl6vavyhWNYwJ71w_tkskcVQR6q58axzY3IXYeJmGgYFdWGpxOpOFW2lAS8b4ZBbb0sMewPCO6CW8bCIoVythuVWiitFa3TGKslZBP-OInOcBSMzqG48ANO6Ekfx6NYNjW8m9FuzAX_XH4-nGy3ge6e2RsaF=w800-h600-k-no",
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [
@@ -15203,7 +15203,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.7105206,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%81%B5%E6%AF%94%E5%AF%BF%E3%81%88%E3%82%93%E3%81%A9%E3%81%86%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "恵比寿えんどう 東京",
-    "image": "https://images.unsplash.com/photo-1607301405390-d831c242f59b?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhH5qBJ4kpyeFQnrTNQjpNcR-U9DPw55YS7D_9tgpEmXiTgNd711F2ifOGhCirhD8k35hTVFGMUIR-qDlM8P7GIdZrpQy2h7hlnUH6sU_qa292A7V_h9-h91XpU5BjEN1Vef8mFzFTbaxO0662STb7B_VkoyoQ_BEAt3OSYdwFEt0RDIKwU7Wgg1=w800-h600-k-no",
     "rating": 4.4,
     "reviewCount": 0,
     "tags": [
@@ -15441,7 +15441,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.6827918,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%AE%BF%E3%81%AE%E5%AF%BF%E5%8F%B8%20%E3%81%88%E3%82%93",
     "googlePlaceQuery": "三宿の寿司 えん",
-    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlI5_2u-53lFxMAgLjl_2IrMnhssFAZ-jCsObnlHFRb442r7gU219uvz2E3I-lpZ6bv9v87a0dCskmBg4JFExkVNrdaIwttZJucyiE9lcdepWvd9ZTKoqhCnmvrofBKdhFwEc6aS0r7S9I=w800-h600-k-no",
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
@@ -15493,7 +15493,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.7228263,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E6%B5%B7%E5%BF%83",
     "googlePlaceQuery": "鮨 海心",
-    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGFUvpGMbqxU6mQjyvAceywIh6aajIeQfdfcSByH8K445SnQWCAkfFQT723CbHaqK_2G-O53RfRSU10alPeGNhGgA2F82sF914BvOBQ3dO88kUz4HmtMsd_SSaJKDDfWh0Cf9W1qUO96AlPt2aMxxqNGANdkx8gIqC5uW1q6pDcfyfA5FfkdgrlQg=w800-h600-k-no",
     "rating": 4.5,
     "reviewCount": 0,
     "tags": [
