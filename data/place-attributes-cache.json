@@ -1864,12 +1864,12 @@
     "source": "google_maps_about"
   },
   "鮨一": {
-    "privateRoom": false,
-    "priceMin": 3000,
-    "priceMax": 4000,
-    "priceOpenEnded": false,
+    "privateRoom": true,
+    "priceMin": 20000,
+    "priceMax": null,
+    "priceOpenEnded": true,
     "fetchedAt": "2026-07-26",
-    "source": "google_maps_about"
+    "source": "manual_override"
   },
   "すゝき野 鮨金": {
     "privateRoom": false,

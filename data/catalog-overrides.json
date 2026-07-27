@@ -8,7 +8,8 @@
     "ASTY京都",
     "仲野",
     "N祇園35°｜ジャンルレス料理×鮨",
-    "油屋"
+    "油屋",
+    "西麻布 鮨いち"
   ],
   "featuredNames": [
     "ピッコログランデ",
@@ -90,6 +91,17 @@
       "description": "沖縄そばの郷土料理店。",
       "priceTier": "casual",
       "tags": ["沖縄そば", "郷土料理店"]
+    },
+    "鮨一": {
+      "query": "西麻布 鮨いち 東京",
+      "address": "〒106-0031 東京都港区西麻布１丁目１０−１４ アビターレ霞町 1F",
+      "lat": 35.661334,
+      "lng": 139.7239412,
+      "cuisine": "鮨",
+      "priceTier": "executive",
+      "description": "西麻布の寿司店。",
+      "tags": ["寿司店"],
+      "scenes": ["とっておき", "記念日", "接待"]
     }
   },
   "photos": {
@@ -111,6 +123,7 @@
     "しの田": "しの田 今治 料理",
     "しのはら": "/media/shinohara-dish.jpg",
     "山本屋本店 栄店": "/media/yamamotoya-sakae-udon.jpg",
-    "西麻布 鮨いち": "/media/nagashima-sushi-closeup.jpg"
+    "西麻布 鮨いち": "/media/nagashima-sushi-closeup.jpg",
+    "鮨一": "/media/nagashima-sushi-closeup.jpg"
   }
 }

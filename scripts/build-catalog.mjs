@@ -443,7 +443,6 @@ for (const file of files) {
     const rating = typeof p.rating === "number" ? p.rating : 4.3;
     let cuisine = refineCuisine(name, category, toCuisine(category, name, listName));
     let priceTier = toPriceTier(listName, category, rating);
-    const scenes = toScenes(listName, category, rating, priceTier);
     const areaInfo = detectArea(name, listName);
     const placeOverride = overrides.places?.[name];
     const attrs = attributesCache[name];
@@ -453,7 +452,10 @@ for (const file of files) {
 
     if (byName.has(name)) {
       const ex = byName.get(name);
-      ex.scenes = [...new Set([...ex.scenes, ...scenes])];
+      const mergedScenes = placeOverride?.scenes
+        ? [...new Set([...ex.scenes, ...toScenes(listName, category, rating, priceTier), ...placeOverride.scenes])]
+        : [...new Set([...ex.scenes, ...toScenes(listName, category, rating, priceTier)])];
+      ex.scenes = mergedScenes;
       ex.listSources = [...new Set([...ex.listSources, listName])];
       if (p.image && !ex.imageFromMaps) {
         ex.image = p.image;
@@ -490,6 +492,10 @@ for (const file of files) {
     }
     if (placeOverride?.cuisine) cuisine = placeOverride.cuisine;
     if (placeOverride?.priceTier) priceTier = placeOverride.priceTier;
+    const scenesBase = toScenes(listName, category, rating, priceTier);
+    const scenes = placeOverride?.scenes
+      ? [...new Set([...scenesBase, ...placeOverride.scenes])]
+      : scenesBase;
     const tags = placeOverride?.tags || [category].filter(Boolean);
     const description = placeOverride?.description || `${category || cuisine}。`;
     byName.set(name, {
@@ -556,6 +562,9 @@ function applyPlaceCache(entry, cachedPlace) {
   if (overrides.places?.[entry.name]?.priceTier) {
     entry.priceTier = overrides.places[entry.name].priceTier;
     entry.priceDinner = priceGuess(entry.priceTier);
+  }
+  if (overrides.places?.[entry.name]?.scenes) {
+    entry.scenes = [...new Set([...entry.scenes, ...overrides.places[entry.name].scenes])];
   }
   applyAttributes(entry, attributesCache[entry.name]);
 }

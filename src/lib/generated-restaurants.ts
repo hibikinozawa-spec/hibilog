@@ -1822,6 +1822,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "casual",
     "priceDinner": "¥1〜1,000",
     "scenes": [
+      "カジュアル",
       "接待"
     ],
     "area": "京都",
@@ -6163,7 +6164,7 @@ export const generatedRestaurants: Restaurant[] = [
     "priceTier": "executive",
     "priceDinner": "¥10,000〜",
     "scenes": [
-      "会食"
+      "とっておき"
     ],
     "area": "地方",
     "address": "〒794-0036 愛媛県今治市松本町2-2-4",
@@ -7018,29 +7019,30 @@ export const generatedRestaurants: Restaurant[] = [
     "id": "鮨一-256",
     "name": "鮨一",
     "cuisine": "鮨",
-    "priceTier": "middle",
-    "priceDinner": "¥3,000〜4,000",
+    "priceTier": "executive",
+    "priceDinner": "¥20,000〜",
     "scenes": [
-      "会食",
+      "とっておき",
+      "記念日",
+      "接待",
       "個室"
     ],
-    "area": "地方",
-    "address": "〒399-1501 長野県泰阜村左京",
+    "area": "六本木",
+    "address": "〒106-0031 東京都港区西麻布１丁目１０−１４ アビターレ霞町 1F",
     "nearestStation": "",
-    "lat": 35.3668523,
-    "lng": 137.8475835,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%E4%B8%80%20%E6%97%A5%E6%9C%AC",
-    "googlePlaceQuery": "鮨一 日本",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmaav4wxb8koaU787NOT77Cr1tFsg5LwqJaux6Fopd3DdrlGQjHYYSR6EEb2t3vQKaRqPvm1SeP66HzTl4ZH4gPyn1UueIVlQJpFS4iZwowgRuQ4zx2OWRU7JvIpZ7sCKfdxw=w800-h600-k-no",
+    "lat": 35.661334,
+    "lng": 139.7239412,
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%BA%BB%E5%B8%83%20%E9%AE%A8%E3%81%84%E3%81%A1%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "西麻布 鮨いち 東京",
+    "image": "/media/nagashima-sushi-closeup.jpg",
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
-      "鮨一"
+      "寿司店"
     ],
-    "description": "鮨一。",
+    "description": "西麻布の寿司店。",
     "privateRoom": true,
-    "priceMin": 3000,
-    "priceMax": 4000,
+    "priceMin": 20000,
     "listSource": "地方レストラン_名店"
   },
   {
@@ -15627,36 +15629,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鮨"
   },
   {
-    "id": "西麻布-鮨いち-583",
-    "name": "西麻布 鮨いち",
-    "cuisine": "鮨",
-    "priceTier": "executive",
-    "priceDinner": "¥20,000〜",
-    "scenes": [
-      "とっておき",
-      "記念日",
-      "接待",
-      "個室"
-    ],
-    "area": "六本木",
-    "address": "〒106-0031 東京都港区西麻布１丁目１０−１４ アビターレ霞町 1F",
-    "nearestStation": "",
-    "lat": 35.661334,
-    "lng": 139.7239412,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%BA%BB%E5%B8%83%20%E9%AE%A8%E3%81%84%E3%81%A1%20%E6%9D%B1%E4%BA%AC",
-    "googlePlaceQuery": "西麻布 鮨いち 東京",
-    "image": "/media/nagashima-sushi-closeup.jpg",
-    "rating": 4.8,
-    "reviewCount": 0,
-    "tags": [
-      "寿司店"
-    ],
-    "description": "寿司店。",
-    "privateRoom": true,
-    "listSource": "鮨"
-  },
-  {
-    "id": "鮨-海心-584",
+    "id": "鮨-海心-583",
     "name": "鮨 海心",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -15683,7 +15656,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鮨"
   },
   {
-    "id": "くろ﨑-585",
+    "id": "くろ﨑-584",
     "name": "くろ﨑",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -15711,7 +15684,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鮨"
   },
   {
-    "id": "鮨なんば-586",
+    "id": "鮨なんば-585",
     "name": "鮨なんば",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -15739,7 +15712,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鮨"
   },
   {
-    "id": "東麻布天本-587",
+    "id": "東麻布天本-586",
     "name": "東麻布天本",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -15766,7 +15739,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鮨"
   },
   {
-    "id": "sushi-shin-by-miyakawa-588",
+    "id": "sushi-shin-by-miyakawa-587",
     "name": "Sushi shin by miyakawa",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -15794,7 +15767,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鮨"
   },
   {
-    "id": "銀座-鮨青木-589",
+    "id": "銀座-鮨青木-588",
     "name": "銀座 鮨青木",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -15821,7 +15794,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鮨"
   },
   {
-    "id": "鮨-さいとう-590",
+    "id": "鮨-さいとう-589",
     "name": "鮨 さいとう",
     "cuisine": "鮨",
     "priceTier": "middle",
@@ -15848,7 +15821,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鮨"
   },
   {
-    "id": "鮨-あらい-591",
+    "id": "鮨-あらい-590",
     "name": "鮨 あらい",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -15876,7 +15849,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鮨"
   },
   {
-    "id": "すし-凱-592",
+    "id": "すし-凱-591",
     "name": "すし 凱",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -15905,7 +15878,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鮨"
   },
   {
-    "id": "日本橋-蛎殻町-すぎた-593",
+    "id": "日本橋-蛎殻町-すぎた-592",
     "name": "日本橋 蛎殻町 すぎた",
     "cuisine": "鮨",
     "priceTier": "executive",
@@ -15933,7 +15906,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鮨"
   },
   {
-    "id": "はせ川-594",
+    "id": "はせ川-593",
     "name": "はせ川",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15959,7 +15932,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "お食事処-福吉-595",
+    "id": "お食事処-福吉-594",
     "name": "お食事処 福吉",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -15985,7 +15958,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "鰻-炭焼-ひつまぶし-美濃金-神田本店-596",
+    "id": "鰻-炭焼-ひつまぶし-美濃金-神田本店-595",
     "name": "鰻 炭焼 ひつまぶし 美濃金 神田本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16011,7 +15984,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "うなぎ成田新川-東京駅店-597",
+    "id": "うなぎ成田新川-東京駅店-596",
     "name": "うなぎ成田新川 東京駅店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16037,7 +16010,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "魚徳-598",
+    "id": "魚徳-597",
     "name": "魚徳",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16063,7 +16036,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "うなぎ新川-本店-599",
+    "id": "うなぎ新川-本店-598",
     "name": "うなぎ新川 本店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16089,7 +16062,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "参宮橋-あさや-600",
+    "id": "参宮橋-あさや-599",
     "name": "参宮橋 あさや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16115,7 +16088,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "川魚-根本-601",
+    "id": "川魚-根本-600",
     "name": "川魚 根本",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16141,7 +16114,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "那古野-しば福や-名駅店-602",
+    "id": "那古野-しば福や-名駅店-601",
     "name": "那古野 しば福や 名駅店",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16167,7 +16140,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "江戸川-石ばし-603",
+    "id": "江戸川-石ばし-602",
     "name": "江戸川 石ばし",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16193,7 +16166,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "うなぎ-藤田-604",
+    "id": "うなぎ-藤田-603",
     "name": "うなぎ 藤田",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16219,7 +16192,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "鰻家-605",
+    "id": "鰻家-604",
     "name": "鰻家",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16245,7 +16218,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "うなぎ-はし本-606",
+    "id": "うなぎ-はし本-605",
     "name": "うなぎ はし本",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16271,7 +16244,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "神泉いちのや-607",
+    "id": "神泉いちのや-606",
     "name": "神泉いちのや",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16297,7 +16270,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "花園吉野-608",
+    "id": "花園吉野-607",
     "name": "花園・吉野",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16323,7 +16296,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "日本橋いづもや本店-別館-609",
+    "id": "日本橋いづもや本店-別館-608",
     "name": "日本橋いづもや本店 別館",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16349,7 +16322,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "日本橋いづもや本店-本館-610",
+    "id": "日本橋いづもや本店-本館-609",
     "name": "日本橋いづもや本店 本館",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16375,7 +16348,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "伊豆榮-不忍亭-611",
+    "id": "伊豆榮-不忍亭-610",
     "name": "伊豆榮 不忍亭",
     "cuisine": "和食",
     "priceTier": "middle",
@@ -16401,7 +16374,7 @@ export const generatedRestaurants: Restaurant[] = [
     "listSource": "鰻"
   },
   {
-    "id": "伊豆榮-梅川亭-612",
+    "id": "伊豆榮-梅川亭-611",
     "name": "伊豆榮 梅川亭",
     "cuisine": "和食",
     "priceTier": "middle",
