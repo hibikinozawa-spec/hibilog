@@ -167,7 +167,7 @@ function composeBodyLines(themes, category) {
     } else {
       lines.push("炭火や蒸し焼きの技法で仕上げるうなぎ料理が評判。");
     }
-  } else if (themes.sushi || /寿司|鮨/u.test(cat)) {
+  } else if (/寿司|鮨|すし店|寿司店/u.test(cat)) {
     lines.push("旬のネタとシャリのバランスが、口コミでも支持されている。");
   } else if (/フレンチ|イタリア/u.test(cat)) {
     lines.push("料理の完成度と素材の使い方が、口コミでも評価されている。");

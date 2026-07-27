@@ -21,11 +21,12 @@
     "source": "google_maps_reviews"
   },
   "たま木亭": {
-    "intro": "京都のベーカリー。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nリピーターが多く、再訪を望む声も見られる。",
+    "intro": "京都のベーカリー。\n素材選びと調理にこだわり、リピーターにも支持されている。\n地域の食通からも名前の挙がる一軒。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "亀山 学": {
     "intro": "京都の和食店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\n天ぷらやコースなどが人気。",
@@ -91,11 +92,12 @@
     "source": "google_maps_reviews"
   },
   "グー": {
-    "intro": "京都の中華料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "京都の中華料理店。\n素材選びと調理にこだわり、リピーターにも支持されている。\n地域の食通からも名前の挙がる一軒。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "京の中華 ハマムラ 近鉄名店街みやこみち店": {
     "intro": "京都の中華料理店。\n中華料理店ならではの味わいが、口コミでも支持されている。\n平日ランチの利用客も多く、一人でも気軽に立ち寄れる。",
@@ -105,11 +107,12 @@
     "source": "google_maps_reviews"
   },
   "三高餅食堂": {
-    "intro": "京都の定食屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n口コミでも味や提供の良さが評価されている。",
+    "intro": "京都の定食屋。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "味彩 のと与": {
     "intro": "京都のうなぎ料理店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎやうな重などが人気。",
@@ -175,11 +178,12 @@
     "source": "google_maps_reviews"
   },
   "えいたろう屋": {
-    "intro": "京都の居酒屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n天ぷらなどが人気。",
+    "intro": "京都の居酒屋。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "斎華": {
     "intro": "京都の中華料理店。\n中華料理店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -238,11 +242,12 @@
     "source": "google_maps_reviews"
   },
   "廣澤": {
-    "intro": "京都の中華料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "京都の中華料理店。\n丁寧な料理と落ち着いた空間が魅力。\nランチからディナーまで利用できる。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "麺屋 猪一": {
     "intro": "京都のラーメン屋。\nラーメン屋ならではの味わいが、口コミでも支持されている。\n平日ランチの利用客も多く、一人でも気軽に立ち寄れる。",
@@ -350,11 +355,12 @@
     "source": "google_maps_reviews"
   },
   "未在": {
-    "intro": "京都の高級料理レストラン。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n天ぷらなどが人気。",
+    "intro": "京都の高級料理レストラン。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 8,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "実伶": {
     "intro": "京都の和食店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nコースなどが人気。",
@@ -378,18 +384,20 @@
     "source": "google_maps_reviews"
   },
   "祇園 ろはん": {
-    "intro": "京都の和食店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通し、天ぷら、コースなどが人気。",
+    "intro": "京都の和食店。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "祇園新橋 中谷": {
-    "intro": "京都の和食店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n天ぷらやコースなどが人気。",
+    "intro": "京都の和食店。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "花ぐも": {
     "intro": "京都のバー。\nバーを気軽に楽しめる店。\n口コミでも味や提供の良さが評価されている。",
@@ -399,11 +407,12 @@
     "source": "google_maps_reviews"
   },
   "蛸長": {
-    "intro": "京都のおでん店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n気軽な食事や一人利用にも向く、カジュアルな店。",
+    "intro": "京都のおでん店。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "ぼんじゅーる": {
     "intro": "京都の日本式洋食レストラン。\n日本式洋食レストランならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -448,11 +457,12 @@
     "source": "google_maps_reviews"
   },
   "麺や 高倉二条": {
-    "intro": "京都のラーメン屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n落ち着いた雰囲気で、ゆっくり食事を楽しめる。",
+    "intro": "京都のラーメン屋。\n素材選びと調理にこだわり、リピーターにも支持されている。\n地域の食通からも名前の挙がる一軒。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "(名前のないラーメン屋)": {
     "intro": "京都のラーメン屋。\nラーメン屋ならではの味わいが、口コミでも支持されている。\n落ち着いた雰囲気で、ゆっくり食事を楽しめる。",
@@ -462,11 +472,12 @@
     "source": "google_maps_reviews"
   },
   "Vegan Ramen UZU Kyoto": {
-    "intro": "京都のビーガン料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "京都のビーガン料理店。\n素材選びと調理にこだわり、リピーターにも支持されている。\n地域の食通からも名前の挙がる一軒。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "オリオン食堂": {
     "intro": "京都の郷土料理店。\n郷土料理店ならではの味わいが、口コミでも支持されている。\n気軽な食事や一人利用にも向く、カジュアルな店。",
@@ -525,18 +536,20 @@
     "source": "google_maps_reviews"
   },
   "Dontsuki": {
-    "intro": "京都のシーフード・海鮮料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "京都のシーフード・海鮮料理店。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "食堂 おがわ": {
-    "intro": "京都の和食店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "京都の和食店。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "フォーチュンガーデン京都": {
     "intro": "京都のレストラン。\nレストランならではの味わいが、口コミでも支持されている。\nコースやパスタなどが人気。",
@@ -546,11 +559,12 @@
     "source": "google_maps_reviews"
   },
   "むろまち 加地": {
-    "intro": "京都の和食店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通しや天ぷらなどが人気。",
+    "intro": "京都の和食店。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "リストランテ 野呂": {
     "intro": "京都のイタリア料理店。\n料理の完成度と素材の使い方が、口コミでも評価されている。\nコースやパスタなどが人気。",
@@ -574,11 +588,12 @@
     "source": "google_maps_reviews"
   },
   "わしょく 宝来": {
-    "intro": "京都の和食店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通しや天ぷらなどが人気。",
+    "intro": "京都の和食店。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "丸福樓": {
     "intro": "京都のつ星ホテル。\nつ星ホテルならではの味わいが、口コミでも支持されている。\n天ぷらなどが人気。",
@@ -609,11 +624,12 @@
     "source": "google_maps_reviews"
   },
   "Droit | ドロワ": {
-    "intro": "京都のフランス料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "京都のフレンチレストラン。\nソースや仕込みに時間をかけた丁寧な料理が揃う。\nワインとのペアリングも楽しめる。",
     "reviewCount": 8,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "木山": {
     "intro": "京都の会席・懐石料理店。\n会席・懐石料理店ならではの味わいが、口コミでも支持されている。\n天ぷらやコースなどが人気。",
@@ -693,11 +709,12 @@
     "source": "google_maps_reviews"
   },
   "酒肴めし まる城（まるじょう）": {
-    "intro": " 福岡の居酒屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通しなどが人気。",
+    "intro": "福岡の居酒屋。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "祐徳稲荷神社": {
     "intro": " 佐賀の神社。\n気軽な食事や一人利用にも向く、カジュアルな店。\n口コミでも味や提供の良さが評価されている。",
@@ -959,11 +976,12 @@
     "source": "google_maps_reviews"
   },
   "肉料理 Nick": {
-    "intro": " 鳥取の肉料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "鳥取の肉料理店。\n厳選した部位を、炭火や鉄板で香ばしく焼き上げる。\n落ち着いた店内で肉料理を存分に楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "発酵食堂かもすで": {
     "intro": " 鳥取の和食店。\n和食店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -1057,11 +1075,12 @@
     "source": "google_maps_reviews"
   },
   "SHÓKUDŌ YArn": {
-    "intro": " 石川のレストラン。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "石川のレストラン。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "鮨 田がみ": {
     "intro": " 石川の寿司店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nリピーターが多く、再訪を望む声も見られる。",
@@ -1162,18 +1181,20 @@
     "source": "google_maps_reviews"
   },
   "博多天ぷら ながおか": {
-    "intro": "中央区今泉２丁目４−１１の天ぷら店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通し、天ぷら、コースなどが人気。",
+    "intro": "福岡の天ぷら店。\n素材選びと調理にこだわり、リピーターにも支持されている。\n地域の食通からも名前の挙がる一軒。",
     "reviewCount": 8,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "五島サバと九州の幸 きはる": {
-    "intro": "中央区春吉３丁目２２−７の居酒屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n気軽な食事や一人利用にも向く、カジュアルな店。",
+    "intro": "福岡の居酒屋。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "時菜 今日萬": {
     "intro": "京都の和食店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎ、うな重、コースなどが人気。",
@@ -1225,25 +1246,28 @@
     "source": "google_maps_reviews"
   },
   "士別バーベキュー": {
-    "intro": "中央区南３条西７丁目 アーケード 内の焼肉店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通しやコースなどが人気。",
+    "intro": "北海道の焼肉店。\n厳選した部位を、炭火や鉄板で香ばしく焼き上げる。\n落ち着いた店内で肉料理を存分に楽しめる。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "呑み喰い処 もっきり": {
-    "intro": " 福島の居酒屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nリピーターが多く、再訪を望む声も見られる。",
+    "intro": "福島の居酒屋。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "鍛冶屋と料理": {
-    "intro": " 島根のレストラン。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n握り寿司やピッツァなどが人気。",
+    "intro": "島根のレストラン。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "綾の里": {
     "intro": " 宮崎の郷土料理店。\n郷土料理店ならではの味わいが、口コミでも支持されている。\nリピーターが多く、再訪を望む声も見られる。",
@@ -1260,11 +1284,12 @@
     "source": "google_maps_reviews"
   },
   "日本料理 たか田 八祥": {
-    "intro": " 岐阜の会席・懐石料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "岐阜の会席・懐石料理店。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "いわしの大輪": {
     "intro": " 千葉の郷土料理店。\n郷土料理店ならではの味わいが、口コミでも支持されている。\n天ぷらなどが人気。",
@@ -1281,11 +1306,12 @@
     "source": "google_maps_reviews"
   },
   "とやま鮨 海富山": {
-    "intro": " 富山の和食店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "富山の和食店。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "敦賀ヨーロッパ軒 金山店": {
     "intro": " 福井の日本式洋食レストラン。\n日本式洋食レストランならではの味わいが、口コミでも支持されている。\n口コミでも味や提供の良さが評価されている。",
@@ -1344,11 +1370,12 @@
     "source": "manual_override"
   },
   "ふく亭本店": {
-    "intro": " 大分のふぐ料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "大分のふぐ料理店。\n素材選びと調理にこだわり、リピーターにも支持されている。\n地域の食通からも名前の挙がる一軒。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "三郎丸蒸留所": {
     "intro": " 富山の蒸留所。\n蒸留所ならではの味わいが、口コミでも支持されている。\nリピーターが多く、再訪を望む声も見られる。",
@@ -1498,11 +1525,12 @@
     "source": "manual_override"
   },
   "NARUMI": {
-    "intro": " 大分の寿司店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "渋谷のNARUMI。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "活海酒": {
     "intro": "中央区警固２丁目５−１３の居酒屋。\n居酒屋ならではの味わいが、口コミでも支持されている。\nお通しやパスタなどが人気。",
@@ -1533,18 +1561,20 @@
     "source": "google_maps_reviews"
   },
   "大安丸": {
-    "intro": " 沖縄の居酒屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n天ぷらや天麩羅などが人気。",
+    "intro": "沖縄の大安丸。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "一誠": {
-    "intro": " 石川の寿司店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "滋賀の一誠。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "渡部旅館": {
     "intro": " 鳥取の渡部旅館。\n渡部旅館ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -1582,11 +1612,12 @@
     "source": "google_maps_reviews"
   },
   "大衆酒場 親爺": {
-    "intro": " 富山の居酒屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n天ぷらやコースなどが人気。",
+    "intro": "富山の大衆酒場 親爺。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 8,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "艶次郎": {
     "intro": " 富山の居酒屋。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎ、蒲焼、天ぷらなどが人気。",
@@ -1610,18 +1641,20 @@
     "source": "google_maps_reviews"
   },
   "さばたろう": {
-    "intro": "中央区赤坂１丁目５−１１の朝食レストラン。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n平日ランチの利用客も多く、一人でも気軽に立ち寄れる。",
+    "intro": "六本木・麻布のさばたろう。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "料亭 山田屋": {
-    "intro": " 大分の料亭。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "大分の料亭 山田屋。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "総合酒類探求所K": {
     "intro": " 山口の和食店。\n和食店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -1659,11 +1692,12 @@
     "source": "google_maps_reviews"
   },
   "蓑むらかた": {
-    "intro": " 宮城の寿司店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "仙台の蓑むらかた。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "レ・ヴェルドゥーレ": {
     "intro": " 長野のレ・ヴェルドゥーレ。\nレ・ヴェルドゥーレならではの味わいが、口コミでも支持されている。\nコースやパスタなどが人気。",
@@ -1729,11 +1763,12 @@
     "source": "google_maps_reviews"
   },
   "夜空のジンギスカン 45店": {
-    "intro": "銀座の焼肉店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通しやコースなどが人気。",
+    "intro": "北海道の夜空のジンギスカン 45店。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 8,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "いただきます。": {
     "intro": "中央区南５条西５丁目１−６の焼肉店。\n焼肉店ならではの味わいが、口コミでも支持されている。\nお通しや通しなどが人気。",
@@ -1792,11 +1827,12 @@
     "source": "google_maps_reviews"
   },
   "おのころ五合": {
-    "intro": "中央区港１丁目４−２４ グレイス Ｔ＆Ｔ１階の居酒屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通し、天ぷら、コースなどが人気。",
+    "intro": "福岡の居酒屋。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "Katsuya charcoal grill steakhouse": {
     "intro": "大阪のステーキハウス。\nステーキハウスならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -1876,11 +1912,12 @@
     "source": "google_maps_reviews"
   },
   "ヴォーロ・コズィ": {
-    "intro": "東京のイタリア料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースやパスタなどが人気。",
+    "intro": "東京のイタリアンレストラン。\n素材の旨みを活かした温かみのある料理が揃う。\n厳選ワインとのマリアージュも魅力。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "Le Bois （ル ボア）": {
     "intro": "中央区勝どき３丁目５−１４ 2階のフランス料理店。\nフランス料理店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -1918,11 +1955,12 @@
     "source": "google_maps_reviews"
   },
   "Canade": {
-    "intro": "東京のイタリア料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースやパスタなどが人気。",
+    "intro": "東京のイタリアンレストラン。\nパスタやピッツァをはじめ、イタリア各地の郷土料理が楽しめる。\nカジュアルなランチから記念日のディナーまで利用できる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "トラットリア タンタボッカ": {
     "intro": "渋谷のイタリア料理店。\n料理の完成度と素材の使い方が、口コミでも評価されている。\nコースやパスタなどが人気。",
@@ -1995,11 +2033,12 @@
     "source": "google_maps_reviews"
   },
   "テストキッチン エイチ": {
-    "intro": "港区南青山５丁目１２−１３のイタリア料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースやパスタなどが人気。",
+    "intro": "六本木・麻布のイタリアンレストラン。\nパスタやピッツァをはじめ、イタリア各地の郷土料理が楽しめる。\nカジュアルなランチから記念日のディナーまで利用できる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "incanto": {
     "intro": "港区南麻布４丁目１２−２ ピュアーレ広尾 ２Fのイタリア料理店。\n料理の完成度と素材の使い方が、口コミでも評価されている。\nコースやパスタなどが人気。",
@@ -2156,11 +2195,12 @@
     "source": "google_maps_reviews"
   },
   "ラス": {
-    "intro": "港区南青山４丁目１６−３ コトリビル 1Fのレストラン。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "六本木・麻布のレストラン。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "ブラマソーレ": {
     "intro": "渋谷区神宮前３丁目４２−５ スピナッチヒル 1Fのイタリア料理店。\n料理の完成度と素材の使い方が、口コミでも評価されている。\nお通しやパスタなどが人気。",
@@ -2184,11 +2224,12 @@
     "source": "google_maps_reviews"
   },
   "レストラン マ プール": {
-    "intro": "東京のフランス料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "東京のフレンチレストラン。\nソースや仕込みに時間をかけた丁寧な料理が揃う。\nワインとのペアリングも楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "食堂 わた": {
     "intro": "新宿区新宿１丁目１９−１１の和食店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎ、天ぷら、コースなどが人気。",
@@ -2268,11 +2309,12 @@
     "source": "google_maps_reviews"
   },
   "ラ·ベットラ·ダ·オチアイ": {
-    "intro": "中央区銀座１丁目２１−２ 安藤ビル 1階のイタリア料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースやパスタなどが人気。",
+    "intro": "銀座のイタリアンレストラン。\nパスタやピッツァをはじめ、イタリア各地の郷土料理が楽しめる。\nカジュアルなランチから記念日のディナーまで利用できる。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "ビストロ・ヌガ": {
     "intro": "中央区銀座６丁目１２−２ 東京銀座ビル 1Fのビストロ。\nビストロならではの味わいが、口コミでも支持されている。\nお通しやコースなどが人気。",
@@ -2282,11 +2324,12 @@
     "source": "google_maps_reviews"
   },
   "アロセリア ラ パンサ": {
-    "intro": "中央区銀座１丁目１５−８ 1Fのスペイン料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "銀座のスペイン料理店。\n素材選びと調理にこだわり、リピーターにも支持されている。\n地域の食通からも名前の挙がる一軒。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "焼鳥山香": {
     "intro": "新宿の焼き鳥店。\n焼き鳥店ならではの味わいが、口コミでも支持されている。\nお通しやコースなどが人気。",
@@ -2317,11 +2360,12 @@
     "source": "google_maps_reviews"
   },
   "ビリヤニ大澤": {
-    "intro": "千代田区内神田１丁目１５−１２ 佐藤ビル B1Fのビリヤニ料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nカウンター越しに料理や提供を楽しめる。",
+    "intro": "東京のビリヤニ料理店。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "Loiseau de France": {
     "intro": "新宿のフランス料理店。\nフランス料理店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -2338,11 +2382,12 @@
     "source": "google_maps_reviews"
   },
   "Osteria da K.[kappa]": {
-    "intro": "中央区銀座８丁目７−２ 銀座藤井ビル・2 5階のイタリア料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n通しやパスタなどが人気。",
+    "intro": "銀座のイタリアンレストラン。\nパスタやピッツァをはじめ、イタリア各地の郷土料理が楽しめる。\nカジュアルなランチから記念日のディナーまで利用できる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "ビストロレストラン ロジエ 恵比寿": {
     "intro": "渋谷区恵比寿南２丁目４−１９のレストラン。\nレストランならではの味わいが、口コミでも支持されている。\nコースやパスタなどが人気。",
@@ -2366,32 +2411,36 @@
     "source": "google_maps_reviews"
   },
   "Restaurant Karyon": {
-    "intro": "港区高輪２丁目１５−２１のフランス料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースやパスタなどが人気。",
+    "intro": "東京のフレンチレストラン。\nソースや仕込みに時間をかけた丁寧な料理が揃う。\nワインとのペアリングも楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "Boutary": {
-    "intro": "港区赤坂５丁目１−２９ 富士屋ビル 1Fのビストロ。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースやパスタなどが人気。",
+    "intro": "六本木・麻布のフレンチレストラン。\n季節の素材を活かしたコース料理が評価されている。\n記念日や会食にも選ばれる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "東京ウイスキーライブラリー": {
-    "intro": "六本木・麻布のレストラン。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "六本木・麻布のフレンチレストラン。\nソースや仕込みに時間をかけた丁寧な料理が揃う。\nワインとのペアリングも楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "ビストロ シンバ": {
-    "intro": "中央区銀座１丁目２７−８のビストロ。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "銀座のフレンチレストラン。\nソースや仕込みに時間をかけた丁寧な料理が揃う。\nワインとのペアリングも楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "ボルト": {
     "intro": "新宿区箪笥町２７ 神楽坂佐藤ビル １Ｆのビストロ。\nビストロならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -2401,11 +2450,12 @@
     "source": "google_maps_reviews"
   },
   "ルグドゥノム・ブション・リヨネ": {
-    "intro": "新宿区神楽坂４丁目３−７のフランス料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "新宿のフレンチレストラン。\nソースや仕込みに時間をかけた丁寧な料理が揃う。\nワインとのペアリングも楽しめる。",
     "reviewCount": 8,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "ライラ": {
     "intro": "港区赤坂７丁目５−３４ 1Fのフランス料理店。\nフランス料理店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -2436,25 +2486,28 @@
     "source": "google_maps_reviews"
   },
   "ニコラ・シュヴロリエ": {
-    "intro": "中央区新富２丁目４−３ Axis銀座東 1Fのフランス料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースやパスタなどが人気。",
+    "intro": "銀座のフレンチレストラン。\nソースや仕込みに時間をかけた丁寧な料理が揃う。\nワインとのペアリングも楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "エディション・コウジ シモムラ": {
-    "intro": "港区六本木３丁目１−１ 1Fのフランス料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n通しやコースなどが人気。",
+    "intro": "六本木・麻布のフレンチレストラン。\nソースや仕込みに時間をかけた丁寧な料理が揃う。\nワインとのペアリングも楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "カンテサンス": {
-    "intro": "品川区北品川６丁目７−２９のフランス料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "東京のフレンチレストラン。\nソースや仕込みに時間をかけた丁寧な料理が揃う。\nワインとのペアリングも楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "シノワ 渋谷店": {
     "intro": "渋谷のワインバー。\nワインバーならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -2499,11 +2552,12 @@
     "source": "google_maps_reviews"
   },
   "新華 乃木坂": {
-    "intro": "港区赤坂９丁目５−２６ パレ乃木坂 1Fの中華料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "六本木・麻布の4.8(44)。\n素材選びと調理にこだわり、リピーターにも支持されている。\n地域の食通からも名前の挙がる一軒。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "縁香園": {
     "intro": "新宿区神楽坂５丁目１ 神楽坂テラス ２階の中華料理店。\n中華料理店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -2590,11 +2644,12 @@
     "source": "google_maps_reviews"
   },
   "Furuta": {
-    "intro": "中央区銀座１丁目２１−１４の中華料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "銀座の4.2(68)。\n丁寧な料理と落ち着いた空間が魅力。\nランチからディナーまで利用できる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "TexturA": {
     "intro": "東京のレストラン。\nレストランならではの味わいが、口コミでも支持されている。\n通しやコースなどが人気。",
@@ -2632,11 +2687,12 @@
     "source": "google_maps_reviews"
   },
   "赤坂 桃の木": {
-    "intro": "東京の中華料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "東京の4.3(170)。\n丁寧な料理と落ち着いた空間が魅力。\nランチからディナーまで利用できる。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "サエキ飯店": {
     "intro": "東京の閉業。\n閉業ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -2674,11 +2730,12 @@
     "source": "google_maps_reviews"
   },
   "茶禅華": {
-    "intro": "港区南麻布４丁目７−５の中華料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "六本木・麻布の4.7(326)。\n素材選びと調理にこだわり、リピーターにも支持されている。\n地域の食通からも名前の挙がる一軒。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "小笠原伯爵邸": {
     "intro": "新宿のスペイン料理店。\nスペイン料理店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -2723,11 +2780,12 @@
     "source": "google_maps_reviews"
   },
   "なきざかな -鳴魚-": {
-    "intro": "新宿区神楽坂５丁目３５ おおとりビル B1Fの居酒屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n握り寿司、お通し、コースなどが人気。",
+    "intro": "新宿の居酒屋。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "肉塊 UNO 虎ノ門店": {
     "intro": "港区西新橋２丁目１５−１７ リッツ虎ノ門 1Fの肉料理店。\n肉料理店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -2737,11 +2795,12 @@
     "source": "google_maps_reviews"
   },
   "瓢嘻 (ひょうき) 京橋店": {
-    "intro": "中央区京橋２丁目７−１４ 1Fのしゃぶしゃぶレストラン。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "東京で人気のしゃぶしゃぶレストラン。\n肉の旨みを引き出す焼き加減と、タレ・塩の組み合わせが好評。\n会食からカジュアルな集まりまで利用できる。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "こはぜ": {
     "intro": "港区南青山６丁目１−２４ 南青6124ビル 2階の和食店。\n和食店ならではの味わいが、口コミでも支持されている。\n気軽な食事や一人利用にも向く、カジュアルな店。",
@@ -2898,11 +2957,12 @@
     "source": "google_maps_reviews"
   },
   "季節料理 小伝馬": {
-    "intro": "銀座のシーフード・海鮮料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n平日ランチの利用客も多く、一人でも気軽に立ち寄れる。",
+    "intro": "人形町のシーフード・海鮮料理店。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "あかぎ": {
     "intro": "東京の居酒屋。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎ、通し、コースなどが人気。",
@@ -2926,11 +2986,12 @@
     "source": "google_maps_reviews"
   },
   "高太郎": {
-    "intro": "渋谷の居酒屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "渋谷の居酒屋。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "鮨かみなり": {
     "intro": "人形町の和食店。\n旬の魚介を活かした料理と、地酒の組み合わせが口コミでも支持されている。\n落ち着いた店内で、コースや一品料理を楽しめる。",
@@ -2954,11 +3015,12 @@
     "source": "google_maps_reviews"
   },
   "和食割烹 鈴なり": {
-    "intro": "新宿区荒木町7番地 清和荘の会席・懐石料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "新宿の会席・懐石料理店。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "寿々屋": {
     "intro": "千代田区内神田３丁目１５−３ I･Sビルの閉業。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通しなどが人気。",
@@ -2975,18 +3037,20 @@
     "source": "google_maps_reviews"
   },
   "わたなべ": {
-    "intro": "六本木・麻布の和食店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n天ぷらやコースなどが人気。",
+    "intro": "新宿の和食店。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 9,
     "totalReviews": 9,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "ふぐ俱楽部 miyawaki 別邸": {
-    "intro": "中央区築地６丁目７−７のふぐ料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "東京のふぐ料理店。\n素材選びと調理にこだわり、リピーターにも支持されている。\n地域の食通からも名前の挙がる一軒。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "和田": {
     "intro": "東京の会席・懐石料理店。\n会席・懐石料理店ならではの味わいが、口コミでも支持されている。\n天ぷらやコースなどが人気。",
@@ -2996,11 +3060,12 @@
     "source": "google_maps_reviews"
   },
   "懐石 辻留": {
-    "intro": "港区元赤坂１丁目５−８ 虎屋第2ビル 地下１階の会席・懐石料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n天ぷらやコースなどが人気。",
+    "intro": "六本木・麻布の会席・懐石料理店。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "eat 鮨と和食": {
     "intro": "六本木・麻布の寿司店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n天ぷらやコースなどが人気。",
@@ -3038,11 +3103,12 @@
     "source": "google_maps_reviews"
   },
   "たきや": {
-    "intro": "港区麻布十番２丁目８−６ ラベイユ 2階の天ぷら店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n通し、天ぷら、コースなどが人気。",
+    "intro": "六本木・麻布の天ぷら店。\n素材選びと調理にこだわり、リピーターにも支持されている。\n地域の食通からも名前の挙がる一軒。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "新ばし 星野": {
     "intro": "港区新橋５丁目３１−３ 石井ビルの会席・懐石料理店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎ、天ぷら、コースなどが人気。",
@@ -3087,18 +3153,20 @@
     "source": "google_maps_reviews"
   },
   "喰切り江ぐち": {
-    "intro": "中央区銀座８丁目７−１９ すずりゅうビル 4bの和食店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "銀座の和食店。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 1,
     "totalReviews": 1,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "恵比寿くろいわ": {
-    "intro": "渋谷区恵比寿４丁目１１−１２の会席・懐石料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n通し、天ぷら、コースなどが人気。",
+    "intro": "渋谷の会席・懐石料理店。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "山﨑": {
     "intro": "六本木・麻布の会席・懐石料理店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎ、蒲焼、通しなどが人気。",
@@ -3122,11 +3190,12 @@
     "source": "google_maps_reviews"
   },
   "美の": {
-    "intro": "港区新橋５丁目９−５ NTビル 1Fの和食店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n天ぷらやコースなどが人気。",
+    "intro": "東京の和食店。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "炭火割烹 白坂": {
     "intro": "港区赤坂６丁目３−９の会席・懐石料理店。\n十割蕎麦の味わい深さが、口コミでも支持されている。\n落ち着いた雰囲気で、ゆっくり食事を楽しめる。",
@@ -3157,11 +3226,12 @@
     "source": "google_maps_reviews"
   },
   "日本料理 太月": {
-    "intro": "港区北青山３丁目１３−１ 関根ビル B1Fの会席・懐石料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n天ぷらやコースなどが人気。",
+    "intro": "六本木・麻布の会席・懐石料理店。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "しのはら": {
     "intro": "中央区銀座２丁目８−１７の会席・懐石料理店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎ、通し、コースなどが人気。",
@@ -3185,11 +3255,12 @@
     "source": "google_maps_reviews"
   },
   "銘酒処 串駒 本店": {
-    "intro": "東京の居酒屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通しなどが人気。",
+    "intro": "東京の居酒屋。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "うなぎ魚政": {
     "intro": "東京のうなぎ料理店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎ、うな重、お通しなどが人気。",
@@ -3360,11 +3431,12 @@
     "source": "google_maps_reviews"
   },
   "酛TOKYO": {
-    "intro": "中央区 東京都 104-0028の和食店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通し、天麩羅、コースなどが人気。",
+    "intro": "東京の4.5(62)。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "和食と和酒 おがた": {
     "intro": "新宿の和食店。\n和食店ならではの味わいが、口コミでも支持されている。\nお通しやコースなどが人気。",
@@ -3374,11 +3446,12 @@
     "source": "google_maps_reviews"
   },
   "五反田 鳥茂": {
-    "intro": "品川区東五反田１丁目１５−１１の串焼き店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通しや天ぷらなどが人気。",
+    "intro": "東京の串焼き店。\n備長炭で香ばしく焼き上げる串焼きが評価されている。\n落ち着いた店内で、ゆっくりと楽しめる。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "やきとり 阿部": {
     "intro": "東京の焼き鳥店。\n焼き鳥店ならではの味わいが、口コミでも支持されている。\n通しやコースなどが人気。",
@@ -3395,11 +3468,12 @@
     "source": "google_maps_reviews"
   },
   "目黒 焼鳥煉火": {
-    "intro": "東京の焼き鳥店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "東京の焼き鳥店。\nふっくらとした身とタレ・塩のバランスが好評。\nお通しやコースなどが人気。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "㈱加賀屋": {
     "intro": "港区新橋３丁目６−６ 加賀屋ビルの食肉卸売業者。\n食肉卸売業者ならではの味わいが、口コミでも支持されている。\n口コミでも味や提供の良さが評価されている。",
@@ -3430,11 +3504,12 @@
     "source": "google_maps_reviews"
   },
   "南青山 七鳥目": {
-    "intro": "六本木・麻布の焼き鳥店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n通しやコースなどが人気。",
+    "intro": "六本木・麻布の焼き鳥店。\n備長炭で香ばしく焼き上げる串焼きが評価されている。\n落ち着いた店内で、ゆっくりと楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "三政": {
     "intro": "港区新橋３丁目１９−６ 新陽ビルディングの串焼き店。\n串焼き店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -3486,11 +3561,12 @@
     "source": "google_maps_reviews"
   },
   "赤坂 希鳥": {
-    "intro": "港区赤坂３丁目９−２ No.R赤坂見附 B1階の焼き鳥店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n通しやコースなどが人気。",
+    "intro": "六本木・麻布の焼き鳥店。\nふっくらとした身とタレ・塩のバランスが好評。\nお通しやコースなどが人気。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "とり茶太郎": {
     "intro": "渋谷区鶯谷町７−１２ TAKビル 1Fの焼き鳥店。\n焼き鳥店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -3500,11 +3576,12 @@
     "source": "google_maps_reviews"
   },
   "焼き鳥 平良": {
-    "intro": "六本木・麻布の焼き鳥店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通しやコースなどが人気。",
+    "intro": "六本木・麻布の焼き鳥店。\n備長炭で香ばしく焼き上げる串焼きが評価されている。\n落ち着いた店内で、ゆっくりと楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "鍈輝": {
     "intro": "渋谷の焼き鳥店。\n焼き鳥店ならではの味わいが、口コミでも支持されている。\n落ち着いた雰囲気で、ゆっくり食事を楽しめる。",
@@ -3514,18 +3591,20 @@
     "source": "google_maps_reviews"
   },
   "いぐち 本店": {
-    "intro": "東京の焼き鳥店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n天ぷら、コース、パスタなどが人気。",
+    "intro": "東京の焼き鳥店。\n備長炭で香ばしく焼き上げる串焼きが評価されている。\n落ち着いた店内で、ゆっくりと楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "串焼 大助": {
-    "intro": "港区芝大門２丁目１−４の焼き鳥店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通しやコースなどが人気。",
+    "intro": "東京の焼き鳥店。\n備長炭で香ばしく焼き上げる串焼きが評価されている。\n落ち着いた店内で、ゆっくりと楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "やきとり結火": {
     "intro": "東京の焼き鳥店。\n焼き鳥店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -3556,11 +3635,12 @@
     "source": "google_maps_reviews"
   },
   "日本焼肉はせ川 表参道店": {
-    "intro": "六本木・麻布の焼肉店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "六本木・麻布の焼肉店。\n厳選した部位を、炭火や鉄板で香ばしく焼き上げる。\n落ち着いた店内で肉料理を存分に楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "桜鍋みの家本店": {
     "intro": "東京の和食店。\n和食店ならではの味わいが、口コミでも支持されている。\n通しなどが人気。",
@@ -3598,11 +3678,12 @@
     "source": "google_maps_reviews"
   },
   "ただハンバーグが食べたい": {
-    "intro": "港区港南２丁目２−１６ 谷田企画第一ビル 2Fのレストラン。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n平日ランチの利用客も多く、一人でも気軽に立ち寄れる。",
+    "intro": "東京で人気のレストラン。\n肉の旨みを引き出す焼き加減と、タレ・塩の組み合わせが好評。\n会食からカジュアルな集まりまで利用できる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "炭火焼肉 たん清": {
     "intro": "東京の焼肉店。\n焼肉店ならではの味わいが、口コミでも支持されている。\n落ち着いた雰囲気で、ゆっくり食事を楽しめる。",
@@ -3626,25 +3707,28 @@
     "source": "google_maps_reviews"
   },
   "神田 タンだけ": {
-    "intro": "千代田区内神田３丁目５−５ 大同ビル 103の焼肉店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通しやコースなどが人気。",
+    "intro": "東京の焼肉店。\n厳選した部位を、炭火や鉄板で香ばしく焼き上げる。\n落ち着いた店内で肉料理を存分に楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "焼肉 ジャンボ はなれ": {
-    "intro": "東京の焼肉店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "東京で人気の焼肉店。\n肉の旨みを引き出す焼き加減と、タレ・塩の組み合わせが好評。\n会食からカジュアルな集まりまで利用できる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "広尾 肉幸": {
-    "intro": "渋谷区広尾５丁目１９−２ PIPE1階の肉料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "渋谷で人気の肉料理店。\n肉の旨みを引き出す焼き加減と、タレ・塩の組み合わせが好評。\n会食からカジュアルな集まりまで利用できる。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "赤坂 Na Camo guro（なかもぐろ）": {
     "intro": "港区赤坂３丁目９−２ No.R赤坂見附 B1階のビストロ。\nビストロならではの味わいが、口コミでも支持されている。\n通しやコースなどが人気。",
@@ -3668,11 +3752,12 @@
     "source": "google_maps_reviews"
   },
   "焼肉かねこ": {
-    "intro": "渋谷の焼肉店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n気軽な食事や一人利用にも向く、カジュアルな店。",
+    "intro": "渋谷で人気の焼肉店。\n肉の旨みを引き出す焼き加減と、タレ・塩の組み合わせが好評。\n会食からカジュアルな集まりまで利用できる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "焼肉やっちゃん分店 茅場町店": {
     "intro": "中央区日本橋茅場町２丁目１１−５の焼肉店。\n焼肉店ならではの味わいが、口コミでも支持されている。\n気軽な食事や一人利用にも向く、カジュアルな店。",
@@ -3689,11 +3774,12 @@
     "source": "google_maps_reviews"
   },
   "よろにく": {
-    "intro": "六本木・麻布の焼肉店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "六本木・麻布の焼肉店。\n厳選した部位を、炭火や鉄板で香ばしく焼き上げる。\n落ち着いた店内で肉料理を存分に楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "焼肉 しみず": {
     "intro": "品川区西五反田４丁目２９−１３ 2Fの焼肉店。\n焼肉店ならではの味わいが、口コミでも支持されている。\nお通し、通し、コースなどが人気。",
@@ -3703,11 +3789,12 @@
     "source": "google_maps_reviews"
   },
   "二代目魚清わさび": {
-    "intro": "神奈川の和食店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nリピーターが多く、再訪を望む声も見られる。",
+    "intro": "神奈川の和食店。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 9,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "鎌倉 松原庵 青": {
     "intro": "神奈川のレストラン。\nレストランならではの味わいが、口コミでも支持されている。\n鴨せいろ、通し、天ぷらなどが人気。",
@@ -3717,18 +3804,20 @@
     "source": "google_maps_reviews"
   },
   "湘南韓国料理GOKAN": {
-    "intro": "神奈川の韓国料理店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nお通しやコースなどが人気。",
+    "intro": "神奈川の韓国料理店。\n素材選びと調理にこだわり、リピーターにも支持されている。\n地域の食通からも名前の挙がる一軒。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "えぼし本店": {
-    "intro": "神奈川の居酒屋。\n旬のネタとシャリのバランスが、口コミでも支持されている。\n天ぷらやコースなどが人気。",
+    "intro": "神奈川の居酒屋。\n旬の食材を活かした料理と、丁寧な仕込みが評価されている。\nランチから夜まで用途に合わせて楽しめる。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "ピザヤ ショーチャン": {
     "intro": "神奈川のピザ店。\nピザ店ならではの味わいが、口コミでも支持されている。\n通しやピッツァなどが人気。",
@@ -3815,11 +3904,12 @@
     "source": "google_maps_reviews"
   },
   "道後 海舟": {
-    "intro": " 愛媛の純和食店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "愛媛の純和食店。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
     "reviewCount": 10,
     "totalReviews": 10,
     "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "source": "google_maps_reviews",
+    "repairedAt": "2026-07-27"
   },
   "寿司栄": {
     "intro": "銀座の寿司店。\n旬のネタとシャリのバランスが、口コミでも支持されている。\nコースなどが人気。",
