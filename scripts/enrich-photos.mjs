@@ -45,7 +45,7 @@ function collectPlaces() {
 
 function normalizePhotoUrl(src) {
   if (!src) return null;
-  if (/no-thumbnail|gstatic\.com\/tactile|google\.com\/maps\/vt/.test(src)) {
+  if (/no-thumbnail|gstatic\.com\/tactile|google\.com\/maps\/vt|gps-proxy/.test(src)) {
     return null;
   }
   if (/=w\d+-h\d+/.test(src)) {
@@ -65,7 +65,7 @@ async function extractPhoto(page) {
       .filter(
         (x) =>
           /googleusercontent|ggpht/.test(x.src) &&
-          !/google\.com\/maps\/vt|w36-h36|=s32|=s40|profile|avatar/i.test(
+          !/google\.com\/maps\/vt|w36-h36|=s32|=s40|profile|avatar|gps-proxy/i.test(
             x.src,
           ) &&
           x.w >= 100 &&

@@ -391,11 +391,15 @@ function pickImage(cuisine, seed) {
   return arr[h % arr.length];
 }
 
+function isBrokenPhotoUrl(url) {
+  return !url || /gps-proxy/.test(url);
+}
+
 function resolveImage(name, p, cuisine) {
   const overridePhoto = overrides.photos?.[name];
   if (overridePhoto?.startsWith("/media/")) return overridePhoto;
-  if (photoCache[name]) return photoCache[name];
-  if (p.image) return p.image;
+  if (photoCache[name] && !isBrokenPhotoUrl(photoCache[name])) return photoCache[name];
+  if (p.image && !isBrokenPhotoUrl(p.image)) return p.image;
   return `https://images.unsplash.com/${pickImage(cuisine, name)}?w=800&q=80`;
 }
 
