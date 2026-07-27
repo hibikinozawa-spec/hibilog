@@ -23,7 +23,6 @@ export function RestaurantCard({
   const detailHref = `/restaurant/${encodeURIComponent(restaurant.id)}`;
   const containImage =
     restaurant.name === "すし 凱" ||
-    restaurant.name === "長島" ||
     restaurant.image.includes("kai-sushi-handoff") ||
     restaurant.image.includes("nagashima-sushi-handoff");
 
