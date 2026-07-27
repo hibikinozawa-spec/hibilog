@@ -789,7 +789,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": " 長野",
+    "area": "長野",
     "address": "〒395-0304 長野県阿智村中平網掛山登山道",
     "nearestStation": "",
     "lat": 35.4480055,
@@ -2515,7 +2515,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 岐阜",
+    "area": "岐阜",
     "address": "〒503-0105 岐阜県大垣市墨俣町二ツ木２１４−１",
     "nearestStation": "",
     "lat": 35.3616265,
@@ -2541,7 +2541,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒930-0003 富山県富山市桜町２丁目２−１１",
     "nearestStation": "",
     "lat": 36.6985135,
@@ -2569,7 +2569,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": " 高知",
+    "area": "高知",
     "address": "〒785-0172 高知県須崎市浦ノ内２４４",
     "nearestStation": "",
     "lat": 33.4093446,
@@ -2654,11 +2654,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 佐賀",
+    "area": "佐賀",
     "address": "〒849-1615 佐賀県藤津郡太良町大浦乙３１６−３",
     "nearestStation": "",
-    "lat": 32.9578872,
-    "lng": 130.2056164,
+    "lat": 33.308249999999994,
+    "lng": 130.15708333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E8%89%AF%E5%B6%BD%E6%B8%A9%E6%B3%89%20%E8%9F%B9%E5%BE%A1%E6%AE%BF%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "太良嶽温泉 蟹御殿 レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnz1n6w4gNjgUFVXDEx2TVWEe-Zm5Ic47PSktI0xX9_z8642EwEXG0i9e2fW-hKQfMQSWZtemUqaRdUbHwqxTvvphlEhBmF8G5WdEOc_sBpN6Qsj189lzPlDPQC318GkFYm7pjKUzUDBNc=w800-h600-k-no",
@@ -2795,8 +2795,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "神戸",
     "address": "〒659-0066 兵庫県芦屋市大桝町３−１６ カサリナ７",
     "nearestStation": "",
-    "lat": 35.2011656,
-    "lng": 137.5331156,
+    "lat": 35.00541666666667,
+    "lng": 134.90458333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A3%B1%EF%BC%88%E3%81%AB%E3%81%AE%E3%81%BE%E3%81%88%EF%BC%89%20%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86",
     "googlePlaceQuery": "壱（にのまえ） 日本料理",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWki2lAsKxxx0Bwls8zAdsegkGs3EhtaIZJ48gVWivXhEOaRwt2qRfFHURhZ_TbnIJmtrcotUuw_kQrM7KaU4XNpJmyOnZFKafsFLx7cckD0bG2ehYNnN4qBavR_eGOYw3FFfe8_YQ=w800-h600-k-no",
@@ -2819,7 +2819,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 千葉",
+    "area": "千葉",
     "address": "〒260-0012 千葉県千葉市中央区本町２丁目１−２１ 石井ビル 1F",
     "nearestStation": "",
     "lat": 35.6092474,
@@ -2873,7 +2873,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 奈良",
+    "area": "奈良",
     "address": "〒630-8115 奈良県奈良市大宮町１丁目１３３−５ トータスビルディング 1階",
     "nearestStation": "",
     "lat": 34.6846784,
@@ -2901,7 +2901,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 奈良",
+    "area": "奈良",
     "address": "〒630-8372 奈良県奈良市西寺林町２２",
     "nearestStation": "",
     "lat": 34.6796764,
@@ -2927,8 +2927,8 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 奈良",
-    "address": "東京都（ 奈良周辺）",
+    "area": "奈良",
+    "address": "東京都（奈良周辺）",
     "nearestStation": "",
     "lat": 35.693000000000005,
     "lng": 139.68066666666667,
@@ -2954,7 +2954,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 奈良",
+    "area": "奈良",
     "address": "〒630-8221 奈良県奈良市元林院町９",
     "nearestStation": "",
     "lat": 34.6811515,
@@ -2982,7 +2982,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 長野",
+    "area": "長野",
     "address": "〒389-0111 長野県北佐久郡軽井沢町長倉２０５５−４",
     "nearestStation": "",
     "lat": 36.3443182,
@@ -3010,7 +3010,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 長野",
+    "area": "長野",
     "address": "〒389-0201 長野県北佐久郡御代田町塩野内字５２０−２",
     "nearestStation": "",
     "lat": 36.3391875,
@@ -3038,7 +3038,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 長野",
+    "area": "長野",
     "address": "〒380-0841 長野県長野市大字長野大門町５８７−３",
     "nearestStation": "",
     "lat": 36.6574482,
@@ -3066,7 +3066,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 長野",
+    "area": "長野",
     "address": "〒389-0113 長野県北佐久郡軽井沢町発地１３９８−５８",
     "nearestStation": "",
     "lat": 36.3167641,
@@ -3120,7 +3120,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": " 長野",
+    "area": "長野",
     "address": "〒389-0102 長野県北佐久郡軽井沢町軽井沢旧軽井沢１３７３−６ ホテル鹿島ノ森",
     "nearestStation": "",
     "lat": 36.3580052,
@@ -3148,7 +3148,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": " 長野",
+    "area": "長野",
     "address": "〒389-0102 長野県北佐久郡軽井沢町軽井沢１２７７−１",
     "nearestStation": "",
     "lat": 36.350142,
@@ -3233,8 +3233,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "福岡",
     "address": "〒812-0018 福岡県福岡市博多区住吉５丁目５−１５",
     "nearestStation": "",
-    "lat": 34.6556651,
-    "lng": 135.1163247,
+    "lat": 33.45675,
+    "lng": 130.60658333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AF%E3%82%A4%E3%83%B3%E5%80%B6%E6%A5%BD%E9%83%A8%E4%BD%8F%E5%90%89%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "ワイン倶楽部住吉 レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkLVDoBaLLVB_jxvaJUiwSVCiHqqlG5Ak0D1jTF7onqvf5sGV7fqRQuYgqiWR-1kgma_dPqWdvr6AwtJjYstfSvpu2hV5BhWySCdxJk0QSQiG6NmL7dfgF_nsWK7FIaLnpxSFHw=w800-h600-k-no",
@@ -3258,11 +3258,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 佐賀",
+    "area": "佐賀",
     "address": "〒849-1613 佐賀県藤津郡太良町大浦６１４",
     "nearestStation": "",
-    "lat": 32.9625937,
-    "lng": 130.21912,
+    "lat": 33.29433333333333,
+    "lng": 130.14433333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9C%E7%81%AF%E8%A6%8B%E8%8D%98%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "夜灯見荘 レストラン",
     "image": "https://lh3.googleusercontent.com/proxy/GPmthQB_aQ79uPajhTDlDU8NCUzjZXdIOXMAGCPJnxXn1vbaNUOMjTU3qmaUMp1k0UIcfsm0ccTQ_k6xO9HGWcK_b6XfCKFWcn7khhD1FAWvY8ANJzEuGO3ztpLB81G9hitMtGlli1NDn4XFTcvr-pw7G7GouPA=w800-h600-k-no-p-k-no",
@@ -3397,8 +3397,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "福岡",
     "address": "〒810-0021 福岡県福岡市中央区今泉１丁目３−２２",
     "nearestStation": "",
-    "lat": 34.6202727,
-    "lng": 135.0766667,
+    "lat": 33.45608333333334,
+    "lng": 130.60725,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%BC%E8%82%89%E6%85%B6%E5%B7%9E%20%E4%BB%8A%E6%B3%89%E5%BA%97%20%E7%84%BC%E8%82%89",
     "googlePlaceQuery": "焼肉慶州 今泉店 焼肉",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmeSWEp4NMgeAESsy7if9NL8uL7zOCmXK3nSvPP5l--Iq4Dd9px2DVmOaNWGh3UPhuHXSWkX6hxOB0pGE4hf8F2JNsWX63A5zZ6eZhA10szBh4Bt4edpM0Dy_UbFC3fVvrlUSzpUw=w800-h600-k-no",
@@ -3422,7 +3422,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒939-8006 富山県富山市山室２９２−１",
     "nearestStation": "",
     "lat": 36.6768537,
@@ -3476,7 +3476,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒930-0003 富山県富山市桜町２丁目３−２７ 開ビル",
     "nearestStation": "",
     "lat": 36.6980648,
@@ -3504,7 +3504,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": " 岡山",
+    "area": "岡山",
     "address": "〒700-0901 岡山県岡山市北区本町１０−１６ １階",
     "nearestStation": "",
     "lat": 34.6639068,
@@ -3532,7 +3532,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 石川",
+    "area": "石川",
     "address": "〒920-2112 石川県白山市鶴来日吉町３２",
     "nearestStation": "",
     "lat": 36.4456245,
@@ -3588,11 +3588,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 鳥取",
+    "area": "鳥取",
     "address": "〒680-0831 鳥取県鳥取市栄町６１１",
     "nearestStation": "",
-    "lat": 35.4435263,
-    "lng": 136.9926927,
+    "lat": 35.44408333333334,
+    "lng": 133.80525,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E6%96%99%E7%90%86%20Nick%20%E7%84%BC%E8%82%89",
     "googlePlaceQuery": "肉料理 Nick 焼肉",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnkP7d46LwJTXLxGz8fT6KeyHLO4FK6fTDx8AaFYwZWplx4evy-gxy3fia3gca7vslHEWORqGbiXXtvFqL6gyA5p_iZJPQWfIYw1aub4K9njgr29J97XfjGEY5gzg_2J58f8It_Zg_CamU=w800-h600-k-no",
@@ -3616,7 +3616,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 鳥取",
+    "area": "鳥取",
     "address": "〒680-0831 鳥取県鳥取市栄町６０２",
     "nearestStation": "",
     "lat": 35.496032,
@@ -3644,7 +3644,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 大分",
+    "area": "大分",
     "address": "〒872-0503 大分県宇佐市安心院町新原５９−５",
     "nearestStation": "",
     "lat": 33.443188,
@@ -3699,11 +3699,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 石川",
+    "area": "石川",
     "address": "〒926-0047 石川県七尾市大手町１１２",
     "nearestStation": "",
-    "lat": 35.8614242,
-    "lng": 137.7766109,
+    "lat": 36.697583333333334,
+    "lng": 136.80375,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B0%86%E5%AF%BF%E3%81%97%20%E9%AE%A8",
     "googlePlaceQuery": "大将寿し 鮨",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlwbR0Fq9E40Wf3N1jqaB0xHm9CqH-RHIGmnHC2oBhmRDj4ogJqofJtj1mJSaiBuTuPhmhs18kaPXRw2BHYt8SHhAVg4e516i8LwGr845EN8W5PmDT_wL7lyLua5SMhEVC40pP33g=w800-h600-k-no",
@@ -3727,7 +3727,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 福井",
+    "area": "福井",
     "address": "〒915-0815 福井県越前市深草２丁目９−２８",
     "nearestStation": "",
     "lat": 35.9071562,
@@ -3757,11 +3757,11 @@ export const generatedRestaurants: Restaurant[] = [
       "記念日",
       "接待"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒935-0021 富山県氷見市幸町３２−３１",
     "nearestStation": "",
-    "lat": 36.2535412,
-    "lng": 138.3510023,
+    "lat": 36.64733333333333,
+    "lng": 137.248,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%88%90%E5%B8%8C%20%E9%AE%A8",
     "googlePlaceQuery": "成希 鮨",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmHGP39DU3W3jNcbMcCJHisa4n-CgKDfxZQpDaSmyEWPkSW2g5Zm2j3uvJXrcMNCXiH3rgpjbwcyQOz2mUOEzG3DCImZ9y3dpUYnGq7yFkOqex-MoF8aRmhkAPnvDMIGiJciuZl=w800-h600-k-no",
@@ -3784,7 +3784,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 大分",
+    "area": "大分",
     "address": "〒876-0803 大分県佐伯市駅前２丁目２−１７",
     "nearestStation": "",
     "lat": 32.972371,
@@ -3839,7 +3839,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": " 茨城",
+    "area": "茨城",
     "address": "〒300-0332 茨城県阿見町大字若栗",
     "nearestStation": "",
     "lat": 35.7156092,
@@ -3923,7 +3923,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 滋賀",
+    "area": "滋賀",
     "address": "〒520-0047 滋賀県大津市浜大津３丁目３−２",
     "nearestStation": "",
     "lat": 35.0115964,
@@ -3950,7 +3950,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 鳥取",
+    "area": "鳥取",
     "address": "〒680-0907 鳥取県鳥取市賀露町北１丁目８−１２",
     "nearestStation": "",
     "lat": 35.5354989,
@@ -3978,7 +3978,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 石川",
+    "area": "石川",
     "address": "〒923-0835 石川県小松市吉竹町１丁目３７−１",
     "nearestStation": "",
     "lat": 36.3937206,
@@ -4005,7 +4005,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 石川",
+    "area": "石川",
     "address": "〒923-0811 石川県小松市白江町ワ２７−２",
     "nearestStation": "",
     "lat": 36.41059,
@@ -4031,7 +4031,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": " 静岡",
+    "area": "静岡",
     "address": "〒420-0859 静岡県静岡市葵区栄町３−６",
     "nearestStation": "",
     "lat": 34.9747544,
@@ -4554,11 +4554,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": " 滋賀",
+    "area": "滋賀",
     "address": "〒520-1592 滋賀県高島市朽木小川",
     "nearestStation": "",
-    "lat": 35.7770639,
-    "lng": 139.6945259,
+    "lat": 35.246833333333335,
+    "lng": 136.09783333333337,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B0%E5%90%BE%E4%BD%9C%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "田吾作 レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlZ3p9xgcflbj_wdfYfEbXDSd4uZ1zTJJelunXuEykaowfFoLiU9zf0QKnZG3WJ1Zqgt09RDUPvwyf7ex9BDM3R1N6Oow2aKuq4RDH_I9b4UTf1ZRw8wt9IhpnFCvFz5ZQX0Mi1KQ=w800-h600-k-no",
@@ -4582,7 +4582,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 静岡",
+    "area": "静岡",
     "address": "〒430-0949 静岡県浜松市中央区尾張町１１６−２６",
     "nearestStation": "",
     "lat": 34.7108128,
@@ -4638,7 +4638,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 石川",
+    "area": "石川",
     "address": "〒920-0903 石川県金沢市博労町６７",
     "nearestStation": "",
     "lat": 36.5707504,
@@ -4694,7 +4694,7 @@ export const generatedRestaurants: Restaurant[] = [
       "カジュアル",
       "接待"
     ],
-    "area": " 福島",
+    "area": "福島",
     "address": "〒965-0035 福島県会津若松市馬場町４−４５",
     "nearestStation": "",
     "lat": 37.4992402,
@@ -4722,7 +4722,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 島根",
+    "area": "島根",
     "address": "〒691-0001 島根県出雲市平田町４８５−３７",
     "nearestStation": "",
     "lat": 35.435887,
@@ -4750,7 +4750,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 宮崎",
+    "area": "宮崎",
     "address": "〒880-1303 宮崎県東諸県郡綾町南俣５６９０",
     "nearestStation": "",
     "lat": 32.021718,
@@ -4778,11 +4778,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 静岡",
+    "area": "静岡",
     "address": "〒420-8602 静岡県静岡市葵区",
     "nearestStation": "",
-    "lat": 35.5602827,
-    "lng": 138.5296082,
+    "lat": 35.043166666666664,
+    "lng": 138.34883333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%96%8B%E5%8C%96%E4%BA%AD%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "開化亭 レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlcrVjmeQpdXw-d_0gQSYQp9PDFw2xfJ7FUA-Ch84KFeMU_qjGzdkpwD5zelqDqh-I668Hru5Zn_GsEtir1tzA8yDetvCTeX5WMl_ESF3rnKZ1s9R1fSVi77oRgfZ5LR8i3LvrFiW_kFnxE=w800-h600-k-no",
@@ -4806,7 +4806,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 岐阜",
+    "area": "岐阜",
     "address": "〒500-8829 岐阜県岐阜市杉山町１７−２",
     "nearestStation": "",
     "lat": 35.4223295,
@@ -4833,7 +4833,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 千葉",
+    "area": "千葉",
     "address": "〒283-0104 千葉県山武郡九十九里町片貝２９６６−２",
     "nearestStation": "",
     "lat": 35.537826,
@@ -4889,7 +4889,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒930-0001 富山県富山市明輪町１−２３１ MAROOT ４階",
     "nearestStation": "",
     "lat": 36.7014634,
@@ -4917,7 +4917,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 福井",
+    "area": "福井",
     "address": "〒914-0146 福井県敦賀市金山７９−５−２",
     "nearestStation": "",
     "lat": 35.6271711,
@@ -4945,11 +4945,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 福井",
+    "area": "福井",
     "address": "〒910-0017 福井県福井市文京５丁目１７−５",
     "nearestStation": "",
-    "lat": 35.9864161,
-    "lng": 137.9824359,
+    "lat": 35.84291666666666,
+    "lng": 136.35708333333335,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E5%8D%81%E5%85%B5%E8%A1%9B%20%E9%AE%A8",
     "googlePlaceQuery": "鮨 十兵衛 鮨",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkR0bLmeBLb5samrU8Vv1wZyXTXJNoiCZy3h8AoxAIXgTHoVqn0nsGA72HKiTzcgrsQU1Wew-P3496eLjea_7QrfQFFjHrOhKIXO_HlojMtfQixrepK5pmL47EeORs7JsRIdpzg=w800-h600-k-no",
@@ -4972,7 +4972,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 千葉",
+    "area": "千葉",
     "address": "〒286-0027 千葉県成田市仲町359",
     "nearestStation": "",
     "lat": 35.7846252,
@@ -5139,7 +5139,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 大分",
+    "area": "大分",
     "address": "〒870-0034 大分県大分市都町３丁目７−５",
     "nearestStation": "",
     "lat": 33.2418714,
@@ -5166,7 +5166,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒939-1308 富山県砺波市三郎丸２０８ 若鶴令和蔵",
     "nearestStation": "",
     "lat": 36.6555077,
@@ -5194,7 +5194,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒935-0061 富山県氷見市余川字北山２３８",
     "nearestStation": "",
     "lat": 36.8971582,
@@ -5220,7 +5220,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 静岡",
+    "area": "静岡",
     "address": "〒421-0103 静岡県静岡市駿河区丸子３２６２−１",
     "nearestStation": "",
     "lat": 35.3335727,
@@ -5247,7 +5247,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 千葉",
+    "area": "千葉",
     "address": "〒294-0802 千葉県南房総市山名２０１１",
     "nearestStation": "",
     "lat": 35.0449131,
@@ -5275,11 +5275,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 山形",
+    "area": "山形",
     "address": "〒998-0802 山形県酒田市生石上坂１２５",
     "nearestStation": "",
-    "lat": 37.2999816,
-    "lng": 139.8628003,
+    "lat": 38.443250000000006,
+    "lng": 140.04341666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%9F%E7%9F%B3%20%E5%A4%A7%E6%9D%BE%E5%AE%B6%20%E8%95%8E%E9%BA%A6",
     "googlePlaceQuery": "生石 大松家 蕎麦",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlHY1HEr2sb9nZ2NZVl2apahqEuE1u33dvt_hIDD1Cmwyd64TlaQyN51CYEeqlqmCxBpqECnC_BACXdG-9NfsMNRBwA3M9R2JaU_uxVTNCoPWRPllqQFNCaPUvc5767gWAdjtSK=w800-h600-k-no",
@@ -5303,7 +5303,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": " 岐阜",
+    "area": "岐阜",
     "address": "〒509-6361 岐阜県瑞浪市陶町猿爪猿爪５７３−２７",
     "nearestStation": "",
     "lat": 35.3180079,
@@ -5330,7 +5330,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒939-2518 富山県南砺市利賀村大勘場田島100",
     "nearestStation": "",
     "lat": 36.485,
@@ -5358,7 +5358,7 @@ export const generatedRestaurants: Restaurant[] = [
       "カジュアル",
       "接待"
     ],
-    "area": " 沖縄",
+    "area": "沖縄",
     "address": "〒902-0067 沖縄県那覇市安里４９２−３",
     "nearestStation": "",
     "lat": 26.2211462,
@@ -5386,7 +5386,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 静岡",
+    "area": "静岡",
     "address": "〒430-0932 静岡県浜松市中区肴町３１８−１６ かわかみビル",
     "nearestStation": "",
     "lat": 34.7063208,
@@ -5414,7 +5414,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": " 静岡",
+    "area": "静岡",
     "address": "〒430-0934 静岡県浜松市中区千歳町６ コートクビル 1階 3号室",
     "nearestStation": "",
     "lat": 34.7031922,
@@ -5444,7 +5444,7 @@ export const generatedRestaurants: Restaurant[] = [
       "記念日",
       "接待"
     ],
-    "area": " 静岡",
+    "area": "静岡",
     "address": "〒430-0945 静岡県浜松市中央区元城町２２２−２５",
     "nearestStation": "",
     "lat": 34.7088199,
@@ -5471,7 +5471,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 静岡",
+    "area": "静岡",
     "address": "〒420-0861 静岡県静岡市葵区丸山町１２−２",
     "nearestStation": "",
     "lat": 34.9850092,
@@ -5553,11 +5553,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 滋賀",
+    "area": "滋賀",
     "address": "〒529-0523 滋賀県長浜市余呉町川並１４０８",
     "nearestStation": "",
-    "lat": 35.5987779,
-    "lng": 137.9760105,
+    "lat": 35.25208333333333,
+    "lng": 136.09658333333334,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%B3%E5%B1%B1%E9%AE%93%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "徳山鮓 レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWls31_lC3vJlZCK5BCWuvc5X-rbfNd5nrMMeihlE8p-15pVMYJ9xD2yMz5zecfEVAjwut5XsVy7G_qu-NYhbZqix2YmDt_JW40vDJUP-f9nMXDTZGJ0VYSolUHY2uUm6ZgHyQvdwUZZL3nw=w800-h600-k-no",
@@ -5606,7 +5606,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒931-8358 富山県富山市東岩瀬町１８２",
     "nearestStation": "",
     "lat": 36.7581228,
@@ -5664,8 +5664,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "福岡",
     "address": "〒810-0003 福岡県福岡市中央区春吉３丁目２４−１０ アーバンテム春吉 1F",
     "nearestStation": "",
-    "lat": 34.6444172,
-    "lng": 135.0937953,
+    "lat": 33.457,
+    "lng": 130.593,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E9%87%91%20%E3%81%AB%E3%81%97%E7%94%B0%20%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "白金 にし田 日本料理 東京",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkpyZspHhSEoDwHl6J-utCF76KxOcPnMQaw0Hn2MR29wMAOYkNaX4v051RXgs08W6q8805xSCH-b7zZ0Zid8UeLOvBRGh9jY7PEiKtaVNoPrS-1iZU2b-FGqYSKhhOVLB4Ftmw=w800-h600-k-no",
@@ -5723,7 +5723,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.7965,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%AF%BF%E5%8F%B8%20%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "福寿司 浅草 東京",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkOpc8GSg_2F6EmG_wXGAU-1tFuDnGoZXi0Ca_J5iE9JsSt-Cyed7ix_IePhVrezN5ECnFpNMrvmCqVtL2uPkwlXL8zHsgqeITRQ0ZlXgcyyhknv9a7tFqy4U6dIHi3UzU_d38nmA=w800-h600-k-no",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnqIUWah_DFaIfXBWl4g2zvpdrdKVjbONpsiAv2yVD17yKZJXfutBA6E_LhNncxJuMYRnpVbrCoNdEIvp1LgAWrrL0FRRsjQc9kFhN1RGG4SmE9IbYKB3eO1FBBgiHPzQup_STpGQ=w800-h600-k-no",
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
@@ -5771,7 +5771,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 静岡",
+    "area": "静岡",
     "address": "〒420-0969 静岡県静岡市葵区有永２２−２６０−１",
     "nearestStation": "",
     "lat": 35.0318311,
@@ -5825,7 +5825,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒931-8358 富山県富山市東岩瀬町９３",
     "nearestStation": "",
     "lat": 36.7583999,
@@ -5880,7 +5880,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 愛媛",
+    "area": "愛媛",
     "address": "〒790-0012 愛媛県松山市湊町７丁目6−１０ マリン コミセン前ビル 一階",
     "nearestStation": "",
     "lat": 33.835906,
@@ -5908,7 +5908,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 沖縄",
+    "area": "沖縄",
     "address": "〒900-0015 沖縄県那覇市久茂地２丁目１３−１３−１４",
     "nearestStation": "",
     "lat": 26.2217629,
@@ -5936,7 +5936,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 石川",
+    "area": "石川",
     "address": "〒920-0981 石川県金沢市片町１丁目１０−５ １階",
     "nearestStation": "",
     "lat": 36.5586634,
@@ -5963,11 +5963,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 滋賀",
+    "area": "滋賀",
     "address": "〒520-0243 滋賀県大津市堅田１丁目１７−７ マリーナマンション墨田 1F",
     "nearestStation": "",
-    "lat": 35.2887728,
-    "lng": 137.6552561,
+    "lat": 35.24766666666667,
+    "lng": 136.0976666666667,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E8%AA%A0%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "一誠 レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlD2tv-t8ZTd__ekgBkyxCgfF7xtp47-er8Z2BZ6l6FP1_uWkQl1v__2I66NF30-CYUEu-fcap5RhIqQHRB0OIlBo_UIR4I_oRcCtCTmOeaCvt21LPYVEoEKTcp-rsthJgHsKKypQ=w800-h600-k-no",
@@ -5991,7 +5991,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 鳥取",
+    "area": "鳥取",
     "address": "〒680-0907 鳥取県鳥取市賀露町北１丁目５−３４",
     "nearestStation": "",
     "lat": 35.53493,
@@ -6017,7 +6017,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 大分",
+    "area": "大分",
     "address": "〒870-0044 大分県大分市都町3-2-35 山下ビル2F",
     "nearestStation": "",
     "lat": 33.2392,
@@ -6101,7 +6101,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "とっておき"
     ],
-    "area": " 愛媛",
+    "area": "愛媛",
     "address": "〒794-0036 愛媛県今治市松本町2-2-4",
     "nearestStation": "",
     "lat": 34.0662,
@@ -6128,7 +6128,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 愛媛",
+    "area": "愛媛",
     "address": "〒794-2304 愛媛県今治市伯方町北浦甲１２０３-８",
     "nearestStation": "",
     "lat": 34.2307457,
@@ -6183,7 +6183,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒930-0029 富山県富山市本町８−１",
     "nearestStation": "",
     "lat": 36.6932548,
@@ -6211,7 +6211,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒930-0003 富山県富山市桜町２丁目１−１７",
     "nearestStation": "",
     "lat": 36.6988944,
@@ -6239,7 +6239,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒930-0003 富山県富山市桜町２丁目１−１４",
     "nearestStation": "",
     "lat": 36.698871,
@@ -6267,7 +6267,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒939-8272 富山県富山市太郎丸本町１丁目７−６",
     "nearestStation": "",
     "lat": 36.6779236,
@@ -6324,8 +6324,8 @@ export const generatedRestaurants: Restaurant[] = [
     "area": "福岡",
     "address": "〒810-0042 福岡県福岡市中央区赤坂１丁目５−１１",
     "nearestStation": "",
-    "lat": 34.6439229,
-    "lng": 135.0721516,
+    "lat": 33.45008333333334,
+    "lng": 130.60458333333332,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%81%95%E3%81%B0%E3%81%9F%E3%82%8D%E3%81%86%20%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3",
     "googlePlaceQuery": "さばたろう レストラン",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnluX01LvHn8TkjCo2uFMj-Q1C0XTUAhFYgrhzwpUW8cyGb1Q2w_PEAHCwAcUpOheQX90yzhdwBADV6tBcCLZLe4AIKKAaQEqJnUQHydz-EtUzXDqlWuWfj_ExeWufnltT_H25CoqhhTGEp=w800-h600-k-no",
@@ -6404,7 +6404,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 大分",
+    "area": "大分",
     "address": "〒875-0041 大分県臼杵市臼杵２−１０７−１５２",
     "nearestStation": "",
     "lat": 33.1200557,
@@ -6432,11 +6432,11 @@ export const generatedRestaurants: Restaurant[] = [
       "会食",
       "接待"
     ],
-    "area": " 山口",
+    "area": "山口",
     "address": "〒754-1277 山口県山口市阿知須３３２２",
     "nearestStation": "",
-    "lat": 35.7032134,
-    "lng": 139.7364618,
+    "lat": 34.15366666666667,
+    "lng": 131.50233333333333,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B7%8F%E5%90%88%E9%85%92%E9%A1%9E%E6%8E%A2%E6%B1%82%E6%89%80K%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "総合酒類探求所K 東京",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWle-8lc3BtaTJ9BzJ_n0qy0gyDSy84vaNmMAXvWiyU-S7CfjqS1bWGA0dQV_pDF1g0ifcO2piATse40rhQmQHaUgJuklTc5WoMo7p7cQv3KLWEG7dbsFM2fS8M4PKVTETTbzM5b=w800-h600-k-no",
@@ -6460,7 +6460,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 愛媛",
+    "area": "愛媛",
     "address": "〒790-0001 愛媛県松山市一番町１丁目6−９",
     "nearestStation": "",
     "lat": 33.8410117,
@@ -6542,7 +6542,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 富山",
+    "area": "富山",
     "address": "〒931-8353 富山県富山市東岩瀬町93",
     "nearestStation": "",
     "lat": 36.7585136,
@@ -6569,11 +6569,11 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 石川",
+    "area": "石川",
     "address": "〒920-0864 石川県金沢市高岡町６−５ 懐石つる幸",
     "nearestStation": "",
-    "lat": 36.1174695,
-    "lng": 138.2127966,
+    "lat": 36.69883333333333,
+    "lng": 136.80383333333336,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%87%90%E7%9F%B3%E3%81%A4%E3%82%8B%E5%B9%B8%20%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86",
     "googlePlaceQuery": "懐石つる幸 日本料理",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk0IrD3IBaz6noX2JKzqBozuNQqz7C7yvk05LYEx0KSH5Ru7RmzGLkqaFmKPjvA5ZrVLQY-ba-Snj0LqF26jjyF085c4D8wNeAZBOGCA9_vAovfMsc6n8-Jwqz83tqhd5hXiCbg=w800-h600-k-no",
@@ -6650,7 +6650,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 長野",
+    "area": "長野",
     "address": "〒399-9211 長野県北安曇郡白馬村神城１５５６０",
     "nearestStation": "",
     "lat": 36.6459311,
@@ -6731,7 +6731,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 長野",
+    "area": "長野",
     "address": "〒399-9301 長野県北安曇郡白馬村北城５０８１",
     "nearestStation": "",
     "lat": 36.7015153,
@@ -6787,7 +6787,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": " 長野",
+    "area": "長野",
     "address": "〒399-9301 長野県北安曇郡白馬村北城５２１１",
     "nearestStation": "",
     "lat": 36.7000233,
@@ -6815,7 +6815,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 埼玉",
+    "area": "埼玉",
     "address": "〒333-0801 埼玉県川口市東川口２丁目６−８ ニッショウビル",
     "nearestStation": "",
     "lat": 35.87654,
@@ -7336,7 +7336,7 @@ export const generatedRestaurants: Restaurant[] = [
       "とっておき",
       "接待"
     ],
-    "area": " 石川",
+    "area": "石川",
     "address": "〒920-0928 石川県金沢市並木町３−３６",
     "nearestStation": "",
     "lat": 36.5695625,
@@ -14769,7 +14769,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": " 愛媛",
+    "area": "愛媛",
     "address": "〒790-0842 愛媛県松山市道後湯之町１５−15番27号",
     "nearestStation": "",
     "lat": 33.8519556,
@@ -15304,7 +15304,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 埼玉",
+    "area": "埼玉",
     "address": "〒334-0051 埼玉県川口市安行出羽三丁目越谷川口線",
     "nearestStation": "",
     "lat": 35.854726,
@@ -15779,7 +15779,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 島根",
+    "area": "島根",
     "address": "〒690-0261 島根県松江市秋鹿町３２８７",
     "nearestStation": "",
     "lat": 35.4757571,
@@ -15857,7 +15857,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 埼玉",
+    "area": "埼玉",
     "address": "〒338-0003 埼玉県さいたま市中央区本町通り",
     "nearestStation": "",
     "lat": 35.8862292,
@@ -15883,7 +15883,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 千葉",
+    "area": "千葉",
     "address": "〒287-0224 千葉県成田市新田２８−１",
     "nearestStation": "",
     "lat": 35.7945616,
@@ -15935,7 +15935,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 埼玉",
+    "area": "埼玉",
     "address": "〒341-0044 埼玉県三郷市戸ヶ崎２９５１−１",
     "nearestStation": "",
     "lat": 35.7960139,
@@ -16013,7 +16013,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": " 静岡",
+    "area": "静岡",
     "address": "〒417-0803 静岡県富士市林道丸火公園線",
     "nearestStation": "",
     "lat": 35.235122,

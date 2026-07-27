@@ -294,13 +294,13 @@ const PREF_BOUNDS = {
 
 function prefectureFromAddress(address) {
   if (!address) return null;
-  const m = address.match(/(北海道|東京都|京都府|大阪府|(.{2,3}県))/);
+  const m = address.match(/(北海道|東京都|京都府|大阪府|([^\s]{2,3}県))/);
   if (m) {
     if (m[1] === "東京都") return "東京";
     if (m[1] === "京都府") return "京都";
     if (m[1] === "大阪府") return "大阪";
     if (m[1] === "北海道") return "北海道";
-    return m[2]?.replace(/県$/, "") || null;
+    return m[2]?.replace(/県$/, "").trim() || null;
   }
   if (/台東区|港区|渋谷区|中央区|新宿区|千代田区|目黒区|品川区|大田区|世田谷区|杉並区|豊島区|墨田区|江東区|文京区|中野区|板橋区|練馬区|足立区|葛飾区|江戸川区|浅草|上野/.test(address)) {
     return "東京";
