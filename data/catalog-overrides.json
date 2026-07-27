@@ -97,8 +97,10 @@
       "address": "〒106-0031 東京都港区西麻布１丁目１０−１４ アビターレ霞町 1F",
       "lat": 35.661334,
       "lng": 139.7239412,
+      "area": "西麻布",
       "cuisine": "鮨",
       "priceTier": "executive",
+      "rating": 4.8,
       "description": "西麻布の寿司店。",
       "tags": ["寿司店"],
       "scenes": ["とっておき", "記念日", "接待"]
@@ -128,7 +130,7 @@
     "神田 タンだけ": "/media/kanda-tan-platter.jpg",
     "炭火焼鳥 吉田山せせり": "炭火焼鳥 吉田山せせり 京都 店内",
     "伊豆榮 梅川亭": "伊豆榮 梅川亭 うな重 東京",
-    "長島": "/media/nagashima-sushi-closeup.jpg",
+    "長島": "/media/kai-sushi-handoff.jpg",
     "すし 凱": "/media/kai-sushi-handoff.jpg",
     "駿河屋": "/media/surugaya-exterior.jpg",
     "瞬": "/media/shun-unagi.jpg",
@@ -143,7 +145,7 @@
     "しの田": "しの田 今治 料理",
     "しのはら": "/media/shinohara-dish.jpg",
     "山本屋本店 栄店": "/media/yamamotoya-sakae-udon.jpg",
-    "西麻布 鮨いち": "/media/nagashima-sushi-closeup.jpg",
-    "鮨一": "/media/nagashima-sushi-closeup.jpg"
+    "西麻布 鮨いち": "/media/nishiazabu-sushi-ichi.jpg",
+    "鮨一": "/media/nishiazabu-sushi-ichi.jpg"
   }
 }

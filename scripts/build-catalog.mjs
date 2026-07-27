@@ -154,7 +154,10 @@ function inferAreaFromAddress(address) {
   if (/東京都/.test(address) || /^(台東区|港区|渋谷区|中央区|新宿区|千代田区|目黒区|品川区|大田区|世田谷区|杉並区|豊島区|墨田区|江東区|文京区|中野区|板橋区|練馬区|足立区|葛飾区|江戸川区)/.test(address)) {
     if (/虎ノ門|虎の門/.test(address)) return "虎ノ門";
     if (/銀座|日本橋/.test(address)) return "銀座";
-    if (/六本木|麻布|港区|西麻布|東麻布|赤坂|青山|表参道/.test(address)) return "六本木";
+    if (/六本木|麻布|港区|西麻布|東麻布|赤坂|青山|表参道/.test(address)) {
+      if (/西麻布/.test(address)) return "西麻布";
+      return "六本木";
+    }
     if (/渋谷|恵比寿|代々木|代官山/.test(address)) return "渋谷";
     if (/新宿|代々木/.test(address)) return "新宿";
     if (/浅草|上野|台東区/.test(address)) return "東京";
@@ -465,7 +468,7 @@ for (const file of files) {
     const name = p.name.trim();
     const category = (p.info && p.info.find((x) => !/^[0-9.]+$/.test(x))) || p.cardTextCategory || guessCategoryFromText(p.cardText, name);
     if (!isValidName(name, category, p.cardText)) continue;
-    const rating = typeof p.rating === "number" ? p.rating : 4.3;
+    let rating = typeof p.rating === "number" ? p.rating : 4.3;
     let cuisine = refineCuisine(name, category, toCuisine(category, name, listName));
     let priceTier = toPriceTier(listName, category, rating);
     const areaInfo = detectArea(name, listName);
@@ -498,11 +501,13 @@ for (const file of files) {
     }
 
     counter += 1;
-    const area = cachedPlace?.address
-      ? inferAreaFromAddress(cachedPlace.address)
-      : cachedPlace?.lat
-        ? areaInfo.area
-        : areaInfo.area;
+    const area = placeOverride?.area
+      ? placeOverride.area
+      : cachedPlace?.address
+        ? inferAreaFromAddress(cachedPlace.address)
+        : cachedPlace?.lat
+          ? areaInfo.area
+          : areaInfo.area;
     let lat = cachedPlace?.lat ?? areaInfo.lat + jitter(name);
     let lng = cachedPlace?.lng ?? areaInfo.lng + jitter(name + "x");
     const query = cachedPlace?.query || buildPlaceQuery(name, listName, area, category);
@@ -523,6 +528,7 @@ for (const file of files) {
     }
     if (placeOverride?.cuisine) cuisine = placeOverride.cuisine;
     if (placeOverride?.priceTier) priceTier = placeOverride.priceTier;
+    if (typeof placeOverride?.rating === "number") rating = placeOverride.rating;
     const scenesBase = toScenes(listName, category, rating, priceTier);
     const scenes = placeOverride?.scenes
       ? [...new Set([...scenesBase, ...placeOverride.scenes])]
@@ -598,6 +604,12 @@ function applyPlaceCache(entry, cachedPlace) {
   if (overrides.places?.[entry.name]?.priceTier) {
     entry.priceTier = overrides.places[entry.name].priceTier;
     entry.priceDinner = priceGuess(entry.priceTier);
+  }
+  if (typeof overrides.places?.[entry.name]?.rating === "number") {
+    entry.rating = overrides.places[entry.name].rating;
+  }
+  if (overrides.places?.[entry.name]?.area) {
+    entry.area = overrides.places[entry.name].area;
   }
   if (overrides.places?.[entry.name]?.scenes) {
     entry.scenes = [...new Set([...entry.scenes, ...overrides.places[entry.name].scenes])];

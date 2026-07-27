@@ -6954,15 +6954,15 @@ export const generatedRestaurants: Restaurant[] = [
       "記念日",
       "接待"
     ],
-    "area": "六本木",
+    "area": "西麻布",
     "address": "〒106-0031 東京都港区西麻布１丁目１０−１４ アビターレ霞町 1F",
     "nearestStation": "",
     "lat": 35.661334,
     "lng": 139.7239412,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%BA%BB%E5%B8%83%20%E9%AE%A8%E3%81%84%E3%81%A1%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "西麻布 鮨いち 東京",
-    "image": "/media/nagashima-sushi-closeup.jpg",
-    "rating": 4.3,
+    "image": "/media/nishiazabu-sushi-ichi.jpg",
+    "rating": 4.8,
     "reviewCount": 0,
     "tags": [
       "寿司店"
@@ -7864,7 +7864,7 @@ export const generatedRestaurants: Restaurant[] = [
       "接待",
       "会食"
     ],
-    "area": "六本木",
+    "area": "西麻布",
     "address": "〒106-0031 東京都港区西麻布２丁目８−１１ 西麻布ビル ２階",
     "nearestStation": "",
     "lat": 35.6621759,
@@ -8426,7 +8426,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "六本木",
+    "area": "西麻布",
     "address": "〒106-0031 東京都港区西麻布３丁目８−６ エポック有栖川",
     "nearestStation": "",
     "lat": 35.654773,
@@ -8481,7 +8481,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "カジュアル"
     ],
-    "area": "六本木",
+    "area": "西麻布",
     "address": "〒106-0031 東京都港区西麻布２丁目１４−５",
     "nearestStation": "",
     "lat": 35.6600425,
@@ -8589,7 +8589,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "六本木",
+    "area": "西麻布",
     "address": "〒106-0031 東京都港区西麻布１丁目２−１４ デュオ・スカーラ西麻布タワーウエスト WEST B1F",
     "nearestStation": "",
     "lat": 35.6609927,
@@ -10787,7 +10787,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "六本木",
+    "area": "西麻布",
     "address": "〒106-0031 東京都港区西麻布２丁目１２−５ ミスティ西麻布 MISTY西麻布 3F",
     "nearestStation": "",
     "lat": 35.661018,
@@ -11309,7 +11309,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "六本木",
+    "area": "西麻布",
     "address": "〒106-0031 東京都港区西麻布４丁目１１−４ 西麻布 尾花ビル B1階",
     "nearestStation": "",
     "lat": 35.6589099,
@@ -13879,7 +13879,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "六本木",
+    "area": "西麻布",
     "address": "〒106-0031 東京都港区西麻布３丁目１３−１４ LA・RES西麻布 B1F",
     "nearestStation": "",
     "lat": 35.6570508,
@@ -15095,7 +15095,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.7226,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E9%95%B7%E5%B3%B6%20%E7%99%BD%E9%87%91%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "鮨 長島 白金 東京",
-    "image": "/media/nagashima-sushi-closeup.jpg",
+    "image": "/media/kai-sushi-handoff.jpg",
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [
@@ -15486,7 +15486,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "会食"
     ],
-    "area": "六本木",
+    "area": "西麻布",
     "address": "〒106-0031 東京都港区西麻布１丁目１５−７ モダンフォルム西麻布 2 2F",
     "nearestStation": "",
     "lat": 35.6615723,
