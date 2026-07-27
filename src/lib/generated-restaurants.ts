@@ -15175,9 +15175,9 @@ export const generatedRestaurants: Restaurant[] = [
     "nearestStation": "",
     "lat": 35.6444416,
     "lng": 139.7155528,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%8F%E3%82%8A%E3%82%84%E5%B7%9D",
-    "googlePlaceQuery": "鮨 くりや川",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlwP05rQVDDmc3j-slG42cnsBYvcCGvN49-1TTYoPv6VB2BVAmQBnNQn2dOL3xzxO2b1OLsLMkg5AdnMvenQ1tkP0ADdUjdqM6aO1692MXwwrAHKF11SUMqPF1hEB2tf8c89OGtPkK71dGF=w800-h600-k-no",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E3%81%8F%E3%82%8A%E3%82%84%E5%B7%9D%20%E6%81%B5%E6%AF%94%E5%AF%BF%20%E6%9D%B1%E4%BA%AC",
+    "googlePlaceQuery": "鮨 くりや川 恵比寿 東京",
+    "image": "/media/kuriyagawa-nigiri.jpg",
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [
