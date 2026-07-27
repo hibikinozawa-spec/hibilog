@@ -15095,7 +15095,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 139.7226,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AE%A8%20%E9%95%B7%E5%B3%B6%20%E7%99%BD%E9%87%91%20%E6%9D%B1%E4%BA%AC",
     "googlePlaceQuery": "鮨 長島 白金 東京",
-    "image": "/media/kai-sushi-handoff.jpg",
+    "image": "/media/nagashima-sushi-handoff.jpg",
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [

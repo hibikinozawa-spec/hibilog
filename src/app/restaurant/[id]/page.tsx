@@ -22,7 +22,10 @@ export default async function RestaurantPage({ params }: Props) {
 
   const intro = buildRestaurantIntro(r);
   const portraitFit =
-    r.name === "すし 凱" || r.image.includes("kai-sushi-handoff");
+    r.name === "すし 凱" ||
+    r.name === "長島" ||
+    r.image.includes("kai-sushi-handoff") ||
+    r.image.includes("nagashima-sushi-handoff");
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
