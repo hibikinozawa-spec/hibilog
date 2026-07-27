@@ -3463,9 +3463,10 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.5,
     "reviewCount": 0,
     "tags": [
-      "和食店"
+      "蕎麦店",
+      "そば"
     ],
-    "description": "和食店。",
+    "description": "信州蕎麦の老舗蕎麦店。",
     "privateRoom": false,
     "priceMin": 1000,
     "priceMax": 2000,

@@ -89,6 +89,11 @@
       "description": "沖縄そばの郷土料理店。",
       "priceTier": "casual",
       "tags": ["沖縄そば", "郷土料理店"]
+    },
+    "油屋": {
+      "cuisine": "和食",
+      "description": "信州蕎麦の老舗蕎麦店。",
+      "tags": ["蕎麦店", "そば"]
     }
   },
   "photos": {
