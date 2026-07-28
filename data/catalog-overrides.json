@@ -62,7 +62,8 @@
       "lat": 36.485,
       "lng": 136.951,
       "cuisine": "フレンチ",
-      "description": "富山・利賀のオーベルジュ。"
+      "description": "富山・利賀のオーベルジュ。",
+      "mapZoom": 8
     },
     "MAKINONCÎ マキノンチ": {
       "query": "MAKINONCÎ マキノンチ 東京",
@@ -187,7 +188,7 @@
     "すし 凱": "/media/kai-sushi-handoff.jpg",
     "駿河屋": "/media/surugaya-exterior.jpg",
     "瞬": "/media/shun-unagi.jpg",
-    "レヴォ": "/media/levo-dish.jpg",
+    "レヴォ": "/media/levo-interior.jpg",
     "樋山": "樋山 川口 日本料理",
     "銀座浅野屋": "/media/soba-noodles-test2.jpg",
     "蕎麦 たじま 西麻布店": "/media/soba-noodles.jpg",

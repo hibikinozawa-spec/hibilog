@@ -5345,7 +5345,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 136.951,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%83%B4%E3%82%A9%20%E5%88%A9%E8%B3%80%20%E5%AF%8C%E5%B1%B1",
     "googlePlaceQuery": "レヴォ 利賀 富山",
-    "image": "/media/levo-dish.jpg",
+    "image": "/media/levo-interior.jpg",
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [
@@ -5354,6 +5354,7 @@ export const generatedRestaurants: Restaurant[] = [
     "description": "富山・利賀のオーベルジュ。",
     "privateRoom": true,
     "priceMin": 10000,
+    "mapZoom": 8,
     "listSource": "地方レストラン_名店"
   },
   {

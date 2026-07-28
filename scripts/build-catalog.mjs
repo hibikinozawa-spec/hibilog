@@ -575,6 +575,9 @@ for (const file of files) {
       listSources: [listName],
     });
     applyAttributes(byName.get(name), attrs);
+    if (cachedPlace) {
+      applyPlaceCache(byName.get(name), cachedPlace);
+    }
   }
 }
 
@@ -624,6 +627,9 @@ function applyPlaceCache(entry, cachedPlace) {
   }
   if (overrides.places?.[entry.name]?.scenes) {
     entry.scenes = [...new Set([...entry.scenes, ...overrides.places[entry.name].scenes])];
+  }
+  if (typeof overrides.places?.[entry.name]?.mapZoom === "number") {
+    entry.mapZoom = overrides.places[entry.name].mapZoom;
   }
   applyAttributes(entry, attributesCache[entry.name]);
 }

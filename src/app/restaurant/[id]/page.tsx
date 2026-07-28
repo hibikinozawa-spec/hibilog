@@ -117,6 +117,7 @@ export default async function RestaurantPage({ params }: Props) {
             query={r.googlePlaceQuery}
             lat={r.lat}
             lng={r.lng}
+            zoom={r.mapZoom}
             className="h-[420px] w-full"
           />
           <a

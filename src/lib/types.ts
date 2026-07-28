@@ -83,6 +83,8 @@ export interface Restaurant {
   lng: number;
   googleMapsUrl: string;
   googlePlaceQuery: string;
+  /** Google Maps embed zoom (default 16). */
+  mapZoom?: number;
   image: string;
   rating: number;
   reviewCount: number;
