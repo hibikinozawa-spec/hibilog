@@ -1,5 +1,5 @@
 // Scrape Google Maps place attributes (個室, price range) from 基本情報 tab.
-// Usage: node scripts/enrich-place-attributes.mjs [--limit N] [--force] [--name "店名"]
+// Usage: node scripts/enrich-place-attributes.mjs [--limit N] [--offset N] [--force] [--retry-failed] [--name "店名"]
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -37,7 +37,11 @@ const args = process.argv.slice(2);
 const limitArg = args.includes("--limit")
   ? Number(args[args.indexOf("--limit") + 1])
   : Infinity;
+const offsetArg = args.includes("--offset")
+  ? Number(args[args.indexOf("--offset") + 1])
+  : 0;
 const force = args.includes("--force");
+const retryFailed = args.includes("--retry-failed");
 const headed = args.includes("--headed");
 const onlyName = args.includes("--name")
   ? args[args.indexOf("--name") + 1]
@@ -265,31 +269,115 @@ const cache = fs.existsSync(cachePath)
   ? JSON.parse(fs.readFileSync(cachePath, "utf8"))
   : {};
 
-const todo = places
-  .filter((p) => !onlyName || p.name === onlyName)
-  .filter((p) => force || cache[p.name]?.source !== "google_maps_about")
-  .slice(0, limitArg);
+function isSuccessEntry(entry) {
+  return entry?.source === "google_maps_about";
+}
 
-console.log(`Place attributes: ${todo.length} / ${places.length} places`);
+function isFailedEntry(entry) {
+  return entry?.source === "google_maps_failed";
+}
 
-const browser = await puppeteer.launch({
-  executablePath: CHROME,
-  headless: headed ? false : "new",
-  args: [
-    "--lang=ja-JP",
-    "--window-size=1280,1600",
-    "--no-sandbox",
-    "--disable-blink-features=AutomationControlled",
-  ],
-});
-const page = await browser.newPage();
-await page.evaluateOnNewDocument(() => {
-  Object.defineProperty(navigator, "webdriver", { get: () => false });
-});
-await page.setUserAgent(
-  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+function shouldFetch(name) {
+  const entry = cache[name];
+  if (force) return true;
+  if (isSuccessEntry(entry)) return false;
+  if (isFailedEntry(entry) && !retryFailed) return false;
+  return true;
+}
+
+const pending = places.filter((p) => shouldFetch(p.name));
+const todo = pending.slice(offsetArg, offsetArg + limitArg);
+const okCount = places.filter((p) => isSuccessEntry(cache[p.name])).length;
+const failedCount = places.filter((p) => isFailedEntry(cache[p.name])).length;
+
+console.log(
+  `Place attributes: ${todo.length} to fetch / ${pending.length} pending / ${places.length} total` +
+    ` (${okCount} ok, ${failedCount} failed cached)` +
+    (offsetArg ? `, offset ${offsetArg}` : ""),
 );
-await page.setViewport({ width: 1280, height: 1600 });
+
+const USER_AGENT =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+
+const BROWSER_ARGS = [
+  "--lang=ja-JP",
+  "--window-size=1280,1600",
+  "--no-sandbox",
+  "--disable-blink-features=AutomationControlled",
+];
+
+async function launchBrowser() {
+  return puppeteer.launch({
+    executablePath: CHROME,
+    headless: headed ? false : "new",
+    args: BROWSER_ARGS,
+  });
+}
+
+async function configurePage(targetPage) {
+  await targetPage.evaluateOnNewDocument(() => {
+    Object.defineProperty(navigator, "webdriver", { get: () => false });
+  });
+  await targetPage.setUserAgent(USER_AGENT);
+  await targetPage.setViewport({ width: 1280, height: 1600 });
+}
+
+async function openFreshPage(activeBrowser) {
+  const freshPage = await activeBrowser.newPage();
+  await configurePage(freshPage);
+  return freshPage;
+}
+
+let browser = await launchBrowser();
+let page = await openFreshPage(browser);
+
+function isRecoverableError(err) {
+  const msg = err?.message || "";
+  return /detached Frame|Navigating frame was detached|Connection closed|Protocol error|Target closed|Session closed|Browser closed/i.test(
+    msg,
+  );
+}
+
+async function restartBrowser() {
+  process.stderr.write("browser restart … ");
+  try {
+    await browser.close();
+  } catch {
+    // browser may already be dead
+  }
+  await new Promise((r) => setTimeout(r, 2500));
+  browser = await launchBrowser();
+  return openFreshPage(browser);
+}
+
+async function recoverSession() {
+  try {
+    await page.close();
+  } catch {
+    // ignore
+  }
+  try {
+    return await openFreshPage(browser);
+  } catch {
+    return restartBrowser();
+  }
+}
+
+const PERMANENT_FAILURES = new Set([
+  "maps_restricted",
+  "no_data",
+  "place_not_found",
+]);
+
+function recordFailure(name, reason) {
+  if (!PERMANENT_FAILURES.has(reason)) return;
+  cache[name] = {
+    source: "google_maps_failed",
+    reason,
+    failedAt: new Date().toISOString().slice(0, 10),
+  };
+  fs.writeFileSync(cachePath, JSON.stringify(cache, null, 2));
+}
 
 let ok = 0;
 let fail = 0;
@@ -297,34 +385,67 @@ let privateRooms = 0;
 
 for (const [i, place] of todo.entries()) {
   process.stderr.write(`[${i + 1}/${todo.length}] ${place.name} … `);
-  try {
-    const { result, reason } = await fetchAttributesForPlace(page, place);
-    if (result?.privateRoom || result?.priceMin) {
-      cache[place.name] = result;
-      fs.writeFileSync(cachePath, JSON.stringify(cache, null, 2));
-      ok++;
-      if (result.privateRoom) privateRooms++;
-      process.stderr.write(
-        `OK (個室:${result.privateRoom ? "あり" : "なし"} price:${result.priceMin ?? "?"})\n`,
-      );
-    } else {
+  let attempts = 0;
+  let done = false;
+  while (!done && attempts < 3) {
+    attempts++;
+    try {
+      const { result, reason } = await fetchAttributesForPlace(page, place);
+      if (result?.privateRoom || result?.priceMin) {
+        cache[place.name] = result;
+        fs.writeFileSync(cachePath, JSON.stringify(cache, null, 2));
+        ok++;
+        if (result.privateRoom) privateRooms++;
+        process.stderr.write(
+          `OK (個室:${result.privateRoom ? "あり" : "なし"} price:${result.priceMin ?? "?"})\n`,
+        );
+      } else {
+        fail++;
+        recordFailure(place.name, reason || "no_data");
+        process.stderr.write(`${reason || "no_data"} (cached)\n`);
+      }
+      done = true;
+    } catch (e) {
+      if (isRecoverableError(e) && attempts < 3) {
+        process.stderr.write("recover … ");
+        try {
+          page = await recoverSession();
+        } catch {
+          page = await restartBrowser();
+        }
+        continue;
+      }
       fail++;
-      process.stderr.write(`${reason || "no_data"}\n`);
+      const reason = e.message.includes("Connection closed")
+        ? "connection_closed"
+        : e.message;
+      recordFailure(place.name, reason);
+      const suffix = PERMANENT_FAILURES.has(reason) ? " (cached)" : " (retry later)";
+      process.stderr.write(`err: ${e.message}${suffix}\n`);
+      try {
+        page = await restartBrowser();
+      } catch {
+        // next iteration will try restart again
+      }
+      done = true;
     }
-  } catch (e) {
-    fail++;
-    process.stderr.write(`err: ${e.message}\n`);
   }
-  await new Promise((r) => setTimeout(r, 900));
+  await new Promise((r) => setTimeout(r, 1500));
 }
 
-await browser.close();
+try {
+  await browser.close();
+} catch {
+  // ignore
+}
 console.log(
   JSON.stringify(
     {
       ok,
       fail,
       cached: Object.keys(cache).length,
+      okInCache: Object.values(cache).filter((v) => isSuccessEntry(v)).length,
+      failedInCache: Object.values(cache).filter((v) => isFailedEntry(v)).length,
       privateRoomsInCache: Object.values(cache).filter((v) => v.privateRoom).length,
     },
     null,

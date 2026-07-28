@@ -445,7 +445,7 @@ function defaultPrivateRoom(category, listName, attrs, tags = []) {
 }
 
 function applyAttributes(entry, attrs) {
-  if (!attrs) return;
+  if (!attrs || attrs.source === "google_maps_failed") return;
   if (attrs.privateRoom === true) entry.privateRoom = true;
   if (typeof attrs.priceMin === "number") entry.priceMin = attrs.priceMin;
   if (typeof attrs.priceMax === "number") entry.priceMax = attrs.priceMax;

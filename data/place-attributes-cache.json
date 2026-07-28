@@ -1864,12 +1864,12 @@
     "source": "google_maps_about"
   },
   "鮨一": {
-    "privateRoom": true,
-    "priceMin": 20000,
+    "privateRoom": false,
+    "priceMin": 10000,
     "priceMax": null,
     "priceOpenEnded": true,
-    "fetchedAt": "2026-07-26",
-    "source": "manual_override"
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
   },
   "すゝき野 鮨金": {
     "privateRoom": false,
@@ -2285,6 +2285,2503 @@
     "priceMax": null,
     "priceOpenEnded": true,
     "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ア・ドゥエ・パッシ": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 4000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "蒼空": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "オステリアドゥエ": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 3000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "Ja☆Night": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "徳山鮓": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "こいで": {
+    "privateRoom": false,
+    "priceMin": 1,
+    "priceMax": 1000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "Ma Cuisine （マ キュイジーヌ）": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "浜町かねこ": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "レストラン マ プール": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "食堂 わた": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ヤマト": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 4000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "RAMEN MATSUI": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ぽん多本家": {
+    "privateRoom": true,
+    "priceMin": 4000,
+    "priceMax": 5000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "入鹿TOKYO 六本木": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "かつ好": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 3000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "天ぷら かき揚げ 之村": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "わたべ": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "HOPPERS": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "銀座 八五": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ビストロ・ヴィヴィエンヌ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ラ·ベットラ·ダ·オチアイ": {
+    "privateRoom": true,
+    "priceMin": 3000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ビストロ・ヌガ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "アロセリア ラ パンサ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "焼鳥山香": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "梅香": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "蕎楽亭": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ビリヤニ大澤": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 5000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "三燈舎": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "Osteria da K.[kappa]": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ビストロレストラン ロジエ 恵比寿": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 7000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ユヌパンセ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "渡辺料理店": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "Restaurant Karyon": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "Boutary": {
+    "privateRoom": true,
+    "priceMin": null,
+    "priceMax": null,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ビストロ シンバ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ボルト": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ルグドゥノム・ブション・リヨネ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ライラ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "シェ オリビエ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "SUGALABO inc": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "エクアトゥール": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "ニコラ・シュヴロリエ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "エディション・コウジ シモムラ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "カンテサンス": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "シノワ 渋谷店": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "村上開新堂": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "だるまや": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "中国飯店 倶楽湾": {
+    "privateRoom": true,
+    "priceMin": null,
+    "priceMax": null,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "銀座 維新號": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "香妃園": {
+    "privateRoom": true,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "新華 乃木坂": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "縁香園": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 7000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "の弥七（ノヤシチ）四谷三丁目": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "維新號銀座新館": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "中国料理 礼華 青鸞居": {
+    "privateRoom": true,
+    "priceMin": null,
+    "priceMax": null,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "中国料理 礼華 新宿店": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "筑紫樓(ツクシロウ) 銀座店": {
+    "privateRoom": true,
+    "priceMin": null,
+    "priceMax": null,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "赤坂 維新號 本店": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "中国飯店 三田店": {
+    "privateRoom": true,
+    "priceMin": null,
+    "priceMax": null,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "中国飯店 富麗華": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "中国飯店 市ヶ谷店": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "上海庭 九段南店": {
+    "privateRoom": true,
+    "priceMin": 1,
+    "priceMax": 1000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "わさ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "Furuta": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "TexturA": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "薬膳火鍋専門店 天香回味 銀座中央通り店": {
+    "privateRoom": true,
+    "priceMin": 3000,
+    "priceMax": 9000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "たきや": {
+    "source": "google_maps_failed",
+    "reason": "maps_restricted",
+    "failedAt": "2026-07-27"
+  },
+  "新ばし 星野": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "日本料理 久丹": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-27",
+    "source": "google_maps_about"
+  },
+  "京の発酵イタリアンCAMOS": {
+    "source": "google_maps_failed",
+    "reason": "maps_restricted",
+    "failedAt": "2026-07-28"
+  },
+  "祇園やまかわ": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "stars' sakesalon": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "BAR雪月花 + Salon": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "割烹 露瑚": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "むろまち 加地": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "リストランテ 野呂": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "洋食 おがた": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "丸福樓": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "ワインショップ エーテルヴァイン": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "あんず お肉の工場直売所 勝どき店": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "祐徳稲荷神社": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "一組限定 癒しの 宿 繁よし": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "なら泉勇斎": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "バー シガー倶楽部住吉": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "夜灯見荘": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "スパ・アルプス": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "鮨 田がみ": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "時菜 今日萬": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "北新地 喜多郎寿し はなれ": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "SAYS FARM": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "34°42'11.0\"N 135°29'15.6\"E": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "渡部旅館": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "高雄": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "民宿かどや": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "U PADRINO": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "イタリアン イルチェーロ 恵比寿": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "トラットリア タンタボッカ": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "オステリア ラディーチ": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "エリオ・ロカンダ・イタリアーナ": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "ビストロ レ・シス": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "ブラマソーレ": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "レ コパン ドゥ ドミニク ブシェ": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "Loiseau de France": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "東京ウイスキーライブラリー": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "薬膳火鍋専門店 天香回味 銀座店": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "薬膳火鍋専門店 天香回味 赤坂店": {
+    "privateRoom": false,
+    "priceMin": 7000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "胡桃茶家": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "赤坂 桃の木": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "サエキ飯店": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "登龍 麻布店": {
+    "privateRoom": true,
+    "priceMin": null,
+    "priceMax": null,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "銀座 桃花源": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "新富町 湯浅": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "私厨房 勇": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "茶禅華": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "小笠原伯爵邸": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "割烹料理 丸の内 舞's": {
+    "privateRoom": true,
+    "priceMin": null,
+    "priceMax": null,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "白虹": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "虎ノ門 肉と日本酒": {
+    "source": "google_maps_failed",
+    "reason": "maps_restricted",
+    "failedAt": "2026-07-28"
+  },
+  "nakameguro 燻製 apartment": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 7000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "KNOCK": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "なきざかな -鳴魚-": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "肉塊 UNO 虎ノ門店": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "L'ENOCANTO レノカント 大手町": {
+    "privateRoom": true,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "瓢嘻 (ひょうき) 京橋店": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "こはぜ": {
+    "privateRoom": false,
+    "priceMin": 1,
+    "priceMax": 1000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "割烹料理 霞町三◯一ノ一 西麻布": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "鮨 若尊": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "豚しゃぶ しくら": {
+    "privateRoom": false,
+    "priceMin": 6000,
+    "priceMax": 7000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "赤坂あんど": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "李南河 代官山": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "馬刺料理と季節の割烹 そま莉": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "日本料理 京懐石 みのきち 新宿住友店": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "個室会席 北大路 京橋茶寮": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "銀座浅野屋": {
+    "privateRoom": false,
+    "priceMin": 1,
+    "priceMax": 1000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "つきじ 文化人": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "十割蕎麦と天麩羅 満天ノ秀そば": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "SOBA STAND そばうさ": {
+    "privateRoom": false,
+    "priceMin": 1,
+    "priceMax": 1000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "Soba＆Co. 神谷町店": {
+    "privateRoom": true,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "総本家更科堀井 青": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "池袋 十割蕎麦 鴨料理 ならや": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "なるきよ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "銀座あんどう": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "楽食ふじた": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "うなぎ かぶと": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "旨いもん割烹 輝咲": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "西麻布 清水": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "和食 青 代々木上原店": {
+    "privateRoom": false,
+    "priceMin": 6000,
+    "priceMax": 9000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "味満ん": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "季節料理 小伝馬": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 5000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "あかぎ": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 9000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "荒木町たつや": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "大衆酒場 豊田屋": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 7000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "高太郎": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨かみなり": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 3000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "日本料理 晴山": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "紀尾井町 とんかつ・洋食 ひとみ": {
+    "privateRoom": true,
+    "priceMin": 2000,
+    "priceMax": 7000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "和食割烹 鈴なり": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "寿々屋": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "あらいかわ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "わたなべ": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "ふぐ俱楽部 miyawaki 別邸": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "和田": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "懐石 辻留": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "eat 鮨と和食": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "居酒屋 赤鬼": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "日本料理 青山浅田": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "日本料理 赤坂浅田": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "壱縁": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 4000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "稲垣": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 4000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "膳司 水光庵": {
+    "source": "google_maps_failed",
+    "reason": "maps_restricted",
+    "failedAt": "2026-07-28"
+  },
+  "麻布 かどわき": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "松川": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "みつ芳": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "喰切り江ぐち": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "恵比寿くろいわ": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "山﨑": {
+    "privateRoom": false,
+    "priceMin": 5000,
+    "priceMax": 9000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "きんはる 代々木上原店": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "くすのき": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 7000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "美の": {
+    "privateRoom": false,
+    "priceMin": 6000,
+    "priceMax": 9000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "炭火割烹 白坂": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "御料理 辻 (おりょうり つじ)": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "八重洲 鰻 はし本": {
+    "privateRoom": true,
+    "priceMin": 4000,
+    "priceMax": 9000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "明神下 神田川 本店": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "日本料理 太月": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "しのはら": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "天ぷら元吉": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "あんちゅう 代々木上原": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "銘酒処 串駒 本店": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "うなぎ魚政": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "マルタ": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "ぼたん": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "酒場たかや 日本酒と蕎麦と天麩羅": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "まるしげ夢葉家": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 7000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "博多鰻屋 藤う那 天神本店": {
+    "privateRoom": true,
+    "priceMin": 4000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "広尾九尺": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "博多酒場 ソルリバ": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "KUNIZAKE-YA クニザケ屋": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 4000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "手打ち蕎麦 汐見": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "おいしい地酒とワインの店 ワダヤ": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "瑠灯": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "リカーショップ 升本": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "十八代 光蔵 名駅": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 5000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "キリマン酒店": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "Isego Honten 伊勢五本店 千駄木店": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "伊勢五本店 中目黒店": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "こだわりの料理と酒 利き酒家": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 5000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "和風居酒屋 あかね": {
+    "privateRoom": false,
+    "priceMin": 1,
+    "priceMax": 5000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "Premium Sake Pub Gashue": {
+    "privateRoom": true,
+    "priceMin": 1000,
+    "priceMax": 5000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "つくしのこ": {
+    "privateRoom": false,
+    "priceMin": 6000,
+    "priceMax": 7000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "根津 日本酒 多田": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "和食 酒肴 まさむら": {
+    "privateRoom": true,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "旬菜と酒 余花": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 5000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "酛TOKYO": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "和食と和酒 おがた": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "五反田 鳥茂": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 5000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "やきとり 阿部": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "白金鳥とも": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "目黒 焼鳥煉火": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "㈱加賀屋": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 3000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "炭火串焼き こころ": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 4000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "本家あべや 秋田純米酒処 恵比寿店": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "日本橋 とり慶 焼き鳥屋": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "南青山 七鳥目": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "三政": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "かさ原": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "焼鳥BAR A VINS 76 (76vin)": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 7000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "焼鳥 朱夏": {
+    "privateRoom": false,
+    "priceMin": 7000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "根津 照隅": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "むろまち 鳥や": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鳥つね 自然洞": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "赤坂 希鳥": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "とり茶太郎": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "焼き鳥 平良": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鍈輝": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "いぐち 本店": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "串焼 大助": {
+    "privateRoom": false,
+    "priceMin": 5000,
+    "priceMax": 10000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "やきとり結火": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "やき鳥 益子": {
+    "privateRoom": false,
+    "priceMin": 7000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "羊香味坊": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "炭火焼ホルモンぐう 八重洲本店": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 9000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "日本焼肉はせ川 表参道店": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "桜鍋みの家本店": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "しゃぶしゃぶ・すし 紀尾井町 八山": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "焼肉 うし松": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "四谷三丁目 大衆焼肉 暴飲暴食": {
+    "privateRoom": false,
+    "priceMin": 9000,
+    "priceMax": 10000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "大幸園 小宮本店": {
+    "privateRoom": false,
+    "priceMin": 5000,
+    "priceMax": 10000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "ただハンバーグが食べたい": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "炭火焼肉 たん清": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "肉屋田中 銀座": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "嬉嬉豚とんかつ 『君に、揚げる。』 （極）": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "神田 タンだけ": {
+    "privateRoom": false,
+    "priceMin": 6000,
+    "priceMax": 10000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "焼肉 ジャンボ はなれ": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "広尾 肉幸": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "赤坂 Na Camo guro（なかもぐろ）": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "焼肉くにもと 新館": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "焼肉 くにもと 本店": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "焼肉かねこ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "焼肉やっちゃん分店 茅場町店": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "MUNCH'S BURGER SHACK 芝公園本店": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 3000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "よろにく": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "焼肉 しみず": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "二代目魚清わさび": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鎌倉 松原庵 青": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "湘南韓国料理GOKAN": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "えぼし本店": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "ピザヤ ショーチャン": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 3000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "アマルフィー デラセーラ": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 4000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "ピッツェリアGG 鎌倉": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 3000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "かまくら和久": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "イチリン ハナレ": {
+    "source": "google_maps_failed",
+    "reason": "maps_restricted",
+    "failedAt": "2026-07-28"
+  },
+  "ハウス オブ フレーバーズ": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 3000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "Latteria BeBè Kamakura": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨一幸": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "すし屋のまつ勘 麻布十番店": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 本店上ル": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "晴ノ鮨": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 波づき": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "道後 海舟": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "寿司栄": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨なかむら": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 ゆうき Sushi Yuki": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 陸": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 和さび": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 2000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "八重洲 鮨 海味": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "仲野": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨処やまと": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨結う翼（つばさ）": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 すがひさ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 由う": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "すし おうみ": {
+    "privateRoom": true,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "長島": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "はっこく": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 みずかみ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 くりや川": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "恵比寿えんどう": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "鮨 がみ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "すし匠": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 つぼみ": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "二葉鮨": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 龍次郎": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 おにかい+1 (たすいち)": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 おにかい": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 はし本": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "三宿の寿司 えん": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "金多楼寿司": {
+    "privateRoom": false,
+    "priceMin": 1000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "西麻布 鮨いち": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 海心": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "くろ﨑": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨なんば": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "東麻布天本": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "Sushi shin by miyakawa": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "銀座 鮨青木": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 さいとう": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鮨 あらい": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "すし 凱": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "日本橋 蛎殻町 すぎた": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "はせ川": {
+    "privateRoom": false,
+    "priceMin": 2000,
+    "priceMax": 3000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "お食事処 福吉": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 4000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鰻 炭焼 ひつまぶし 美濃金 神田本店": {
+    "privateRoom": false,
+    "priceMin": 5000,
+    "priceMax": 9000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "うなぎ成田新川 東京駅店": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "魚徳": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 5000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "うなぎ新川 本店": {
+    "privateRoom": false,
+    "priceMin": 3000,
+    "priceMax": 4000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "参宮橋 あさや": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "川魚 根本": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 5000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "那古野 しば福や 名駅店": {
+    "privateRoom": true,
+    "priceMin": 4000,
+    "priceMax": 6000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "江戸川 石ばし": {
+    "privateRoom": false,
+    "priceMin": 10000,
+    "priceMax": null,
+    "priceOpenEnded": true,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "うなぎ 藤田": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 10000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "鰻家": {
+    "privateRoom": false,
+    "priceMin": 5000,
+    "priceMax": 9000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "うなぎ はし本": {
+    "privateRoom": false,
+    "priceMin": 4000,
+    "priceMax": 8000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "神泉いちのや": {
+    "privateRoom": true,
+    "priceMin": null,
+    "priceMax": null,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "花園・吉野": {
+    "source": "google_maps_failed",
+    "reason": "no_data",
+    "failedAt": "2026-07-28"
+  },
+  "日本橋いづもや本店 別館": {
+    "privateRoom": true,
+    "priceMin": null,
+    "priceMax": null,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "日本橋いづもや本店 本館": {
+    "privateRoom": true,
+    "priceMin": null,
+    "priceMax": null,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "伊豆榮 不忍亭": {
+    "privateRoom": true,
+    "priceMin": 3000,
+    "priceMax": 9000,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
+    "source": "google_maps_about"
+  },
+  "伊豆榮 梅川亭": {
+    "privateRoom": true,
+    "priceMin": null,
+    "priceMax": null,
+    "priceOpenEnded": false,
+    "fetchedAt": "2026-07-28",
     "source": "google_maps_about"
   }
 }
