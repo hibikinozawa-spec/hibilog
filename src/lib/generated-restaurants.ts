@@ -5345,7 +5345,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 136.951,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%AC%E3%83%B4%E3%82%A9%20%E5%88%A9%E8%B3%80%20%E5%AF%8C%E5%B1%B1",
     "googlePlaceQuery": "レヴォ 利賀 富山",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlo_5g_FkqHkqthBLv0Q-icnLCCwgl3iAX-nsoOGs1rS3c2OFDukjt3slu9VtJCYoiuqQg8cDOefjBM_SMUgzzCHGwz02zV0zewRKmGETlZiU6I6H1lVSbQm02e5KVadKhSIOw=w800-h600-k-no",
+    "image": "/media/levo-dish.jpg",
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [
