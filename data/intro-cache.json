@@ -1742,11 +1742,11 @@
     "source": "google_maps_reviews"
   },
   "高雄": {
-    "intro": "北海の居酒屋。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎ、お通し、天ぷらなどが人気。",
+    "intro": "札幌・平岸の居酒屋。\nうなぎや天ぷら、日本酒が人気。",
     "reviewCount": 10,
     "totalReviews": 10,
-    "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "generatedAt": "2026-07-29",
+    "source": "manual_repair"
   },
   "こなから": {
     "intro": "中央区北２条西３丁目 イシガキビルの居酒屋。\n居酒屋ならではの味わいが、口コミでも支持されている。\nお通しなどが人気。",
@@ -3431,11 +3431,11 @@
     "source": "google_maps_reviews"
   },
   "酛TOKYO": {
-    "intro": "東京の4.5(62)。\n日本料理ならではの技法で、素材の旨みを引き出す。\n会食や接待にも選ばれる、落ち着いた和の空間。",
+    "intro": "八重洲の日本酒と和食。\nスタンディングと割烹の2エリア。",
     "reviewCount": 10,
     "totalReviews": 10,
-    "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews",
+    "generatedAt": "2026-07-29",
+    "source": "manual_repair",
     "repairedAt": "2026-07-27"
   },
   "和食と和酒 おがた": {
@@ -4276,11 +4276,11 @@
     "source": "google_maps_reviews"
   },
   "花園・吉野": {
-    "intro": "新宿区 東京都 160-0022のレストラン。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎやうな重などが人気。",
+    "intro": "新宿御苑前のうなぎ専門店。\n一匹ずつ焼き上げる鰻重が人気。",
     "reviewCount": 7,
     "totalReviews": 7,
-    "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "generatedAt": "2026-07-29",
+    "source": "manual_repair"
   },
   "日本橋いづもや本店 別館": {
     "intro": "中央区日本橋本石町３丁目３−２のうなぎ料理店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうな重、うなぎ、蒲焼などが人気。",

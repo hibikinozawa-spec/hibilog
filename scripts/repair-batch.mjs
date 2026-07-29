@@ -16,6 +16,8 @@ const args = process.argv.slice(2);
 const doPlaces = args.includes("--places") || (!args.includes("--photos") && !args.includes("--places"));
 const doPhotos = args.includes("--photos") || (!args.includes("--photos") && !args.includes("--places"));
 const force = args.includes("--force");
+const onlyIdx = args.indexOf("--only");
+const onlyNames = onlyIdx >= 0 ? new Set((args[onlyIdx + 1] || "").split(",").filter(Boolean)) : null;
 
 /** name -> Google Maps search query */
 const REPAIRS = {
@@ -44,7 +46,6 @@ const REPAIRS = {
   // A: unsplash fallbacks (photo-only if place already ok)
   祇園やまかわ: "祇園やまかわ 京都 バー",
   "ラ・ブリランテ": "ラ・ブリランテ 軽井沢",
-  ヤマト: "日本料理 ヤマト 東京 銀座",
   "銀座 維新號": "銀座 維新號 中華",
   こはぜ: "こはぜ 和食 六本木 東京",
   和田: "割烹 和田 東京 日本橋",
@@ -54,6 +55,23 @@ const REPAIRS = {
   "鮨 はし本": "鮨 はし本 神田 寿司",
   "那古野 しば福や 名駅店": "那古野 しば福や 名古屋 名駅",
   "鮨処やまと": "鮨処 やまと 築地 寿司 店内",
+  // Remaining bad addresses / photos
+  "㐂つね（きつね）": "㐂つね きつね 奈良 すき焼き",
+  八ちゃんラーメン: "八ちゃんラーメン 薬院 福岡",
+  焼肉ぜん: "焼肉ぜん 神戸 三宮",
+  "Classico クラシコ": "Classico クラシコ 神戸 三宮 イタリアン",
+  "とどろき酒店 薬院stand!": "とどろき酒店 薬院stand 福岡 白金",
+  高雄: "味処 高雄 札幌 平岸 居酒屋",
+  酛TOKYO: "酛TOKYO 東京ミッドタウン八重洲",
+  "花園・吉野": "花園吉野 新宿御苑前 うなぎ",
+  ヤマト: "YAMATO 日本橋 炉端焼き",
+  "薬膳火鍋専門店 天香回味 赤坂店": "薬膳火鍋専門店 天香回味 赤坂店 東京",
+  "湘南韓バルＧＯＫＡＮ": "湘南韓バル GOKAN 藤沢 片瀬",
+  "うなぎ新川 本店": "うなぎ新川 本店 成田 千葉",
+  KNOCK: "KNOCK CUCINA BUONA ITALIANA 東京ミッドタウン 店内",
+  "KNOCK CUCINA BUONA ITALIANA 東京ミッドタウン店": "KNOCK CUCINA BUONA ITALIANA 東京ミッドタウン 料理",
+  "湘南韓国料理GOKAN": "湘南韓国料理 GOKAN 藤沢 片瀬",
+  "うなぎ成田新川 東京駅店": "うなぎ成田新川 東京駅 店内",
 };
 
 const INTRO_PATCHES = {
@@ -61,6 +79,9 @@ const INTRO_PATCHES = {
   藤乃: "大阪・福島の蕎麦と河内鴨割烹。\n食べログそば百名店にも選出。",
   春光園: "大分・臼杵の料亭旅館。\n河豚料理と歴史ある庭園が名物。",
   鰻家: "大阪・西中島南方の地焼きうなぎ。\n食べログうなぎ百名店の名店。",
+  高雄: "札幌・平岸の居酒屋。\nうなぎや天ぷら、日本酒が人気。",
+  "花園・吉野": "新宿御苑前のうなぎ専門店。\n一匹ずつ焼き上げる鰻重が人気。",
+  酛TOKYO: "八重洲の日本酒と和食。\nスタンディングと割烹の2エリア。",
 };
 
 function normalizePhotoUrl(src) {
@@ -184,6 +205,7 @@ await page.setViewport({ width: 1280, height: 900 });
 const results = { placeOk: [], placeSkip: [], photoOk: [], photoSkip: [] };
 
 for (const [name, query] of Object.entries(REPAIRS)) {
+  if (onlyNames && !onlyNames.has(name)) continue;
   if (doPlaces) {
     process.stderr.write(`place ${name} … `);
     try {
