@@ -16,11 +16,16 @@ export const browseGenres = [
 export type BrowseGenre = (typeof browseGenres)[number];
 
 function haystack(r: Restaurant) {
-  return [r.name, r.description, r.tags.join(" "), r.listSource].join(" ");
+  return [r.name, r.description, r.tags.join(" ")].join(" ");
+}
+
+function matchesSushiSignal(h: string): boolean {
+  return /(寿司|鮨|すし|鮓)/i.test(h);
 }
 
 /** 和食タブから除外する専門店・非和食（各ジャンルタブまたはその他向け） */
 function isExcludedFromWashokuBrowse(h: string): boolean {
+  if (matchesSushiSignal(h)) return true;
   if (/(うなぎ|鰻|Unagi)/i.test(h)) return true;
   if (/(焼き鳥|焼鳥|やきとり|鳥料理|串焼き|せせり|yakitori)/i.test(h)) return true;
   if (/(そば|蕎麦|ラーメン|らーめん|麺|うどん|中華そば|沖縄そば|沖縄|Soba|soba|ramen)/i.test(h)) {
@@ -38,6 +43,9 @@ export function matchesBrowseGenre(r: Restaurant, genre: string): boolean {
   const h = haystack(r);
   if (genre === "和食") {
     return r.cuisine === "和食" && !isExcludedFromWashokuBrowse(h);
+  }
+  if (genre === "鮨") {
+    return r.cuisine === "鮨";
   }
   if (genre === "鰻") {
     return /(うなぎ|鰻|Unagi)/i.test(h);
@@ -57,6 +65,7 @@ export function countBrowseGenre(genre: BrowseGenre, restaurants: Restaurant[]) 
 
 /** Card/detail label: sub-genres (蕎麦/鰻/焼き鳥) when matched, else primary cuisine. */
 export function displayBrowseGenre(r: Restaurant): string {
+  if (r.cuisine === "鮨") return "鮨";
   for (const genre of ["蕎麦（麺）", "鰻", "焼き鳥"] as const) {
     if (matchesBrowseGenre(r, genre)) return genre;
   }

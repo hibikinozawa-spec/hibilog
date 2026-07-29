@@ -4892,7 +4892,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "とやま鮨-海富山-181",
     "name": "とやま鮨 海富山",
-    "cuisine": "和食",
+    "cuisine": "鮨",
     "priceTier": "middle",
     "priceDinner": "¥2,000〜6,000",
     "scenes": [
@@ -8098,7 +8098,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "馬喰ろう-新橋店-299",
     "name": "馬喰ろう 新橋店",
-    "cuisine": "肉",
+    "cuisine": "和食",
     "priceTier": "casual",
     "priceDinner": "¥4,000〜5,000",
     "scenes": [
@@ -10983,7 +10983,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "馬刺料理と季節の割烹-そま莉-406",
     "name": "馬刺料理と季節の割烹 そま莉",
-    "cuisine": "肉",
+    "cuisine": "和食",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -11865,7 +11865,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "eat-鮨と和食-439",
     "name": "eat 鮨と和食",
-    "cuisine": "和食",
+    "cuisine": "鮨",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -14002,7 +14002,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "桜鍋みの家本店-519",
     "name": "桜鍋みの家本店",
-    "cuisine": "肉",
+    "cuisine": "和食",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜8,000",
     "scenes": [
@@ -14995,7 +14995,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "道後-海舟-555",
     "name": "道後 海舟",
-    "cuisine": "鮨",
+    "cuisine": "和食",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -15008,7 +15008,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 132.7843827,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E5%BE%8C%20%E6%B5%B7%E8%88%9F%20%E6%84%9B%E5%AA%9B",
     "googlePlaceQuery": "道後 海舟 愛媛",
-    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
     "rating": 4.6,
     "reviewCount": 0,
     "tags": [

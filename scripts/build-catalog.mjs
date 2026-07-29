@@ -63,25 +63,34 @@ function inferCuisineFromBlob(blob) {
   return null;
 }
 
+function matchesSushiSignal(blob) {
+  return /(寿司|鮨|すし|鮓)/.test(blob);
+}
+
+function contentBlob(entry) {
+  return [entry.name, entry.category, entry.description, (entry.tags || []).join(" ")].join(" ");
+}
+
+function matchesWashokuSignal(blob) {
+  return /(純和食|和食店|日本料理|割烹|懐石|会席|料亭)/.test(blob);
+}
+
 // Google category (日本語) -> app cuisine
 function toCuisine(category, name, listName, cardText = "") {
   const cat = category || "";
   const c = placeTextBlob(cat, name, cardText, listName);
-  const fromList = listNameSpecialty(listName);
   // Specialty shops: primary cuisine その他, browse sub-genre via tags/name
   if (/ラーメン|らーめん|つけ麺|油そば|中華そば|まぜそば|ラーメン屋/.test(c)) return "その他";
   if (/蕎麦|そば|うどん|麺類|沖縄そば|手打|Soba|soba|ramen/i.test(c)) return "その他";
   if (/焼鳥|焼き鳥|やきとり|鳥料理|串焼き|焼鳥店/.test(c)) return "その他";
   if (/うなぎ|鰻|うなぎ店|鰻店/.test(c)) return "その他";
-  if (fromList) return fromList;
-  // Explicit scraped category wins over name keywords
+  // Explicit scraped category wins over list name hints
   if (/すき焼|しゃぶしゃぶ|焼肉|ステーキ|肉料理|鉄板|ホルモン|しゃぶ/.test(cat)) return "肉";
   if (/和食店|日本料理|割烹|懐石|会席|料亭|海鮮|居酒屋|小料理|純和食/.test(cat)) {
-    // 鮨専用リスト + 店名が寿司系 → 和食店ラベルより鮨を優先（鮨かみなりのような和食リスト例外は listName で区別）
-    if (listName === "鮨" && /(寿司|鮨|すし|鮓)/.test(name)) return "鮨";
+    if (listName === "鮨" && matchesSushiSignal(name)) return "鮨";
     return "和食";
   }
-  if (/(寿司|鮨|すし|鮓)/.test(c)) return "鮨";
+  if (matchesSushiSignal(c)) return "鮨";
   if (/(焼肉|ステーキ|鉄板|肉|ホルモン|しゃぶ|すき焼)/.test(c)) return "肉";
   if (/(イタリア|パスタ|ピッツァ|ピザ|トラットリア|オステリア)/.test(c)) return "イタリアン";
   if (/(フランス|フレンチ|ビストロ|ブラッスリー)/.test(c)) return "フレンチ";
@@ -343,16 +352,14 @@ function refineCuisine(name, category, cuisine) {
 }
 
 function finalizeCuisine(entry) {
-  const blob = [
-    entry.name,
-    entry.category,
-    entry.description,
-    entry.tags.join(" "),
-    (entry.listSources || []).join(" "),
-  ].join(" ");
+  const blob = contentBlob(entry);
   if (entry.cuisine === "和食") {
     const inferred = inferCuisineFromBlob(blob);
     if (inferred && inferred !== "和食") return inferred;
+    if (matchesSushiSignal(blob)) return "鮨";
+  }
+  if (entry.cuisine === "鮨" && matchesWashokuSignal(blob) && !matchesSushiSignal(blob)) {
+    return "和食";
   }
   return entry.cuisine;
 }
@@ -760,7 +767,11 @@ const restaurants = [...byName.values()]
     return true;
   })
   .map((r) => {
-    const finalized = { ...r, cuisine: finalizeCuisine(r) };
+    const overrideCuisine = overrides.places?.[r.name]?.cuisine;
+    const finalized = {
+      ...r,
+      cuisine: overrideCuisine || finalizeCuisine(r),
+    };
     return {
       ...finalized,
       listSource: finalized.listSources.join(" / "),

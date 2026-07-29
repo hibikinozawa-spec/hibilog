@@ -116,6 +116,8 @@ const issues = {
   washokuSubGenreLeak: [],
   washokuForeignLeak: [],
   noodleInWashoku: [],
+  sushiInWashoku: [],
+  washokuInSushiTab: [],
 };
 
 function guessCategoryFromText(text, name) {
@@ -179,7 +181,16 @@ function inferCuisineFromBlob(blob) {
   return null;
 }
 
+function matchesSushiSignal(blob) {
+  return /(寿司|鮨|すし|鮓)/.test(blob);
+}
+
+function matchesWashokuSignal(blob) {
+  return /(純和食|和食店|日本料理|割烹|懐石|会席|料亭)/.test(blob);
+}
+
 function isExcludedFromWashokuBrowse(blob) {
+  if (matchesSushiSignal(blob)) return true;
   if (matchesWashokuSubGenre(blob)) return true;
   if (/(スペイン|Spanish|tapas|韓国|Korean|洋食|ヨーロッパ|とんかつ)/i.test(blob)) return true;
   if (/(イタリア|パスタ|ピッツァ|トラットリア|オステリア)/i.test(blob)) return true;
@@ -192,18 +203,16 @@ function isExcludedFromWashokuBrowse(blob) {
 function toCuisine(category, name, listName, cardText = "") {
   const cat = category || "";
   const c = placeTextBlob(cat, name, cardText, listName);
-  const fromList = listNameSpecialty(listName);
   if (/ラーメン|らーめん|つけ麺|油そば|中華そば|まぜそば|ラーメン屋/.test(c)) return "その他";
   if (/蕎麦|そば|うどん|麺類|沖縄そば|手打|Soba|soba|ramen/i.test(c)) return "その他";
   if (/焼鳥|焼き鳥|やきとり|鳥料理|串焼き|焼鳥店/.test(c)) return "その他";
   if (/うなぎ|鰻|うなぎ店|鰻店/.test(c)) return "その他";
-  if (fromList) return fromList;
   if (/すき焼|しゃぶしゃぶ|焼肉|ステーキ|肉料理|鉄板|ホルモン|しゃぶ/.test(cat)) return "肉";
   if (/和食店|日本料理|割烹|懐石|会席|料亭|海鮮|居酒屋|小料理|純和食/.test(cat)) {
-    if (listName === "鮨" && /(寿司|鮨|すし|鮓)/.test(name)) return "鮨";
+    if (listName === "鮨" && matchesSushiSignal(name)) return "鮨";
     return "和食";
   }
-  if (/(寿司|鮨|すし|鮓)/.test(c)) return "鮨";
+  if (matchesSushiSignal(c)) return "鮨";
   if (/(焼肉|ステーキ|鉄板|肉|ホルモン|しゃぶ|すき焼)/.test(c)) return "肉";
   if (/(イタリア|パスタ|ピッツァ|ピザ|トラットリア|オステリア)/.test(c)) return "イタリアン";
   if (/(フランス|フレンチ|ビストロ|ブラッスリー)/.test(c)) return "フレンチ";
@@ -246,16 +255,14 @@ function refineCuisine(name, category, cuisine) {
 }
 
 function finalizeCuisine(entry) {
-  const blob = [
-    entry.name,
-    entry.category || "",
-    entry.description,
-    entry.tags.join(" "),
-    entry.listSource || "",
-  ].join(" ");
+  const blob = [entry.name, entry.category || "", entry.description, entry.tags.join(" ")].join(" ");
   if (entry.cuisine === "和食") {
     const inferred = inferCuisineFromBlob(blob);
     if (inferred && inferred !== "和食") return inferred;
+    if (matchesSushiSignal(blob)) return "鮨";
+  }
+  if (entry.cuisine === "鮨" && matchesWashokuSignal(blob) && !matchesSushiSignal(blob)) {
+    return "和食";
   }
   return entry.cuisine;
 }
@@ -263,7 +270,7 @@ function finalizeCuisine(entry) {
 function expectedCuisine(category, name, listName, cardText = "", tags = [], description = "", listSource = "") {
   let c = refineCuisine(name, category, toCuisine(category, name, listName, cardText));
   const override = overrides.places?.[name]?.cuisine;
-  if (override) c = override;
+  if (override) return override;
   return finalizeCuisine({
     cuisine: c,
     name,
@@ -401,9 +408,10 @@ for (const r of restaurants) {
     });
   }
 
-  const blob = [r.name, r.description, r.tags.join(" "), r.listSource].join(" ");
+  const blob = [r.name, r.description, r.tags.join(" ")].join(" ");
   let displayGenre = r.cuisine;
-  if (/(うなぎ|鰻|Unagi)/i.test(blob)) displayGenre = "鰻";
+  if (r.cuisine === "鮨") displayGenre = "鮨";
+  else if (/(うなぎ|鰻|Unagi)/i.test(blob)) displayGenre = "鰻";
   else if (/(焼き鳥|焼鳥|やきとり|鳥料理|串焼き|せせり|yakitori)/i.test(blob)) displayGenre = "焼き鳥";
   else if (/(そば|蕎麦|ラーメン|らーめん|麺|うどん|中華そば|沖縄そば|沖縄|Soba|soba|ramen)/i.test(blob)) displayGenre = "蕎麦（麺）";
   if (r.cuisine === "和食" && displayGenre !== "和食") {
@@ -436,6 +444,24 @@ for (const r of restaurants) {
       tags: r.tags,
       description: r.description,
       cardText: srcCard,
+    });
+  }
+
+  if (r.cuisine === "和食" && matchesSushiSignal(blob) && !overrides.places?.[r.name]?.cuisine) {
+    issues.sushiInWashoku.push({
+      name: r.name,
+      id: r.id,
+      tags: r.tags,
+      description: r.description,
+    });
+  }
+
+  if (matchesSushiSignal(blob) === false && r.cuisine === "鮨" && matchesWashokuSignal(blob)) {
+    issues.washokuInSushiTab.push({
+      name: r.name,
+      id: r.id,
+      tags: r.tags,
+      description: r.description,
     });
   }
 }
