@@ -535,10 +535,7 @@ function isBrokenPhotoUrl(url) {
 function resolveImage(name, p, cuisine) {
   const overridePhoto = overrides.photos?.[name];
   if (overridePhoto?.startsWith("/media/")) return overridePhoto;
-  const pendingPhotoRefresh = overridePhoto && !overridePhoto.startsWith("/media/");
-  if (!pendingPhotoRefresh && photoCache[name] && !isBrokenPhotoUrl(photoCache[name])) {
-    return photoCache[name];
-  }
+  if (photoCache[name] && !isBrokenPhotoUrl(photoCache[name])) return photoCache[name];
   if (p.image && !isBrokenPhotoUrl(p.image)) return p.image;
   return `https://images.unsplash.com/${pickImage(cuisine, name)}?w=800&q=80`;
 }
