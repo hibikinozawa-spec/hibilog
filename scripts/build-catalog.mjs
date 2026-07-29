@@ -364,6 +364,21 @@ function finalizeCuisine(entry) {
   return entry.cuisine;
 }
 
+const WASHOKU_DISPLAY_LABEL = /^(和食店|純和食店|日本料理店)$/;
+
+function normalizeSushiPresentation(entry) {
+  if (entry.cuisine !== "鮨") return entry;
+  if (!matchesSushiSignal(entry.name) && !(entry.listSources || []).includes("鮨")) {
+    return entry;
+  }
+  const descCore = (entry.description || "").replace(/[。.]$/, "");
+  if (WASHOKU_DISPLAY_LABEL.test(descCore)) {
+    entry.description = "寿司店。";
+  }
+  entry.tags = [...new Set(entry.tags.map((tag) => (WASHOKU_DISPLAY_LABEL.test(tag) ? "寿司店" : tag)))];
+  return entry;
+}
+
 const PREF_BOUNDS = {
   北海道: { lat: [41.2, 45.6], lng: [139.2, 145.9] },
   青森: { lat: [40.2, 41.6], lng: [139.5, 141.7] },
@@ -520,7 +535,10 @@ function isBrokenPhotoUrl(url) {
 function resolveImage(name, p, cuisine) {
   const overridePhoto = overrides.photos?.[name];
   if (overridePhoto?.startsWith("/media/")) return overridePhoto;
-  if (photoCache[name] && !isBrokenPhotoUrl(photoCache[name])) return photoCache[name];
+  const pendingPhotoRefresh = overridePhoto && !overridePhoto.startsWith("/media/");
+  if (!pendingPhotoRefresh && photoCache[name] && !isBrokenPhotoUrl(photoCache[name])) {
+    return photoCache[name];
+  }
   if (p.image && !isBrokenPhotoUrl(p.image)) return p.image;
   return `https://images.unsplash.com/${pickImage(cuisine, name)}?w=800&q=80`;
 }
@@ -768,10 +786,10 @@ const restaurants = [...byName.values()]
   })
   .map((r) => {
     const overrideCuisine = overrides.places?.[r.name]?.cuisine;
-    const finalized = {
+    const finalized = normalizeSushiPresentation({
       ...r,
       cuisine: overrideCuisine || finalizeCuisine(r),
-    };
+    });
     return {
       ...finalized,
       listSource: finalized.listSources.join(" / "),

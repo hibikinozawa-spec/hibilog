@@ -178,6 +178,30 @@
       "tags": [
         "串焼き店"
       ]
+    },
+    "鮨 はし本": {
+      "query": "鮨 はし本 神田 寿司",
+      "address": "〒101-0047 東京都千代田区内神田1-9-12 小林ビル 1F",
+      "lat": 35.6937,
+      "lng": 139.7654,
+      "area": "東京",
+      "cuisine": "鮨",
+      "description": "神田の寿司店。",
+      "tags": [
+        "寿司店"
+      ]
+    },
+    "鮨処やまと": {
+      "query": "鮨処 やまと 築地 寿司",
+      "address": "〒104-0045 東京都中央区築地3-7-2 第5銀座ウェスト築地ビル 1F",
+      "lat": 35.6679171,
+      "lng": 139.77375,
+      "area": "銀座",
+      "cuisine": "鮨",
+      "description": "築地の江戸前寿司。",
+      "tags": [
+        "寿司店"
+      ]
     }
   },
   "photos": {
@@ -203,6 +227,8 @@
     "鮨一": "/media/nishiazabu-sushi-ichi.jpg",
     "鮨 くりや川": "/media/kuriyagawa-nigiri.jpg",
     "三政": "/media/mitsumasa-yakitori.jpg",
-    "肉屋田中 銀座": "/media/nikuya-tanaka-ginza.jpg"
+    "肉屋田中 銀座": "/media/nikuya-tanaka-ginza.jpg",
+    "鮨 はし本": "鮨 はし本 神田 寿司",
+    "鮨処やまと": "鮨処 やまと 築地 寿司 店内"
   }
 }
