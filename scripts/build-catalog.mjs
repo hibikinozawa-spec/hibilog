@@ -41,6 +41,28 @@ function matchesWashokuSubGenre(blob) {
   return false;
 }
 
+/** Tags/description/category → primary cuisine (null if unknown). */
+function inferCuisineFromBlob(blob) {
+  if (matchesWashokuSubGenre(blob)) return "その他";
+  if (/(イタリア|パスタ|ピッツァ|ピザ|トラットリア|オステリア)/i.test(blob)) return "イタリアン";
+  if (/(フランス|フレンチ|ビストロ|ブラッスリー)/i.test(blob)) return "フレンチ";
+  if (/(中華|中国|四川|広東|餃子|担々|台湾料理)/i.test(blob)) return "その他";
+  if (
+    /(スペイン|Spanish|tapas|韓国|Korean|洋食|ヨーロッパ|とんかつ|ベトナム|タイ料理|インド|メキシコ|カレー屋|ハンバーガー|ピザ)/i.test(
+      blob,
+    )
+  ) {
+    return "その他";
+  }
+  if (/(バー$|バー |Bar |Ｂａｒ |カフェ|喫茶|ベーカリー|ワインバー|pub|Pub)/i.test(blob)) {
+    return "その他";
+  }
+  if (/(和食|日本料理|割烹|懐石|会席|料亭|海鮮|ふぐ|天ぷら|天麩羅|純和食|小料理|居酒屋|酒場)/.test(blob)) {
+    return "和食";
+  }
+  return null;
+}
+
 // Google category (日本語) -> app cuisine
 function toCuisine(category, name, listName) {
   const cat = category || "";
@@ -63,10 +85,20 @@ function toCuisine(category, name, listName) {
   if (/(焼肉|ステーキ|鉄板|肉|ホルモン|しゃぶ|すき焼)/.test(c)) return "肉";
   if (/(イタリア|パスタ|ピッツァ|ピザ|トラットリア|オステリア)/.test(c)) return "イタリアン";
   if (/(フランス|フレンチ|ビストロ|ブラッスリー)/.test(c)) return "フレンチ";
-  if (/(中華|中国|四川|広東|餃子|担々)/.test(c)) return "その他";
+  if (/(中華|中国|四川|広東|餃子|担々|台湾)/.test(c)) return "その他";
+  if (
+    /(スペイン|Spanish|tapas|韓国|Korean|洋食|ヨーロッパ|とんかつ|ベトナム|タイ料理|インド|メキシコ|カレー)/i.test(
+      c,
+    )
+  ) {
+    return "その他";
+  }
+  if (/(バー$|バー |Bar |カフェ|喫茶|ベーカリー|定食屋|食堂$)/i.test(c)) return "その他";
   if (/(和食|日本料理|割烹|懐石|会席|ふぐ|天ぷら|天麩羅|居酒屋|酒場|おでん|寿|料亭|海鮮|魚|純和食)/.test(c))
     return "和食";
-  return "和食";
+  const inferred = inferCuisineFromBlob(c);
+  if (inferred) return inferred;
+  return listNameSpecialty(listName) || "その他";
 }
 
 // Determine price tier from list name + category + rating
@@ -279,7 +311,6 @@ function refineCuisine(name, category, cuisine) {
 }
 
 function finalizeCuisine(entry) {
-  if (entry.cuisine !== "和食") return entry.cuisine;
   const blob = [
     entry.name,
     entry.category,
@@ -287,7 +318,10 @@ function finalizeCuisine(entry) {
     entry.tags.join(" "),
     (entry.listSources || []).join(" "),
   ].join(" ");
-  if (matchesWashokuSubGenre(blob)) return "その他";
+  if (entry.cuisine === "和食") {
+    const inferred = inferCuisineFromBlob(blob);
+    if (inferred && inferred !== "和食") return inferred;
+  }
   return entry.cuisine;
 }
 
