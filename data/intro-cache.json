@@ -1118,11 +1118,11 @@
     "source": "google_maps_reviews"
   },
   "オステリアドゥエ": {
-    "intro": " 沖縄のイタリア料理店。\n料理の完成度と素材の使い方が、口コミでも評価されている。\nコースやパスタなどが人気。",
+    "intro": "那覇のイタリア料理店。\n沖縄の食材を活かしたコースが人気。",
     "reviewCount": 10,
     "totalReviews": 10,
-    "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "generatedAt": "2026-07-29",
+    "source": "manual_repair"
   },
   "うなぎのじょん": {
     "intro": "中央区難波１丁目１−１８ エチゲンビル 1Fのうなぎ料理店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎ、うな重、コースなどが人気。",
@@ -1132,11 +1132,11 @@
     "source": "google_maps_reviews"
   },
   "藤乃": {
-    "intro": "大阪の蕎麦店。\n十割蕎麦の味わい深さが、口コミでも支持されている。\n鴨せいろやコースなどが人気。",
+    "intro": "大阪・福島の蕎麦と河内鴨割烹。\n食べログそば百名店にも選出。",
     "reviewCount": 10,
     "totalReviews": 10,
-    "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "generatedAt": "2026-07-29",
+    "source": "manual_repair"
   },
   "et NOU エ ヌゥ": {
     "intro": "鹿児島のフランス料理店。\nフランス料理店ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
@@ -1356,11 +1356,11 @@
     "source": "google_maps_reviews"
   },
   "春光園": {
-    "intro": "京都の旅館。\n旅館ならではの味わいが、口コミでも支持されている。\nコースなどが人気。",
+    "intro": "大分・臼杵の料亭旅館。\n河豚料理と歴史ある庭園が名物。",
     "reviewCount": 10,
     "totalReviews": 10,
-    "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "generatedAt": "2026-07-29",
+    "source": "manual_repair"
   },
   "福ずし": {
     "intro": "早良区西新の寿司店。\n漁師直送の地魚と、リーズナブルな握りが口コミでも支持されている。\n刺身や一品料理、日本酒の組み合わせも楽しめる。",
@@ -4255,11 +4255,11 @@
     "source": "google_maps_reviews"
   },
   "鰻家": {
-    "intro": "大阪のうなぎ料理店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうな重、うなぎ、通しなどが人気。",
+    "intro": "大阪・西中島南方の地焼きうなぎ。\n食べログうなぎ百名店の名店。",
     "reviewCount": 10,
     "totalReviews": 10,
-    "generatedAt": "2026-07-24",
-    "source": "google_maps_reviews"
+    "generatedAt": "2026-07-29",
+    "source": "manual_repair"
   },
   "うなぎ はし本": {
     "intro": "東京のうなぎ料理店。\nふっくらとした身とタレのバランスが、口コミでも高く評価されている。\nうなぎや通しなどが人気。",
