@@ -115,12 +115,29 @@ const issues = {
   sushiIntroMismatch: [],
   washokuSubGenreLeak: [],
   washokuForeignLeak: [],
+  noodleInWashoku: [],
 };
 
 function guessCategoryFromText(text, name) {
   if (!text) return "";
-  const t = text.replace(name, "").replace(/[0-9.]+/g, "").trim();
-  return t.split(" ").filter(Boolean)[0] || "";
+  let t = text.replace(name, "").trim();
+  t = t.replace(/\b\d+\.?\d*\(\d+\)\b/g, " ");
+  t = t.replace(/\b\d+\.?\d*\b/g, " ");
+  t = t.replace(/[()]/g, " ");
+  const parts = t.split(/\s+/).filter((p) => p && !/^[\d.()\s]+$/.test(p) && !/^\d+\.?\d*\(\d+\)$/.test(p));
+  if (parts.length === 0) return "";
+  return parts[parts.length - 1];
+}
+
+function isRatingToken(s) {
+  if (!s) return true;
+  const t = String(s).trim();
+  if (t.length < 2) return true;
+  return /^[\d.()\s]+$/.test(t) || /^\d+\.?\d*\(\d+\)$/.test(t) || /^\(\d+\)$/.test(t);
+}
+
+function placeTextBlob(category, name, cardText, listName) {
+  return [category, name, cardText || "", listName].filter(Boolean).join(" ");
 }
 
 function listNameSpecialty(listName) {
@@ -172,9 +189,9 @@ function isExcludedFromWashokuBrowse(blob) {
   return false;
 }
 
-function toCuisine(category, name, listName) {
+function toCuisine(category, name, listName, cardText = "") {
   const cat = category || "";
-  const c = cat + " " + (name || "");
+  const c = placeTextBlob(cat, name, cardText, listName);
   const fromList = listNameSpecialty(listName);
   if (/ラーメン|らーめん|つけ麺|油そば|中華そば|まぜそば|ラーメン屋/.test(c)) return "その他";
   if (/蕎麦|そば|うどん|麺類|沖縄そば|手打|Soba|soba|ramen/i.test(c)) return "その他";
@@ -243,8 +260,8 @@ function finalizeCuisine(entry) {
   return entry.cuisine;
 }
 
-function expectedCuisine(category, name, listName, tags = [], description = "", listSource = "") {
-  let c = refineCuisine(name, category, toCuisine(category, name, listName));
+function expectedCuisine(category, name, listName, cardText = "", tags = [], description = "", listSource = "") {
+  let c = refineCuisine(name, category, toCuisine(category, name, listName, cardText));
   const override = overrides.places?.[name]?.cuisine;
   if (override) c = override;
   return finalizeCuisine({
@@ -355,6 +372,7 @@ for (const r of restaurants) {
       src.category,
       r.name,
       src.listName,
+      src.cardText,
       r.tags,
       r.description,
       r.listSource,
@@ -404,6 +422,20 @@ for (const r of restaurants) {
       id: r.id,
       tags: r.tags,
       description: r.description,
+    });
+  }
+
+  const srcCard = listEntries.get(r.name)?.cardText || "";
+  if (
+    r.cuisine === "和食" &&
+    (matchesWashokuSubGenre(blob) || /(ラーメン|蕎麦|そば|うどん|麺類|麺屋|つけ麺|油そば|中華そば)/i.test(srcCard))
+  ) {
+    issues.noodleInWashoku.push({
+      name: r.name,
+      id: r.id,
+      tags: r.tags,
+      description: r.description,
+      cardText: srcCard,
     });
   }
 }

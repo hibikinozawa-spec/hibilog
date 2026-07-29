@@ -506,7 +506,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "いづ重-19",
     "name": "いづ重",
-    "cuisine": "鮨",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥2,000〜3,000",
     "scenes": [
@@ -523,9 +523,10 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
+      "いづ重",
       "寿司店"
     ],
-    "description": "寿司店。",
+    "description": "いづ重。",
     "privateRoom": true,
     "priceMin": 2000,
     "priceMax": 3000,
@@ -5333,9 +5334,12 @@ export const generatedRestaurants: Restaurant[] = [
     "id": "レヴォ-197",
     "name": "レヴォ",
     "cuisine": "フレンチ",
-    "priceTier": "middle",
+    "priceTier": "executive",
     "priceDinner": "¥10,000〜",
     "scenes": [
+      "会食",
+      "とっておき",
+      "記念日",
       "接待"
     ],
     "area": "富山",
@@ -5349,7 +5353,7 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [
-      "モダン"
+      "フランス料理店"
     ],
     "description": "富山・利賀のオーベルジュ。",
     "privateRoom": true,
@@ -5792,9 +5796,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
-      "瞬"
+      "うなぎ料理店"
     ],
-    "description": "静岡の鰻割烹名店。",
+    "description": "うなぎ料理店。",
     "privateRoom": false,
     "listSource": "地方レストラン_名店 / 鰻"
   },
@@ -6437,7 +6441,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "総合酒類探求所k-237",
     "name": "総合酒類探求所K",
-    "cuisine": "その他",
+    "cuisine": "和食",
     "priceTier": "middle",
     "priceDinner": "¥5,000〜10,000",
     "scenes": [
@@ -6455,9 +6459,10 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
+      "和食店",
       "総合酒類探求所K"
     ],
-    "description": "総合酒類探求所K。",
+    "description": "和食店。",
     "privateRoom": false,
     "priceMin": 5000,
     "priceMax": 10000,
@@ -7479,7 +7484,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "le-bois-ル-ボア-276",
     "name": "Le Bois （ル ボア）",
-    "cuisine": "イタリアン",
+    "cuisine": "フレンチ",
     "priceTier": "executive",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -8005,7 +8010,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "beer--wine厨房-tamaya-八丁堀店-296",
     "name": "beer ＆ wine厨房 tamaya 八丁堀店",
-    "cuisine": "イタリアン",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜8,000",
     "scenes": [
@@ -8093,7 +8098,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "馬喰ろう-新橋店-299",
     "name": "馬喰ろう 新橋店",
-    "cuisine": "和食",
+    "cuisine": "肉",
     "priceTier": "casual",
     "priceDinner": "¥4,000〜5,000",
     "scenes": [
@@ -9703,7 +9708,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "シノワ-渋谷店-358",
     "name": "シノワ 渋谷店",
-    "cuisine": "フレンチ",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -9730,7 +9735,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "村上開新堂-359",
     "name": "村上開新堂",
-    "cuisine": "フレンチ",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -9759,10 +9764,10 @@ export const generatedRestaurants: Restaurant[] = [
     "id": "だるまや-360",
     "name": "だるまや",
     "cuisine": "その他",
-    "priceTier": "middle",
+    "priceTier": "casual",
     "priceDinner": "¥4,000〜8,000",
     "scenes": [
-      "会食"
+      "カジュアル"
     ],
     "area": "東京",
     "address": "〒107-0052 港区赤坂四丁目青山通り",
@@ -9775,9 +9780,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4,
     "reviewCount": 0,
     "tags": [
-      "4.0(436)"
+      "ラーメン屋"
     ],
-    "description": "4.0(436)。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "priceMin": 4000,
     "priceMax": 8000,
@@ -9803,9 +9808,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.1,
     "reviewCount": 0,
     "tags": [
-      "4.1(508)"
+      "中華料理店"
     ],
-    "description": "4.1(508)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_中華"
   },
@@ -9829,9 +9834,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 3.9,
     "reviewCount": 0,
     "tags": [
-      "3.9(381)"
+      "中華料理店"
     ],
-    "description": "3.9(381)。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "priceMin": 1000,
     "priceMax": 2000,
@@ -9885,9 +9890,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.8,
     "reviewCount": 0,
     "tags": [
-      "4.8(44)"
+      "中華料理店"
     ],
-    "description": "4.8(44)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華"
@@ -9914,9 +9919,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 3.9,
     "reviewCount": 0,
     "tags": [
-      "3.9(411)"
+      "中華料理店"
     ],
-    "description": "3.9(411)。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "priceMin": 1000,
     "priceMax": 7000,
@@ -9942,9 +9947,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.4,
     "reviewCount": 0,
     "tags": [
-      "4.4(78)"
+      "中華料理店"
     ],
-    "description": "4.4(78)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華"
@@ -9969,9 +9974,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 3.8,
     "reviewCount": 0,
     "tags": [
-      "3.8(270)"
+      "中華料理店"
     ],
-    "description": "3.8(270)。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "priceMin": 1000,
     "priceMax": 2000,
@@ -9997,9 +10002,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
-      "4.2(279)"
+      "中華料理店"
     ],
-    "description": "4.2(279)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_中華"
   },
@@ -10023,9 +10028,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
-      "4.2(413)"
+      "中華料理店"
     ],
-    "description": "4.2(413)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食middle"
@@ -10050,9 +10055,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
-      "4.2(778)"
+      "中華料理店"
     ],
-    "description": "4.2(778)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_中華"
   },
@@ -10076,9 +10081,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
-      "4.3(440)"
+      "中華料理店"
     ],
-    "description": "4.3(440)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華"
@@ -10103,9 +10108,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4,
     "reviewCount": 0,
     "tags": [
-      "4.0(782)"
+      "中華料理店"
     ],
-    "description": "4.0(782)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_中華"
   },
@@ -10130,9 +10135,10 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.4,
     "reviewCount": 0,
     "tags": [
+      "中華料理店",
       "4.4(1,355)"
     ],
-    "description": "4.4(1,355)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食exective"
@@ -10158,9 +10164,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
-      "4.3(539)"
+      "中華料理店"
     ],
-    "description": "4.3(539)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食exective"
@@ -10185,9 +10191,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 3.8,
     "reviewCount": 0,
     "tags": [
-      "3.8(285)"
+      "中華料理店"
     ],
-    "description": "3.8(285)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "priceMin": 1,
     "priceMax": 1000,
@@ -10213,9 +10219,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.5,
     "reviewCount": 0,
     "tags": [
-      "4.5(104)"
+      "中華料理店"
     ],
-    "description": "4.5(104)。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華"
@@ -10240,9 +10246,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
-      "4.2(68)"
+      "中華料理店"
     ],
-    "description": "4.2(68)。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華"
@@ -10267,9 +10273,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
-      "4.2(587)"
+      "レストラン"
     ],
-    "description": "4.2(587)。",
+    "description": "レストラン。",
     "privateRoom": false,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食middle"
@@ -10294,9 +10300,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
-      "4.2(299)"
+      "鍋料理店"
     ],
-    "description": "4.2(299)。",
+    "description": "鍋料理店。",
     "privateRoom": true,
     "priceMin": 3000,
     "priceMax": 9000,
@@ -10322,9 +10328,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
-      "4.2(194)"
+      "レストラン"
     ],
-    "description": "4.2(194)。",
+    "description": "レストラン。",
     "privateRoom": false,
     "priceMin": 3000,
     "priceMax": 8000,
@@ -10350,43 +10356,13 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.6,
     "reviewCount": 0,
     "tags": [
-      "4.6(11)"
+      "レストラン"
     ],
-    "description": "4.6(11)。",
+    "description": "レストラン。",
     "privateRoom": false,
     "priceMin": 7000,
     "priceMax": 8000,
     "listSource": "東京レストラン_中華"
-  },
-  {
-    "id": "胡桃茶家-382",
-    "name": "胡桃茶家",
-    "cuisine": "その他",
-    "priceTier": "middle",
-    "priceDinner": "¥1,000〜2,000",
-    "scenes": [
-      "会食",
-      "コスパ",
-      "カジュアル"
-    ],
-    "area": "東京",
-    "address": "〒153-0043 東京都目黒区東山１丁目２１−２６ Q.G.HIGASHIYAMA B1F",
-    "nearestStation": "",
-    "lat": 35.646723,
-    "lng": 139.692983,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E8%83%A1%E6%A1%83%E8%8C%B6%E5%AE%B6%20%E6%9D%B1%E4%BA%AC",
-    "googlePlaceQuery": "胡桃茶家 東京",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn7ptLYmWsDTiUoVevtbz-PnWC5WQb2v2VzAx7w0M7AKozfZFGi1sV3PRHXSTZCecTAnVWDAvvScFTnA7DxZNY6QIzIOuNCXp1snVf6kktbaFafkAa81k1w9m77SpyeLO-Qxbg=w800-h600-k-no",
-    "rating": 4.5,
-    "reviewCount": 0,
-    "tags": [
-      "4.5(54)"
-    ],
-    "description": "4.5(54)。",
-    "privateRoom": false,
-    "priceMin": 1000,
-    "priceMax": 2000,
-    "listSource": "東京レストラン_中華 / 東京レストラン_会食low"
   },
   {
     "id": "赤坂-桃の木-383",
@@ -10409,39 +10385,12 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
-      "4.3(170)"
+      "中華料理店"
     ],
-    "description": "4.3(170)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食exective"
-  },
-  {
-    "id": "サエキ飯店-384",
-    "name": "サエキ飯店",
-    "cuisine": "その他",
-    "priceTier": "middle",
-    "priceDinner": "¥10,000〜",
-    "scenes": [
-      "会食"
-    ],
-    "area": "東京",
-    "address": "〒153-0062 東京都目黒区三田２丁目１０−３０ 新井ビル 1F",
-    "nearestStation": "",
-    "lat": 35.6390967,
-    "lng": 139.7124067,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%82%A8%E3%82%AD%E9%A3%AF%E5%BA%97%20%E6%9D%B1%E4%BA%AC",
-    "googlePlaceQuery": "サエキ飯店 東京",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmEO_aB5Eq7OS9QtOc6qa-uw2M3O7YrJqbnFQYd-5UavE1MPBJP0fjkYFJm9RxYsx_HHWrx5Fly5v3D_hPVidIz7qVMTnImjNIkhFy18HWY_IKWJGRwjh5g03T4ZLOL3q1dYzKa=w800-h600-k-no",
-    "rating": 4.5,
-    "reviewCount": 0,
-    "tags": [
-      "4.5(70)"
-    ],
-    "description": "4.5(70)。",
-    "privateRoom": false,
-    "priceMin": 10000,
-    "listSource": "東京レストラン_中華"
   },
   {
     "id": "登龍-麻布店-385",
@@ -10463,9 +10412,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.1,
     "reviewCount": 0,
     "tags": [
-      "4.1(640)"
+      "中華料理店"
     ],
-    "description": "4.1(640)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "listSource": "東京レストラン_中華"
   },
@@ -10489,9 +10438,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
-      "4.3(348)"
+      "四川料理店"
     ],
-    "description": "4.3(348)。",
+    "description": "四川料理店。",
     "privateRoom": false,
     "priceMin": 1000,
     "priceMax": 2000,
@@ -10517,9 +10466,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
-      "4.2(50)"
+      "中華料理店"
     ],
-    "description": "4.2(50)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華 / 東京レストラン_会食middle"
@@ -10544,9 +10493,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
-      "4.3(71)"
+      "中華料理店"
     ],
-    "description": "4.3(71)。",
+    "description": "中華料理店。",
     "privateRoom": false,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華"
@@ -10571,9 +10520,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [
-      "4.7(326)"
+      "中華料理店"
     ],
-    "description": "4.7(326)。",
+    "description": "中華料理店。",
     "privateRoom": true,
     "priceMin": 10000,
     "listSource": "東京レストラン_中華"
@@ -11034,7 +10983,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "馬刺料理と季節の割烹-そま莉-406",
     "name": "馬刺料理と季節の割烹 そま莉",
-    "cuisine": "和食",
+    "cuisine": "肉",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -12801,10 +12750,10 @@ export const generatedRestaurants: Restaurant[] = [
     "id": "まるしげ夢葉家-471",
     "name": "まるしげ夢葉家",
     "cuisine": "和食",
-    "priceTier": "middle",
+    "priceTier": "casual",
     "priceDinner": "¥4,000〜7,000",
     "scenes": [
-      "会食"
+      "カジュアル"
     ],
     "area": "六本木",
     "address": "〒107-0052 東京都港区赤坂２丁目１４−８ 2F",
@@ -12817,9 +12766,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 3.8,
     "reviewCount": 0,
     "tags": [
-      "3.8(368)"
+      "居酒屋"
     ],
-    "description": "3.8(368)。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "priceMin": 4000,
     "priceMax": 7000,
@@ -12845,9 +12794,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.4,
     "reviewCount": 0,
     "tags": [
-      "4.4(212)"
+      "うなぎ料理店"
     ],
-    "description": "4.4(212)。",
+    "description": "うなぎ料理店。",
     "privateRoom": true,
     "priceMin": 4000,
     "priceMax": 6000,
@@ -12856,11 +12805,11 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "広尾九尺-473",
     "name": "広尾九尺",
-    "cuisine": "和食",
-    "priceTier": "middle",
+    "cuisine": "その他",
+    "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
-      "会食"
+      "カジュアル"
     ],
     "area": "渋谷",
     "address": "〒150-0012 東京都渋谷区広尾５丁目４−４ １６GEMS広尾クロス １－G",
@@ -12873,9 +12822,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 3.9,
     "reviewCount": 0,
     "tags": [
-      "3.9(14)"
+      "ラーメン屋"
     ],
-    "description": "3.9(14)。",
+    "description": "ラーメン屋。",
     "privateRoom": false,
     "priceMin": 1000,
     "priceMax": 2000,
@@ -12885,10 +12834,10 @@ export const generatedRestaurants: Restaurant[] = [
     "id": "博多酒場-ソルリバ-474",
     "name": "博多酒場 ソルリバ",
     "cuisine": "和食",
-    "priceTier": "middle",
-    "priceDinner": "¥10,000〜",
+    "priceTier": "casual",
+    "priceDinner": "¥5,000〜",
     "scenes": [
-      "会食"
+      "カジュアル"
     ],
     "area": "福岡",
     "address": "〒810-0004 福岡県福岡市中央区渡辺通２丁目３−３２ 三角市場内",
@@ -12901,16 +12850,16 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.4,
     "reviewCount": 0,
     "tags": [
-      "4.4(231)"
+      "居酒屋"
     ],
-    "description": "4.4(231)。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
   {
     "id": "kunizake-ya-クニザケ屋-475",
     "name": "KUNIZAKE-YA クニザケ屋",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜4,000",
     "scenes": [
@@ -12927,9 +12876,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.7,
     "reviewCount": 0,
     "tags": [
-      "4.7(50)"
+      "バー"
     ],
-    "description": "4.7(50)。",
+    "description": "バー。",
     "privateRoom": false,
     "priceMin": 1000,
     "priceMax": 4000,
@@ -12955,9 +12904,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.5,
     "reviewCount": 0,
     "tags": [
-      "4.5(215)"
+      "蕎麦店"
     ],
-    "description": "4.5(215)。",
+    "description": "蕎麦店。",
     "privateRoom": false,
     "priceMin": 10000,
     "listSource": "東京レストラン_日本酒名店"
@@ -12982,9 +12931,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.4,
     "reviewCount": 0,
     "tags": [
-      "4.4(316)"
+      "酒店"
     ],
-    "description": "4.4(316)。",
+    "description": "酒店。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
@@ -13008,9 +12957,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 3.7,
     "reviewCount": 0,
     "tags": [
-      "3.7(40)"
+      "和食店"
     ],
-    "description": "3.7(40)。",
+    "description": "和食店。",
     "privateRoom": false,
     "priceMin": 1000,
     "priceMax": 2000,
@@ -13036,9 +12985,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.5,
     "reviewCount": 0,
     "tags": [
-      "4.5(46)"
+      "酒店"
     ],
-    "description": "4.5(46)。",
+    "description": "酒店。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
@@ -13046,10 +12995,10 @@ export const generatedRestaurants: Restaurant[] = [
     "id": "十八代-光蔵-名駅-480",
     "name": "十八代 光蔵 名駅",
     "cuisine": "和食",
-    "priceTier": "middle",
+    "priceTier": "casual",
     "priceDinner": "¥4,000〜5,000",
     "scenes": [
-      "会食"
+      "カジュアル"
     ],
     "area": "名古屋",
     "address": "〒450-0002 愛知県名古屋市中村区名駅３丁目１４−６ COLLECT MARK 3F",
@@ -13062,9 +13011,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4,
     "reviewCount": 0,
     "tags": [
-      "4.0(207)"
+      "居酒屋"
     ],
-    "description": "4.0(207)。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "priceMin": 4000,
     "priceMax": 5000,
@@ -13090,9 +13039,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.2,
     "reviewCount": 0,
     "tags": [
-      "4.2(44)"
+      "酒店"
     ],
-    "description": "4.2(44)。",
+    "description": "酒店。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
@@ -13116,9 +13065,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.5,
     "reviewCount": 0,
     "tags": [
-      "4.5(456)"
+      "酒店"
     ],
-    "description": "4.5(456)。",
+    "description": "酒店。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
@@ -13142,9 +13091,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.5,
     "reviewCount": 0,
     "tags": [
-      "4.5(381)"
+      "酒店"
     ],
-    "description": "4.5(381)。",
+    "description": "酒店。",
     "privateRoom": false,
     "listSource": "東京レストラン_日本酒名店"
   },
@@ -13152,10 +13101,10 @@ export const generatedRestaurants: Restaurant[] = [
     "id": "こだわりの料理と酒-利き酒家-484",
     "name": "こだわりの料理と酒 利き酒家",
     "cuisine": "和食",
-    "priceTier": "middle",
+    "priceTier": "casual",
     "priceDinner": "¥2,000〜5,000",
     "scenes": [
-      "会食"
+      "カジュアル"
     ],
     "area": "名古屋",
     "address": "〒441-2601 愛知県設楽町津具",
@@ -13168,9 +13117,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
-      "4.3(144)"
+      "居酒屋"
     ],
-    "description": "4.3(144)。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "priceMin": 2000,
     "priceMax": 5000,
@@ -13180,10 +13129,10 @@ export const generatedRestaurants: Restaurant[] = [
     "id": "和風居酒屋-あかね-485",
     "name": "和風居酒屋 あかね",
     "cuisine": "和食",
-    "priceTier": "middle",
+    "priceTier": "casual",
     "priceDinner": "¥1〜5,000",
     "scenes": [
-      "会食"
+      "カジュアル"
     ],
     "area": "東京",
     "address": "〒110-0011 東京都台東区三ノ輪１丁目２１−８",
@@ -13196,9 +13145,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.4,
     "reviewCount": 0,
     "tags": [
-      "4.4(68)"
+      "居酒屋"
     ],
-    "description": "4.4(68)。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "priceMin": 1,
     "priceMax": 5000,
@@ -13224,9 +13173,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.9,
     "reviewCount": 0,
     "tags": [
-      "4.9(928)"
+      "パブ"
     ],
-    "description": "4.9(928)。",
+    "description": "パブ。",
     "privateRoom": true,
     "priceMin": 1000,
     "priceMax": 5000,
@@ -13236,9 +13185,10 @@ export const generatedRestaurants: Restaurant[] = [
     "id": "つくしのこ-487",
     "name": "つくしのこ",
     "cuisine": "和食",
-    "priceTier": "middle",
+    "priceTier": "casual",
     "priceDinner": "¥6,000〜7,000",
     "scenes": [
+      "カジュアル",
       "接待"
     ],
     "area": "東京",
@@ -13252,9 +13202,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.6,
     "reviewCount": 0,
     "tags": [
-      "4.6(110)"
+      "居酒屋"
     ],
-    "description": "4.6(110)。",
+    "description": "居酒屋。",
     "privateRoom": false,
     "priceMin": 6000,
     "priceMax": 7000,
@@ -13280,9 +13230,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
-      "4.3(63)"
+      "和食店"
     ],
-    "description": "4.3(63)。",
+    "description": "和食店。",
     "privateRoom": false,
     "priceMin": 10000,
     "listSource": "東京レストラン_日本酒名店"
@@ -13291,10 +13241,10 @@ export const generatedRestaurants: Restaurant[] = [
     "id": "和食-酒肴-まさむら-489",
     "name": "和食 酒肴 まさむら",
     "cuisine": "和食",
-    "priceTier": "middle",
+    "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
-      "会食"
+      "カジュアル"
     ],
     "area": "東京",
     "address": "〒113-0033 東京都文京区本郷３丁目１７−７ 本郷太田ＵＴビル 1F",
@@ -13307,9 +13257,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.3,
     "reviewCount": 0,
     "tags": [
-      "4.3(184)"
+      "居酒屋"
     ],
-    "description": "4.3(184)。",
+    "description": "居酒屋。",
     "privateRoom": true,
     "priceMin": 1000,
     "priceMax": 2000,
@@ -13335,9 +13285,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.6,
     "reviewCount": 0,
     "tags": [
-      "4.6(33)"
+      "和食店"
     ],
-    "description": "4.6(33)。",
+    "description": "和食店。",
     "privateRoom": false,
     "priceMin": 2000,
     "priceMax": 5000,
@@ -13363,9 +13313,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.5,
     "reviewCount": 0,
     "tags": [
-      "4.5(62)"
+      "和食店"
     ],
-    "description": "4.5(62)。",
+    "description": "和食店。",
     "privateRoom": true,
     "priceMin": 10000,
     "listSource": "東京レストラン_日本酒名店"
@@ -13390,9 +13340,9 @@ export const generatedRestaurants: Restaurant[] = [
     "rating": 4.5,
     "reviewCount": 0,
     "tags": [
-      "4.5(59)"
+      "和食店"
     ],
-    "description": "4.5(59)。",
+    "description": "和食店。",
     "privateRoom": false,
     "priceMin": 10000,
     "listSource": "東京レストラン_日本酒名店"

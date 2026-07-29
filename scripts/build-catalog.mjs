@@ -64,9 +64,9 @@ function inferCuisineFromBlob(blob) {
 }
 
 // Google category (日本語) -> app cuisine
-function toCuisine(category, name, listName) {
+function toCuisine(category, name, listName, cardText = "") {
   const cat = category || "";
-  const c = cat + " " + (name || "");
+  const c = placeTextBlob(cat, name, cardText, listName);
   const fromList = listNameSpecialty(listName);
   // Specialty shops: primary cuisine その他, browse sub-genre via tags/name
   if (/ラーメン|らーめん|つけ麺|油そば|中華そば|まぜそば|ラーメン屋/.test(c)) return "その他";
@@ -284,6 +284,38 @@ function isValidName(name, category, cardText) {
   const meta = `${category || ""} ${cardText || ""}`;
   if (/^閉業[。.]?$/.test(meta.trim())) return false;
   return true;
+}
+
+function isRatingToken(s) {
+  if (!s) return true;
+  const t = String(s).trim();
+  if (t.length < 2) return true;
+  return /^[\d.()\s]+$/.test(t) || /^\d+\.?\d*\(\d+\)$/.test(t) || /^\(\d+\)$/.test(t);
+}
+
+function placeTextBlob(category, name, cardText, listName) {
+  return [category, name, cardText || "", listName].filter(Boolean).join(" ");
+}
+
+function guessCategoryFromText(text, name) {
+  if (!text) return "";
+  let t = text.replace(name, "").trim();
+  t = t.replace(/\b\d+\.?\d*\(\d+\)\b/g, " ");
+  t = t.replace(/\b\d+\.?\d*\b/g, " ");
+  t = t.replace(/[()]/g, " ");
+  const parts = t.split(/\s+/).filter((p) => p && !isRatingToken(p));
+  if (parts.length === 0) return "";
+  return parts[parts.length - 1];
+}
+
+function categoryFromPlace(p, name) {
+  const fromInfo = p.info?.find((x) => x && !isRatingToken(String(x).trim()) && String(x).trim().length >= 2);
+  if (fromInfo) return String(fromInfo).trim();
+  if (p.cardTextCategory) return p.cardTextCategory;
+  const fromCard = guessCategoryFromText(p.cardText, name);
+  if (fromCard && fromCard.length >= 2 && !isRatingToken(fromCard)) return fromCard;
+  if (/(蕎麦|そば|うどん|ラーメン|麺)/i.test(name)) return name;
+  return "";
 }
 
 function refineCuisine(name, category, cuisine) {
@@ -551,10 +583,10 @@ for (const file of files) {
   const listName = raw.list || file.replace(/\.json$/, "");
   for (const p of raw.places) {
     const name = p.name.trim();
-    const category = (p.info && p.info.find((x) => !/^[0-9.]+$/.test(x))) || p.cardTextCategory || guessCategoryFromText(p.cardText, name);
+    const category = categoryFromPlace(p, name);
     if (!isValidName(name, category, p.cardText)) continue;
     let rating = typeof p.rating === "number" ? p.rating : 4.3;
-    let cuisine = refineCuisine(name, category, toCuisine(category, name, listName));
+    let cuisine = refineCuisine(name, category, toCuisine(category, name, listName, p.cardText));
     let priceTier = toPriceTier(listName, category, rating);
     const areaInfo = detectArea(name, listName);
     const placeOverride = overrides.places?.[name];
@@ -582,6 +614,17 @@ for (const file of files) {
         applyPlaceCache(ex, cachedPlace);
       }
       applyAttributes(ex, attributesCache[name]);
+      const mergedCategory = category || ex.category || "";
+      ex.category = mergedCategory;
+      ex.cuisine = finalizeCuisine({
+        ...ex,
+        category: mergedCategory,
+        cuisine: refineCuisine(name, mergedCategory, toCuisine(mergedCategory, name, listName, p.cardText)),
+      });
+      if (mergedCategory && !isRatingToken(mergedCategory)) {
+        ex.tags = [...new Set([mergedCategory, ...ex.tags.filter((t) => !isRatingToken(t))])];
+        ex.description = `${mergedCategory}。`;
+      }
       continue;
     }
 
@@ -618,8 +661,10 @@ for (const file of files) {
     const scenes = placeOverride?.scenes
       ? [...new Set([...scenesBase, ...placeOverride.scenes])]
       : scenesBase;
-    const tags = placeOverride?.tags || [category].filter(Boolean);
-    const description = placeOverride?.description || `${category || cuisine}。`;
+    const tags = placeOverride?.tags || [category].filter((t) => t && !isRatingToken(t));
+    const description =
+      placeOverride?.description ||
+      (category && !isRatingToken(category) ? `${category}。` : `${cuisine}。`);
     byName.set(name, {
       id: slugify(name, counter),
       name,
@@ -706,12 +751,6 @@ function applyPlaceCache(entry, cachedPlace) {
     entry.mapZoom = overrides.places[entry.name].mapZoom;
   }
   applyAttributes(entry, attributesCache[entry.name]);
-}
-
-function guessCategoryFromText(text, name) {
-  if (!text) return "";
-  const t = text.replace(name, "").replace(/[0-9.]+/g, "").trim();
-  return t.split(" ").filter(Boolean)[0] || "";
 }
 
 const restaurants = [...byName.values()]
