@@ -113,6 +113,7 @@ const issues = {
   areaMismatch: [],
   cuisineMismatch: [],
   sushiIntroMismatch: [],
+  washokuSubGenreLeak: [],
 };
 
 function guessCategoryFromText(text, name) {
@@ -121,27 +122,45 @@ function guessCategoryFromText(text, name) {
   return t.split(" ").filter(Boolean)[0] || "";
 }
 
+function listNameSpecialty(listName) {
+  if (/鮨|寿司/.test(listName)) return "鮨";
+  if (/肉/.test(listName)) return "肉";
+  if (/十割そば|焼き鳥|鰻/.test(listName)) return "その他";
+  if (/和食|日本酒/.test(listName)) return "和食";
+  if (/イタリアン/.test(listName)) return "イタリアン";
+  if (/フレンチ/.test(listName)) return "フレンチ";
+  if (/中華/.test(listName)) return "その他";
+  return null;
+}
+
+function matchesWashokuSubGenre(blob) {
+  if (/(うなぎ|鰻|Unagi)/i.test(blob)) return true;
+  if (/(焼き鳥|焼鳥|やきとり|鳥料理|串焼き|せせり|yakitori)/i.test(blob)) return true;
+  if (/(そば|蕎麦|ラーメン|らーめん|麺|うどん|中華そば|沖縄そば|沖縄|Soba|soba|ramen)/i.test(blob)) return true;
+  return false;
+}
+
 function toCuisine(category, name, listName) {
   const cat = category || "";
+  const c = cat + " " + (name || "");
+  const fromList = listNameSpecialty(listName);
+  if (/ラーメン|らーめん|つけ麺|油そば|中華そば|まぜそば|ラーメン屋/.test(c)) return "その他";
+  if (/蕎麦|そば|うどん|麺類|沖縄そば|手打|Soba|soba|ramen/i.test(c)) return "その他";
+  if (/焼鳥|焼き鳥|やきとり|鳥料理|串焼き|焼鳥店/.test(c)) return "その他";
+  if (/うなぎ|鰻|うなぎ店|鰻店/.test(c)) return "その他";
+  if (fromList) return fromList;
   if (/すき焼|しゃぶしゃぶ|焼肉|ステーキ|肉料理|鉄板|ホルモン|しゃぶ/.test(cat)) return "肉";
   if (/和食店|日本料理|割烹|懐石|会席|料亭|海鮮|居酒屋|小料理|純和食/.test(cat)) {
     if (listName === "鮨" && /(寿司|鮨|すし|鮓)/.test(name)) return "鮨";
     return "和食";
   }
-  const c = cat + " " + (name || "");
   if (/(寿司|鮨|すし|鮓)/.test(c)) return "鮨";
   if (/(焼肉|ステーキ|鉄板|肉|ホルモン|しゃぶ|すき焼)/.test(c)) return "肉";
   if (/(イタリア|パスタ|ピッツァ|ピザ|トラットリア|オステリア)/.test(c)) return "イタリアン";
   if (/(フランス|フレンチ|ビストロ|ブラッスリー)/.test(c)) return "フレンチ";
   if (/(中華|中国|四川|広東|餃子|担々)/.test(c)) return "その他";
-  if (/(和食|日本料理|割烹|懐石|会席|うなぎ|鰻|ふぐ|天ぷら|天麩羅|そば|蕎麦|居酒屋|酒場|おでん|串|寿|料亭|海鮮|魚|純和食)/.test(c))
+  if (/(和食|日本料理|割烹|懐石|会席|ふぐ|天ぷら|天麩羅|居酒屋|酒場|おでん|寿|料亭|海鮮|魚|純和食)/.test(c))
     return "和食";
-  if (/鮨|寿司/.test(listName)) return "鮨";
-  if (/肉/.test(listName)) return "肉";
-  if (/和食|十割そば|焼き鳥|鰻|日本酒/.test(listName)) return "和食";
-  if (/イタリアン/.test(listName)) return "イタリアン";
-  if (/フレンチ/.test(listName)) return "フレンチ";
-  if (/中華/.test(listName)) return "その他";
   return "和食";
 }
 
@@ -151,6 +170,15 @@ function refineCuisine(name, category, cuisine) {
   if (name === "レヴォ" || /L'?[eé]vo/i.test(name)) return "フレンチ";
   if (name === "カスク" || /^CASK/i.test(name)) return "その他";
   if (/^(Bar |Cafe\/Bar|Ｂａｒ )/i.test(name)) return "その他";
+  if (/ラーメン|らーめん|つけ麺|油そば|蕎麦|そば|うどん|ラーメン屋|麺屋|麺道|Soba|soba|ramen/i.test(blob)) {
+    return "その他";
+  }
+  if (/焼鳥|焼き鳥|やきとり|鳥料理|串焼き|せせり|yakitori/i.test(blob) && !/割烹|懐石|会席|料亭/.test(category || "")) {
+    return "その他";
+  }
+  if (/うなぎ|鰻|unagi/i.test(blob) && !/割烹|懐石|会席|料亭|日本料理店/.test(category || "")) {
+    return "その他";
+  }
   if (/バー$|ワインクラブ|ワインショップ|Wine Bar|シガー倶楽部/i.test(blob)) {
     if (cuisine === "和食") return "その他";
   }
@@ -158,11 +186,31 @@ function refineCuisine(name, category, cuisine) {
   return cuisine;
 }
 
-function expectedCuisine(category, name, listName) {
+function finalizeCuisine(entry) {
+  if (entry.cuisine !== "和食") return entry.cuisine;
+  const blob = [
+    entry.name,
+    entry.category || "",
+    entry.description,
+    entry.tags.join(" "),
+    entry.listSource || "",
+  ].join(" ");
+  if (matchesWashokuSubGenre(blob)) return "その他";
+  return entry.cuisine;
+}
+
+function expectedCuisine(category, name, listName, tags = [], description = "", listSource = "") {
   let c = refineCuisine(name, category, toCuisine(category, name, listName));
   const override = overrides.places?.[name]?.cuisine;
   if (override) c = override;
-  return c;
+  return finalizeCuisine({
+    cuisine: c,
+    name,
+    category,
+    description: description || overrides.places?.[name]?.description || "",
+    tags: tags.length ? tags : overrides.places?.[name]?.tags || [],
+    listSource,
+  });
 }
 
 const overrides = fs.existsSync(path.join(deployRoot, "data/catalog-overrides.json"))
@@ -259,7 +307,14 @@ for (const r of restaurants) {
 
   const src = listEntries.get(r.name);
   if (src) {
-    const expected = expectedCuisine(src.category, r.name, src.listName);
+    const expected = expectedCuisine(
+      src.category,
+      r.name,
+      src.listName,
+      r.tags,
+      r.description,
+      r.listSource,
+    );
     if (expected !== r.cuisine) {
       issues.cuisineMismatch.push({
         name: r.name,
@@ -281,6 +336,21 @@ for (const r of restaurants) {
       cuisine: r.cuisine,
       tags: r.tags,
       snippet: intro.split("\n")[1]?.slice(0, 60),
+    });
+  }
+
+  const blob = [r.name, r.description, r.tags.join(" "), r.listSource].join(" ");
+  let displayGenre = r.cuisine;
+  if (/(うなぎ|鰻|Unagi)/i.test(blob)) displayGenre = "鰻";
+  else if (/(焼き鳥|焼鳥|やきとり|鳥料理|串焼き|せせり|yakitori)/i.test(blob)) displayGenre = "焼き鳥";
+  else if (/(そば|蕎麦|ラーメン|らーめん|麺|うどん|中華そば|沖縄そば|沖縄|Soba|soba|ramen)/i.test(blob)) displayGenre = "蕎麦（麺）";
+  if (r.cuisine === "和食" && displayGenre !== "和食") {
+    issues.washokuSubGenreLeak.push({
+      name: r.name,
+      id: r.id,
+      displayGenre,
+      tags: r.tags,
+      description: r.description,
     });
   }
 }

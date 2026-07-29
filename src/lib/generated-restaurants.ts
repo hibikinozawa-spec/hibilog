@@ -171,7 +171,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "三味洪庵-京都本店-十割蕎麦と鴨鍋-7",
     "name": "三味洪庵 京都本店 十割蕎麦と鴨鍋",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜3,000",
     "scenes": [
@@ -199,7 +199,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "京都屋台せせり-8",
     "name": "京都屋台せせり",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥3,000〜6,000",
     "scenes": [
@@ -227,7 +227,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "祇園-権兵衛-9",
     "name": "祇園 権兵衛",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -424,7 +424,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "味彩-のと与-16",
     "name": "味彩 のと与",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥2,000〜5,000",
     "scenes": [
@@ -452,7 +452,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "京都祇園-おかる-17",
     "name": "京都祇園 おかる",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -564,7 +564,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "そば-権兵衛-21",
     "name": "そば 権兵衛",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -837,7 +837,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "ひいらぎ亭-31",
     "name": "ひいらぎ亭",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜9,000",
     "scenes": [
@@ -865,7 +865,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "日の出うどん-32",
     "name": "日の出うどん",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -948,7 +948,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "麺屋-猪一-35",
     "name": "麺屋 猪一",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -976,7 +976,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "麺屋-猪一-離れ-36",
     "name": "麺屋 猪一 離れ",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -1060,7 +1060,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "大豊ラーメン-木屋町店-39",
     "name": "大豊ラーメン 木屋町店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -1196,7 +1196,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "人見-44",
     "name": "人見",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥3,000〜6,000",
     "scenes": [
@@ -1689,7 +1689,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "和醸良麺-すがり-63",
     "name": "和醸良麺 すがり",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -1717,7 +1717,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "麺や-高倉二条-64",
     "name": "麺や 高倉二条",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -1745,7 +1745,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "名前のないラーメン屋-65",
     "name": "(名前のないラーメン屋)",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -1773,7 +1773,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "vegan-ramen-uzu-kyoto-66",
     "name": "Vegan Ramen UZU Kyoto",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥7,000〜8,000",
     "scenes": [
@@ -1801,7 +1801,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "オリオン食堂-67",
     "name": "オリオン食堂",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1〜1,000",
     "scenes": [
@@ -1831,7 +1831,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "らーめん門扇祇園-68",
     "name": "らーめん門扇祇園",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -2262,7 +2262,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "炭火焼鳥-吉田山せせり-86",
     "name": "炭火焼鳥 吉田山せせり",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥3,000〜6,000",
     "scenes": [
@@ -2428,7 +2428,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "鳥さき-92",
     "name": "鳥さき",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -2622,7 +2622,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "うなぎの原田-99",
     "name": "うなぎの原田",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥3,000〜4,000",
     "scenes": [
@@ -2706,7 +2706,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "小森田-102",
     "name": "小森田",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥3,000〜4,000",
     "scenes": [
@@ -3006,7 +3006,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "信州そば-地粉や-113",
     "name": "信州そば 地粉や",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -3034,7 +3034,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "そば処元屋-114",
     "name": "そば処元屋",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -3062,7 +3062,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "石臼挽き蕎麦-東間-115",
     "name": "石臼挽き蕎麦 東間",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥2,000〜3,000",
     "scenes": [
@@ -3174,7 +3174,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "八ちゃんラーメン-119",
     "name": "八ちゃんラーメン",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1〜1,000",
     "scenes": [
@@ -3337,7 +3337,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "うなぎ処-柳川屋-中洲本店-125",
     "name": "うなぎ処 柳川屋 中洲本店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥3,000〜6,000",
     "scenes": [
@@ -3530,7 +3530,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "自家製粉石臼手打ち蕎麦処-草庵-132",
     "name": "自家製粉石臼手打ち蕎麦処 草庵",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -3725,7 +3725,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "そば蔵-谷川-139",
     "name": "そば蔵 谷川",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -3921,7 +3921,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "う嵐-146",
     "name": "う嵐",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -4084,7 +4084,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "備屋-錦橋店-152",
     "name": "備屋 錦橋店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥3,000〜4,000",
     "scenes": [
@@ -4168,7 +4168,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "うなぎのじょん-155",
     "name": "うなぎのじょん",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜7,000",
     "scenes": [
@@ -4196,7 +4196,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "藤乃-156",
     "name": "藤乃",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -4251,7 +4251,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "豚そば-月や-本店-158",
     "name": "豚そば 月や 本店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1〜1,000",
     "scenes": [
@@ -4364,7 +4364,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "麺道はなもこし-162",
     "name": "麺道はなもこし",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -4584,7 +4584,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "鳥焼もろ川-170",
     "name": "鳥焼もろ川",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -4612,7 +4612,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "山本屋本店-栄店-171",
     "name": "山本屋本店 栄店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -4863,7 +4863,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "うなぎ家-しば福や-180",
     "name": "うなぎ家 しば福や",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥5,000〜6,000",
     "scenes": [
@@ -4974,7 +4974,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "駿河屋-184",
     "name": "駿河屋",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜5,000",
     "scenes": [
@@ -5277,7 +5277,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "生石-大松家-195",
     "name": "生石 大松家",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -5417,7 +5417,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "焼き鳥幸羽こはね-200",
     "name": "焼き鳥幸羽（こはね）",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -5775,7 +5775,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "瞬-213",
     "name": "瞬",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -5884,7 +5884,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "手打蕎麦せんり-217",
     "name": "手打蕎麦せんり",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -7479,7 +7479,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "le-bois-ル-ボア-276",
     "name": "Le Bois （ル ボア）",
-    "cuisine": "フレンチ",
+    "cuisine": "イタリアン",
     "priceTier": "executive",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -8265,7 +8265,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "串焼き-鳥茂-305",
     "name": "串焼き 鳥茂",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥3,000〜6,000",
     "scenes": [
@@ -8293,7 +8293,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "江戸蕎麦-ほそ川-306",
     "name": "江戸蕎麦 ほそ川",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥2,000〜3,000",
     "scenes": [
@@ -8321,7 +8321,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "浅草-ひら山-307",
     "name": "浅草 ひら山",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜5,000",
     "scenes": [
@@ -8432,7 +8432,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "蕎麦-たじま-西麻布店-311",
     "name": "蕎麦 たじま 西麻布店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -8487,7 +8487,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "おそばの甲賀-313",
     "name": "おそばの甲賀",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥2,000〜7,000",
     "scenes": [
@@ -8622,7 +8622,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "浜町かねこ-318",
     "name": "浜町かねこ",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -8734,7 +8734,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "ramen-matsui-322",
     "name": "RAMEN MATSUI",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -8790,7 +8790,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "入鹿tokyo-六本木-324",
     "name": "入鹿TOKYO 六本木",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -8874,7 +8874,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "わたべ-327",
     "name": "わたべ",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -8929,7 +8929,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "銀座-八五-329",
     "name": "銀座 八五",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -9066,7 +9066,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "焼鳥山香-334",
     "name": "焼鳥山香",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -9147,7 +9147,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "蕎楽亭-337",
     "name": "蕎楽亭",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜6,000",
     "scenes": [
@@ -11116,7 +11116,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "銀座浅野屋-409",
     "name": "銀座浅野屋",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1〜1,000",
     "scenes": [
@@ -11144,7 +11144,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "つきじ-文化人-410",
     "name": "つきじ 文化人",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -11170,7 +11170,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "十割蕎麦と天麩羅-満天ノ秀そば-411",
     "name": "十割蕎麦と天麩羅 満天ノ秀そば",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -11198,7 +11198,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "soba-stand-そばうさ-412",
     "name": "SOBA STAND そばうさ",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1〜1,000",
     "scenes": [
@@ -11226,7 +11226,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "sobaco-神谷町店-413",
     "name": "Soba＆Co. 神谷町店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "casual",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -11254,7 +11254,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "総本家更科堀井-青-414",
     "name": "総本家更科堀井 青",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -11282,7 +11282,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "池袋-十割蕎麦-鴨料理-ならや-415",
     "name": "池袋 十割蕎麦 鴨料理 ならや",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -11391,7 +11391,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "うなぎ-かぶと-419",
     "name": "うなぎ かぶと",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -11916,7 +11916,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "eat-鮨と和食-439",
     "name": "eat 鮨と和食",
-    "cuisine": "鮨",
+    "cuisine": "和食",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -12499,7 +12499,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "八重洲-鰻-はし本-460",
     "name": "八重洲 鰻 はし本",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜9,000",
     "scenes": [
@@ -12527,7 +12527,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "明神下-神田川-本店-461",
     "name": "明神下 神田川 本店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -12692,7 +12692,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "うなぎ魚政-467",
     "name": "うなぎ魚政",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -12774,7 +12774,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "酒場たかや-日本酒と蕎麦と天麩羅-470",
     "name": "酒場たかや 日本酒と蕎麦と天麩羅",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -12828,7 +12828,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "博多鰻屋-藤う那-天神本店-472",
     "name": "博多鰻屋 藤う那 天神本店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜6,000",
     "scenes": [
@@ -12938,7 +12938,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "手打ち蕎麦-汐見-476",
     "name": "手打ち蕎麦 汐見",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13400,7 +13400,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "五反田-鳥茂-493",
     "name": "五反田 鳥茂",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜5,000",
     "scenes": [
@@ -13428,7 +13428,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "やきとり-阿部-494",
     "name": "やきとり 阿部",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13455,7 +13455,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "白金鳥とも-495",
     "name": "白金鳥とも",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜8,000",
     "scenes": [
@@ -13483,7 +13483,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "目黒-焼鳥煉火-496",
     "name": "目黒 焼鳥煉火",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13509,7 +13509,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "本家あべや-秋田純米酒処-恵比寿店-498",
     "name": "本家あべや 秋田純米酒処 恵比寿店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥2,000〜8,000",
     "scenes": [
@@ -13537,7 +13537,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "日本橋-とり慶-焼き鳥屋-499",
     "name": "日本橋 とり慶 焼き鳥屋",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13563,7 +13563,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "南青山-七鳥目-500",
     "name": "南青山 七鳥目",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13590,7 +13590,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "三政-501",
     "name": "三政",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥3,000〜6,000",
     "scenes": [
@@ -13618,7 +13618,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "かさ原-502",
     "name": "かさ原",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13673,7 +13673,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "焼鳥-朱夏-504",
     "name": "焼鳥 朱夏",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥7,000〜8,000",
     "scenes": [
@@ -13701,7 +13701,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "根津-照隅-505",
     "name": "根津 照隅",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13728,7 +13728,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "むろまち-鳥や-506",
     "name": "むろまち 鳥や",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -13756,7 +13756,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "鳥つね-自然洞-507",
     "name": "鳥つね 自然洞",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥1,000〜2,000",
     "scenes": [
@@ -13784,7 +13784,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "赤坂-希鳥-508",
     "name": "赤坂 希鳥",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13810,7 +13810,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "とり茶太郎-509",
     "name": "とり茶太郎",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13837,7 +13837,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "焼き鳥-平良-510",
     "name": "焼き鳥 平良",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13864,7 +13864,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "鍈輝-511",
     "name": "鍈輝",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13890,7 +13890,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "いぐち-本店-512",
     "name": "いぐち 本店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13916,7 +13916,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "串焼-大助-513",
     "name": "串焼 大助",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥5,000〜10,000",
     "scenes": [
@@ -13944,7 +13944,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "やきとり結火-514",
     "name": "やきとり結火",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -13971,7 +13971,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "羊香味坊-516",
     "name": "羊香味坊",
-    "cuisine": "その他",
+    "cuisine": "肉",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -14052,7 +14052,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "桜鍋みの家本店-519",
     "name": "桜鍋みの家本店",
-    "cuisine": "和食",
+    "cuisine": "肉",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜8,000",
     "scenes": [
@@ -14383,7 +14383,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "赤坂-na-camo-guroなかもぐろ-531",
     "name": "赤坂 Na Camo guro（なかもぐろ）",
-    "cuisine": "フレンチ",
+    "cuisine": "肉",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -15045,7 +15045,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "道後-海舟-555",
     "name": "道後 海舟",
-    "cuisine": "和食",
+    "cuisine": "鮨",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -15058,7 +15058,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 132.7843827,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E5%BE%8C%20%E6%B5%B7%E8%88%9F%20%E6%84%9B%E5%AA%9B",
     "googlePlaceQuery": "道後 海舟 愛媛",
-    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=800&q=80",
     "rating": 4.6,
     "reviewCount": 0,
     "tags": [
@@ -15491,7 +15491,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "恵比寿えんどう-571",
     "name": "恵比寿えんどう",
-    "cuisine": "和食",
+    "cuisine": "鮨",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -16073,7 +16073,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "はせ川-592",
     "name": "はせ川",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥2,000〜3,000",
     "scenes": [
@@ -16101,7 +16101,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "お食事処-福吉-593",
     "name": "お食事処 福吉",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥3,000〜4,000",
     "scenes": [
@@ -16129,7 +16129,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "鰻-炭焼-ひつまぶし-美濃金-神田本店-594",
     "name": "鰻 炭焼 ひつまぶし 美濃金 神田本店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥5,000〜9,000",
     "scenes": [
@@ -16157,7 +16157,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "うなぎ成田新川-東京駅店-595",
     "name": "うなぎ成田新川 東京駅店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥3,000〜6,000",
     "scenes": [
@@ -16185,7 +16185,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "魚徳-596",
     "name": "魚徳",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜5,000",
     "scenes": [
@@ -16213,7 +16213,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "うなぎ新川-本店-597",
     "name": "うなぎ新川 本店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥3,000〜4,000",
     "scenes": [
@@ -16241,7 +16241,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "参宮橋-あさや-598",
     "name": "参宮橋 あさや",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -16268,7 +16268,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "川魚-根本-599",
     "name": "川魚 根本",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜5,000",
     "scenes": [
@@ -16296,7 +16296,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "那古野-しば福や-名駅店-600",
     "name": "那古野 しば福や 名駅店",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜6,000",
     "scenes": [
@@ -16309,7 +16309,7 @@ export const generatedRestaurants: Restaurant[] = [
     "lng": 136.8874347,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E9%82%A3%E5%8F%A4%E9%87%8E%20%E3%81%97%E3%81%B0%EF%A8%9B%E3%82%84%20%E5%90%8D%E9%A7%85%E5%BA%97",
     "googlePlaceQuery": "那古野 しば福や 名駅店",
-    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=800&q=80",
     "rating": 4.6,
     "reviewCount": 0,
     "tags": [
@@ -16324,7 +16324,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "江戸川-石ばし-601",
     "name": "江戸川 石ばし",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -16351,7 +16351,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "うなぎ-藤田-602",
     "name": "うなぎ 藤田",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜10,000",
     "scenes": [
@@ -16379,7 +16379,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "鰻家-603",
     "name": "鰻家",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥5,000〜9,000",
     "scenes": [
@@ -16407,7 +16407,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "うなぎ-はし本-604",
     "name": "うなぎ はし本",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥4,000〜8,000",
     "scenes": [
@@ -16435,7 +16435,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "神泉いちのや-605",
     "name": "神泉いちのや",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -16461,7 +16461,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "花園吉野-606",
     "name": "花園・吉野",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -16487,7 +16487,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "日本橋いづもや本店-別館-607",
     "name": "日本橋いづもや本店 別館",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -16513,7 +16513,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "日本橋いづもや本店-本館-608",
     "name": "日本橋いづもや本店 本館",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
@@ -16539,7 +16539,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "伊豆榮-不忍亭-609",
     "name": "伊豆榮 不忍亭",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥3,000〜9,000",
     "scenes": [
@@ -16567,7 +16567,7 @@ export const generatedRestaurants: Restaurant[] = [
   {
     "id": "伊豆榮-梅川亭-610",
     "name": "伊豆榮 梅川亭",
-    "cuisine": "和食",
+    "cuisine": "その他",
     "priceTier": "middle",
     "priceDinner": "¥10,000〜",
     "scenes": [
