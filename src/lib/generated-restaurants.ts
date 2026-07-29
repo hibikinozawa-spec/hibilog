@@ -10289,7 +10289,7 @@ export const generatedRestaurants: Restaurant[] = [
     "scenes": [
       "接待"
     ],
-    "area": "赤坂",
+    "area": "東京",
     "address": "〒107-0052 東京都港区赤坂3-6-19 赤坂パークビル 2F",
     "nearestStation": "",
     "lat": 35.6734,
